@@ -1,14 +1,39 @@
-alt running time 240 hexas:
+ALT running time 240 hexas:
+w e:  9.5h hrs
+p s:  0.35 hrs
+total: ~ 10 hrs
+
+res:
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 32 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 32 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 32 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 32 -r 48 -t "yxxx yxxy yxxz yxyx yxyy yxyz yxzx yxzy yxzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 32 -r 48 -t "yyxx yyxy yyxz yyyx yyyy yyyz yyzx yyzy yyzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 32 -r 48 -t "yzxx yzxy yzxz yzyx yzyy yzyz yzzx yzzy yzzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 32 -r 48 -t "zxxx zxxy zxxz zxyx zxyy zxyz zxzx zxzy zxzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 32 -r 48 -t "zyxx zyxy zyxz zyyx zyyy zyyz zyzx zyzy zyzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 32 -r 48 -t "zzxx zzxy zzxz zzyx zzyy zzyz zzzx zzzy zzzz"
+mu: 9*
+
+UP running time 240 hexas:
 w: 0.33 hrs
 e: 1.54 hrs
 p: 0.33 hrs
 s: 0.15 hrs
-total: ~2.4 hrs
+total: ~ 2.4 hrs
 
-up running time 240 hexas:
-w e:  9.5h hrs
-p s:  0.35 hrs
-total: ~10 hrs
+
+res:
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 16 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 16 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 16 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 16 -r 48 -t "yxxx yxxy yxxz yxyx yxyy yxyz yxzx yxzy yxzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 16 -r 48 -t "yyxx yyxy yyxz yyyx yyyy yyyz yyzx yyzy yyzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 16 -r 48 -t "yzxx yzxy yzxz yzyx yzyy yzyz yzzx yzzy yzzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 16 -r 48 -t "zxxx zxxy zxxz zxyx zxyy zxyz zxzx zxzy zxzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 16 -r 48 -t "zyxx zyxy zyxz zyyx zyyy zyyz zyzx zyzy zyzz"
+all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 16 -r 48 -t "zzxx zzxy zzxz zzyx zzyy zzyz zzzx zzzy zzzz"
+mu: 9*6min ~ 60 min
 
 171 171 2 abinit --> 14452 kpts
 
@@ -24,16 +49,16 @@ up:
   d = 2.766410479
 l/d = 10.844377661
 
-machines available
-hexa03
-hexa04
-hexa05
-hexa06
-hexa07
-hexa09
-hexa10
-hexa12
-hexa13
+machines        machines latm/res    
+hexa03          hexa20
+hexa04          hexa20
+hexa05          hexa20
+hexa06          hexa20
+hexa07          hexa20
+hexa09          hexa20
+hexa10          hexa20
+hexa12          hexa20
+hexa31          hexa20
 hexa14
 hexa16
 hexa17
@@ -49,7 +74,7 @@ hexa32
 machines in use
 hexa01 (tona, sma)
 hexa08 (bms)
-hexa20 (narzate)
++hexa20 (narzate)
 hexa21 (narzate)
 hexa22 (narzate)
 hexa23 (narzate, nap)
