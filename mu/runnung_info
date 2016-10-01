@@ -1,8 +1,21 @@
-alt running time:
-w: 20 min
-e: 
-p: 
-s: 
+up running time:
+w: 0.33 hrs
+e: 1.54 hrs
+p: 0.33 hrs
+s: 0.15 hrs
+total: ~2.4 hrs
+
+NORMALIZATION FACTOR TOREPOR THE RESPONSES
+l = longitud total z
+d = longitud de la estructura en z
+alt: 
+  l = 35
+  d = 5.564770162
+l/d = 6.2895679392
+up:
+  l = 30
+  d = 2.766410479
+l/d = 10.844377661
 
 machines available
 hexa03
