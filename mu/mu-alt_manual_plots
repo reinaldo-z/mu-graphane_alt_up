@@ -24,9 +24,9 @@ rep "mu-alt_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_14452
 p   "mu-alt_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:6 w l t "yxyy"
 rep "mu-alt_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:2 w l t "yxxx"
 rep "mu-alt_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:3 w l t "yxxy"
-rep "mu-alt_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:4 w l t "yxxz"
-rep "mu-alt_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:7 w l t "yxyz"
 rep "mu-alt_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:10 w l t "yxzz"
+rep "mu-alt_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:7 w l t "yxyz"
+rep "mu-alt_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:4 w l t "yxxz"
 
 p   "mu-alt_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:6 w l t "yyyy"
 rep "mu-alt_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:2 w l t "yyxx"
@@ -44,10 +44,10 @@ rep "mu-alt_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_14452
 
 ################################################################################
 
-p   "mu-alt_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:2 w l t "zxxx"
+p   "mu-alt_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:6 w l t "zxyy"
+rep "mu-alt_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:2 w l t "zxxx"
 rep "mu-alt_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:3 w l t "zxxy"
 rep "mu-alt_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:4 w l t "zxxz"
-rep "mu-alt_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:6 w l t "zxyy"
 rep "mu-alt_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:7 w l t "zxyz"
 rep "mu-alt_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:10 w l t "zxzz"
 

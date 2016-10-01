@@ -1,0 +1,47 @@
+alt running time:
+w: 20 min
+e: 
+p: 
+s: 
+
+machines available
+hexa03
+hexa04
+hexa05
+hexa06
+hexa07
+hexa09
+hexa10
+hexa12
+hexa13
+hexa14
+hexa16
+hexa17
+hexa18
+hexa19
+hexa25
+hexa26
+hexa28
+hexa30
+hexa31
+hexa32
+
+machines in use
+hexa01 (tona, sma)
+hexa08 (bms)
+hexa20 (narzate)
+hexa21 (narzate)
+hexa22 (narzate)
+hexa23 (narzate, nap)
+hexa24 (nap)
+
+
+machines out
+hexa02
+hexa11
+hexa29
+hexa33
+
+/data not working
+hexa15
+hexa27
