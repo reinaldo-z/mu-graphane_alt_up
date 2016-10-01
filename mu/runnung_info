@@ -1,9 +1,16 @@
-up running time:
+alt running time 240 hexas:
 w: 0.33 hrs
 e: 1.54 hrs
 p: 0.33 hrs
 s: 0.15 hrs
 total: ~2.4 hrs
+
+up running time 240 hexas:
+w e:  9.5h hrs
+p s:  0.35 hrs
+total: ~10 hrs
+
+171 171 2 abinit --> 14452 kpts
 
 NORMALIZATION FACTOR TOREPOR THE RESPONSES
 l = longitud total z
