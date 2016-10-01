@@ -1,7 +1,10 @@
-ALT running time 240 hexas:
+        A L T 
+running time 240 hexas:
 w e:  9.5h hrs
 p s:  0.35 hrs
 total: ~ 10 hrs
+
+171 171 2 abinit --> 14452 kpts
 
 res:
 all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 32 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
@@ -15,7 +18,19 @@ all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 32 -r 48 -t "zyxx zyxy zyxz zy
 all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 32 -r 48 -t "zzxx zzxy zzxz zzyx zzyy zzyz zzzx zzzy zzzz"
 mu: 9*
 
-UP running time 240 hexas:
+NORMALIZATION FACTOR TOREPOR THE RESPONSES
+l = longitud total z
+d = longitud de la estructura en z
+alt: 
+  l = 35
+  d = 5.564770162
+l/d = 6.2895679392
+
+################################################################################
+
+        U P 
+
+running time 240 hexas:
 w: 0.33 hrs
 e: 1.54 hrs
 p: 0.33 hrs
@@ -35,19 +50,16 @@ all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 16 -r 48 -t "zyxx zyxy zyxz zy
 all_responses.sh -w total -m ? -s 0 -o 1 -v 18 -c 16 -r 48 -t "zzxx zzxy zzxz zzyx zzyy zzyz zzzx zzzy zzzz"
 mu: 9*6min ~ 60 min
 
-171 171 2 abinit --> 14452 kpts
-
 NORMALIZATION FACTOR TOREPOR THE RESPONSES
 l = longitud total z
 d = longitud de la estructura en z
-alt: 
-  l = 35
-  d = 5.564770162
-l/d = 6.2895679392
 up:
   l = 30
   d = 2.766410479
 l/d = 10.844377661
+
+################################################################################
+################################################################################
 
 machines        machines latm/res    
 hexa03          hexa20
