@@ -15,10 +15,6 @@ set label "C$_{16}$H$_{8}$-alt" at 1.45,  0.0125
 set label "GaAs"                at 2.50, -0.0070
 
 # Noormalization factors:
-# alt structure
-l=35           # total lenght in z of the supercell
-d=5.564770162  # lenght of the structure in z 
-n=l/d          # normalization factor
 # up structure
 L=30
 D=2.766410479
