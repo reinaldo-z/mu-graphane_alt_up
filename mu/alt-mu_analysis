@@ -24,9 +24,81 @@ rep "alt-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452
 rep "alt-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "zyyy"
 rep "alt-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "zzyy"
 
+################################################################################
+################################################################################
+
+Kpts convergence: 14452 vs 12802 ktps
+
+set xrange [0.5:2.0]
+n=6.2895679392
+
+p   "alt-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "yzyy, 14452"
+rep "alt-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_12802_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "yzyy, 12802"
+
+p   "alt-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "xxyy, 14452"
+rep "alt-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_12802_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "xxyy, 12802"
+
+p   "alt-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "xyyy, 14452"
+rep "alt-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_12802_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "xyyy, 12802"
+
+p   "alt-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "xzyy, 14452"
+rep "alt-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_12802_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "xzyy, 12802"
+
+p   "alt-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "yxyy, 14452"
+rep "alt-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_12802_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "yxyy, 12802"
+
+p   "alt-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "yyyy, 14452"
+rep "alt-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_12802_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "yyyy, 12802"
+
+p   "alt-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "zxyy, 14452"
+rep "alt-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_12802_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "zxyy, 12802"
+
+p   "alt-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "zyyy, 14452"
+rep "alt-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_12802_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "zyyy, 12802"
+
+p   "alt-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "zzyy, 14452"
+rep "alt-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_12802_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "zzyy, 12802"
+
 
 ################################################################################
 ################################################################################
+
+Ecut convergence: 65 vs 62 Ha 
+
+set xrange [0.5:2.0]
+n=6.2895679392
+
+p   "alt-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "yzyy, 65 Ha"
+rep "alt-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_14452_62-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "yzyy, 62 Ha"
+
+p   "alt-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "xxyy, 65 Ha"
+rep "alt-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_14452_62-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "xxyy, 62 Ha"
+
+p   "alt-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "xyyy, 65 Ha"
+rep "alt-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_14452_62-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "xyyy, 62 Ha"
+
+p   "alt-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "xzyy, 65 Ha"
+rep "alt-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_14452_62-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "xzyy, 62 Ha"
+
+p   "alt-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "yxyy, 65 Ha"
+rep "alt-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_62-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "yxyy, 62 Ha"
+
+p   "alt-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "yyyy, 65 Ha"
+rep "alt-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_14452_62-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "yyyy, 62 Ha"
+
+p   "alt-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "zxyy, 65 Ha"
+rep "alt-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_62-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "zxyy, 62 Ha"
+
+p   "alt-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "zyyy, 65 Ha"
+rep "alt-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_14452_62-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "zyyy, 62 Ha"
+
+p   "alt-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_14452_65-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "zzyy, 65 Ha"
+rep "alt-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_14452_62-spin_scissor_0_Nc_32-0_20_ev" u 1:($6*n) w l t "zzyy, 62 Ha"
+
+
+################################################################################
+################################################################################
+
 
 for xxcd:
 highest: xxyy
