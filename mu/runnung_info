@@ -138,3 +138,28 @@ hexa33
 /data not working
 hexa15
 hexa27
+
+
+
+
+
+reinaldo@fat1: alt $ run_tiniba.sh -r run -k 16202 -N 0 -x 2 -C 20 -P 5087 -w
+        =============================
+        fat1 is a valid node to run
+        =============================
+        =============================
+        Starting at: Mon Oct  3 22:22:07 CDT 2016
+        =============================
+        =============================
+        SCF  to be run on the Fats
+        =============================
+        ========================
+         The node fat1 does not exist, it has been eliminated
+         and the new list .machines_scf  will be used
+         Remove them if you wish from your .machines_scf.original file
+        ========================
+         The node fat2 does not exist, it has been eliminated
+         and the new list .machines_scf  will be used
+         Remove them if you wish from your .machines_scf.original file
+        =============================
+
