@@ -63,7 +63,99 @@ rep "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_7202_4
 ################################################################################
 ################################################################################
 
-Ecut convergence 
+Ecut convergence Ok!!
+
+set xrange [0:.8]
+N=10.844377661
+
+p   "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "yzyy, 40 Ha"
+rep "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_38-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "yzyy, 38 Ha"
+
+p   "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w lp t "xxxx, 40 Ha"
+rep "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_38-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w lp t "xxxx, 38 Ha"
+
+p   "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w lp t "xyxx, 40 Ha"
+rep "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_38-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w lp t "xyxx, 38 Ha"
+
+p   "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w lp t "xzxx, 40 Ha"
+rep "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_38-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w lp t "xzxx, 38 Ha"
+
+p   "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "yxyy, 40 Ha"
+rep "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_38-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "yxyy, 38 Ha"
+
+p   "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "yyyy, 40 Ha"
+rep "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_38-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "yyyy, 38 Ha"
+
+p   "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "zxyy, 40 Ha"
+rep "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_38-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "zxyy, 38 Ha"
+
+p   "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "zyyy, 40 Ha"
+rep "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_38-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "zyyy, 38 Ha"
+
+p   "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "zzyy, 40 Ha"
+rep "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_38-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "zzyy, 38 Ha"
+
+
+Ecut convergence Ok!!
+
+
+################################################################################
+################################################################################
+
+Vacuum convergence
+
+Thickness:
+d = 2.766410479
+
+z distances:
+l1=30
+l2=27
+l3=23
+
+a=l1/d
+b=l2/d
+c=l3/d
+
+a=10.844377661
+b= 9.759939895
+c= 8.3140228735
+
+p   "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev"      u 1:($6*a) w lp t "yzyy, 30 z"
+rep "up-vac_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-27z" u 1:($6*b) w lp t "yzyy, 27 z"
+rep "up-vac_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-23z" u 1:($6*c) w lp t "yzyy, 23 z"
+
+p   "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev"      u 1:($2*a) w lp t "xxxx, 30 z"
+rep "up-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-27z" u 1:($2*b) w lp t "xxxx, 27 z"
+rep "up-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-23z" u 1:($2*c) w lp t "xxxx, 23 z"
+
+p   "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev"      u 1:($2*a) w lp t "xyxx, 30 z"
+rep "up-vac_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-27z" u 1:($2*b) w lp t "xyxx, 27 z"
+rep "up-vac_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-23z" u 1:($2*c) w lp t "xyxx, 23 z"
+
+p   "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev"      u 1:($2*a) w lp t "xzxx, 30 z"
+rep "up-vac_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-27z" u 1:($2*b) w lp t "xzxx, 27 z"
+rep "up-vac_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-23z" u 1:($2*c) w lp t "xzxx, 23 z"
+
+p   "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev"      u 1:($6*a) w lp t "yxyy, 30 z"
+rep "up-vac_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-27z" u 1:($6*b) w lp t "yxyy, 27 z"
+rep "up-vac_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-23z" u 1:($6*c) w lp t "yxyy, 23 z"
+
+p   "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev"      u 1:($6*a) w lp t "yyyy, 30 z"
+rep "up-vac_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-27z" u 1:($6*b) w lp t "yyyy, 27 z"
+rep "up-vac_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-23z" u 1:($6*c) w lp t "yyyy, 23 z"
+
+p   "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev"      u 1:($6*a) w lp t "zxyy, 30 z"
+rep "up-vac_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-27z" u 1:($6*b) w lp t "zxyy, 27 z"
+rep "up-vac_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-23z" u 1:($6*c) w lp t "zxyy, 23 z"
+
+p   "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev"      u 1:($6*a) w lp t "zyyy, 30 z"
+rep "up-vac_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-27z" u 1:($6*b) w lp t "zyyy, 27 z"
+rep "up-vac_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-23z" u 1:($6*c) w lp t "zyyy, 23 z"
+
+p   "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev"      u 1:($6*a) w lp t "zzyy, 30 z"
+rep "up-vac_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-27z" u 1:($6*b) w lp t "zzyy, 27 z"
+rep "up-vac_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_38-spin_scissor_0_Nc_18-0_20_ev-23z" u 1:($6*c) w lp t "zzyy, 23 z"
+
 
 ################################################################################
 ################################################################################
