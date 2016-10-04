@@ -23,6 +23,7 @@ rep "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_4
 rep "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zxyy"
 rep "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zyyy"
 rep "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zzyy"
+
 ################################################################################
 ################################################################################
 
@@ -39,9 +40,9 @@ up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spi
 up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
 
 eta files:
-                           0               0              0
-coloumn:                   2   3   4   5   6   7   8   9  10
-coloumn:                  12  13  14  15  16  17  18  19  20
+                            0               0              0
+coloumn:                    2   3   4   5   6   7   8   9  10
+coloumn:                   12  13  14  15  16  17  18  19  20
 up-eta_res-0_20_ev/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
 up-eta_res-0_20_ev/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
 up-eta_res-0_20_ev/eta2.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
@@ -61,9 +62,9 @@ mu:  ($2+$3+$5+$6)
 # 10 columns from mu and 10 columns from eta:
 
 p   "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:(N*($2+$3+$5+$6)) w l t "single file"
-rep   '<paste ./up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev ./up-mu_res-0_20_ev/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_8452_40-spin_scissor_0_Nc_18-0_20_ev' u 1:(N*($2+$3+$5+$6)) w l t "milti-file" #yzyy
+rep   '<paste ./up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev ./up-eta_res-0_20_ev/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_8452_40-spin_scissor_0_Nc_18-0_20_ev' u 1:(N*($2+$3+$5+$6)) w l t "milti-file" #yzyy
 p   "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:(N*($2+$3+$5+$6)) w l t "single file"
-rep   '<paste ./up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev ./up-mu_res-0_20_ev/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_8452_40-spin_scissor_0_Nc_18-0_20_ev' u 1:(N*($2+$3+$5+$6)) w l t "milti-file" #yzyy
+rep   '<paste ./up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev ./up-eta_res-0_20_ev/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_8452_40-spin_scissor_0_Nc_18-0_20_ev' u 1:(N*($2+$3+$5+$6)) w l t "milti-file" #yzyy
 
 p   '<paste ./up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev ./up-mu_res-0_20_ev/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_8452_40-spin_scissor_0_Nc_18-0_20_ev' u 1:(($2+$3+$5+$6)/($13+$15)) w l t "yz" #yzyy
 rep '<paste ./up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev ./up-mu_res-0_20_ev/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_8452_40-spin_scissor_0_Nc_18-0_20_ev' u 1:(N*($2+$3+$5+$6)/(($12+$13+$15+$16)+0.000001))) w l t "xx" #xxxx
