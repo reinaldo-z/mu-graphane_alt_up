@@ -5,7 +5,13 @@ p s:  0.35 hrs
 total: ~ 10 hrs
 
 rklist.sh 171 171 2 abinit # --> 14452 kpts
+rklist.sh 181 181 2 abinit # --> 16202 kpts
+
 run_tiniba.sh -r run -k ? -N 0 -x 2 -C 8 -P ? -w -e -p -s
+
+ F A L T A N T E S ! ! 
+    todo 26 z 
+
 
 res:
 all_responses.sh -w total -m 14452_62-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
@@ -17,7 +23,10 @@ all_responses.sh -w total -m 14452_62-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "yzxx 
 all_responses.sh -w total -m 14452_62-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "zxxx zxxy zxxz zxyx zxyy zxyz zxzx zxzy zxzz"
 all_responses.sh -w total -m 14452_62-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "zyxx zyxy zyxz zyyx zyyy zyyz zyzx zyzy zyzz"
 all_responses.sh -w total -m 14452_62-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "zzxx zzxy zzxz zzyx zzyy zzyz zzzx zzzy zzzz"
-mu: 9*
+all_responses.sh -w total -m 14452_65-spin -s 0 -o 1 -v 18 -c 32 -r 3 -t "xxx xxy xxz xyx xyy xyz xzx xzy xzz"
+all_responses.sh -w total -m 14452_65-spin -s 0 -o 1 -v 18 -c 32 -r 3 -t "yxx yxy yxz yyx yyy yyz yzx yzy yzz"
+all_responses.sh -w total -m 14452_65-spin -s 0 -o 1 -v 18 -c 32 -r 3 -t "zxx zxy zxz zyx zyy zyz zzx zzy zzz"
+all_responses.sh -w total -m 14452_65-spin -s 0 -o 1 -v 18 -c 32 -r 1 -t "xx yy zz"
 
 NORMALIZATION FACTOR TO REPOR THE RESPONSES
 l = longitud total z
@@ -38,7 +47,10 @@ p: 0.33 hrs
 s: 0.15 hrs
 total: ~ 2.4 hrs
 
-rklist.sh 131 131 2 abinit  # --> 8452 kpts
+rklist.sh 131 131 2 abinit  # --> 8452  kpts
+rklist.sh 141 141 2 abinit  # --> 9802  kpts
+rklist.sh 151 151 2 abinit  # --> 11252 kpts
+
 run_tiniba.sh -r run -k ? -N 0 -x 2 -C 8 -P ? -w -e -p -s
 
 res:
@@ -76,7 +88,6 @@ hexa10          hexa20
 hexa12          hexa20
 hexa31          hexa20
 hexa14
-
 hexa16
 hexa17
 hexa18
@@ -85,8 +96,28 @@ hexa25
 hexa26
 hexa28
 hexa30
-hexa31
 hexa32
+
+ssh hexa03 'killall -u reinaldo'
+ssh hexa04 'killall -u reinaldo'
+ssh hexa05 'killall -u reinaldo'
+ssh hexa06 'killall -u reinaldo'
+ssh hexa07 'killall -u reinaldo'
+ssh hexa09 'killall -u reinaldo'
+ssh hexa10 'killall -u reinaldo'
+ssh hexa12 'killall -u reinaldo'
+ssh hexa31 'killall -u reinaldo'
+ssh hexa14 'killall -u reinaldo'
+ssh hexa16 'killall -u reinaldo'
+ssh hexa17 'killall -u reinaldo'
+ssh hexa18 'killall -u reinaldo'
+ssh hexa19 'killall -u reinaldo'
+ssh hexa25 'killall -u reinaldo'
+ssh hexa26 'killall -u reinaldo'
+ssh hexa28 'killall -u reinaldo'
+ssh hexa30 'killall -u reinaldo'
+ssh hexa32 'killall -u reinaldo'
+
 
 machines in use
 hexa01 (tona, sma)

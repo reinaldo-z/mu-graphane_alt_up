@@ -14,7 +14,7 @@ N=10.844377661
 
 group of highest
 
-p   "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yzyy"
+rep   "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yzyy"
 rep "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xxxx"
 rep "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xyxx"
 rep "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xzxx"
@@ -32,32 +32,32 @@ Kpts convergence: 8452 vs 7202 ktps
 set xrange [0:.8]
 N=10.844377661
 
-p   "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yzyy"
-rep "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yzyy"
+p   "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "yzyy, 8452"
+rep "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "yzyy, 7202"
 
-p   "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xxxx"
-rep "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xxxx"
+p   "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w lp t "xxxx, 8452"
+rep "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w lp t "xxxx, 7202"
 
-p   "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xyxx"
-rep "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xyxx"
+p   "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w lp t "xyxx, 8452"
+rep "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w lp t "xyxx, 7202"
 
-p   "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xzxx"
-rep "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xzxx"
+p   "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w lp t "xzxx, 8452"
+rep "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w lp t "xzxx, 7202"
 
-p   "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yxyy"
-rep "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yxyy"
+p   "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "yxyy, 8452"
+rep "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "yxyy, 7202"
 
-p   "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yyyy"
-rep "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yyyy"
+p   "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "yyyy, 8452"
+rep "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "yyyy, 7202"
 
-p   "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zxyy"
-rep "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zxyy"
+p   "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "zxyy, 8452"
+rep "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "zxyy, 7202"
 
-p   "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zyyy"
-rep "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zyyy"
+p   "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "zyyy, 8452"
+rep "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "zyyy, 7202"
 
-p   "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zzyy"
-rep "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zzyy"
+p   "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "zzyy, 8452"
+rep "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_7202_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "zzyy, 7202"
 
 
 ################################################################################
@@ -74,13 +74,13 @@ highest: xxxx
 p   "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xxxx"
 
 to report:  xxxx xxxy xxyy
-p   "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xxxx"
+rep   "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xxxx"
 rep "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($3*N) w l t "xxxy"
 rep "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "xxyy"
 
 zero: xxyz xxzz xxxz
-rep "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($7*N) w l t "xxyz"
-rep "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($1*N)0 w l t "xxzz"
+p "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($7*N) w l t "xxyz"
+rep "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($10*N) w l t "xxzz"
 rep "up-mu_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($4*N) w l t "xxxz" 
 
 ################################################################################
@@ -91,13 +91,13 @@ highest: xyxx
 p   "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xyxx"
 
 to report:  xyxx xyxy xyyy
-p   "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xyxx"
+rep   "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xyxx"
 rep "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($3*N) w l t "xyxy"
 rep "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "xyyy"
 
 zero: xyyz xyzz xyxz
 rep "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($7*N) w l t "xyyz"
-rep "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($1*N)0 w l t "xyzz"
+rep "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($10*N) w l t "xyzz"
 rep "up-mu_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($4*N) w l t "xyxz" 
 
 ################################################################################
@@ -108,13 +108,13 @@ highest: xzxx
 p   "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xzxx"
 
 to report:  xzxx xzxy xzyy
-p   "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xzxx"
+rep   "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "xzxx"
 rep "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($3*N) w l t "xzxy"
 rep "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "xzyy"
 
 zero: xzyz xzzz xzxz
 rep "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($7*N) w l t "xzyz"
-rep "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($1*N)0 w l t "xzzz"
+rep "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($10*N) w l t "xzzz"
 rep "up-mu_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($4*N) w l t "xzxz" 
 
 
@@ -128,13 +128,13 @@ highest: yxyy
 p   "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yxyy"
 
 to report:  yxyy yxxx yxxy
-p   "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yxyy"
+rep   "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yxyy"
 rep "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "yxxx"
 rep "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($3*N) w l t "yxxy"
 
 zero: yxyz yxzz yxxz
-rep "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($7*N) w l t "yxyz"
-rep "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($1*N)0 w l t "yxzz"
+p "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($7*N) w l t "yxyz"
+rep "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($10*N) w l t "yxzz"
 rep "up-mu_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($4*N) w l t "yxxz" 
 
 ################################################################################
@@ -145,13 +145,13 @@ highest: yyyy
 p   "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yyyy"
 
 to report:  yyyy yyxx yyxy
-p   "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yyyy"
+rep   "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yyyy"
 rep "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "yyxx"
 rep "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($3*N) w l t "yyxy"
 
 zero: yyyz yyzz yyxz
 rep "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($7*N) w l t "yyyz"
-rep "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($1*N)0 w l t "yyzz"
+rep "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($10*N) w l t "yyzz"
 rep "up-mu_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($4*N) w l t "yyxz" 
 
 ################################################################################
@@ -162,13 +162,13 @@ highest: yzyy
 p   "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yzyy"
 
 to report:  yzyy yzxx yzxy
-p   "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yzyy"
-rep "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "yzxx"
+rep   "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "yzyy"
+rep "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w lp t "yzxx"
 rep "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($3*N) w l t "yzxy"
 
 zero: yzyz yzzz yzxz
 rep "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($7*N) w l t "yzyz"
-rep "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($1*N)0 w l t "yzzz"
+rep "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($10*N) w l t "yzzz"
 rep "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($4*N) w l t "yzxz" 
 
 ################################################################################
@@ -181,13 +181,13 @@ highest: zxyy
 p   "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zxyy"
 
 to report:  zxyy zxxx zxxy
-p   "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zxyy"
+rep   "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zxyy"
 rep "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "zxxx"
 rep "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($3*N) w l t "zxxy"
 
 zero: zxyz zxzz zxxz
-rep "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($7*N) w l t "zxyz"
-rep "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($1*N)0 w l t "zxzz"
+p "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($7*N) w l t "zxyz"
+rep "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($10*N) w l t "zxzz"
 rep "up-mu_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($4*N) w l t "zxxz" 
 
 ################################################################################
@@ -198,13 +198,13 @@ highest: zyyy
 p   "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zyyy"
 
 to report:  zyyy zyxx zyxy
-p   "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zyyy"
+rep   "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w lp t "zyyy"
 rep "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "zyxx"
 rep "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($3*N) w l t "zyxy"
 
 zero: zyyz zyzz zyxz
-rep "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($7*N) w l t "zyyz"
-rep "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($1*N)0 w l t "zyzz"
+p "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($7*N) w l t "zyyz"
+rep "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($10*N) w l t "zyzz"
 rep "up-mu_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($4*N) w l t "zyxz" 
 
 ################################################################################
@@ -215,13 +215,13 @@ highest: zzyy
 p   "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zzyy"
 
 to report:  zzyy zzxx zzxy
-p   "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zzyy"
+rep   "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($6*N) w l t "zzyy"
 rep "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2*N) w l t "zzxx"
 rep "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($3*N) w l t "zzxy"
 
 zero: zzyz zzzz zzxz
-rep "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($7*N) w l t "zzyz"
-rep "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($1*N)0 w l t "zzzz"
+p "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($7*N) w l t "zzyz"
+rep "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($10*N) w l t "zzzz"
 rep "up-mu_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($4*N) w l t "zzxz" 
 
 ################################################################################
