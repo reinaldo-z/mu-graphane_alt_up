@@ -23,10 +23,19 @@ all_responses.sh -w total -m 14452_62-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "yzxx 
 all_responses.sh -w total -m 14452_62-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "zxxx zxxy zxxz zxyx zxyy zxyz zxzx zxzy zxzz"
 all_responses.sh -w total -m 14452_62-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "zyxx zyxy zyxz zyyx zyyy zyyz zyzx zyzy zyzz"
 all_responses.sh -w total -m 14452_62-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "zzxx zzxy zzxz zzyx zzyy zzyz zzzx zzzy zzzz"
+
 all_responses.sh -w total -m 14452_65-spin -s 0 -o 1 -v 18 -c 32 -r 3 -t "xxx xxy xxz xyx xyy xyz xzx xzy xzz"
+
 all_responses.sh -w total -m 14452_65-spin -s 0 -o 1 -v 18 -c 32 -r 3 -t "yxx yxy yxz yyx yyy yyz yzx yzy yzz"
 all_responses.sh -w total -m 14452_65-spin -s 0 -o 1 -v 18 -c 32 -r 3 -t "zxx zxy zxz zyx zyy zyz zzx zzy zzz"
+
+all_responses.sh -w total -m 14452_65-spin -s 0 -o 1 -v 18 -c 32 -r 41 -t "xxx xxy xxz xyx xyy xyz xzx xzy xzz"
+all_responses.sh -w total -m 14452_65-spin -s 0 -o 1 -v 18 -c 32 -r 41 -t "yxx yxy yxz yyx yyy yyz yzx yzy yzz"
+all_responses.sh -w total -m 14452_65-spin -s 0 -o 1 -v 18 -c 32 -r 41 -t "zxx zxy zxz zyx zyy zyz zzx zzy zzz"
+
 all_responses.sh -w total -m 14452_65-spin -s 0 -o 1 -v 18 -c 32 -r 1 -t "xx yy zz"
+
+
 
 NORMALIZATION FACTOR TO REPOR THE RESPONSES
 l = longitud total z
@@ -64,7 +73,15 @@ all_responses.sh -w total -m 8452_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "zxxx z
 all_responses.sh -w total -m 8452_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "zyxx zyxy zyxz zyyx zyyy zyyz zyzx zyzy zyzz"
 all_responses.sh -w total -m 8452_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "zzxx zzxy zzxz zzyx zzyy zzyz zzzx zzzy zzzz"
 
-mu: 9*6min ~ 60 min
+all_responses.sh -w total -m 8452_40-spin -s 0 -o 1 -v 18 -c 18 -r 41 -t "xxx xxy xxz xyx xyy xyz xzx xzy xzz"
+all_responses.sh -w total -m 8452_40-spin -s 0 -o 1 -v 18 -c 18 -r 41 -t "yxx yxy yxz yyx yyy yyz yzx yzy yzz"
+all_responses.sh -w total -m 8452_40-spin -s 0 -o 1 -v 18 -c 18 -r 41 -t "zxx zxy zxz zyx zyy zyz zzx zzy zzz"
+
+all_responses.sh -w total -m 8452_40-spin -s 0 -o 1 -v 18 -c 18 -r 3 -t "xxx xxy xxz xyx xyy xyz xzx xzy xzz"
+all_responses.sh -w total -m 8452_40-spin -s 0 -o 1 -v 18 -c 18 -r 3 -t "yxx yxy yxz yyx yyy yyz yzx yzy yzz"
+all_responses.sh -w total -m 8452_40-spin -s 0 -o 1 -v 18 -c 18 -r 3 -t "zxx zxy zxz zyx zyy zyz zzx zzy zzz"
+
+all_responses.sh -w total -m 8452_40-spin -s 0 -o 1 -v 18 -c 18 -r 1 -t "xx yy zz"
 
 NORMALIZATION FACTOR TO REPOR THE RESPONSES
 l = longitud total z
@@ -118,6 +135,7 @@ ssh hexa28 'killall -u reinaldo'
 ssh hexa30 'killall -u reinaldo'
 ssh hexa32 'killall -u reinaldo'
 
+ssh hexa20 'killall -u reinaldo'
 
 machines in use
 hexa01 (tona, sma)
@@ -141,8 +159,6 @@ hexa27
 
 
 
-
-
 reinaldo@fat1: alt $ run_tiniba.sh -r run -k 16202 -N 0 -x 2 -C 20 -P 5087 -w
         =============================
         fat1 is a valid node to run
@@ -162,4 +178,18 @@ reinaldo@fat1: alt $ run_tiniba.sh -r run -k 16202 -N 0 -x 2 -C 20 -P 5087 -w
          and the new list .machines_scf  will be used
          Remove them if you wish from your .machines_scf.original file
         =============================
+
+fat1
+fat1
+fat1
+fat1
+fat1
+fat1
+fat1
+fat1
+fat1
+
+
+
+
 
