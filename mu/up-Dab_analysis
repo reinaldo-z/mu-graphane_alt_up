@@ -70,12 +70,9 @@ mu:  ($2+$3+$5+$6)
 eta: ()
 
 
-# 10 columns from mu and 10 columns from eta:
-
-
-p   "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:(N*($2+$3+$5+$6)) w l t "single file"
+p     "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:(N*($2+$3+$5+$6)) w l t "single file"
 rep   '<paste ./up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev ./up-eta_res-0_20_ev/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_8452_40-spin_scissor_0_Nc_18-0_20_ev' u 1:(N*($2+$3+$5+$6)) w l t "milti-file" #yzyy
-p   "up-eta_res-0_20_ev/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:(N*($3+$5)) w l t "single file"
+p     "up-eta_res-0_20_ev/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:(N*($3+$5)) w l t "single file"
 rep   '<paste ./up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev ./up-eta_res-0_20_ev/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_8452_40-spin_scissor_0_Nc_18-0_20_ev' u 1:(N*($2+$3+$5+$6)) w l t "milti-file" #yzyy
 
 ################################################################################
@@ -83,12 +80,17 @@ rep   '<paste ./up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_
 
 ~Dab
 ab=yz ->
-
-p   "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:(N*($2+$3+$5+$6)) w l t "single file"
+mu:   ($2+$3+$5+$6)
+zeta (xxx xxy xyx xyy): 
+p     "up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:(N*($2+$3+$5+$6)) w l t "single file"
+p   '<paste ./up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev ./up-zeta_res-0_20_ev/zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_8452_40-spin_scissor_0_Nc_18-0_20_ev' u 1:(N*($2+$3+$5+$6)/($2+$3+$5+$6)) w l t "milti-file" #yzyy
 rep   '<paste ./up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev ./up-zeta_res-0_20_ev/zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_8452_40-spin_scissor_0_Nc_18-0_20_ev' u 1:(N*($2+$3+$5+$6)) w l t "milti-file" #yzyy
-rep   '<paste ./up-mu_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev ./up-zeta_res-0_20_ev/zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_8452_40-spin_scissor_0_Nc_18-0_20_ev' u 1:(N*($2+$3+$5+$6)) w l t "milti-file" #yzyy
 
+p 
 
+$2+$3+$5+$6
+
+p "up-zeta_res-0_20_ev/zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_8452_40-spin_scissor_0_Nc_18-0_20_ev" u 1:($2+$3+$5+$6) w l 
 
 
 
