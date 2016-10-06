@@ -56,18 +56,18 @@ rklist.sh 131 131 2 abinit  # --> 8452  kpts
 rklist.sh 141 141 2 abinit  # --> 9802  kpts
 rklist.sh 151 151 2 abinit  # --> 11252 kpts
 
-run_tiniba.sh -r run -k ? -N 0 -x 2 -C 8 -P ? -w -e -p -s
+run_tiniba.sh -r run -k 11252 -N 0 -x 2 -C 8 -P 2359 -w -e -p -s
 
 res:
-all_responses.sh -w total -m 9802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
-all_responses.sh -w total -m 9802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
-all_responses.sh -w total -m 9802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
-all_responses.sh -w total -m 9802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "yxxx yxxy yxxz yxyx yxyy yxyz yxzx yxzy yxzz"
-all_responses.sh -w total -m 9802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "yyxx yyxy yyxz yyyx yyyy yyyz yyzx yyzy yyzz"
-all_responses.sh -w total -m 9802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "yzxx yzxy yzxz yzyx yzyy yzyz yzzx yzzy yzzz"
-all_responses.sh -w total -m 9802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "zxxx zxxy zxxz zxyx zxyy zxyz zxzx zxzy zxzz"
-all_responses.sh -w total -m 9802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "zyxx zyxy zyxz zyyx zyyy zyyz zyzx zyzy zyzz"
-all_responses.sh -w total -m 9802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "zzxx zzxy zzxz zzyx zzyy zzyz zzzx zzzy zzzz"
+all_responses.sh -w total -m 12802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
+all_responses.sh -w total -m 12802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
+all_responses.sh -w total -m 12802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
+all_responses.sh -w total -m 12802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "yxxx yxxy yxxz yxyx yxyy yxyz yxzx yxzy yxzz"
+all_responses.sh -w total -m 12802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "yyxx yyxy yyxz yyyx yyyy yyyz yyzx yyzy yyzz"
+all_responses.sh -w total -m 12802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "yzxx yzxy yzxz yzyx yzyy yzyz yzzx yzzy yzzz"
+all_responses.sh -w total -m 12802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "zxxx zxxy zxxz zxyx zxyy zxyz zxzx zxzy zxzz"
+all_responses.sh -w total -m 12802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "zyxx zyxy zyxz zyyx zyyy zyyz zyzx zyzy zyzz"
+all_responses.sh -w total -m 12802_40-spin -s 0 -o 1 -v 18 -c 18 -r 48 -t "zzxx zzxy zzxz zzyx zzyy zzyz zzzx zzzy zzzz"
 
 all_responses.sh -w total -m 9802_40-spin -s 0 -o 1 -v 18 -c 18 -r 41 -t "xxx xxy xxz xyx xyy xyz xzx xzy xzz"
 all_responses.sh -w total -m 9802_40-spin -s 0 -o 1 -v 18 -c 18 -r 41 -t "yxx yxy yxz yyx yyy yyz yzx yzy yzz"
