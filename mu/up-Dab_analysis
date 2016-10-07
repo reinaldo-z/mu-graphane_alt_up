@@ -213,21 +213,21 @@ N=10.844377661
 PF=1.0E+11
 
 
-ab=Yx -> 
+ab=yx -> 
 mu:     yxxx yxxy yxyy: mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
           $2 + $3 + $6
 zeta:    xxx  xxy  xyy: zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
          $12 +$13 +$16
 
 #####
-ab=Yy -> 
+ab=yy -> 
 mu:     yyxx yyxy yyyy: mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
           $2 + $3 + $6
 zeta:    xxx  xxy  xyy: zeta.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
          $12 +$13 +$16
 
 #####
-ab=Yz -> 
+ab=yz -> 
 mu:     yzxx yzxy yzyy: mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
           $2 + $3 + $6
 zeta:    xxx  xxy  xyy: zeta.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
@@ -246,22 +246,22 @@ N=10.844377661
 PF=1.0E+11
 
 
-ab=xx -> 
-mu:     xxxx xxxy xxyy: mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
+ab=zx -> 
+mu:     zxxx zxxy zxyy: mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
           $2 + $3 + $6
 zeta:    xxx  xxy  xyy: up-zeta_res-0_20_ev/zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
          $12 +$13 +$16
 
 #####
-ab=xy -> 
-mu:     xyxx xyxy xyyy: mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
+ab=zy -> 
+mu:     zyxx zyxy zyyy: mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
           $2 + $3 + $6
 zeta:    yxx  yxy  yyy: up-zeta_res-0_20_ev/zeta.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
          $12 +$13 +$16
 
 #####
-ab=xz -> 
-mu:     xzxx xzxy xzyy: mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
+ab=zz -> 
+mu:     zzxx zzxy zzyy: mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
           $2 + $3 + $6
 zeta:    zxx  zxy  zyy: up-zeta_res-0_20_ev/zeta.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_8452_40-spin_scissor_0_Nc_18-0_20_ev
          $12 +$13 +$16
