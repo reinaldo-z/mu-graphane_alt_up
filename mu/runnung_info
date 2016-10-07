@@ -4,8 +4,8 @@ w e:  9.5h hrs
 p s:  0.35 hrs
 total: ~ 10 hrs
 
-rklist.sh 171 171 2 abinit # --> 14452 kpts
-rklist.sh 181 181 2 abinit # --> 16202 kpts
+echo 1 | rklist.sh 171 171 2 abinit # --> 14452 kpts
+echo 1 | rklist.sh 181 181 2 abinit # --> 16202 kpts
 
 run_tiniba.sh -r run -k ? -N 0 -x 2 -C 8 -P ? -w -e -p -s
 
@@ -52,9 +52,9 @@ p: 0.33 hrs
 s: 0.15 hrs
 total: ~ 2.4 hrs
 
-rklist.sh 131 131 2 abinit  # --> 8452  kpts
-rklist.sh 141 141 2 abinit  # --> 9802  kpts
-rklist.sh 151 151 2 abinit  # --> 11252 kpts
+echo 1 | rklist.sh 131 131 2 abinit  # --> 8452  kpts
+echo 1 | rklist.sh 141 141 2 abinit  # --> 9802  kpts
+echo 1 | rklist.sh 151 151 2 abinit  # --> 11252 kpts
 
 run_tiniba.sh -r run -k 11252 -N 0 -x 2 -C 8 -P 2359 -w -e -p -s
 
@@ -74,8 +74,8 @@ all_responses.sh -w total -m 11252_40-spin -s 0 -o 1 -v 18 -c 18 -r 41 -t "zxx z
 all_responses.sh -w total -m 11252_40-spin -s 0 -o 1 -v 18 -c 18 -r 3 -t "xxx xxy xxz xyx xyy xyz xzx xzy xzz"
 all_responses.sh -w total -m 11252_40-spin -s 0 -o 1 -v 18 -c 18 -r 3 -t "yxx yxy yxz yyx yyy yyz yzx yzy yzz"
 all_responses.sh -w total -m 11252_40-spin -s 0 -o 1 -v 18 -c 18 -r 3 -t "zxx zxy zxz zyx zyy zyz zzx zzy zzz"
+all_responses.sh -w total -m 11252_40-spin -s 0 -o 1 -v 18 -c 18 -r 1 -t "xx yy zz"
 
-all_responses.sh -w total -m 8452_40-spin -s 0 -o 1 -v 18 -c 18 -r 1 -t "xx yy zz"
 
 NORMALIZATION FACTOR TO REPOR THE RESPONSES
 l = longitud total z
