@@ -1,0 +1,83 @@
+\documentclass{article}
+\begin{document}
+
+\gdef\mpxshipout{\shipout\hbox\bgroup
+  \setbox0=\hbox\bgroup}
+\gdef\stopmpxshipout{\egroup  \dimen0=\ht0 \advance\dimen0\dp0
+  \dimen1=\ht0 \dimen2=\dp0
+  \setbox0=\hbox\bgroup
+    \box0
+    \ifnum\dimen0>0 \vrule width1sp height\dimen1 depth\dimen2 
+    \else \vrule width1sp height1sp depth0sp\relax
+    \fi\egroup
+  \ht0=0pt \dp0=0pt \box0 \egroup}
+\mpxshipout% line 125 ./up-Dxb.mp
+-500000%
+\stopmpxshipout
+\mpxshipout% line 128 ./up-Dxb.mp
+-400000%
+\stopmpxshipout
+\mpxshipout% line 131 ./up-Dxb.mp
+-300000%
+\stopmpxshipout
+\mpxshipout% line 134 ./up-Dxb.mp
+-200000%
+\stopmpxshipout
+\mpxshipout% line 137 ./up-Dxb.mp
+-100000%
+\stopmpxshipout
+\mpxshipout% line 140 ./up-Dxb.mp
+0%
+\stopmpxshipout
+\mpxshipout% line 143 ./up-Dxb.mp
+100000%
+\stopmpxshipout
+\mpxshipout% line 146 ./up-Dxb.mp
+200000%
+\stopmpxshipout
+\mpxshipout% line 149 ./up-Dxb.mp
+300000%
+\stopmpxshipout
+\mpxshipout% line 152 ./up-Dxb.mp
+400000%
+\stopmpxshipout
+\mpxshipout% line 155 ./up-Dxb.mp
+500000%
+\stopmpxshipout
+\mpxshipout% line 159 ./up-Dxb.mp
+0%
+\stopmpxshipout
+\mpxshipout% line 163 ./up-Dxb.mp
+0.2%
+\stopmpxshipout
+\mpxshipout% line 167 ./up-Dxb.mp
+0.4%
+\stopmpxshipout
+\mpxshipout% line 171 ./up-Dxb.mp
+0.6%
+\stopmpxshipout
+\mpxshipout% line 175 ./up-Dxb.mp
+0.8%
+\stopmpxshipout
+\mpxshipout% line 179 ./up-Dxb.mp
+1%
+\stopmpxshipout
+\mpxshipout% line 183 ./up-Dxb.mp
+1.2%
+\stopmpxshipout
+\mpxshipout% line 187 ./up-Dxb.mp
+C$_{16}$H$_{8}$-up%
+\stopmpxshipout
+\mpxshipout% line 189 ./up-Dxb.mp
+\Large $\mu^{abcd}(\,J\,s^{-1}\,V^{-2})$%
+\stopmpxshipout
+\mpxshipout% line 191 ./up-Dxb.mp
+{\Large Photon Energy (eV)}%
+\stopmpxshipout
+\mpxshipout% line 194 ./up-Dxb.mp
+D^{xx}%
+\stopmpxshipout
+% line 262 ./up-Dxb.mp
+ \end{document}
+
+\end{document}
