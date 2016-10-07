@@ -140,6 +140,7 @@ rep '<paste ./up-mu_res-0_2_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzz
 ################################################################################
 
 PF=-3.03853492005002E+15
+PF=1
 set xrange [0:1.2]
 N=10.844377661
 
