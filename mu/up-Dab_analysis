@@ -277,12 +277,10 @@ rep '<paste ./up-mu_res-0_2_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzz
 ################################################################################
 
                                     -D^{ab}
-                                (name not defined)
+                            Degree of spin injection
 
-# factor Im[chi^{ab}] --> xi^{ab} = 2.1102
-# hb=1.054571800E−34
-# PF=4/(2.1102*hb)
-PF=1.79746407376332E+34
+
+PF=29.98
 N=10.844377661
 set xrange [0:1.2]
 
@@ -304,7 +302,7 @@ rep '<paste ./up-mu_res-0_2_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzz
 
 ################################################################################
 
-PF=1.79746407376332E+34
+PF=29.98
 N=10.844377661
 set xrange [0:1.2]
 
@@ -326,7 +324,7 @@ rep '<paste ./up-mu_res-0_2_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzz
 
 ################################################################################
 
-PF=1.79746407376332E+34
+PF=29.98
 N=10.844377661
 set xrange [0:1.2]
 
