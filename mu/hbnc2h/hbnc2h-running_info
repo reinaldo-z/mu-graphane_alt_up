@@ -1,17 +1,10 @@
-        A L T 
-running time 240 hexas:
-w e:  9.5h hrs
-p s:  0.35 hrs
-total: ~ 10 hrs
+        H B N C 2 H 
+running time:
 
-echo 1 | rklist.sh 171 171 2 abinit # --> 14452 kpts
-echo 1 | rklist.sh 181 181 2 abinit # --> 16202 kpts
+echo 1 | rklist.sh  abinit # -->  kpts
+echo 1 | rklist.sh  abinit # -->  kpts
 
-run_tiniba.sh -r run -k 14452 -N 0 -x 2 -C 8 -P ? -w -e -p -s
-
- F A L T A N T E S ! ! 
-    todo 26 z 
-
+run_tiniba.sh -r run -k ? -N 0 -x 2 -C 8 -P ? -w -e -p -s
 
 res:
 all_responses.sh -w total -m 14452_65-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
