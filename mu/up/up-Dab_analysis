@@ -65,6 +65,176 @@ up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev
 ################################################################################
 ################################################################################
 
+
+                                    V^{ab}
+                            Degree of spin injection
+
+
+PF=29.98
+N=1
+set xrange [0:1.2]
+
+ab=xx -> 
+mu:     xxxx xxxy xxyy: mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+ab=xy -> 
+mu:     xyxx xyxy xyyy: mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+ab=xz -> 
+mu:     xzxx xzxy xzyy: mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+chi:    Im[xx] Im[yy]:  chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $13  + $15
+
+p   '<paste ./up-mu_res-0_2_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15 + 0.0001)) w l t "V^{xx}"
+rep '<paste ./up-mu_res-0_2_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15 + 0.0001)) w l t "V^{xy}"
+rep '<paste ./up-mu_res-0_2_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15 + 0.0001)) w l t "V^{xz}"
+
+################################################################################
+
+PF=29.98
+N=1
+set xrange [0:1.2]
+
+ab=yx -> 
+mu:     yxxx yxxy yxyy: mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+ab=yy -> 
+mu:     yyxx yyxy yyyy: mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+ab=yz -> 
+mu:     yzxx yzxy yzyy: mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+chi:    Im[xx] Im[yy]  chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $13  + $15
+
+p   '<paste ./up-mu_res-0_2_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15 + 0.0001)) w l t "V^{yx}"
+rep '<paste ./up-mu_res-0_2_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15 + 0.0001)) w l t "V^{yy}"
+rep '<paste ./up-mu_res-0_2_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15 + 0.0001)) w l t "V^{yz}"
+
+################################################################################
+
+PF=29.98
+N=1
+set xrange [0:1.2]
+
+ab=zx -> 
+mu:     zxxx zxxy zxyy: mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+ab=zy -> 
+mu:     zyxx zyxy zyyy: mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+ab=zz -> 
+mu:     zzxx zzxy zzyy: mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+chi:    Im[xx] Im[yy]  chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $13  + $15
+
+p   '<paste ./up-mu_res-0_2_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15 + 0.0001)) w l t "-D^{yx}"
+rep '<paste ./up-mu_res-0_2_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15 + 0.0001)) w l t "-D^{yy}"
+rep '<paste ./up-mu_res-0_2_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15 + 0.0001)) w l t "-D^{yz}"
+
+################################################################################
+################################################################################
+
+                                    ~D^{ab}
+                                Spin velocity
+
+set xrange [0:1.2]
+N=1
+PF=1.0E-11
+
+ab=xx -> 
+mu:     xxxx xxxy xxyy: mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+zeta:    xxx  xxy  xyy: up-zeta_res-0_2_ev/zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+         $12 +$13 +$16
+
+#####
+ab=xy -> 
+mu:     xyxx xyxy xyyy: mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+zeta:    yxx  yxy  yyy: up-zeta_res-0_2_ev/zeta.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+         $12 +$13 +$16
+
+#####
+ab=xz -> 
+mu:     xzxx xzxy xzyy: mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+zeta:    zxx  zxy  zyy: up-zeta_res-0_2_ev/zeta.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+         $12 +$13 +$16
+
+p   '<paste ./up-mu_res-0_2_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16 + 0.0001))) w l t "~D^{xx}"
+rep '<paste ./up-mu_res-0_2_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16 + 0.0001))) w l t "~D^{xy}"
+rep '<paste ./up-mu_res-0_2_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16 + 0.0001))) w l t "~D^{xz}"
+
+################################################################################
+
+set xrange [0:1.2]
+N=1
+PF=1.0E+11
+
+
+ab=yx -> 
+mu:     yxxx yxxy yxyy: mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+zeta:    xxx  xxy  xyy: zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+         $12 +$13 +$16
+
+#####
+ab=yy -> 
+mu:     yyxx yyxy yyyy: mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+zeta:    xxx  xxy  xyy: zeta.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+         $12 +$13 +$16
+
+#####
+ab=yz -> 
+mu:     yzxx yzxy yzyy: mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+zeta:    xxx  xxy  xyy: zeta.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+         $12 +$13 +$16
+
+p   '<paste ./up-mu_res-0_2_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16 + 0.0001))) w l t "~D^{xx}"
+rep '<paste ./up-mu_res-0_2_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16 + 0.0001))) w l t "~D^{xy}"
+rep '<paste ./up-mu_res-0_2_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16 + 0.0001))) w l t "~D^{xz}"
+
+################################################################################
+
+set xrange [0:1.2]
+N=1
+PF=1.0E+11
+
+
+ab=zx -> 
+mu:     zxxx zxxy zxyy: mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+zeta:    xxx  xxy  xyy: up-zeta_res-0_2_ev/zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+         $12 +$13 +$16
+
+#####
+ab=zy -> 
+mu:     zyxx zyxy zyyy: mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+zeta:    yxx  yxy  yyy: up-zeta_res-0_2_ev/zeta.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+         $12 +$13 +$16
+
+#####
+ab=zz -> 
+mu:     zzxx zzxy zzyy: mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+          $2 + $3 + $6
+zeta:    zxx  zxy  zyy: up-zeta_res-0_2_ev/zeta.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
+         $12 +$13 +$16
+
+p   '<paste ./up-mu_res-0_2_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16 + 0.0001))) w l t "~D^{xx}"
+rep '<paste ./up-mu_res-0_2_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16 + 0.0001))) w l t "~D^{xy}"
+rep '<paste ./up-mu_res-0_2_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16 + 0.0001))) w l t "~D^{xz}"
+
+
+
+################################################################################
+################################################################################
+
                                     D^{ab}
                     Degree of spin current polarization
 
@@ -74,7 +244,7 @@ up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev
 # PF=(2*e)/hb
 PF=-3.03853492005002E+15
 set xrange [0:1.2]
-N=10.844377661
+N=1
 
 #####
 ab=xx -> 
@@ -107,7 +277,7 @@ rep '<paste ./up-mu_res-0_2_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzz
 
 PF=-3.03853492005002E+15
 set xrange [0:1.2]
-N=10.844377661
+N=1
 
 #####
 ab=yx -> 
@@ -142,7 +312,7 @@ rep '<paste ./up-mu_res-0_2_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzz
 PF=-3.03853492005002E+15
 PF=1
 set xrange [0:1.2]
-N=10.844377661
+N=1
 
 #####
 ab=zx -> 
@@ -171,192 +341,17 @@ p   '<paste ./up-mu_res-0_2_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxz
 rep '<paste ./up-mu_res-0_2_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-eta_res-0_2_ev/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*PF*($2 + $3 + $6)/($12 +$13 +$16)) w l t "D^{zy}"
 rep '<paste ./up-mu_res-0_2_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-eta_res-0_2_ev/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*PF*($2 + $3 + $6)/($12 +$13 +$16)) w l t "D^{zz}"
 
-
 ################################################################################
 ################################################################################
 
-                                    ~D^{ab}
-                                Spin velocity
+                                    -V^{ab}
+                            Characteristic velocity
+N=1
+PF=-1.97322E-14
 
-set xrange [0:1.2]
-N=10.844377661
-PF=1.0E-11
-
-ab=xx -> 
-mu:     xxxx xxxy xxyy: mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-zeta:    xxx  xxy  xyy: up-zeta_res-0_2_ev/zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-         $12 +$13 +$16
-
-#####
-ab=xy -> 
-mu:     xyxx xyxy xyyy: mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-zeta:    yxx  yxy  yyy: up-zeta_res-0_2_ev/zeta.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-         $12 +$13 +$16
-
-#####
-ab=xz -> 
-mu:     xzxx xzxy xzyy: mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-zeta:    zxx  zxy  zyy: up-zeta_res-0_2_ev/zeta.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-         $12 +$13 +$16
-
-
-
-p   '<paste ./up-mu_res-0_2_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16))) w l t "~D^{xx}"
-rep '<paste ./up-mu_res-0_2_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16))) w l t "~D^{xy}"
-rep '<paste ./up-mu_res-0_2_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16))) w l t "~D^{xz}"
-
-################################################################################
-
-set xrange [0:1.2]
-N=10.844377661
-PF=1.0E+11
-
-
-ab=yx -> 
-mu:     yxxx yxxy yxyy: mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-zeta:    xxx  xxy  xyy: zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-         $12 +$13 +$16
-
-#####
-ab=yy -> 
-mu:     yyxx yyxy yyyy: mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-zeta:    xxx  xxy  xyy: zeta.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-         $12 +$13 +$16
-
-#####
-ab=yz -> 
-mu:     yzxx yzxy yzyy: mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-zeta:    xxx  xxy  xyy: zeta.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-         $12 +$13 +$16
-
-
-
-p   '<paste ./up-mu_res-0_2_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16))) w l t "~D^{xx}"
-rep '<paste ./up-mu_res-0_2_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16))) w l t "~D^{xy}"
-rep '<paste ./up-mu_res-0_2_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16))) w l t "~D^{xz}"
-
-################################################################################
-
-set xrange [0:1.2]
-N=10.844377661
-PF=1.0E+11
-
-
-ab=zx -> 
-mu:     zxxx zxxy zxyy: mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-zeta:    xxx  xxy  xyy: up-zeta_res-0_2_ev/zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-         $12 +$13 +$16
-
-#####
-ab=zy -> 
-mu:     zyxx zyxy zyyy: mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-zeta:    yxx  yxy  yyy: up-zeta_res-0_2_ev/zeta.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-         $12 +$13 +$16
-
-#####
-ab=zz -> 
-mu:     zzxx zzxy zzyy: mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-zeta:    zxx  zxy  zyy: up-zeta_res-0_2_ev/zeta.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-         $12 +$13 +$16
-
-
-
-p   '<paste ./up-mu_res-0_2_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16))) w l t "~D^{xx}"
-rep '<paste ./up-mu_res-0_2_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16))) w l t "~D^{xy}"
-rep '<paste ./up-mu_res-0_2_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-zeta_res-0_2_ev/zeta.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*($2 + $3 + $6)/(PF*($12 +$13 +$16))) w l t "~D^{xz}"
-
-################################################################################
-################################################################################
-
-                                    -D^{ab}
-                            Degree of spin injection
-
-
-PF=29.98
-N=10.844377661
-set xrange [0:1.2]
-
-ab=xx -> 
-mu:     xxxx xxxy xxyy: mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-ab=xy -> 
-mu:     xyxx xyxy xyyy: mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-ab=xz -> 
-mu:     xzxx xzxy xzyy: mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-chi:    Im[xx] Im[yy]:  chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $13  + $15
-
-p   '<paste ./up-mu_res-0_2_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15)) w l t "-D^{xx}"
-rep '<paste ./up-mu_res-0_2_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15)) w l t "-D^{xy}"
-rep '<paste ./up-mu_res-0_2_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15)) w l t "-D^{xz}"
-
-################################################################################
-
-PF=29.98
-N=10.844377661
-set xrange [0:1.2]
-
-ab=yx -> 
-mu:     yxxx yxxy yxyy: mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-ab=yy -> 
-mu:     yyxx yyxy yyyy: mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-ab=yz -> 
-mu:     yzxx yzxy yzyy: mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-chi:    Im[xx] Im[yy]  chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $13  + $15
-
-p   '<paste ./up-mu_res-0_2_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15)) w l t "-D^{yx}"
-rep '<paste ./up-mu_res-0_2_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15)) w l t "-D^{yy}"
-rep '<paste ./up-mu_res-0_2_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15)) w l t "-D^{yz}"
-
-################################################################################
-
-PF=29.98
-N=10.844377661
-set xrange [0:1.2]
-
-ab=zx -> 
-mu:     zxxx zxxy zxyy: mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-ab=zy -> 
-mu:     zyxx zyxy zyyy: mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-ab=zz -> 
-mu:     zzxx zzxy zzyy: mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $2 + $3 + $6
-chi:    Im[xx] Im[yy]  chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-          $13  + $15
-
-p   '<paste ./up-mu_res-0_2_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15)) w l t "-D^{yx}"
-rep '<paste ./up-mu_res-0_2_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15)) w l t "-D^{yy}"
-rep '<paste ./up-mu_res-0_2_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_11252_40-spin_scissor_0_Nc_18-0_2_ev ./up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(PF*N*($2 + $3 + $6)/($13  + $15)) w l t "-D^{yz}"
-
-
-
-
-
-
-up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev
-
-
-
-
-
-
+p   '<paste up-eta_res-0_2_ev/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_11252_40-spin_scissor_0_Nc_18-0_2_ev up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*PF*($3)/($13 + $15 + 0.0001)) w l t "-V^{x}"
+rep '<paste up-eta_res-0_2_ev/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_11252_40-spin_scissor_0_Nc_18-0_2_ev up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*PF*($3)/($13 + $15 + 0.0001)) w l t "-V^{y}"
+rep '<paste up-eta_res-0_2_ev/eta2.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_11252_40-spin_scissor_0_Nc_18-0_2_ev up-chi_res-0_2_ev/chi1.kk_xx_yy_zz_11252_40-spin_scissor_0_Nc_18-0_2_ev' u 1:(N*PF*($3)/($13 + $15 + 0.0001)) w l t "-V^{z}"
 
 
 
