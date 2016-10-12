@@ -20,6 +20,7 @@ commit 28f02bfb2213fa41c7a8c4964b4f22a2293d5278
 Author: reychino-medusa <reychino@gmail.com>
 Date:   Wed Oct 12 10:08:24 2016 -0500
     Responses changed to 0-20 eV.
+
 ################################################################################
 
 machines        machines latm/res    
@@ -85,6 +86,17 @@ hexa33
 hexa15
 hexa27
 
+rm .machines_latm .machines_res
+echo hexa28 > .machines_latm.original
+echo hexa28 > .machines_res.original
+echo hexa28 >> .machines_res.original
+echo hexa28 >> .machines_res.original
+echo hexa28 >> .machines_res.original
+echo hexa28 >> .machines_res.original
+echo hexa28 >> .machines_res.original
+echo hexa28 >> .machines_res.original
+echo hexa28 >> .machines_res.original
+echo hexa28 >> .machines_res.original
 
 
 
