@@ -1,0 +1,105 @@
+NORMALIZATION FACTOR TOREPOR THE RESPONSES
+l = longitud total z
+d = longitud de la estructura en z
+alt: 
+  l = 35
+  d = 5.564770162
+l/d = 6.2895679392
+n=6.2895679392
+set xrange [0.5:2.0]
+
+################################################################################
+################################################################################
+
+                        V A C U U M   C O N V E R G E N C E
+a=30/5.564770162
+b=35/5.564770162
+c=40/5.564770162
+
+Im[X] 
+
+  p "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z" u 1:(a*$3) w l t 'Im[X^{xx}], 30z'
+rep "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z" u 1:(b*$3) w l t 'Im[X^{xx}], 35z'
+rep "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z" u 1:(c*$3) w l t 'Im[X^{xx}], 40z'
+
+  p "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z" u 1:(a*$5) w l t 'Im[X^{xx}], 30z'
+rep "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z" u 1:(b*$5) w l t 'Im[X^{xx}], 35z'
+rep "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z" u 1:(c*$5) w l t 'Im[X^{xx}], 40z'
+
+  p "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z" u 1:(a*$7) w l t 'Im[X^{xx}], 30z'
+rep "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z" u 1:(b*$7) w l t 'Im[X^{xx}], 35z'
+rep "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z" u 1:(c*$7) w l t 'Im[X^{xx}], 40z'
+
+################################################################################
+
+a=40/5.564770162
+b=45/5.564770162
+c=50/5.564770162
+d=55/5.564770162
+e=60/5.564770162
+
+eta^{abc}
+
+  p 'alt-vac_res-0_2_ev/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z' u 1:(a*$3) w l t '\eta^{xxy}, 30z'
+rep 'alt-vac_res-0_2_ev/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$3) w l t '\eta^{xxy}, 35z'
+rep 'alt-vac_res-0_2_ev/eta2.kk_xxy_yxy_zxy_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z'                         u 1:(c*$2) w l t '\eta^{xxy}, 40z'
+
+  p 'alt-vac_res-0_2_ev/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z' u 1:(a*$3) w l t '\eta^{yxy}, 30z'
+rep 'alt-vac_res-0_2_ev/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$3) w l t '\eta^{yxy}, 35z'
+rep 'alt-vac_res-0_2_ev/eta2.kk_xxy_yxy_zxy_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z'                         u 1:(c*$3) w l t '\eta^{yxy}, 40z'
+
+  p 'alt-vac_res-0_2_ev/eta2.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z' u 1:(a*$3) w l t '\eta^{zxy}, 30z'
+rep 'alt-vac_res-0_2_ev/eta2.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$3) w l t '\eta^{zxy}, 35z'
+rep 'alt-vac_res-0_2_ev/eta2.kk_xxy_yxy_zxy_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z'                         u 1:(c*$4) w l t '\eta^{zxy}, 40z'
+
+################################################################################
+
+a=40/5.564770162
+b=45/5.564770162
+c=50/5.564770162
+d=55/5.564770162
+e=60/5.564770162
+
+mu^{abcd}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
