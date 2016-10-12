@@ -103,11 +103,105 @@ rep 'hbnc2h-vac-0-20-eV/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_5
   p 'hbnc2h-vac-0-20-eV/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_5-spin_scissor_0_Nc_22-35z' u 1:(b*$3) w l t 'mu^{zzxy}, 35z'
 rep 'hbnc2h-vac-0-20-eV/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_5-spin_scissor_0_Nc_22-40z' u 1:(c*$3) w l t 'mu^{zzxy}, 40z'
 
+
 ################################################################################
 ################################################################################
 
                         E C U T   C O N V E R G E N C E
                               (reached @ 50Ha!!)
+
+
+set xrange [0:5]
+
+Im[X] 
+
+  p 'hbnc2h-ecut-0-20-eV/chi1.kk_xx_yy_zz_452_40-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'Im[X^{xx}], 40Ha'
+rep 'hbnc2h-ecut-0-20-eV/chi1.kk_xx_yy_zz_452_45-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'Im[X^{xx}], 45Ha'
+rep 'hbnc2h-ecut-0-20-eV/chi1.kk_xx_yy_zz_452_50-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'Im[X^{xx}], 50Ha'
+rep 'hbnc2h-ecut-0-20-eV/chi1.kk_xx_yy_zz_452_55-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'Im[X^{xx}], 55Ha'
+
+  p 'hbnc2h-ecut-0-20-eV/chi1.kk_xx_yy_zz_452_40-spin_scissor_0_Nc_22' u 1:(n*$5) w l t 'Im[X^{yy}], 40Ha'
+rep 'hbnc2h-ecut-0-20-eV/chi1.kk_xx_yy_zz_452_45-spin_scissor_0_Nc_22' u 1:(n*$5) w l t 'Im[X^{yy}], 45Ha'
+rep 'hbnc2h-ecut-0-20-eV/chi1.kk_xx_yy_zz_452_50-spin_scissor_0_Nc_22' u 1:(n*$5) w l t 'Im[X^{yy}], 50Ha'
+rep 'hbnc2h-ecut-0-20-eV/chi1.kk_xx_yy_zz_452_55-spin_scissor_0_Nc_22' u 1:(n*$5) w l t 'Im[X^{yy}], 55Ha'
+
+  p 'hbnc2h-ecut-0-20-eV/chi1.kk_xx_yy_zz_452_40-spin_scissor_0_Nc_22' u 1:(n*$7) w l t 'Im[X^{zz}], 40Ha'
+rep 'hbnc2h-ecut-0-20-eV/chi1.kk_xx_yy_zz_452_45-spin_scissor_0_Nc_22' u 1:(n*$7) w l t 'Im[X^{zz}], 45Ha'
+rep 'hbnc2h-ecut-0-20-eV/chi1.kk_xx_yy_zz_452_50-spin_scissor_0_Nc_22' u 1:(n*$7) w l t 'Im[X^{zz}], 50Ha'
+rep 'hbnc2h-ecut-0-20-eV/chi1.kk_xx_yy_zz_452_55-spin_scissor_0_Nc_22' u 1:(n*$7) w l t 'Im[X^{zz}], 55Ha'
+
+################################################################################
+
+set xrange [0:5]
+
+eta^{abc}
+
+  p 'hbnc2h-ecut-0-20-eV/eta2.kk_xxy_yxy_zxy_452_40-spin_scissor_0_Nc_22' u 1:(n*$2) w l t '\eta^{xxy}, 40Ha'
+rep 'hbnc2h-ecut-0-20-eV/eta2.kk_xxy_yxy_zxy_452_45-spin_scissor_0_Nc_22' u 1:(n*$2) w l t '\eta^{xxy}, 45Ha'
+rep 'hbnc2h-ecut-0-20-eV/eta2.kk_xxy_yxy_zxy_452_50-spin_scissor_0_Nc_22' u 1:(n*$2) w l t '\eta^{xxy}, 50Ha'
+rep 'hbnc2h-ecut-0-20-eV/eta2.kk_xxy_yxy_zxy_452_55-spin_scissor_0_Nc_22' u 1:(n*$2) w l t '\eta^{xxy}, 55Ha'
+
+  p 'hbnc2h-ecut-0-20-eV/eta2.kk_xxy_yxy_zxy_452_40-spin_scissor_0_Nc_22' u 1:(n*$3) w l t '\eta^{yxy}, 40Ha'
+rep 'hbnc2h-ecut-0-20-eV/eta2.kk_xxy_yxy_zxy_452_45-spin_scissor_0_Nc_22' u 1:(n*$3) w l t '\eta^{yxy}, 45Ha'
+rep 'hbnc2h-ecut-0-20-eV/eta2.kk_xxy_yxy_zxy_452_50-spin_scissor_0_Nc_22' u 1:(n*$3) w l t '\eta^{yxy}, 50Ha'
+rep 'hbnc2h-ecut-0-20-eV/eta2.kk_xxy_yxy_zxy_452_55-spin_scissor_0_Nc_22' u 1:(n*$3) w l t '\eta^{yxy}, 55Ha'
+
+  p 'hbnc2h-ecut-0-20-eV/eta2.kk_xxy_yxy_zxy_452_40-spin_scissor_0_Nc_22' u 1:(n*$4) w l t '\eta^{zxy}, 40Ha'
+rep 'hbnc2h-ecut-0-20-eV/eta2.kk_xxy_yxy_zxy_452_45-spin_scissor_0_Nc_22' u 1:(n*$4) w l t '\eta^{zxy}, 45Ha'
+rep 'hbnc2h-ecut-0-20-eV/eta2.kk_xxy_yxy_zxy_452_50-spin_scissor_0_Nc_22' u 1:(n*$4) w l t '\eta^{zxy}, 50Ha'
+rep 'hbnc2h-ecut-0-20-eV/eta2.kk_xxy_yxy_zxy_452_55-spin_scissor_0_Nc_22' u 1:(n*$4) w l t '\eta^{zxy}, 55Ha'
+
+################################################################################
+
+set xrange [0:5]
+
+mu^{abcd}
+
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_40-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{xzxy}, 40Ha'
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_40-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{xxxy}, 40Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{xxxy}, 45Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{xxxy}, 50Ha'
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_55-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{xxxy}, 55Ha'
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_40-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{xyxy}, 40Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_45-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{xyxy}, 45Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_50-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{xyxy}, 50Ha'
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_55-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{xyxy}, 55Ha'
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_45-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{xzxy}, 45Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_50-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{xzxy}, 50Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_55-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{xzxy}, 55Ha'
+
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_40-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{yxxy}, 40Ha'
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_45-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{yxxy}, 45Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_50-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{yxxy}, 50Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_55-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{yxxy}, 55Ha'
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_40-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{yyxy}, 40Ha'
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_45-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{yyxy}, 45Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_50-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{yyxy}, 50Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_55-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{yyxy}, 55Ha'
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_40-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{yzxy}, 40Ha'
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_45-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{yzxy}, 45Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_50-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{yzxy}, 50Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_55-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{yzxy}, 55Ha'
+
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_40-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{zxxy}, 40Ha'
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_45-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{zxxy}, 45Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_50-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{zxxy}, 50Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_55-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{zxxy}, 55Ha'
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_40-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{zyxy}, 40Ha'
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_45-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{zyxy}, 45Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_50-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{zyxy}, 50Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_55-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{zyxy}, 55Ha'
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_40-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{zzxy}, 40Ha'
+  p 'hbnc2h-ecut-0-20-eV/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_45-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{zzxy}, 45Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_50-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{zzxy}, 50Ha'
+rep 'hbnc2h-ecut-0-20-eV/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_55-spin_scissor_0_Nc_22' u 1:(n*$3) w l t 'mu^{zzxy}, 55Ha'
+
+
+################################################################################
+################################################################################
+
+                        B A N D S   C O N V E R G E N C E
+
 
 
 set xrange [0:5]

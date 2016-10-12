@@ -1,6 +1,7 @@
         H B N C 2 H 
 
-responses.sh & all_responses.sh; energy ranges and git logs:
+responses.sh & all_responses.sh
+energy ranges and git logs:
 
 git reset --hard 97c721aeb797641d63d2bfab5fb38b20ea67be43 # ==>
 eminw=0
@@ -61,7 +62,7 @@ all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 30 -r 48 -t "yzxx yz
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 30 -r 48 -t "zxxx zxxy zxxz zxyx zxyy zxyz zxzx zxzy zxzz"
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 30 -r 48 -t "zyxx zyxy zyxz zyyx zyyy zyyz zyzx zyzy zyzz"
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 30 -r 48 -t "zzxx zzxy zzxz zzyx zzyy zzyz zzzx zzzy zzzz"
-hbnc2h-52nb
+hbnc2h-52nb [28]
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 34 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 34 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 34 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
@@ -71,7 +72,7 @@ all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 34 -r 48 -t "yzxx yz
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 34 -r 48 -t "zxxx zxxy zxxz zxyx zxyy zxyz zxzx zxzy zxzz"
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 34 -r 48 -t "zyxx zyxy zyxz zyyx zyyy zyyz zyzx zyzy zyzz"
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 34 -r 48 -t "zzxx zzxy zzxz zzyx zzyy zzyz zzzx zzzy zzzz"
-hbnc2h-56nb
+hbnc2h-56nb [30]
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 38 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 38 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 38 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
@@ -81,7 +82,7 @@ all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 38 -r 48 -t "yzxx yz
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 38 -r 48 -t "zxxx zxxy zxxz zxyx zxyy zxyz zxzx zxzy zxzz"
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 38 -r 48 -t "zyxx zyxy zyxz zyyx zyyy zyyz zyzx zyzy zyzz"
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 38 -r 48 -t "zzxx zzxy zzxz zzyx zzyy zzyz zzzx zzzy zzzz"
-hbnc2h-60nb
+hbnc2h-60nb [32]
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 42 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 42 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 42 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
@@ -92,6 +93,27 @@ all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 42 -r 48 -t "zxxx zx
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 42 -r 48 -t "zyxx zyxy zyxz zyyx zyyy zyyz zyzx zyzy zyzz"
 all_responses.sh -w total -m 452_50-spin -s 0 -o 1 -v 18 -c 42 -r 48 -t "zzxx zzxy zzxz zzyx zzyy zzyz zzzx zzzy zzzz"
 
+################################################################################
+
+#!/bin/bash
+kpts=( 1802 2452 3202 5002 )
+START=$(date)
+for i in ${kpts[@]}; do
+    all_responses.sh -w total -m "$i"_50-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
+    all_responses.sh -w total -m "$i"_50-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
+    all_responses.sh -w total -m "$i"_50-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
+    all_responses.sh -w total -m "$i"_50-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "yxxx yxxy yxxz yxyx yxyy yxyz yxzx yxzy yxzz"
+    all_responses.sh -w total -m "$i"_50-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "yyxx yyxy yyxz yyyx yyyy yyyz yyzx yyzy yyzz"
+    all_responses.sh -w total -m "$i"_50-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "yzxx yzxy yzxz yzyx yzyy yzyz yzzx yzzy yzzz"
+    all_responses.sh -w total -m "$i"_50-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "zxxx zxxy zxxz zxyx zxyy zxyz zxzx zxzy zxzz"
+    all_responses.sh -w total -m "$i"_50-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "zyxx zyxy zyxz zyyx zyyy zyyz zyzx zyzy zyzz"
+    all_responses.sh -w total -m "$i"_50-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "zzxx zzxy zzxz zzyx zzyy zzyz zzzx zzzy zzzz"
+done
+END=$(date)
+ssh cassandra "echo -e 'Calculations completed for $i kpts\nStarted at $START \nFinished at $END \n\nArray of ktps: \n${kpts[@]} ' | mail -s '$i kpts' reychino@gmail.com"
+
+
+################################################################################
 
 
 NORMALIZATION FACTOR TO REPOR THE RESPONSES
