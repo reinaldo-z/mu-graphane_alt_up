@@ -18,52 +18,155 @@ c=40/5.564770162
 
 Im[X] 
 
-  p "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z" u 1:(a*$3) w l t 'Im[X^{xx}], 30z'
-rep "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z" u 1:(b*$3) w l t 'Im[X^{xx}], 35z'
-rep "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z" u 1:(c*$3) w l t 'Im[X^{xx}], 40z'
+  p 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'Im[X^{xx}], 30z'
+rep 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'Im[X^{xx}], 35z'
+rep 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'Im[X^{xx}], 40z'
 
-  p "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z" u 1:(a*$5) w l t 'Im[X^{xx}], 30z'
-rep "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z" u 1:(b*$5) w l t 'Im[X^{xx}], 35z'
-rep "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z" u 1:(c*$5) w l t 'Im[X^{xx}], 40z'
+  p 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$5) w l t 'Im[X^{xx}], 30z'
+rep 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$5) w l t 'Im[X^{xx}], 35z'
+rep 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$5) w l t 'Im[X^{xx}], 40z'
 
-  p "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z" u 1:(a*$7) w l t 'Im[X^{xx}], 30z'
-rep "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z" u 1:(b*$7) w l t 'Im[X^{xx}], 35z'
-rep "alt-vac_res-0_2_ev/chi1.kk_xx_yy_zz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z" u 1:(c*$7) w l t 'Im[X^{xx}], 40z'
+  p 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$7) w l t 'Im[X^{xx}], 30z'
+rep 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$7) w l t 'Im[X^{xx}], 35z'
+rep 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$7) w l t 'Im[X^{xx}], 40z'
 
 ################################################################################
 
-a=40/5.564770162
-b=45/5.564770162
-c=50/5.564770162
-d=55/5.564770162
-e=60/5.564770162
+a=30/5.564770162
+b=35/5.564770162
+c=40/5.564770162
 
 eta^{abc}
 
-  p 'alt-vac_res-0_2_ev/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z' u 1:(a*$3) w l t '\eta^{xxy}, 30z'
-rep 'alt-vac_res-0_2_ev/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$3) w l t '\eta^{xxy}, 35z'
-rep 'alt-vac_res-0_2_ev/eta2.kk_xxy_yxy_zxy_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z'                         u 1:(c*$2) w l t '\eta^{xxy}, 40z'
+  p 'hbnc2h-vac-0-20-eV/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t '\eta^{xxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t '\eta^{xxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t '\eta^{xxy}, 40z'
 
-  p 'alt-vac_res-0_2_ev/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z' u 1:(a*$3) w l t '\eta^{yxy}, 30z'
-rep 'alt-vac_res-0_2_ev/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$3) w l t '\eta^{yxy}, 35z'
-rep 'alt-vac_res-0_2_ev/eta2.kk_xxy_yxy_zxy_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z'                         u 1:(c*$3) w l t '\eta^{yxy}, 40z'
+  p 'hbnc2h-vac-0-20-eV/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t '\eta^{yxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t '\eta^{yxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t '\eta^{yxy}, 40z'
 
-  p 'alt-vac_res-0_2_ev/eta2.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z' u 1:(a*$3) w l t '\eta^{zxy}, 30z'
-rep 'alt-vac_res-0_2_ev/eta2.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$3) w l t '\eta^{zxy}, 35z'
-rep 'alt-vac_res-0_2_ev/eta2.kk_xxy_yxy_zxy_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z'                         u 1:(c*$4) w l t '\eta^{zxy}, 40z'
+  p 'hbnc2h-vac-0-20-eV/eta2.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t '\eta^{zxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/eta2.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t '\eta^{zxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/eta2.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t '\eta^{zxy}, 40z'
 
 ################################################################################
 
-a=40/5.564770162
-b=45/5.564770162
-c=50/5.564770162
-d=55/5.564770162
-e=60/5.564770162
+a=30/5.564770162
+b=35/5.564770162
+c=40/5.564770162
 
 mu^{abcd}
 
+  p 'hbnc2h-vac-0-20-eV/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xxxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xxxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xxxy}, 40z'
+  p 'hbnc2h-vac-0-20-eV/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xyxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xyxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xyxy}, 40z'
+  p 'hbnc2h-vac-0-20-eV/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xzxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xzxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xzxy}, 40z'
 
+  p 'hbnc2h-vac-0-20-eV/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xxxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xxxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xxxy}, 40z'
+  p 'hbnc2h-vac-0-20-eV/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xyxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xyxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xyxy}, 40z'
+  p 'hbnc2h-vac-0-20-eV/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xzxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xzxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xzxy}, 40z'
 
+  p 'hbnc2h-vac-0-20-eV/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xxxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xxxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xxxy}, 40z'
+  p 'hbnc2h-vac-0-20-eV/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xyxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xyxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xyxy}, 40z'
+  p 'hbnc2h-vac-0-20-eV/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xzxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xzxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xzxy}, 40z'
+
+################################################################################
+################################################################################
+
+                        E C U T   C O N V E R G E N C E
+a=30/5.564770162
+b=35/5.564770162
+c=40/5.564770162
+
+Im[X] 
+
+  p 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'Im[X^{xx}], 30z'
+rep 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'Im[X^{xx}], 35z'
+rep 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'Im[X^{xx}], 40z'
+
+  p 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$5) w l t 'Im[X^{xx}], 30z'
+rep 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$5) w l t 'Im[X^{xx}], 35z'
+rep 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$5) w l t 'Im[X^{xx}], 40z'
+
+  p 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$7) w l t 'Im[X^{xx}], 30z'
+rep 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$7) w l t 'Im[X^{xx}], 35z'
+rep 'hbnc2h-vac-0-20-eV/chi1.kk_xx_yy_zz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$7) w l t 'Im[X^{xx}], 40z'
+
+################################################################################
+
+a=30/5.564770162
+b=35/5.564770162
+c=40/5.564770162
+
+eta^{abc}
+
+  p 'hbnc2h-vac-0-20-eV/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t '\eta^{xxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t '\eta^{xxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/eta2.kk_xxx_xxy_xxz_xyx_xyy_xyz_xzx_xzy_xzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t '\eta^{xxy}, 40z'
+
+  p 'hbnc2h-vac-0-20-eV/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t '\eta^{yxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t '\eta^{yxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/eta2.kk_yxx_yxy_yxz_yyx_yyy_yyz_yzx_yzy_yzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t '\eta^{yxy}, 40z'
+
+  p 'hbnc2h-vac-0-20-eV/eta2.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t '\eta^{zxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/eta2.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t '\eta^{zxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/eta2.kk_zxx_zxy_zxz_zyx_zyy_zyz_zzx_zzy_zzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t '\eta^{zxy}, 40z'
+
+################################################################################
+
+a=30/5.564770162
+b=35/5.564770162
+c=40/5.564770162
+
+mu^{abcd}
+
+  p 'hbnc2h-vac-0-20-eV/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xxxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xxxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xxxy}, 40z'
+  p 'hbnc2h-vac-0-20-eV/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xyxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xyxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xyxy}, 40z'
+  p 'hbnc2h-vac-0-20-eV/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xzxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xzxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xzxy}, 40z'
+
+  p 'hbnc2h-vac-0-20-eV/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xxxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xxxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xxxy}, 40z'
+  p 'hbnc2h-vac-0-20-eV/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xyxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xyxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xyxy}, 40z'
+  p 'hbnc2h-vac-0-20-eV/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xzxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xzxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xzxy}, 40z'
+
+  p 'hbnc2h-vac-0-20-eV/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xxxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xxxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xxxy}, 40z'
+  p 'hbnc2h-vac-0-20-eV/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xyxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xyxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xyxy}, 40z'
+  p 'hbnc2h-vac-0-20-eV/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-30z' u 1:(a*$3) w l t 'mu^{xzxy}, 30z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-35z' u 1:(b*$3) w l t 'mu^{xzxy}, 35z'
+rep 'hbnc2h-vac-0-20-eV/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_5-spin_scissor_0_Nc_32-0_20_eV-40z' u 1:(c*$3) w l t 'mu^{xzxy}, 40z'
 
 
 
