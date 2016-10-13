@@ -12,6 +12,7 @@ set xrange [0.5:2.0]
 ################################################################################
 
                         V A C U U M   C O N V E R G E N C E
+
 a=40/5.564770162
 b=45/5.564770162
 c=50/5.564770162
@@ -63,48 +64,57 @@ e=60/5.564770162
 
 mu^{abcd}
 
-  p 'alt-vac_res-0_2_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'yzyy, 45z'
-rep 'alt-vac_res-0_2_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'yzyy, 50z'
+  p 'alt-vac_res-0_2_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z' u 1:(a*$6) w l t 'yzyy, 40z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'yzyy, 45z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'yzyy, 50z'
 rep 'alt-vac_res-0_2_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-55z' u 1:(d*$6) w l t 'yzyy, 55z'
 rep 'alt-vac_res-0_2_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-60z' u 1:(e*$6) w l t 'yzyy, 60z'
 
-  p 'alt-vac_res-0_2_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'xxyy, 45z'
-rep 'alt-vac_res-0_2_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'xxyy, 50z'
+  p 'alt-vac_res-0_2_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z' u 1:(b*$6) w l t 'xxyy, 40z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'xxyy, 45z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'xxyy, 50z'
 rep 'alt-vac_res-0_2_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-55z' u 1:(d*$6) w l t 'xxyy, 55z'
 rep 'alt-vac_res-0_2_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-60z' u 1:(e*$6) w l t 'xxyy, 60z'
 
-  p 'alt-vac_res-0_2_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'xyyy, 45z'
-rep 'alt-vac_res-0_2_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'xyyy, 50z'
+  p 'alt-vac_res-0_2_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z' u 1:(b*$6) w l t 'xyyy, 40z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'xyyy, 45z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'xyyy, 50z'
 rep 'alt-vac_res-0_2_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-55z' u 1:(d*$6) w l t 'xyyy, 55z'
 rep 'alt-vac_res-0_2_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-60z' u 1:(e*$6) w l t 'xyyy, 60z'
 
-  p 'alt-vac_res-0_2_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'xzyy, 45z'
-rep 'alt-vac_res-0_2_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'xzyy, 50z'
+  p 'alt-vac_res-0_2_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z' u 1:(b*$6) w l t 'xzyy, 40z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'xzyy, 45z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'xzyy, 50z'
 rep 'alt-vac_res-0_2_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-55z' u 1:(d*$6) w l t 'xzyy, 55z'
 rep 'alt-vac_res-0_2_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-60z' u 1:(e*$6) w l t 'xzyy, 60z'
 
-  p 'alt-vac_res-0_2_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'yxyy, 45z'
-rep 'alt-vac_res-0_2_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'yxyy, 50z'
+  p 'alt-vac_res-0_2_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z' u 1:(b*$6) w l t 'yxyy, 40z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'yxyy, 45z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'yxyy, 50z'
 rep 'alt-vac_res-0_2_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-55z' u 1:(d*$6) w l t 'yxyy, 55z'
 rep 'alt-vac_res-0_2_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-60z' u 1:(e*$6) w l t 'yxyy, 60z'
 
-  p 'alt-vac_res-0_2_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'yyyy, 45z'
-rep 'alt-vac_res-0_2_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'yyyy, 50z'
+  p 'alt-vac_res-0_2_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z' u 1:(b*$6) w l t 'yyyy, 40z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'yyyy, 45z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'yyyy, 50z'
 rep 'alt-vac_res-0_2_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-55z' u 1:(d*$6) w l t 'yyyy, 55z'
 rep 'alt-vac_res-0_2_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-60z' u 1:(e*$6) w l t 'yyyy, 60z'
 
-  p 'alt-vac_res-0_2_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'zxyy, 45z'
-rep 'alt-vac_res-0_2_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'zxyy, 50z'
+  p 'alt-vac_res-0_2_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z' u 1:(b*$6) w l t 'zxyy, 40z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'zxyy, 45z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'zxyy, 50z'
 rep 'alt-vac_res-0_2_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-55z' u 1:(d*$6) w l t 'zxyy, 55z'
 rep 'alt-vac_res-0_2_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-60z' u 1:(e*$6) w l t 'zxyy, 60z'
 
-  p 'alt-vac_res-0_2_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'zyyy, 45z'
-rep 'alt-vac_res-0_2_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'zyyy, 50z'
+  p 'alt-vac_res-0_2_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z' u 1:(b*$6) w l t 'zyyy, 40z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'zyyy, 45z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'zyyy, 50z'
 rep 'alt-vac_res-0_2_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-55z' u 1:(d*$6) w l t 'zyyy, 55z'
 rep 'alt-vac_res-0_2_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-60z' u 1:(e*$6) w l t 'zyyy, 60z'
 
-  p 'alt-vac_res-0_2_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'zzyy, 45z'
-rep 'alt-vac_res-0_2_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'zzyy, 50z'
+  p 'alt-vac_res-0_2_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-40z' u 1:(b*$6) w l t 'zzyy, 40z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-45z' u 1:(b*$6) w l t 'zzyy, 45z'
+#rep 'alt-vac_res-0_2_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-50z' u 1:(c*$6) w l t 'zzyy, 50z'
 rep 'alt-vac_res-0_2_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-55z' u 1:(d*$6) w l t 'zzyy, 55z'
 rep 'alt-vac_res-0_2_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_14452_65-spin_scissor_0_Nc_32-0_2_ev-60z' u 1:(e*$6) w l t 'zzyy, 60z'
 
