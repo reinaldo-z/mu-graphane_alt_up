@@ -35,19 +35,47 @@ hexa16
 hexa17
 hexa18
 hexa19
-hexa20
-hexa31
-hexa14
-hexa16
-hexa17
-hexa18
-hexa19
-hexa25
-hexa26
+PMN1
+    hexa20
+    hexa31
+    hexa14
+PMN2
+    hexa16
+    hexa17
+    hexa18
+PMN3
+    hexa25
+    hexa26
+    hexa33 (working properly?)
+
+    machines latm/res
 hexa28
 hexa30
 hexa32
-hexa33 (working properly?)
+
+    #MakeMachines_res
+rm .machines_latm &>/dev/null
+rm .machines_res  &>/dev/null
+printf 'hexa25\n%.0s'        >  .machines_latm.original
+printf 'hexa25\n%.0s' {1..9} >  .machines_res.original
+
+
+    #MakeMachines_pmn/scf
+rm .machines_pmn &>/dev/null
+rm .machines_scf &>/dev/null
+printf 'hexa25\n%.0s' >  .machines_scf.original
+printf 'hexa26\n%.0s' >> .machines_scf.original
+printf 'hexa33\n%.0s' >> .machines_scf.original
+printf 'hexa25\n%.0s' {1..12} >  .machines_pmn.original
+printf 'hexa26\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa33\n%.0s' {1..12} >> .machines_pmn.original
+
+    #RemoveMachines
+rm .machines_latm
+rm .machines_pmn
+rm .machines_res
+rm .machines_scf
+
 
     kill process
 ssh hexa03 'killall -u reinaldo'
@@ -66,12 +94,9 @@ ssh hexa18 'killall -u reinaldo'
 ssh hexa19 'killall -u reinaldo'
 ssh hexa25 'killall -u reinaldo'
 ssh hexa26 'killall -u reinaldo'
-ssh hexa28 'killall -u reinaldo'
-ssh hexa30 'killall -u reinaldo'
 ssh hexa31 'killall -u reinaldo'
-ssh hexa32 'killall -u reinaldo'
 
-machines in use
+    machines in use
 hexa01 (tona, sma)
 hexa02 (tona)
 hexa03 (tona)
@@ -85,27 +110,10 @@ hexa22 (narzate)
 hexa23 (narzate, nap)
 hexa24 (nap)
 
-
-machines out
+    machines out
 hexa29 (RIP)
-
-/data not working (infiniband)
-hexa15
-hexa27
-
-
-    #RemoveMachines
-rm .machines_latm
-rm .machines_pmn
-rm .machines_res
-rm .machines_scf
-
-
-    #MakeMachines_pmn
-rm .machines_pmn
-printf '\n%.0s' {1..5} >  .machines_pmn.original
-printf '\n%.0s' {1..5} >> .machines_pmn.original
-
+hexa15 (data not working (infiniband))
+hexa27 (data not working (infiniband))
 
 
 
