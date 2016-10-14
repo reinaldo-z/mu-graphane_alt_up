@@ -32,7 +32,8 @@ abinit_check.sh 2
 echo 1 | rklist.sh 31 31 2 abinit # --> 452 kpts
 
 run_tiniba.sh
-run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P ? -w -e -p -s ; run_tiniba.sh -r erase
+run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 173 -w -e -p -s
+run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf 
 
 res:
 all_responses.sh -w total -m 452_5-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"

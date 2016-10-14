@@ -17,7 +17,7 @@ set xrange [0.5:2.0]
 a=30/5.564770162
 b=35/5.564770162
 c=40/5.564770162
-set xrange [0:5]
+set xrange [0:1.5]
 
 Im[X] 
 
@@ -143,6 +143,8 @@ rep 'hbnc2h-vac-0-20-eV/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_5
 
 
 set xrange [0:5]
+n = 3.8718610009  # Change afther convergence!!!
+
 
 Im[X] 
 
@@ -368,13 +370,13 @@ rep 'hbnc2h-kpts-0-20-eV/eta2.kk_xxy_yxy_zxy_5002_50-spin_scissor_0_Nc_32' u 1:(
 
 ################################################################################
 
-set xrange [2:7]
+set xrange [2:3]
 
 mu^{abcd}
 
   p 'hbnc2h-kpts-0-20-eV/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_1802_50-spin_scissor_0_Nc_32' u 1:(n*$3) w l t 'mu^{xxxy}, 1802 kpts'
 rep 'hbnc2h-kpts-0-20-eV/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_2452_50-spin_scissor_0_Nc_32' u 1:(n*$3) w l t 'mu^{xxxy}, 2452 kpts'
-rep 'hbnc2h-kpts-0-20-eV/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_3202_50-spin_scissor_0_Nc_32' u 1:(n*$3) w l t 'mu^{xxxy}, 3202 kpts'
+  p 'hbnc2h-kpts-0-20-eV/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_3202_50-spin_scissor_0_Nc_32' u 1:(n*$3) w l t 'mu^{xxxy}, 3202 kpts'
 rep 'hbnc2h-kpts-0-20-eV/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5002_50-spin_scissor_0_Nc_32' u 1:(n*$3) w l t 'mu^{xxxy}, 5002 kpts'
   p 'hbnc2h-kpts-0-20-eV/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_1802_50-spin_scissor_0_Nc_32' u 1:(n*$3) w l t 'mu^{xyxy}, 1802 kpts'
 rep 'hbnc2h-kpts-0-20-eV/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_2452_50-spin_scissor_0_Nc_32' u 1:(n*$3) w l t 'mu^{xyxy}, 2452 kpts'
