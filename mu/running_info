@@ -30,17 +30,16 @@ hexa11 (working properly?)
 hexa12
 hexa13
 hexa14
-hexa15
-hexa16
-hexa17
-hexa18
-hexa19
+PMN4
+    hexa17
+    hexa18
+    hexa19
 PMN1
     hexa20
     hexa31
     hexa14
 PMN2
-    hexa16
+    hexa15
     hexa17
     hexa18
 PMN3
@@ -56,19 +55,19 @@ hexa32
     #MakeMachines_latm/res
 rm .machines_latm &>/dev/null
 rm .machines_res  &>/dev/null
-printf 'hexa20\n%.0s'        >  .machines_latm.original
-printf 'hexa20\n%.0s' {1..9} >  .machines_res.original
+printf 'hexa15\n%.0s'        >  .machines_latm.original
+printf 'hexa15\n%.0s' {1..9} >  .machines_res.original
 
 
     #MakeMachines_pmn/scf
 rm .machines_pmn &>/dev/null
 rm .machines_scf &>/dev/null
-printf 'hexa20\n%.0s' >  .machines_scf.original
-printf 'hexa31\n%.0s' >> .machines_scf.original
-printf 'hexa14\n%.0s' >> .machines_scf.original
-printf 'hexa20\n%.0s' {1..12} >  .machines_pmn.original
-printf 'hexa31\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa14\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa15\n%.0s' >  .machines_scf.original
+printf 'hexa17\n%.0s' >> .machines_scf.original
+printf 'hexa18\n%.0s' >> .machines_scf.original
+printf 'hexa15\n%.0s' {1..12} >  .machines_pmn.original
+printf 'hexa17\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa18\n%.0s' {1..12} >> .machines_pmn.original
 
     kill process
 ssh hexa03 'killall -u reinaldo'
@@ -104,6 +103,9 @@ hexa23 (narzate, nap)
 hexa24 (nap)
 
     machines out
+hexa16 
+    1. no mpd is running on this host
+    2. an mpd is running but was started without a "console" (-n option)
 hexa29 (RIP)
 hexa15 (data not working (infiniband))
 hexa27 (data not working (infiniband))

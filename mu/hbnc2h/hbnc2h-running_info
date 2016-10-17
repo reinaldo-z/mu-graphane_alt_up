@@ -26,14 +26,15 @@ Date:   Wed Oct 12 10:08:24 2016 -0500
 
 running time:
 
+sed -i '63s/.*/ecut          22/' setUpAbinit_hbnc2h-20z.in ; grep cut setUpAbinit*
+
 abinit_check.sh 1
 abinit_check.sh 2
 
 echo 1 | rklist.sh 31 31 2 abinit # --> 452 kpts
 
 run_tiniba.sh
-run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 307 -w -e -p -s
-run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf 
+run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 376 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf ; rm -r *check ; grep cut setUpAbinit*
 
 res:
 all_responses.sh -w total -m 452_12-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
