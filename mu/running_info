@@ -27,11 +27,11 @@ Date:   Wed Oct 12 10:08:24 2016 -0500
 hexa09
 hexa10
 hexa11 (working properly?)
-PMN1: 20z
+PMN1: 35z
     hexa20
     hexa31
     hexa14
-PMN2: 25z
+PMN2: 40z
     hexa25
     hexa26
     hexa33
@@ -55,18 +55,18 @@ hexa32
     #MakeMachines_latm/res
 rm .machines_latm &>/dev/null
 rm .machines_res  &>/dev/null
-printf 'hexa11\n%.0s'        >  .machines_latm.original
-printf 'hexa11\n%.0s' {1..9} >  .machines_res.original
+printf 'hexa25\n%.0s'        >  .machines_latm.original
+printf 'hexa25\n%.0s' {1..9} >  .machines_res.original
 
     #MakeMachines_pmn/scf
 rm .machines_pmn &>/dev/null
 rm .machines_scf &>/dev/null
-printf 'hexa11\n%.0s' >  .machines_scf.original
-printf 'hexa16\n%.0s' >> .machines_scf.original
-printf 'hexa17\n%.0s' >> .machines_scf.original
-printf 'hexa11\n%.0s' {1..12} >  .machines_pmn.original
-printf 'hexa16\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa17\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa25\n%.0s' >  .machines_scf.original
+printf 'hexa26\n%.0s' >> .machines_scf.original
+printf 'hexa33\n%.0s' >> .machines_scf.original
+printf 'hexa25\n%.0s' {1..12} >  .machines_pmn.original
+printf 'hexa26\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa33\n%.0s' {1..12} >> .machines_pmn.original
 
     kill process
 ssh hexa15 'killall -u reinaldo'
