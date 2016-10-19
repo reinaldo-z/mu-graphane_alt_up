@@ -27,23 +27,22 @@ Date:   Wed Oct 12 10:08:24 2016 -0500
 hexa09
 hexa10
 hexa11 (working properly?)
-hexa12
-PMN4
-    hexa13
-    hexa18
-    hexa19
-PMN1 20z
+PMN1: 20z
     hexa20
     hexa31
     hexa14
-PMN3
-    hexa28 ?
-    hexa30
-    hexa32
-PMN2 25z
+PMN2: 25z
     hexa25
     hexa26
     hexa33 (working properly?)
+PMN3: 30z
+    hexa30
+    hexa32
+    hexa12
+PMN4: 35z
+    hexa13
+    hexa18
+    hexa19
 
     machines latm/res
 hexa28
@@ -53,24 +52,23 @@ hexa32
     #MakeMachines_latm/res
 rm .machines_latm &>/dev/null
 rm .machines_res  &>/dev/null
-printf 'hexa28\n%.0s'        >  .machines_latm.original
-printf 'hexa28\n%.0s' {1..9} >  .machines_res.original
-
+printf 'hexa30\n%.0s'        >  .machines_latm.original
+printf 'hexa30\n%.0s' {1..9} >  .machines_res.original
 
     #MakeMachines_pmn/scf
 rm .machines_pmn &>/dev/null
 rm .machines_scf &>/dev/null
-printf 'hexa28\n%.0s' >  .machines_scf.original
-printf 'hexa30\n%.0s' >> .machines_scf.original
+printf 'hexa30\n%.0s' >  .machines_scf.original
 printf 'hexa32\n%.0s' >> .machines_scf.original
-printf 'hexa28\n%.0s' {1..12} >  .machines_pmn.original
-printf 'hexa30\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa12\n%.0s' >> .machines_scf.original
+printf 'hexa30\n%.0s' {1..12} >  .machines_pmn.original
 printf 'hexa32\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa12\n%.0s' {1..12} >> .machines_pmn.original
 
     kill process
-ssh hexa20 'killall -u reinaldo'
-ssh hexa31 'killall -u reinaldo'
-ssh hexa14 'killall -u reinaldo'
+ssh hexa28 'killall -u reinaldo'
+ssh hexa30 'killall -u reinaldo'
+ssh hexa32 'killall -u reinaldo'
 ssh hexa15 'killall -u reinaldo'
 ssh hexa17 'killall -u reinaldo'
 ssh hexa18 'killall -u reinaldo'
@@ -108,6 +106,7 @@ hexa16
 hexa29 (RIP)
 hexa15 (data not working (infiniband))
 hexa27 (data not working (infiniband))
+hexa28 (infiniband not working)
 
 
 
