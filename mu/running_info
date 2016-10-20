@@ -35,15 +35,15 @@ PMN2: 40z
     hexa25
     hexa26
     hexa33
-PMN3: 30z
+PMN3: 45z
     hexa30
     hexa32
     hexa12
-PMN4: 35z
+PMN4: 50z
     hexa13
     hexa18
     hexa19
-PMN5: 40z
+PMN5: 55z
     hexa11
     hexa16
     hexa17
@@ -55,18 +55,18 @@ hexa32
     #MakeMachines_latm/res
 rm .machines_latm &>/dev/null
 rm .machines_res  &>/dev/null
-printf 'hexa25\n%.0s'        >  .machines_latm.original
-printf 'hexa25\n%.0s' {1..9} >  .machines_res.original
+printf 'hexa11\n%.0s'        >  .machines_latm.original
+printf 'hexa11\n%.0s' {1..9} >  .machines_res.original
 
     #MakeMachines_pmn/scf
 rm .machines_pmn &>/dev/null
 rm .machines_scf &>/dev/null
-printf 'hexa25\n%.0s' >  .machines_scf.original
-printf 'hexa26\n%.0s' >> .machines_scf.original
-printf 'hexa33\n%.0s' >> .machines_scf.original
-printf 'hexa25\n%.0s' {1..12} >  .machines_pmn.original
-printf 'hexa26\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa33\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa11\n%.0s' >  .machines_scf.original
+printf 'hexa16\n%.0s' >> .machines_scf.original
+printf 'hexa17\n%.0s' >> .machines_scf.original
+printf 'hexa11\n%.0s' {1..12} >  .machines_pmn.original
+printf 'hexa16\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa17\n%.0s' {1..12} >> .machines_pmn.original
 
     kill process
 ssh hexa15 'killall -u reinaldo'
