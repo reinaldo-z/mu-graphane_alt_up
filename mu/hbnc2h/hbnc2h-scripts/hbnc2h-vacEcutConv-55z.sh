@@ -1,11 +1,11 @@
-## hbnc2h 45z
+## hbnc2h 55z
 
 rm -r *check
 sed -i '63s/.*/ecut          70/' setUpAbinit*.in
 grep -n cut setUpAbinit*
 abinit_check.sh 1
 abinit_check.sh 2
-run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 4724 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
+run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 5778 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
 all_responses.sh -w total -m 452_70-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
 all_responses.sh -w total -m 452_70-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
 all_responses.sh -w total -m 452_70-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
@@ -23,7 +23,7 @@ sed -i '63s/.*/ecut          72/' setUpAbinit*.in
 grep -n cut setUpAbinit*
 abinit_check.sh 1
 abinit_check.sh 2
-run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 4934 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
+run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 6031 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
 all_responses.sh -w total -m 452_72-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
 all_responses.sh -w total -m 452_72-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
 all_responses.sh -w total -m 452_72-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
@@ -41,7 +41,7 @@ sed -i '63s/.*/ecut          75/' setUpAbinit*.in
 grep -n cut setUpAbinit*
 abinit_check.sh 1
 abinit_check.sh 2
-run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 5247 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
+run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 6413 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
 all_responses.sh -w total -m 452_75-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
 all_responses.sh -w total -m 452_75-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
 all_responses.sh -w total -m 452_75-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
@@ -59,7 +59,7 @@ sed -i '63s/.*/ecut          77/' setUpAbinit*.in
 grep -n cut setUpAbinit*
 abinit_check.sh 1
 abinit_check.sh 2
-run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 5451 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
+run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 6666 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
 all_responses.sh -w total -m 452_77-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
 all_responses.sh -w total -m 452_77-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
 all_responses.sh -w total -m 452_77-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
@@ -77,7 +77,7 @@ sed -i '63s/.*/ecut          80/' setUpAbinit*.in
 grep -n cut setUpAbinit*
 abinit_check.sh 1
 abinit_check.sh 2
-run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 5781 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
+run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 7062 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
 all_responses.sh -w total -m 452_80-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
 all_responses.sh -w total -m 452_80-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
 all_responses.sh -w total -m 452_80-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
@@ -95,7 +95,7 @@ sed -i '63s/.*/ecut          82/' setUpAbinit*.in
 grep -n cut setUpAbinit*
 abinit_check.sh 1
 abinit_check.sh 2
-run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 6007 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
+run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 7342 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
 all_responses.sh -w total -m 452_82-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
 all_responses.sh -w total -m 452_82-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
 all_responses.sh -w total -m 452_82-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
@@ -113,7 +113,7 @@ sed -i '63s/.*/ecut          85/' setUpAbinit*.in
 grep -n cut setUpAbinit*
 abinit_check.sh 1
 abinit_check.sh 2
-run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 6329 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
+run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 7746 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
 all_responses.sh -w total -m 452_85-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
 all_responses.sh -w total -m 452_85-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
 all_responses.sh -w total -m 452_85-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
@@ -131,7 +131,7 @@ sed -i '63s/.*/ecut          87/' setUpAbinit*.in
 grep -n cut setUpAbinit*
 abinit_check.sh 1
 abinit_check.sh 2
-run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 6546 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
+run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 8002 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
 all_responses.sh -w total -m 452_87-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
 all_responses.sh -w total -m 452_87-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
 all_responses.sh -w total -m 452_87-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
@@ -149,7 +149,7 @@ sed -i '63s/.*/ecut          90/' setUpAbinit*.in
 grep -n cut setUpAbinit*
 abinit_check.sh 1
 abinit_check.sh 2
-run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 6888 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
+run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 8 -P 8418 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
 all_responses.sh -w total -m 452_90-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
 all_responses.sh -w total -m 452_90-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xyxx xyxy xyxz xyyx xyyy xyyz xyzx xyzy xyzz"
 all_responses.sh -w total -m 452_90-spin -s 0 -o 1 -v 18 -c 22 -r 48 -t "xzxx xzxy xzxz xzyx xzyy xzyz xzzx xzzy xzzz"
