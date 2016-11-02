@@ -27,23 +27,23 @@ Date:   Wed Oct 12 10:08:24 2016 -0500
 hexa09
 hexa10
 hexa11 (working properly?)
-PMN1: 35z
+PMN1: alt-35z
     hexa20
     hexa31
     hexa14
-PMN2: 40z
+PMN2: alt-40z
     hexa25
     hexa26
     hexa33
-PMN3: 45z
+PMN3: alt-45z
     hexa30
     hexa32
     hexa12
-PMN4: 50z
+PMN4: alt-50z
     hexa13
     hexa18
     hexa19
-PMN5: 55z
+PMN5: alt-55z
     hexa11
     hexa16
     hexa17
@@ -69,16 +69,16 @@ printf 'hexa16\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa17\n%.0s' {1..12} >> .machines_pmn.original
 
     kill process
-ssh hexa15 'killall -u reinaldo'
-ssh hexa16 'killall -u reinaldo'
-ssh hexa17 'killall -u reinaldo'
-ssh hexa15 'killall -u reinaldo'
-ssh hexa17 'killall -u reinaldo'
-ssh hexa18 'killall -u reinaldo'
 ssh hexa25 'killall -u reinaldo'
 ssh hexa26 'killall -u reinaldo'
 ssh hexa33 'killall -u reinaldo'
-ssh hexa14 'killall -u reinaldo'
+ssh hexa30 'killall -u reinaldo'
+ssh hexa32 'killall -u reinaldo'
+ssh hexa12 'killall -u reinaldo'
+ssh hexa13 'killall -u reinaldo'
+ssh hexa18 'killall -u reinaldo'
+ssh hexa19 'killall -u reinaldo'
+ssh hexa11 'killall -u reinaldo'
 ssh hexa16 'killall -u reinaldo'
 ssh hexa17 'killall -u reinaldo'
 ssh hexa18 'killall -u reinaldo'
@@ -111,9 +111,12 @@ hexa15 (data not working (infiniband))
 hexa27 (data not working (infiniband))
 hexa28 (infiniband not working)
 
+################################################################################
 
-
-
+rm -r *check
+sed -i '57s/.*/ecut          30/' setUpAbinit*.in
+abinit_check.sh 1
+abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
 
 
 
