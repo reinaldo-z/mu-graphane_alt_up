@@ -113,6 +113,11 @@ b=40/5.564770162
 c=45/5.564770162
 d=50/5.564770162
 e=55/5.564770162
+f=60/5.564770162
+g=65/5.564770162
+h=70/5.564770162
+i=75/5.564770162
+j=80/5.564770162
 
 mu^{abcd}
 
@@ -120,101 +125,60 @@ p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_32-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 32Ha' # Convergece!
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_35-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 35Ha'
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_37-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 37Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_40-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 40Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_42-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 42Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 45Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_47-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 47Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 50Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_52-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 52Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_55-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 55Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_57-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 57Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_60-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 60Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_62-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 62Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_65-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 65Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_67-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 67Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_70-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 70Ha'
 
 p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_30-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 30Ha'
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_32-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 32Ha'  # Convergece!
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_35-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 35Ha'
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_37-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 37Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_40-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 40Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_42-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 42Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 45Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_47-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 47Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 50Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_52-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 52Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_55-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 55Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_57-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 57Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_60-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 60Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_62-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 62Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_65-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 65Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_67-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 67Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_70-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 70Ha'
 
 p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_35-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 35Ha'  # Convergece!
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_37-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 37Ha'
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_40-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 40Ha'
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_42-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 42Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 45Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_47-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 47Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 50Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_52-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 52Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_55-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 55Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_57-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 57Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_60-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 60Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_62-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 62Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_65-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 65Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_67-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 67Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_70-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 70Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_72-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 72Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_75-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 75Ha'
 
 p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 45Ha'  # Convergece!
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_47-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 47Ha'
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 50Ha'
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_52-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 52Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_55-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 55Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_57-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 57Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_60-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 60Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_62-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 62Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_65-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 65Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_67-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 67Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_70-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 70Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_72-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 72Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_75-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 75Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_77-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 77Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_80-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 80Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_82-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 82Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_85-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 85Ha'
 
 p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 45Ha'  # Convergece!
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_47-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 47Ha'
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 50Ha'
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_52-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 52Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_55-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 55Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_57-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 57Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_60-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 60Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_62-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 62Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_65-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 65Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_67-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 67Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_70-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 70Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_72-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 72Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_75-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 75Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_77-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 77Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_80-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 80Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_82-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 82Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_85-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 85Ha'
+
+p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_35-spin_scissor_0_Nc_22-60z-0-20-ev' u 1:(f*$6) w l t '60z, 35Ha'
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_40-spin_scissor_0_Nc_22-60z-0-20-ev' u 1:(f*$6) w l t '60z, 40Ha'  # Convergece!
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-60z-0-20-ev' u 1:(f*$6) w l t '60z, 45Ha'
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-60z-0-20-ev' u 1:(f*$6) w l t '60z, 50Ha'
+
+p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_35-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 35Ha'
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_40-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 40Ha'
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 45Ha'
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 50Ha'  # Convergece!
+
+# Convergece not reached:
+p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_35-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(h*$6) w l t '70z, 35Ha'
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_40-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(h*$6) w l t '70z, 40Ha'
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(h*$6) w l t '70z, 45Ha'
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(h*$6) w l t '70z, 50Ha'
+
+p   '' u 1:(i*$6) w l t '75z, 35Ha'
+rep '' u 1:(i*$6) w l t '75z, 40Ha'
+rep '' u 1:(i*$6) w l t '75z, 45Ha'
+rep '' u 1:(i*$6) w l t '75z, 50Ha'
+
+p   '' u 1:(j*$6) w l t '80z, 35Ha'
+rep '' u 1:(j*$6) w l t '80z, 40Ha'
+rep '' u 1:(j*$6) w l t '80z, 45Ha'
+rep '' u 1:(j*$6) w l t '80z, 50Ha'
 
 
 ########
 
-p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_32-spin_scissor_0_Nc_22-35z-0-20-ev' u 1:(a*$6) w l t '35z, 32Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_32-spin_scissor_0_Nc_22-40z-0-20-ev' u 1:(b*$6) w l t '40z, 32Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_35-spin_scissor_0_Nc_22-45z-0-20-ev' u 1:(c*$6) w l t '45z, 35Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 45Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 45Ha'
-
+# p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-50z-0-20-ev' u 1:(d*$6) w l t '50z, 45Ha'
+p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 45Ha'
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_40-spin_scissor_0_Nc_22-60z-0-20-ev' u 1:(f*$6) w l t '60z, 40Ha'
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 50Ha'
 
 
 
