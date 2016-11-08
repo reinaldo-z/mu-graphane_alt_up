@@ -154,13 +154,18 @@ rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_
 p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_35-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 35Ha'
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_40-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 40Ha'
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 45Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 50Ha'  # Convergece!
+p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 50Ha'
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_55-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 55Ha'
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_60-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 60Ha'
 
 # Convergece not reached:
 p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_35-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(h*$6) w l t '70z, 35Ha'
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_40-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(h*$6) w l t '70z, 40Ha'
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(h*$6) w l t '70z, 45Ha'
-rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(h*$6) w l t '70z, 50Ha'
+p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(h*$6) w l t '70z, 50Ha'
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_55-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(h*$6) w l t '70z, 55Ha'
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_60-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(h*$6) w l t '70z, 60Ha'
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_65-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(h*$6) w l t '70z, 65Ha'
 
 p   '' u 1:(i*$6) w l t '75z, 35Ha'
 rep '' u 1:(i*$6) w l t '75z, 40Ha'
@@ -187,47 +192,56 @@ j=80/5.564770162
 p   'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 45Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_40-spin_scissor_0_Nc_22-60z-0-20-ev' u 1:(f*$6) w l t '60z, 40Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 50Ha' # $6 most intense
+rep 'alt-vac_res-0_20_ev/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_65-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(h*$6) w l t '70z, 66Ha' # $6 most intense
 
 # highest value near to 0.004
 p   'alt-vac_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_45-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 45Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_40-spin_scissor_0_Nc_22-60z-0-20-ev' u 1:(f*$6) w l t '60z, 40Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_50-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 50Ha' # $6 most intense
+rep 'alt-vac_res-0_20_ev/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_65-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(g*$6) w l t '70z, 65Ha' # $6 most intense
 
 # highest value near to 0.006
 p   'alt-vac_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_45-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 45Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_40-spin_scissor_0_Nc_22-60z-0-20-ev' u 1:(f*$6) w l t '60z, 40Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_50-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 50Ha' # $6 most intense
+rep 'alt-vac_res-0_20_ev/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_65-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(g*$6) w l t '70z, 65Ha' # $6 most intense
 
 # highest value near to 0.008
 p   'alt-vac_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_45-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 45Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_40-spin_scissor_0_Nc_22-60z-0-20-ev' u 1:(f*$6) w l t '60z, 40Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_50-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 50Ha' # $6 most intense
+rep 'alt-vac_res-0_20_ev/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_65-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(g*$6) w l t '70z, 65Ha' # $6 most intense
 
 # highest value near to 0.006
 p   'alt-vac_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_45-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 45Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_40-spin_scissor_0_Nc_22-60z-0-20-ev' u 1:(f*$6) w l t '60z, 40Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_50-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 50Ha' # $6 most intense
+rep 'alt-vac_res-0_20_ev/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_65-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(g*$6) w l t '70z, 65Ha' # $6 most intense
 
 # highest value near to 0.010
 # highest value near to 0.010
 p   'alt-vac_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_45-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 45Ha' # $6 most intense of all
 rep 'alt-vac_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_40-spin_scissor_0_Nc_22-60z-0-20-ev' u 1:(f*$6) w l t '60z, 40Ha' # $6 most intense of all
 rep 'alt-vac_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_50-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 50Ha' # $6 most intense of all
+rep 'alt-vac_res-0_20_ev/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_65-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(g*$6) w l t '70z, 65Ha' # $6 most intense of all
 
 # highest value near to 0.006
 p   'alt-vac_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_45-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 45Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_40-spin_scissor_0_Nc_22-60z-0-20-ev' u 1:(f*$6) w l t '60z, 40Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_50-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 50Ha' # $6 most intense
+rep 'alt-vac_res-0_20_ev/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_65-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(g*$6) w l t '70z, 65Ha' # $6 most intense
 
 # highest value near to 0.006
 p   'alt-vac_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_45-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 45Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_40-spin_scissor_0_Nc_22-60z-0-20-ev' u 1:(f*$6) w l t '60z, 40Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_50-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 50Ha' # $6 most intense
+rep 'alt-vac_res-0_20_ev/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_65-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(g*$6) w l t '70z, 65Ha' # $6 most intense
 
 # highest value near to 0.006
 p   'alt-vac_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_45-spin_scissor_0_Nc_22-55z-0-20-ev' u 1:(e*$6) w l t '55z, 45Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_40-spin_scissor_0_Nc_22-60z-0-20-ev' u 1:(f*$6) w l t '60z, 40Ha' # $6 most intense
 rep 'alt-vac_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_50-spin_scissor_0_Nc_22-65z-0-20-ev' u 1:(g*$6) w l t '65z, 50Ha' # $6 most intense
+rep 'alt-vac_res-0_20_ev/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_65-spin_scissor_0_Nc_22-70z-0-20-ev' u 1:(g*$6) w l t '70z, 65Ha' # $6 most intense
 
 
 

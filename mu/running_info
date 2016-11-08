@@ -27,80 +27,98 @@ Date:   Wed Oct 12 10:08:24 2016 -0500
 hexa09
 hexa10
 hexa11 (working properly?)
-PMN1: alt-60z
-    hexa20
-    hexa31
+PMN1: alt-70z
     hexa14
-PMN2: alt-65z
-    hexa25
-    hexa26
-    hexa33
-PMN3: alt-70z
-    hexa30
-    hexa32
-    hexa12
-PMN4: alt-75z
-    hexa13
-    hexa18
-    hexa19
-PMN5: alt-80z
-    hexa11
     hexa16
     hexa17
-
-    machines latm/res
-hexa30
-hexa32
+PMN1: alt-70z
+    hexa18
+    hexa19
+    hexa24
+PMN1: alt-70z
+    hexa25
+    hexa26
+    hexa30
+PMN2: hnbGh-aa
+    hexa31
+    hexa32
+    hexa33
 
     #MakeMachines_latm/res
 rm .machines_latm &>/dev/null
 rm .machines_res  &>/dev/null
-printf 'hexa11\n%.0s'        >  .machines_latm.original
-printf 'hexa11\n%.0s' {1..9} >  .machines_res.original
+printf 'hexa25\n%.0s'        >  .machines_latm.original
+printf 'hexa25\n%.0s' {1..9} >  .machines_res.original
 
     #MakeMachines_pmn/scf
 rm .machines_pmn &>/dev/null
 rm .machines_scf &>/dev/null
-printf 'hexa11\n%.0s' >  .machines_scf.original
+printf 'hexa14\n%.0s' >  .machines_scf.original
 printf 'hexa16\n%.0s' >> .machines_scf.original
 printf 'hexa17\n%.0s' >> .machines_scf.original
-printf 'hexa11\n%.0s' {1..12} >  .machines_pmn.original
+printf 'hexa18\n%.0s' >> .machines_scf.original
+printf 'hexa19\n%.0s' >> .machines_scf.original
+printf 'hexa24\n%.0s' >> .machines_scf.original
+printf 'hexa25\n%.0s' >> .machines_scf.original
+printf 'hexa26\n%.0s' >> .machines_scf.original
+printf 'hexa30\n%.0s' >> .machines_scf.original
+printf 'hexa14\n%.0s' {1..12} >  .machines_pmn.original
 printf 'hexa16\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa17\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa18\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa19\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa24\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa25\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa26\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa30\n%.0s' {1..12} >> .machines_pmn.original
 
     kill process
-ssh hexa25 'killall -u reinaldo'
-ssh hexa26 'killall -u reinaldo'
-ssh hexa33 'killall -u reinaldo'
-ssh hexa30 'killall -u reinaldo'
-ssh hexa32 'killall -u reinaldo'
-ssh hexa12 'killall -u reinaldo'
-ssh hexa13 'killall -u reinaldo'
-ssh hexa18 'killall -u reinaldo'
-ssh hexa19 'killall -u reinaldo'
-ssh hexa11 'killall -u reinaldo'
+PMN1:
+ssh hexa14 'killall -u reinaldo'
 ssh hexa16 'killall -u reinaldo'
 ssh hexa17 'killall -u reinaldo'
 ssh hexa18 'killall -u reinaldo'
 ssh hexa19 'killall -u reinaldo'
+ssh hexa24 'killall -u reinaldo'
 ssh hexa25 'killall -u reinaldo'
 ssh hexa26 'killall -u reinaldo'
-ssh hexa33 'killall -u reinaldo'
+ssh hexa30 'killall -u reinaldo'
+PMN2:
 ssh hexa31 'killall -u reinaldo'
+ssh hexa32 'killall -u reinaldo'
+ssh hexa33 'killall -u reinaldo'
+
+    machines free
+hexa14
+hexa16
+hexa17
+hexa18
+hexa19
+hexa24
+hexa25
+hexa26
+hexa30
+hexa31
+hexa32
+hexa33
 
     machines in use
-hexa01 (tona, sma)
-hexa02 (tona)
-hexa03 (tona)
-hexa04 (tona)
-hexa05 (tona)
-hexa06 (tona)
-hexa07 (tona)
-hexa08 (bms)
+hexa01 (sma)
+hexa02 (sma)
+hexa03 (sma)
+hexa04 (sma)
+hexa05 (sma)
+hexa06 (sma)
+hexa08 (sma)
+hexa09 (sma)
+hexa10 (sma)
+hexa11 (sma?)
+hexa12 (sma?)
+hexa13 (sma?)
+hexa20 (narzate)
 hexa21 (narzate)
 hexa22 (narzate)
 hexa23 (narzate, nap)
-hexa24 (nap)
 
     machines out
 hexa16 
@@ -114,12 +132,32 @@ hexa28 (infiniband not working)
 ################################################################################
 
 rm -r *check
-sed -i '57s/.*/ecut          30/' setUpAbinit*.in
+sed -i '57s/.*/ecut          70/' setUpAbinit*.in
+abinit_check.sh 1
+abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' > PWs
+rm -r *check
+sed -i '57s/.*/ecut          75/' setUpAbinit*.in
+abinit_check.sh 1
+abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
+rm -r *check
+sed -i '57s/.*/ecut          80/' setUpAbinit*.in
+abinit_check.sh 1
+abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
+rm -r *check
+sed -i '57s/.*/ecut          85/' setUpAbinit*.in
+abinit_check.sh 1
+abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
+rm -r *check
+sed -i '57s/.*/ecut          90/' setUpAbinit*.in
 abinit_check.sh 1
 abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
 
 
-
+56852/5     11370
+63066/5     12613
+69440/5     13888
+76004/5     15200
+82815/5     16563
 
 
 
