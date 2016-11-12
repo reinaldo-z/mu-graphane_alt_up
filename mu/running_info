@@ -47,8 +47,8 @@ PMN2: hnbGh-aa
     #MakeMachines_latm/res
 rm .machines_latm &>/dev/null
 rm .machines_res  &>/dev/null
-printf 'hexa25\n%.0s'        >  .machines_latm.original
-printf 'hexa25\n%.0s' {1..9} >  .machines_res.original
+printf 'hexa14\n%.0s'        >  .machines_latm.original
+printf 'hexa14\n%.0s' {1..9} >  .machines_res.original
 
     #MakeMachines_pmn/scf
 rm .machines_pmn &>/dev/null
@@ -132,17 +132,9 @@ hexa28 (infiniband not working)
 ################################################################################
 
 rm -r *check
-sed -i '57s/.*/ecut          70/' setUpAbinit*.in
-abinit_check.sh 1
-abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' > PWs
-rm -r *check
-sed -i '57s/.*/ecut          75/' setUpAbinit*.in
-abinit_check.sh 1
-abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
-rm -r *check
 sed -i '57s/.*/ecut          80/' setUpAbinit*.in
 abinit_check.sh 1
-abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
+abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' > PWs
 rm -r *check
 sed -i '57s/.*/ecut          85/' setUpAbinit*.in
 abinit_check.sh 1
@@ -151,12 +143,22 @@ rm -r *check
 sed -i '57s/.*/ecut          90/' setUpAbinit*.in
 abinit_check.sh 1
 abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
+rm -r *check
+sed -i '57s/.*/ecut          95/' setUpAbinit*.in
+abinit_check.sh 1
+abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
+
+rm -r *check
+sed -i '57s/.*/ecut          90/' setUpAbinit*.in
+abinit_check.sh 1
+abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
 
 
-56852/5     11370
-63066/5     12613
-69440/5     13888
-76004/5     15200
+74396/5     14879
+81458/5     16291
+88712/5     17742
+96172/5     19234
+
 82815/5     16563
 
 
