@@ -6,13 +6,12 @@ set ytics
 
 set label "C$_{16}$H$_{8}$-up" at graph 0.4 , 0.9
 
-# Noormalization factors:
-# PF Check manual, Units: (8) Degree of Spin Injection
+# Noormalization factor not needed: (N/N)
+# PF = 29.98. Check manual prefactor, Units: (8) Degree of Spin Injection.
 PF=29.98
 set xrange [0:1.2]
 
 
-# set ylabel "\\Large $\\mu^{abcd}(10^{-3}\\,J\\,s^{-1}\\,V^{-2})$" 
 set ylabel "\\Large $ \\mathcal{V}^{ab}\\, [c]$" 
 
                                                                                                                                                                                                     #    2    3    4    5    6    7    8    9   10
