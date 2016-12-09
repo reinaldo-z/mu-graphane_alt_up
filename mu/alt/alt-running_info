@@ -23,6 +23,25 @@ Date:   Wed Oct 12 09:58:46 2016 -0500
 
 ################################################################################
 
+PMN4: hnbGh-aa-48b, hnbGh-aa-64bh
+    fat1
+    fat2
+
+    #MakeMachines_latm/res
+rm .machines_latm &>/dev/null
+rm .machines_res  &>/dev/null
+printf 'fat01\n%.0s'        >  .machines_latm.original
+printf 'fat01\n%.0s' {1..9} >  .machines_res.original
+
+    #MakeMachines_pmn/scf
+rm .machines_pmn &>/dev/null
+rm .machines_scf &>/dev/null
+printf 'fat01\n%.0s' >  .machines_scf.original
+printf 'fat02\n%.0s' >> .machines_scf.original
+printf 'fat01\n%.0s' {1..64} >  .machines_pmn.original
+printf 'fat02\n%.0s' {1..64} >> .machines_pmn.original
+
+
 running time 240 hexas:
 w e:  9.5h hrs
 p s:  0.35 hrs
