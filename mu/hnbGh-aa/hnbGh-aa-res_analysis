@@ -2,10 +2,10 @@ NORMALIZATION FACTOR TOREPOR THE RESPONSES
 l = total lenght of supercell z
 d = lenght of structure in z direction
 hbnc2h: 
-  l = 35  # <= tentative and must be converged
-  d = 9.039580706
-l/d = 3.8718610009
-  n = 3.8718610009
+  l = 35            # <= tentative and must be converged
+  d = 9.0544808250
+l/d = 3.8654894385
+  n = 3.8654894385
 set xrange [2.1:3.5]
 
 ################################################################################
@@ -14,18 +14,68 @@ set xrange [2.1:3.5]
                         NUMBER OF BANDS CONVERGENCE 
 
 PARAMETERS:
-ecut: 5Ha
 kpts: 452
-bands: 36-64
+vacuum: 30, 35, 40 (Bohrs)
 
-p   'hnbGh-aa-bands-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_5-spin_scissor_0_Nc_18-36b' u 1:6 w l 
-rep 'hnbGh-aa-bands-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_5-spin_scissor_0_Nc_22-40b' u 1:6 w l 
-rep 'hnbGh-aa-bands-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_5-spin_scissor_0_Nc_26-44b' u 1:6 w l 
-rep 'hnbGh-aa-bands-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_5-spin_scissor_0_Nc_30-48b' u 1:6 w l 
-rep 'hnbGh-aa-bands-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_5-spin_scissor_0_Nc_34-52b' u 1:6 w l 
-rep 'hnbGh-aa-bands-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_5-spin_scissor_0_Nc_38-56b' u 1:6 w l 
-rep 'hnbGh-aa-bands-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_5-spin_scissor_0_Nc_42-60b' u 1:6 w l 
-rep 'hnbGh-aa-bands-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_5-spin_scissor_0_Nc_46-64b' u 1:6 w l 
+d=9.0544808250
+A=35
+a=l/d
+
+p   'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_25-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_30-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_35-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_40-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+
+p   'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_25-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_30-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_35-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_40-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_45-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+
+p   'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_25-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_30-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_35-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_40-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_45-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+
+
+p   'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_25-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_30-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_35-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_40-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_45-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+
+p   'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_25-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_30-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_35-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_40-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_45-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+
+p   'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_25-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_30-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_35-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_40-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_45-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+
+
+p   'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_25-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_30-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_35-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_40-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_45-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+
+p   'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_25-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_30-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_35-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_40-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_45-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+
+p   'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_25-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_30-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_35-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_40-spin_scissor_0_Nc_22-30z' u 1:2 w l 
+rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_45-spin_scissor_0_Nc_22-30z' u 1:2 w l 
 
 
 ################################################################################
