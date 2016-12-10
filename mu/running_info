@@ -27,19 +27,19 @@ Date:   Wed Oct 12 10:08:24 2016 -0500
 hexa09
 hexa10
 hexa11 (working properly?)
-PMN1: alt-70z
+PMN1: hnbGh-aa-36b, hnbGh-aa-52b
     hexa14
     hexa16
     hexa17
-PMN1: alt-70z
+PMN2: hnbGh-aa-40b, hnbGh-aa-56b
     hexa18
     hexa19
     hexa24
-PMN1: alt-70z
+PMN4: hnbGh-aa-44b, hnbGh-aa-60b
     hexa25
     hexa26
     hexa30
-PMN2: hnbGh-aa
+PMN4: hnbGh-aa-48b, hnbGh-aa-64bh
     hexa31
     hexa32
     hexa33
@@ -47,30 +47,18 @@ PMN2: hnbGh-aa
     #MakeMachines_latm/res
 rm .machines_latm &>/dev/null
 rm .machines_res  &>/dev/null
-printf 'hexa14\n%.0s'        >  .machines_latm.original
-printf 'hexa14\n%.0s' {1..9} >  .machines_res.original
+printf 'hexa31\n%.0s'        >  .machines_latm.original
+printf 'hexa31\n%.0s' {1..9} >  .machines_res.original
 
     #MakeMachines_pmn/scf
 rm .machines_pmn &>/dev/null
 rm .machines_scf &>/dev/null
-printf 'hexa14\n%.0s' >  .machines_scf.original
-printf 'hexa16\n%.0s' >> .machines_scf.original
-printf 'hexa17\n%.0s' >> .machines_scf.original
-printf 'hexa18\n%.0s' >> .machines_scf.original
-printf 'hexa19\n%.0s' >> .machines_scf.original
-printf 'hexa24\n%.0s' >> .machines_scf.original
-printf 'hexa25\n%.0s' >> .machines_scf.original
-printf 'hexa26\n%.0s' >> .machines_scf.original
-printf 'hexa30\n%.0s' >> .machines_scf.original
-printf 'hexa14\n%.0s' {1..12} >  .machines_pmn.original
-printf 'hexa16\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa17\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa18\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa19\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa24\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa25\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa26\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa30\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa31\n%.0s' >  .machines_scf.original
+printf 'hexa32\n%.0s' >> .machines_scf.original
+printf 'hexa33\n%.0s' >> .machines_scf.original
+printf 'hexa31\n%.0s' {1..12} >  .machines_pmn.original
+printf 'hexa32\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa33\n%.0s' {1..12} >> .machines_pmn.original
 
     kill process
 PMN1:
@@ -83,6 +71,9 @@ ssh hexa24 'killall -u reinaldo'
 ssh hexa25 'killall -u reinaldo'
 ssh hexa26 'killall -u reinaldo'
 ssh hexa30 'killall -u reinaldo'
+ssh hexa31 'killall -u reinaldo'
+ssh hexa32 'killall -u reinaldo'
+ssh hexa33 'killall -u reinaldo'
 PMN2:
 ssh hexa31 'killall -u reinaldo'
 ssh hexa32 'killall -u reinaldo'
