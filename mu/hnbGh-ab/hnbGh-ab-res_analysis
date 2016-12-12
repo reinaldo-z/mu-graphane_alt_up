@@ -1,0 +1,54 @@
+NORMALIZATION FACTOR TOREPOR THE RESPONSES
+l = total lenght of supercell z
+d = lenght of structure in z direction
+hbnc2h: 
+  l = 35            # <= tentative and must be converged
+  d = 9.013134903
+l/d = 3.8832215846
+  n = 3.8832215846
+
+################################################################################
+################################################################################
+
+                        VACUUM/ECUT CONVERGENCE 
+
+PARAMETERS:
+kpts: 452
+vacuum: 30, 35, 40 (Bohrs)
+
+d=9.013134903
+A=30
+a=A/d
+set xrange [0.8:5]
+
+
+##########
+
+d=9.013134903
+B=35
+b=B/d
+set xrange [0.8:5]
+
+
+##########
+
+d=9.013134903
+C=40
+c=C/d
+set xrange [0.8:5]
+
+##########
+
+d=9.013134903
+C=45
+c=C/d
+set xrange [0.8:5]
+
+
+
+
+################################################################################
+################################################################################
+
+                        V A C U U M / E N E R G Y   C O N V E R G E N C E
+                            (not reached @ 40z for mu!!)

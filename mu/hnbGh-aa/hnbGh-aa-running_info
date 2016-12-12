@@ -58,33 +58,38 @@ all_responses.sh -w total -m 452_5-spin -s 0 -o 1 -v 18 -c 62 -r  1 -t "xx yy zz
 
 
 rm -r *check
-sed -i '63s/.*/ecut          35/' setUpAbinit*.in
-abinit_check.sh 1
-abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' > PWs
-rm -r *check
-sed -i '63s/.*/ecut          40/' setUpAbinit*.in
-abinit_check.sh 1
-abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
-rm -r *check
-sed -i '63s/.*/ecut          45/' setUpAbinit*.in
-abinit_check.sh 1
-abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
-rm -r *check
 sed -i '63s/.*/ecut          50/' setUpAbinit*.in
 abinit_check.sh 1
-abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
+abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' > PWs
 rm -r *check
 sed -i '63s/.*/ecut          55/' setUpAbinit*.in
 abinit_check.sh 1
 abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
+rm -r *check
+sed -i '63s/.*/ecut          60/' setUpAbinit*.in
+abinit_check.sh 1
+abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
+rm -r *check
+sed -i '63s/.*/ecut          65/' setUpAbinit*.in
+abinit_check.sh 1
+abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
+rm -r *check
+sed -i '63s/.*/ecut          70/' setUpAbinit*.in
+abinit_check.sh 1
+abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
+rm -r *check
+sed -i '63s/.*/ecut          75/' setUpAbinit*.in
+abinit_check.sh 1
+abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
 
 
 
-=7763/5  = 1552
-=9474/5  = 1894
-=11327/5 = 2265
-=13271/5 = 2654
-=15277/5 = 3055
+=18243/5 = 3648
+=21024/5 = 4204
+=23920/5 = 4784
+=26989/5 = 5397
+=30185/5 = 6037
+=33412/5 = 6682
 
 
 
