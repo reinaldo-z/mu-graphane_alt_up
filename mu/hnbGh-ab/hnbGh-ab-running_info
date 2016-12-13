@@ -37,6 +37,8 @@ run_tiniba.sh
 
 run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 12 -P 2265 -w -e -p -s; run_tiniba.sh -r erase
 
+!!!!!!!!!!!!!REVISAR TODOS LOS 55 HA!!!!!!!!!!!!!!!!!!!
+
 # res:
 all_responses.sh
 all_responses.sh -w total -m 452_45-spin -s 0 -o 1 -v 18 -c 27 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz"
@@ -57,33 +59,33 @@ all_responses.sh -w total -m 452_45-spin -s 0 -o 1 -v 18 -c 27 -r  1 -t "xx yy z
 
 
 rm -r *check
-sed -i '63s/.*/ecut          45/' setUpAbinit*.in
+sed -i '63s/.*/ecut          65/' setUpAbinit*.in
 abinit_check.sh 1
 abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' > PWs
 rm -r *check
-sed -i '63s/.*/ecut          50/' setUpAbinit*.in
+sed -i '63s/.*/ecut          70/' setUpAbinit*.in
 abinit_check.sh 1
 abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
 rm -r *check
-sed -i '63s/.*/ecut          55/' setUpAbinit*.in
+sed -i '63s/.*/ecut          75/' setUpAbinit*.in
 abinit_check.sh 1
 abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
 rm -r *check
-sed -i '63s/.*/ecut          60/' setUpAbinit*.in
+sed -i '63s/.*/ecut          80/' setUpAbinit*.in
 abinit_check.sh 1
 abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
 rm -r *check
-sed -i '63s/.*/ecut          65/' setUpAbinit*.in
+sed -i '63s/.*/ecut          85/' setUpAbinit*.in
 abinit_check.sh 1
 abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
 
 
 
-=10650/5 = 2130
-=12739/5 = 2547
-=14928/5 = 2985
-=17201/5 = 3440
-=19578/5 = 3915
+=31891/5 = 6378
+=35667/5 = 7133
+=39475/5 = 7895
+=43720/5 = 8744
+=47632/5 = 9526
 
 
 
