@@ -59,13 +59,9 @@ all_responses.sh -w total -m 452_45-spin -s 0 -o 1 -v 18 -c 27 -r  1 -t "xx yy z
 
 
 rm -r *check
-sed -i '63s/.*/ecut          65/' setUpAbinit*.in
-abinit_check.sh 1
-abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' > PWs
-rm -r *check
 sed -i '63s/.*/ecut          70/' setUpAbinit*.in
 abinit_check.sh 1
-abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
+abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' > PWs
 rm -r *check
 sed -i '63s/.*/ecut          75/' setUpAbinit*.in
 abinit_check.sh 1
@@ -80,11 +76,19 @@ abinit_check.sh 1
 abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
 
 
+rm -r *check
+sed -i '63s/.*/ecut          85/' setUpAbinit*.in
+abinit_check.sh 1
+abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
 
-=31891/5 = 6378
-=35667/5 = 7133
-=39475/5 = 7895
-=43720/5 = 8744
+
+
+=41156/5 = 8231
+=45556/5 = 9111
+=50372/5 = 10074
+=54962/5 = 10992
+
+
 =47632/5 = 9526
 
 

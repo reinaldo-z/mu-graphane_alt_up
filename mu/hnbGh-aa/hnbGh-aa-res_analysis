@@ -262,7 +262,6 @@ F=50
 f=F/d
 
 
-
 # p   'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-50z' u 1:($10*f) w l
 # rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-50z' u 1:($10*f) w l
 p   'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_55-spin_scissor_0_Nc_22-50z' u 1:($10*f) w l
@@ -319,6 +318,72 @@ p   'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_55-
 rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_60-spin_scissor_0_Nc_22-50z' u 1:($10*f) w l
 rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_65-spin_scissor_0_Nc_22-50z' u 1:($10*f) w l
 
+##########
+
+set xrange [0.8:5]
+d=9.0544808250
+
+G=55
+g=G/d
+
+
+p   'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_55-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_65-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_70-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+
+p   'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_50-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_55-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_65-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_70-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+
+p   'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_50-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_55-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_65-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_70-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+
+
+p   'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_50-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_55-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_65-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_70-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+
+p   'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_50-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_55-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_65-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_70-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+
+p   'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_50-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_55-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_65-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_70-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+
+
+p   'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_50-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_55-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_65-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_70-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+
+p   'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_50-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_55-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_65-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_70-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+
+p   'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_50-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_55-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_65-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_70-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
+
+
 
 ##########
 
@@ -341,68 +406,82 @@ e=E/d
 F=50
 f=F/d
 
+G=55
+g=G/d
+
+
+
 ##  xxxx
 # p   'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_35-spin_scissor_0_Nc_22-30z' u 1:($10*a) w l
-p   'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
+# p   'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l
+# rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l
+p   'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
 rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_60-spin_scissor_0_Nc_22-50z' u 1:($10*f) w l
+rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
 
 ##  xyxx
 rep   'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_35-spin_scissor_0_Nc_22-30z' u 1:($10*a) w l 
-p   'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
+# p   'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
+# rep 'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
+p   'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
 rep 'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_60-spin_scissor_0_Nc_22-50z' u 1:($10*f) w l
+rep 'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
 
 ##  xzxx
 # p   'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_35-spin_scissor_0_Nc_22-30z' u 1:($10*a) w l 
-p   'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
+# p   'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
+# rep 'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
+p   'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
 rep 'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_60-spin_scissor_0_Nc_22-50z' u 1:($10*f) w l
+rep 'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
 
 ##  yxxx
 # p   'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_35-spin_scissor_0_Nc_22-30z' u 1:($10*a) w l 
-p   'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
+# p   'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
+# rep 'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
+p   'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
 rep 'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_60-spin_scissor_0_Nc_22-50z' u 1:($10*f) w l
+rep 'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
 
 ##  yyxx
 # p   'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_35-spin_scissor_0_Nc_22-30z' u 1:($10*a) w l 
-p   'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
+# p   'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
+# rep 'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
+p   'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
 rep 'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_60-spin_scissor_0_Nc_22-50z' u 1:($10*f) w l
+rep 'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
 
 ##  yzxx
 # p   'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_35-spin_scissor_0_Nc_22-30z' u 1:($10*a) w l 
-p   'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
+# p   'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
+# rep 'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
+p   'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
 rep 'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_60-spin_scissor_0_Nc_22-50z' u 1:($10*f) w l
+rep 'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
 
 ##  zxxx
 # p   'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_35-spin_scissor_0_Nc_22-30z' u 1:($10*a) w l 
-p   'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
+# p   'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
+# rep 'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
+p   'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
 rep 'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_60-spin_scissor_0_Nc_22-50z' u 1:($10*f) w l
+rep 'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
 
 ##  zyxx
 # p   'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_35-spin_scissor_0_Nc_22-30z' u 1:($10*a) w l 
-p   'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
+# p   'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
+# rep 'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
+p   'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
 rep 'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_60-spin_scissor_0_Nc_22-50z' u 1:($10*f) w l
+rep 'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
 
 ##  zzxx
 # p   'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_35-spin_scissor_0_Nc_22-30z' u 1:($10*a) w l 
-p   'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
-rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
+# p   'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_50-spin_scissor_0_Nc_22-35z' u 1:($10*b) w l 
+# rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_45-spin_scissor_0_Nc_22-40z' u 1:($10*c) w l 
+p   'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_45-spin_scissor_0_Nc_22-45z' u 1:($10*e) w l
 rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_60-spin_scissor_0_Nc_22-50z' u 1:($10*f) w l
+rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
 
 
 

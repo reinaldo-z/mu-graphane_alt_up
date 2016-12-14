@@ -25,65 +25,71 @@ Date:   Wed Oct 12 10:08:24 2016 -0500
 
     machines scf/pmn
 PMN1:
-/homee/reinaldo/hnbGh/hnbGh-ab/1-vacEcut-conv/hnbGh-ab-50z
+/homee/reinaldo/hnbGh/hnbGh-aa/1-vacEcut-conv/hnbGh-aa-60z
     hexa03
     hexa04
     hexa05
     hexa06
     hexa08
-PMN2:
-/homee/reinaldo/hnbGh/hnbGh-ab/1-vacEcut-conv/hnbGh-ab-55z
     hexa09
+PMN2:
+/homee/reinaldo/hnbGh/hnbGh-aa/1-vacEcut-conv/hnbGh-aa-65z
     hexa10
     hexa11
     hexa12
     hexa13
-PMN3:
-/homee/reinaldo/hnbGh/hnbGh-ab/1-vacEcut-conv/hnbGh-ab-60z
     hexa14
     hexa16
+PMN3:
+/homee/reinaldo/hnbGh/hnbGh-aa/1-vacEcut-conv/hnbGh-aa-70z
     hexa17
     hexa18
     hexa19
     hexa24
-PMN4:
-/homee/reinaldo/hnbGh/hnbGh-ab/1-vacEcut-conv/hnbGh-ab-65z
     hexa25
     hexa26
     hexa30
+PMN4:
+/homee/reinaldo/alt/kpts-conv/alt-70z65Ha ##  RESPONSES
     hexa31
-    hexa32
-    hexa33
-
-
 PMN5:
-/homee/reinaldo/hnbGh/hnbGh-ab/2-bands-conv/hnbGh-ab-45b
+/homee/reinaldo/up/up/up/ ## RESPONSES
+    hexa32
+
+
 PMN6:
 /homee/reinaldo/hnbGh/hnbGh-ab/2-bands-conv/hnbGh-ab-50b
 PMN7:
 /homee/reinaldo/hnbGh/hnbGh-ab/2-bands-conv/hnbGh-ab-55b
 
+    hexa33
+
+
     #MakeMachines_latm/res
 rm .machines_latm &>/dev/null
 rm .machines_res  &>/dev/null
-printf 'hexa25\n%.0s'        >  .machines_latm.original
-printf 'hexa25\n%.0s' {1..9} >  .machines_res.original
+printf 'hexa17\n%.0s'        >  .machines_latm.original
+printf 'hexa17\n%.0s' {1..9} >  .machines_res.original
 
     #MakeMachines_pmn/scf
 rm .machines_pmn &>/dev/null
 rm .machines_scf &>/dev/null
-printf 'hexa25\n%.0s' >  .machines_scf.original
+printf 'hexa17\n%.0s' >  .machines_scf.original
+printf 'hexa18\n%.0s' >> .machines_scf.original
+printf 'hexa19\n%.0s' >> .machines_scf.original
+printf 'hexa24\n%.0s' >> .machines_scf.original
+printf 'hexa25\n%.0s' >> .machines_scf.original
 printf 'hexa26\n%.0s' >> .machines_scf.original
 printf 'hexa30\n%.0s' >> .machines_scf.original
-printf 'hexa31\n%.0s' >> .machines_scf.original
-printf 'hexa32\n%.0s' >> .machines_scf.original
-printf 'hexa33\n%.0s' >> .machines_scf.original
-printf 'hexa25\n%.0s' {1..12} >  .machines_pmn.original
+printf 'hexa17\n%.0s' {1..12} >  .machines_pmn.original
+printf 'hexa18\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa19\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa24\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa25\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa26\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa30\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa31\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa32\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa33\n%.0s' {1..12} >> .machines_pmn.original
+
+
 
     kill process
 PMN1:
@@ -93,13 +99,19 @@ ssh hexa05 'killall -u reinaldo'
 ssh hexa06 'killall -u reinaldo'
 ssh hexa08 'killall -u reinaldo'
 ssh hexa09 'killall -u reinaldo'
+ssh hexa10 'killall -u reinaldo'
+ssh hexa11 'killall -u reinaldo'
+ssh hexa12 'killall -u reinaldo'
+ssh hexa13 'killall -u reinaldo'
+ssh hexa14 'killall -u reinaldo'
+ssh hexa16 'killall -u reinaldo'
+ssh hexa17 'killall -u reinaldo'
+ssh hexa18 'killall -u reinaldo'
+ssh hexa19 'killall -u reinaldo'
+ssh hexa24 'killall -u reinaldo'
 ssh hexa25 'killall -u reinaldo'
 ssh hexa26 'killall -u reinaldo'
 ssh hexa30 'killall -u reinaldo'
-ssh hexa31 'killall -u reinaldo'
-ssh hexa32 'killall -u reinaldo'
-ssh hexa33 'killall -u reinaldo'
-PMN2:
 ssh hexa31 'killall -u reinaldo'
 ssh hexa32 'killall -u reinaldo'
 ssh hexa33 'killall -u reinaldo'
