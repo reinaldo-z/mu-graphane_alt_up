@@ -293,39 +293,39 @@ set xrange [0.5:2.0]
 h=70/5.564770162
 
 p   'alt-kpts-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5002_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-p 'alt-kpts-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 rep 'alt-kpts-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_7202_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
 p   'alt-kpts-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5002_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-p 'alt-kpts-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 rep 'alt-kpts-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_7202_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
 p   'alt-kpts-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5002_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-p 'alt-kpts-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 rep 'alt-kpts-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_7202_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
 p   'alt-kpts-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5002_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-p 'alt-kpts-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 rep 'alt-kpts-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_7202_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
 p   'alt-kpts-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5002_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-p 'alt-kpts-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 rep 'alt-kpts-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_7202_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
 p   'alt-kpts-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5002_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-p 'alt-kpts-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 rep 'alt-kpts-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_7202_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
 p   'alt-kpts-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5002_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-p 'alt-kpts-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 rep 'alt-kpts-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_7202_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
 p   'alt-kpts-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5002_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-p 'alt-kpts-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 rep 'alt-kpts-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_7202_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
 p   'alt-kpts-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5002_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-p 'alt-kpts-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_6052_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 rep 'alt-kpts-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_7202_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
 
