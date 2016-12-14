@@ -1,0 +1,20 @@
+./rsmear2  1  mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_6052_65-spin_scissor_0_Nc_32  mu.sm_0.03_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_6052_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_6052_65-spin_scissor_0_Nc_32  mu.sm_0.03_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_6052_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_6052_65-spin_scissor_0_Nc_32  mu.sm_0.03_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_6052_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_6052_65-spin_scissor_0_Nc_32  mu.sm_0.03_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_6052_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_6052_65-spin_scissor_0_Nc_32  mu.sm_0.03_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_6052_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_6052_65-spin_scissor_0_Nc_32  mu.sm_0.03_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_6052_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_6052_65-spin_scissor_0_Nc_32  mu.sm_0.03_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_6052_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_6052_65-spin_scissor_0_Nc_32  mu.sm_0.03_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_6052_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_6052_65-spin_scissor_0_Nc_32  mu.sm_0.03_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_6052_65-spin_scissor_0_Nc_32  0.03
+
+
+./rsmear2  1  mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_7202_65-spin_scissor_0_Nc_32  mu.sm_0.03_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_7202_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_7202_65-spin_scissor_0_Nc_32  mu.sm_0.03_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_7202_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_7202_65-spin_scissor_0_Nc_32  mu.sm_0.03_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_7202_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_7202_65-spin_scissor_0_Nc_32  mu.sm_0.03_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_7202_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_7202_65-spin_scissor_0_Nc_32  mu.sm_0.03_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_7202_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_7202_65-spin_scissor_0_Nc_32  mu.sm_0.03_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_7202_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_7202_65-spin_scissor_0_Nc_32  mu.sm_0.03_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_7202_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_7202_65-spin_scissor_0_Nc_32  mu.sm_0.03_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_7202_65-spin_scissor_0_Nc_32  0.03
+./rsmear2  1  mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_7202_65-spin_scissor_0_Nc_32  mu.sm_0.03_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_7202_65-spin_scissor_0_Nc_32  0.03
