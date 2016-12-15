@@ -18,17 +18,17 @@ set ylabel "\\Large $ \\mathcal{V}^{ab}\\, [c]$"
                                                                                                                                                                             # xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz
 
 set output "alt-Vxb.mp"
-p   '<paste ./alt-kpts-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5002_65-spin_scissor_0_Nc_32 ./alt-kpts-res/chi1.kk_xx_yy_zz_5002_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{xx}}$" ,\
-    '<paste ./alt-kpts-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5002_65-spin_scissor_0_Nc_32 ./alt-kpts-res/chi1.kk_xx_yy_zz_5002_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{xy}}$" ,\
-    '<paste ./alt-kpts-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5002_65-spin_scissor_0_Nc_32 ./alt-kpts-res/chi1.kk_xx_yy_zz_5002_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{xz}}$"
+p   '<paste ./alt-kpts-res-0-2-1001pts/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_7202_65-spin_scissor_0_Nc_32 ./alt-kpts-res-0-2-1001pts/chi1.kk_xx_yy_zz_7202_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{xx}}$" ,\
+    '<paste ./alt-kpts-res-0-2-1001pts/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_7202_65-spin_scissor_0_Nc_32 ./alt-kpts-res-0-2-1001pts/chi1.kk_xx_yy_zz_7202_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{xy}}$" ,\
+    '<paste ./alt-kpts-res-0-2-1001pts/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_7202_65-spin_scissor_0_Nc_32 ./alt-kpts-res-0-2-1001pts/chi1.kk_xx_yy_zz_7202_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{xz}}$"
 
 set output "alt-Vyb.mp"
-p   '<paste ./alt-kpts-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5002_65-spin_scissor_0_Nc_32 ./alt-kpts-res/chi1.kk_xx_yy_zz_5002_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{yx}}$" ,\
-    '<paste ./alt-kpts-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5002_65-spin_scissor_0_Nc_32 ./alt-kpts-res/chi1.kk_xx_yy_zz_5002_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{yy}}$" ,\
-    '<paste ./alt-kpts-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5002_65-spin_scissor_0_Nc_32 ./alt-kpts-res/chi1.kk_xx_yy_zz_5002_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{yz}}$"
+p   '<paste ./alt-kpts-res-0-2-1001pts/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_7202_65-spin_scissor_0_Nc_32 ./alt-kpts-res-0-2-1001pts/chi1.kk_xx_yy_zz_7202_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{yx}}$" ,\
+    '<paste ./alt-kpts-res-0-2-1001pts/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_7202_65-spin_scissor_0_Nc_32 ./alt-kpts-res-0-2-1001pts/chi1.kk_xx_yy_zz_7202_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{yy}}$" ,\
+    '<paste ./alt-kpts-res-0-2-1001pts/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_7202_65-spin_scissor_0_Nc_32 ./alt-kpts-res-0-2-1001pts/chi1.kk_xx_yy_zz_7202_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{yz}}$"
 
 set output "alt-Vzb.mp"
-p   '<paste ./alt-kpts-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5002_65-spin_scissor_0_Nc_32 ./alt-kpts-res/chi1.kk_xx_yy_zz_5002_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{zx}}$" ,\
-    '<paste ./alt-kpts-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5002_65-spin_scissor_0_Nc_32 ./alt-kpts-res/chi1.kk_xx_yy_zz_5002_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{zy}}$" ,\
-    '<paste ./alt-kpts-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5002_65-spin_scissor_0_Nc_32 ./alt-kpts-res/chi1.kk_xx_yy_zz_5002_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{zz}}$"
+p   '<paste ./alt-kpts-res-0-2-1001pts/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_7202_65-spin_scissor_0_Nc_32 ./alt-kpts-res-0-2-1001pts/chi1.kk_xx_yy_zz_7202_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{zx}}$" ,\
+    '<paste ./alt-kpts-res-0-2-1001pts/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_7202_65-spin_scissor_0_Nc_32 ./alt-kpts-res-0-2-1001pts/chi1.kk_xx_yy_zz_7202_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{zy}}$" ,\
+    '<paste ./alt-kpts-res-0-2-1001pts/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_7202_65-spin_scissor_0_Nc_32 ./alt-kpts-res-0-2-1001pts/chi1.kk_xx_yy_zz_7202_65-spin_scissor_0_Nc_32' u 1:(PF*($2 + $3 + $6)/($13  + $15 + 0.00001)) w l t "$\\mathcal{V}^{\\mathrm{zz}}$"
 
