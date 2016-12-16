@@ -37,7 +37,6 @@ run_tiniba.sh
 
 run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 12 -P 2265 -w -e -p -s; run_tiniba.sh -r erase
 
-!!!!!!!!!!!!!REVISAR TODOS LOS 55 HA!!!!!!!!!!!!!!!!!!!
 
 # res:
 all_responses.sh

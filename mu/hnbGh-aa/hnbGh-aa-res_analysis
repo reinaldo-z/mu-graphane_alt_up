@@ -773,41 +773,51 @@ rep 'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_75-
 ################################################################################
 
                         N U M B E R   O F   B A N D S   C O N V E R G E N C E
-rep 'hnbGh-aa-band-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_32-50b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_38-56b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_45-spin_scissor_0_Nc_42-60b' u 1:($2*) w l 
 
-rep 'hnbGh-aa-band-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_45-spin_scissor_0_Nc_32-50b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_45-spin_scissor_0_Nc_38-56b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_45-spin_scissor_0_Nc_42-60b' u 1:($2*) w l 
 
-rep 'hnbGh-aa-band-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_45-spin_scissor_0_Nc_32-50b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_45-spin_scissor_0_Nc_38-56b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_45-spin_scissor_0_Nc_42-60b' u 1:($2*) w l 
+set xrange [2.3:3.5]
+d=9.0544808250
 
-rep 'hnbGh-aa-band-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_45-spin_scissor_0_Nc_32-50b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_45-spin_scissor_0_Nc_38-56b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_45-spin_scissor_0_Nc_42-60b' u 1:($2*) w l 
+K=75
+k=K/d
 
-rep 'hnbGh-aa-band-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_45-spin_scissor_0_Nc_32-50b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_45-spin_scissor_0_Nc_38-56b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_45-spin_scissor_0_Nc_42-60b' u 1:($2*) w l 
 
-rep 'hnbGh-aa-band-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_45-spin_scissor_0_Nc_32-50b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_45-spin_scissor_0_Nc_38-56b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_45-spin_scissor_0_Nc_42-60b' u 1:($2*) w l 
+p   'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_75-spin_scissor_0_Nc_22-75z'          u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_75-spin_scissor_0_Nc_28-46b' u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_75-spin_scissor_0_Nc_22-40b' u 1:($10*k) w l
 
-rep 'hnbGh-aa-band-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_45-spin_scissor_0_Nc_32-50b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_45-spin_scissor_0_Nc_38-56b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_45-spin_scissor_0_Nc_42-60b' u 1:($2*) w l 
+p   'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_75-spin_scissor_0_Nc_22-75z'          u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_75-spin_scissor_0_Nc_28-46b' u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_75-spin_scissor_0_Nc_22-40b' u 1:($10*k) w l
 
-rep 'hnbGh-aa-band-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_45-spin_scissor_0_Nc_32-50b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_45-spin_scissor_0_Nc_38-56b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_45-spin_scissor_0_Nc_42-60b' u 1:($2*) w l 
+p   'hnbGh-aa-vac-res/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_75-spin_scissor_0_Nc_22-75z'          u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_75-spin_scissor_0_Nc_28-46b' u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_452_75-spin_scissor_0_Nc_22-40b' u 1:($10*k) w l
 
-rep 'hnbGh-aa-band-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_45-spin_scissor_0_Nc_32-50b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_45-spin_scissor_0_Nc_38-56b' u 1:($2*) w l 
-rep 'hnbGh-aa-band-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_45-spin_scissor_0_Nc_42-60b' u 1:($2*) w l 
+p   'hnbGh-aa-vac-res/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_75-spin_scissor_0_Nc_22-75z'          u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_75-spin_scissor_0_Nc_28-46b' u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_452_75-spin_scissor_0_Nc_22-40b' u 1:($10*k) w l
+
+p   'hnbGh-aa-vac-res/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_75-spin_scissor_0_Nc_22-75z'          u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_75-spin_scissor_0_Nc_28-46b' u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_452_75-spin_scissor_0_Nc_22-40b' u 1:($10*k) w l
+
+p   'hnbGh-aa-vac-res/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_75-spin_scissor_0_Nc_22-75z'          u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_75-spin_scissor_0_Nc_28-46b' u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_452_75-spin_scissor_0_Nc_22-40b' u 1:($10*k) w l
+
+p   'hnbGh-aa-vac-res/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_75-spin_scissor_0_Nc_22-75z'          u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_75-spin_scissor_0_Nc_28-46b' u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_452_75-spin_scissor_0_Nc_22-40b' u 1:($10*k) w l
+
+p   'hnbGh-aa-vac-res/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_75-spin_scissor_0_Nc_22-75z'          u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_75-spin_scissor_0_Nc_28-46b' u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_452_75-spin_scissor_0_Nc_22-40b' u 1:($10*k) w l
+
+p   'hnbGh-aa-vac-res/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_75-spin_scissor_0_Nc_22-75z'          u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_75-spin_scissor_0_Nc_28-46b' u 1:($10*k) w l
+rep 'hnbGh-aa-band-res-75z75Ha/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_452_75-spin_scissor_0_Nc_22-40b' u 1:($10*k) w l
+
 
 
 
