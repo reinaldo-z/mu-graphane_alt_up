@@ -656,9 +656,12 @@ k=K/d
 # rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_60-spin_scissor_0_Nc_22-50z' u 1:($10*f) w l
 p   'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_60-spin_scissor_0_Nc_22-55z' u 1:($10*g) w l
 rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_60-spin_scissor_0_Nc_22-60z' u 1:($10*h) w l
-rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_65-spin_scissor_0_Nc_22-65z' u 1:($10*i) w l
+p   'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_65-spin_scissor_0_Nc_22-65z' u 1:($10*i) w l
 rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_65-spin_scissor_0_Nc_22-70z' u 1:($10*j) w l
 rep 'hnbGh-aa-vac-res/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_75-spin_scissor_0_Nc_22-75z' u 1:($10*k) w l
+
+p   'hnbGh-aa-res-0-4-2001pts/mu.sm_0.03_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_65-spin_scissor_0_Nc_32' u 1:($10*j) w l
+rep 'hnbGh-aa-res-0-4-2001pts/mu.sm_0.03_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_452_75-spin_scissor_0_Nc_32' u 1:($10*k) w l
 
 ##  xyxx
 rep   'hnbGh-aa-vac-res/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_452_35-spin_scissor_0_Nc_22-30z' u 1:($10*a) w l 

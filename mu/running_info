@@ -25,69 +25,66 @@ Date:   Wed Oct 12 10:08:24 2016 -0500
 
     machines scf/pmn
 PMN1:
-/homee/reinaldo/hnbGh/hnbGh-aa/1-vacEcut-conv/hnbGh-aa-60z
+/homee/reinaldo/hnbGh/hnbGh-aa/2-bands-conv/75z75Ha/hnbGh-aa-40b
     hexa03
     hexa04
     hexa05
     hexa06
     hexa08
-    hexa09
 PMN2:
-/homee/reinaldo/hnbGh/hnbGh-aa/1-vacEcut-conv/hnbGh-aa-65z
+/homee/reinaldo/hnbGh/hnbGh-aa/2-bands-conv/75z75Ha/hnbGh-aa-46b
+    hexa09
     hexa10
     hexa11
     hexa12
     hexa13
+PMN3:
+/homee/reinaldo/hnbGh/hnbGh-ab/1-vacEcut-conv/hnbGh-ab-75z
     hexa14
     hexa16
-PMN3:
-/homee/reinaldo/hnbGh/hnbGh-aa/1-vacEcut-conv/hnbGh-aa-70z
     hexa17
     hexa18
     hexa19
+PMN4:
+/homee/reinaldo/alt/kpts-conv/alt-70z65Ha ##  RESPONSES
     hexa24
     hexa25
     hexa26
     hexa30
-PMN4:
-/homee/reinaldo/alt/kpts-conv/alt-70z65Ha ##  RESPONSES
     hexa31
+
+
 PMN5:
-/homee/reinaldo/up/up/up/ ## RESPONSES
-    hexa32
-
-
+RES1:
+RES2:
+RES3:
 PMN6:
-/homee/reinaldo/hnbGh/hnbGh-ab/2-bands-conv/hnbGh-ab-50b
 PMN7:
-/homee/reinaldo/hnbGh/hnbGh-ab/2-bands-conv/hnbGh-ab-55b
 
+
+    hexa32
     hexa33
 
 
     #MakeMachines_latm/res
 rm .machines_latm &>/dev/null
 rm .machines_res  &>/dev/null
-printf 'hexa17\n%.0s'        >  .machines_latm.original
-printf 'hexa17\n%.0s' {1..9} >  .machines_res.original
+printf 'hexa3\n%.0s'        >  .machines_latm.original
+printf 'hexa3\n%.0s' {1..9} >  .machines_res.original
 
     #MakeMachines_pmn/scf
 rm .machines_pmn &>/dev/null
 rm .machines_scf &>/dev/null
-printf 'hexa17\n%.0s' >  .machines_scf.original
-printf 'hexa18\n%.0s' >> .machines_scf.original
-printf 'hexa19\n%.0s' >> .machines_scf.original
-printf 'hexa24\n%.0s' >> .machines_scf.original
-printf 'hexa25\n%.0s' >> .machines_scf.original
-printf 'hexa26\n%.0s' >> .machines_scf.original
-printf 'hexa30\n%.0s' >> .machines_scf.original
-printf 'hexa17\n%.0s' {1..12} >  .machines_pmn.original
-printf 'hexa18\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa19\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa24\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa25\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa26\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa30\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa03\n%.0s' >  .machines_scf.original
+printf 'hexa04\n%.0s' >> .machines_scf.original
+printf 'hexa05\n%.0s' >> .machines_scf.original
+printf 'hexa06\n%.0s' >> .machines_scf.original
+printf 'hexa08\n%.0s' >> .machines_scf.original
+printf 'hexa03\n%.0s' {1..12} >  .machines_pmn.original
+printf 'hexa04\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa05\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa06\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa08\n%.0s' {1..12} >> .machines_pmn.original
 
 
 
