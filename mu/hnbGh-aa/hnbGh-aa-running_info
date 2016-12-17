@@ -31,7 +31,18 @@ sed -i '63s/.*/ecut          22/' setUpAbinit_hbnc2h-20z.in ; grep cut setUpAbin
 abinit_check.sh 1
 abinit_check.sh 2
 
-echo 1 | rklist.sh 31 31 2 abinit # --> 452 kpts
+echo 1 | rklist.sh 31 31 2 abinit   # --> 452  kpts
+
+
+echo 1 | rklist.sh 71 71 2 abinit   # --> 2452 kpts
+echo 1 | rklist.sh 81 81 2 abinit   # --> 3202 kpts
+echo 1 | rklist.sh 91 91 2 abinit   # --> 4052 kpts
+echo 1 | rklist.sh 101 101 2 abinit # --> 5002 kpts
+echo 1 | rklist.sh 111 111 2 abinit # --> 6052 kpts
+echo 1 | rklist.sh 121 121 2 abinit # --> 7202 kpts
+echo 1 | rklist.sh 131 131 2 abinit # --> 8452 kpts
+echo 1 | rklist.sh 141 141 2 abinit # --> 9802 kpts
+echo 1 | rklist.sh 151 151 2 abinit # --> 11252 kpts
 
 run_tiniba.sh
 
