@@ -1,11 +1,14 @@
 #!/bin/bash
 
+############################## T O   C H A N G E ###############################
 kpts=( 2452 3202 4052 5002 6052 7202 8452 9802 11252 )
+pws=10992
+################################################################################
 
 for i in ${kpts[@]}; do
     START=$(date)
 
-    run_tiniba.sh -r run -k "$i" -N 0 -x 2 -C 12 -P 10992 -w -e -p -s
+    run_tiniba.sh -r run -k "$i" -N 0 -x 2 -C 12 -P "$pws" -w -e -p -s
     run_tiniba.sh -r erase
 
     all_responses.sh
