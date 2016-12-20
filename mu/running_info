@@ -31,27 +31,29 @@ PMN1:
     hexa05
     hexa06
     hexa08
-PMN2:
-/homee/reinaldo/hnbGh/hnbGh-aa/2-bands-conv/75z75Ha/hnbGh-aa-46b
     hexa09
     hexa10
     hexa11
     hexa12
     hexa13
-PMN3:
-/homee/reinaldo/hnbGh/hnbGh-ab/2-bands-conv/75z75Ha/hnbGh-ab-40b
     hexa14
+PMN2:
+/homee/reinaldo/hnbGh/hnbGh-aa/2-bands-conv/75z75Ha/hnbGh-aa-46b
     hexa16
     hexa17
     hexa18
     hexa19
-PMN4:
-/homee/reinaldo/hnbGh/hnbGh-ab/2-bands-conv/75z75Ha/hnbGh-ab-46b
     hexa24
     hexa25
     hexa26
     hexa30
     hexa31
+    hexa32
+    hexa33
+PMN3:
+/homee/reinaldo/hnbGh/hnbGh-ab/2-bands-conv/75z75Ha/hnbGh-ab-40b
+PMN4:
+/homee/reinaldo/hnbGh/hnbGh-ab/2-bands-conv/75z75Ha/hnbGh-ab-46b
 
 
 PMN5:
@@ -62,29 +64,39 @@ PMN6:
 PMN7:
 
 
-    hexa32
-    hexa33
 
 
     #MakeMachines_latm/res
 rm .machines_latm &>/dev/null
 rm .machines_res  &>/dev/null
-printf 'hexa24\n%.0s'        >  .machines_latm.original
-printf 'hexa24\n%.0s' {1..9} >  .machines_res.original
+printf 'hexa3\n%.0s'        >  .machines_latm.original
+printf 'hexa3\n%.0s' {1..9} >  .machines_res.original
 
     #MakeMachines_pmn/scf
 rm .machines_pmn &>/dev/null
 rm .machines_scf &>/dev/null
-printf 'hexa24\n%.0s' >  .machines_scf.original
-printf 'hexa25\n%.0s' >> .machines_scf.original
-printf 'hexa26\n%.0s' >> .machines_scf.original
-printf 'hexa30\n%.0s' >> .machines_scf.original
-printf 'hexa31\n%.0s' >> .machines_scf.original
-printf 'hexa24\n%.0s' {1..12} >  .machines_pmn.original
-printf 'hexa25\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa26\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa30\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa31\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa03\n%.0s' >  .machines_scf.original
+printf 'hexa04\n%.0s' >> .machines_scf.original
+printf 'hexa05\n%.0s' >> .machines_scf.original
+printf 'hexa06\n%.0s' >> .machines_scf.original
+printf 'hexa08\n%.0s' >> .machines_scf.original
+printf 'hexa09\n%.0s' >> .machines_scf.original
+printf 'hexa10\n%.0s' >> .machines_scf.original
+printf 'hexa11\n%.0s' >> .machines_scf.original
+printf 'hexa12\n%.0s' >> .machines_scf.original
+printf 'hexa13\n%.0s' >> .machines_scf.original
+printf 'hexa14\n%.0s' >> .machines_scf.original
+printf 'hexa03\n%.0s' {1..12} >  .machines_pmn.original
+printf 'hexa04\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa05\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa06\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa08\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa09\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa10\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa11\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa12\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa13\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa14\n%.0s' {1..12} >> .machines_pmn.original
 
 
 
