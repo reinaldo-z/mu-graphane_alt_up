@@ -12,7 +12,6 @@ for i in ${kpts[@]}; do
     START=$(date)
 
     run_tiniba.sh -r run -k "$i" -N 0 -x 2 -C 12 -P "$pws" -w -e -p -s
-    run_tiniba.sh -r erase
 
     all_responses.sh
     all_responses.sh -w total -m "$i"_75-spin -s 0 -o 1 -v 18 -c 32 -r 48 -t "xxxx xxxy xxxz xxyx xxyy xxyz xxzx xxzy xxzz" -b 0.03
@@ -32,4 +31,5 @@ for i in ${kpts[@]}; do
 
     sleep 30m
 done
+run_tiniba.sh -r erase
 
