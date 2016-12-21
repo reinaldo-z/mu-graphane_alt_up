@@ -26,7 +26,7 @@ Date:   Wed Oct 12 10:08:24 2016 -0500
 
 running time:
 
-sed -i '63s/.*/ecut          22/' setUpAbinit_hbnc2h-20z.in ; grep cut setUpAbinit*
+sed -i '63s/.*/ecut          75/' setUpAbinit_hbnc2h-20z.in ; grep cut setUpAbinit*
 
 abinit_check.sh 1
 abinit_check.sh 2
