@@ -29,5 +29,7 @@ for i in ${kpts[@]}; do
 
     END=$(date)
     ssh cassandra "echo -e 'Calculations completed: $i kpts for $strc \nStarted at $START \nFinished at $END \n\nArray of ktps: \n${kpts[@]} ' | mail -s '$i kpts for $strc' reychino@gmail.com"
+
+    sleep 30m
 done
 
