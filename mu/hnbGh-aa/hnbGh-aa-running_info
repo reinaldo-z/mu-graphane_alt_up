@@ -62,7 +62,12 @@ all_responses.sh -w total -m 452_75-spin -s 0 -o 1 -v 18 -c 28 -r 48 -t "zzxx zz
 all_responses.sh -w total -m 452_75-spin -s 0 -o 1 -v 18 -c 28 -r  3 -t "xxy yxy zxy"
 all_responses.sh -w total -m 452_75-spin -s 0 -o 1 -v 18 -c 28 -r  1 -t "xx yy zz"
 
+################################################################################
 
+# Makig Vab:
+awk '{ print $1, (($2+$3+$6)/($13+$15+0.00001)) }' 
+~/tiniba/smear/rsmear2 
+rm fort10 fromSmear
 
 ################################################################################
 

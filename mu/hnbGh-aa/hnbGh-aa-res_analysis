@@ -931,6 +931,11 @@ rep 'hnbGh-aa-kpts-res/mu.sm_0.03_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5
 
 
 
+set xrange [0:3]
+PF=29.98
+
+p   'hnbGh-aa-kpts-res/vxx.sm_0.03_4052_75-spin_scissor_0_Nc_28' u 1:($2*PF) w l 
+rep 'hnbGh-aa-kpts-res/vxx.sm_0.03_5002_75-spin_scissor_0_Nc_28' u 1:($2*PF) w l 
 
 
 
