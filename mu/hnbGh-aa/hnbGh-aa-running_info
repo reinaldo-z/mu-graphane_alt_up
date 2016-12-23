@@ -43,6 +43,8 @@ echo 1 | rklist.sh 121 121 2 abinit # --> 7202 kpts
 echo 1 | rklist.sh 131 131 2 abinit # --> 8452 kpts
 echo 1 | rklist.sh 141 141 2 abinit # --> 9802 kpts
 echo 1 | rklist.sh 151 151 2 abinit # --> 11252 kpts
+echo 1 | rklist.sh 161 161 2 abinit # -->  kpts
+echo 1 | rklist.sh 171 171 2 abinit # -->  kpts
 
 run_tiniba.sh
 
@@ -66,8 +68,8 @@ all_responses.sh -w total -m 452_75-spin -s 0 -o 1 -v 18 -c 28 -r  1 -t "xx yy z
 
 # Makig Vab:
 awk '{ print $1, (($2+$3+$6)/($13+$15+0.00001)) }' 
-~/tiniba/smear/rsmear2 
-rm fort10 fromSmear
+~/tiniba/smear/rsmear2 1 
+rm fort.10 fromSmear
 
 ################################################################################
 
