@@ -148,18 +148,7 @@ ssh hexa32 'killall -u reinaldo'
 ssh hexa33 'killall -u reinaldo'
 
     machines free
-hexa14
-hexa16
-hexa17
-hexa18
-hexa19
-hexa24
-hexa25
-hexa26
-hexa30
-hexa31
-hexa32
-hexa33
+
 
     machines in use
 hexa01 (sma)

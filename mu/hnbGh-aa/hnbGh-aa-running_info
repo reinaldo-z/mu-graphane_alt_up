@@ -43,8 +43,8 @@ echo 1 | rklist.sh 121 121 2 abinit # --> 7202 kpts
 echo 1 | rklist.sh 131 131 2 abinit # --> 8452 kpts
 echo 1 | rklist.sh 141 141 2 abinit # --> 9802 kpts
 echo 1 | rklist.sh 151 151 2 abinit # --> 11252 kpts
-echo 1 | rklist.sh 161 161 2 abinit # --> 12802 kpts
-echo 1 | rklist.sh 171 171 2 abinit # --> 14452 kpts
+echo 1 | rklist.sh 161 161 2 abinit # -->    kpts
+echo 1 | rklist.sh 171 171 2 abinit # -->    kpts
 
 run_tiniba.sh
 

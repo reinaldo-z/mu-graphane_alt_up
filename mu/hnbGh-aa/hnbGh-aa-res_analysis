@@ -1046,7 +1046,7 @@ set xrange [0:3]
 PF=29.98
 
 
-rep 'hnbGh-aa-kpts-res/v.sm_0.03_xx_5002_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+p   'hnbGh-aa-kpts-res/v.sm_0.03_xx_5002_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
 rep 'hnbGh-aa-kpts-res/v.sm_0.03_xx_6052_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
 rep 'hnbGh-aa-kpts-res/v.sm_0.03_xx_7202_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
 rep 'hnbGh-aa-kpts-res/v.sm_0.03_xx_8452_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
