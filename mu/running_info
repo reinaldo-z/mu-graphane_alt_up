@@ -75,17 +75,18 @@ PMN7:
     #MakeMachines_latm/res
 rm .machines_latm &>/dev/null
 rm .machines_res  &>/dev/null
-printf 'hexa03\n%.0s'        >  .machines_latm.original
-printf 'hexa03\n%.0s' {1..9} >  .machines_res.original
+printf 'hexa1\n%.0s'        >  .machines_latm.original
+printf 'hexa1\n%.0s' {1..9} >  .machines_res.original
 
     #MakeMachines_pmn/scf
 rm .machines_pmn &>/dev/null
 rm .machines_scf &>/dev/null
-printf 'hexa02\n%.0s' > .machines_scf.original
-printf 'hexa03\n%.0s' >> .machines_scf.original
-printf 'hexa04\n%.0s' >> .machines_scf.original
-printf 'hexa05\n%.0s' >> .machines_scf.original
-printf 'hexa06\n%.0s' >> .machines_scf.original
+printf 'hexa07\n%.0s' > .machines_scf.original
+printf 'hexa08\n%.0s' >> .machines_scf.original
+printf 'hexa09\n%.0s' >> .machines_scf.original
+printf 'hexa10\n%.0s' >> .machines_scf.original
+printf 'hexa11\n%.0s' >> .machines_scf.original
+
 printf 'hexa07\n%.0s' >> .machines_scf.original
 printf 'hexa08\n%.0s' >> .machines_scf.original
 printf 'hexa09\n%.0s' >> .machines_scf.original
@@ -105,11 +106,13 @@ printf 'hexa30\n%.0s' >> .machines_scf.original
 printf 'hexa31\n%.0s' >> .machines_scf.original
 printf 'hexa32\n%.0s' >> .machines_scf.original
 printf 'hexa33\n%.0s' >> .machines_scf.original
-printf 'hexa02\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa03\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa04\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa05\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa06\n%.0s' {1..12} >> .machines_pmn.original
+
+printf 'hexa07\n%.0s' {1..12} > .machines_pmn.original
+printf 'hexa08\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa09\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa10\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa11\n%.0s' {1..12} >> .machines_pmn.original
+
 printf 'hexa07\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa08\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa09\n%.0s' {1..12} >> .machines_pmn.original

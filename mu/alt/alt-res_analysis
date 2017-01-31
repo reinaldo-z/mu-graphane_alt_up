@@ -375,46 +375,95 @@ h=70/5.564770162
 
 
 
-p   'alt-kpts-res-0-4-1001pts/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+p   'alt-kpts-res-0-4-1001pts/mu.sm_0.03_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
-p   'alt-kpts-res-0-4-1001pts/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+p   'alt-kpts-res-0-4-1001pts/mu.sm_0.03_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
-p   'alt-kpts-res-0-4-1001pts/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+p   'alt-kpts-res-0-4-1001pts/mu.sm_0.03_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
-p   'alt-kpts-res-0-4-1001pts/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+p   'alt-kpts-res-0-4-1001pts/mu.sm_0.03_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
-p   'alt-kpts-res-0-4-1001pts/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+p   'alt-kpts-res-0-4-1001pts/mu.sm_0.03_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
-p   'alt-kpts-res-0-4-1001pts/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+p   'alt-kpts-res-0-4-1001pts/mu.sm_0.03_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
-p   'alt-kpts-res-0-4-1001pts/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+p   'alt-kpts-res-0-4-1001pts/mu.sm_0.03_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
-p   'alt-kpts-res-0-4-1001pts/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+p   'alt-kpts-res-0-4-1001pts/mu.sm_0.03_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
-p   'alt-kpts-res-0-4-1001pts/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-rep 'alt-kpts-res-0-4-1001pts/mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
-
-
+p   'alt-kpts-res-0-4-1001pts/mu.sm_0.03_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_11252_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_12802_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
+rep 'alt-kpts-res-0-4-1001pts/mu.sm_0.03_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_14452_65-spin_scissor_0_Nc_32' u 1:($6*h) w l
 
 
 
+
+set xrange [0.5:2.0]
+h=70/5.564770162
+
+p   "alt-kpts-res-0-4-1001pts/v.sm_0.03_xx_11252_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_xx_12802_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_xx_14452_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+
+p   "alt-kpts-res-0-4-1001pts/v.sm_0.03_xy_11252_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_xy_12802_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_xy_14452_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+
+p   "alt-kpts-res-0-4-1001pts/v.sm_0.03_xz_11252_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_xz_12802_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_xz_14452_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+
+p   "alt-kpts-res-0-4-1001pts/v.sm_0.03_yx_11252_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_yx_12802_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_yx_14452_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+
+p   "alt-kpts-res-0-4-1001pts/v.sm_0.03_yy_11252_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_yy_12802_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_yy_14452_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+
+p   "alt-kpts-res-0-4-1001pts/v.sm_0.03_yz_11252_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_yz_12802_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+
+p   "alt-kpts-res-0-4-1001pts/v.sm_0.03_zx_11252_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_zx_12802_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_zx_14452_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+
+p   "alt-kpts-res-0-4-1001pts/v.sm_0.03_zy_11252_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_zy_12802_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_zy_14452_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+
+p   "alt-kpts-res-0-4-1001pts/v.sm_0.03_zz_11252_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_zz_12802_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+rep "alt-kpts-res-0-4-1001pts/v.sm_0.03_zz_14452_65-spin_scissor_0_Nc_32" u 1:(29.98*$2) w l
+
+################################################################################
+
+
+
+                                    ################################################################
+                                    ################################################################
+                                    ####                                                        ####
+                                    #### THE FOLLOWING RESPONSES ARE CALCULATED USIN TINIBA 3.2 ####
+                                    ####                                                        ####
+                                    ################################################################
+                                    ################################################################
 
 
 

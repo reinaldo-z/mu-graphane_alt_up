@@ -916,6 +916,53 @@ PF=29.98
 p   'hnbGh-ab-kpts-res/vxx.sm_0.03_4052_75-spin_scissor_0_Nc_28' u 1:($2*PF) w l 
 rep 'hnbGh-ab-kpts-res/vxx.sm_0.03_5002_75-spin_scissor_0_Nc_28' u 1:($2*PF) w l 
 
+################################################################################
+
+
+                                    ################################################################
+                                    ################################################################
+                                    ####                                                        ####
+                                    #### THE FOLLOWING RESPONSES ARE CALCULATED USIN TINIBA 3.2 ####
+                                    ####                                                        ####
+                                    ################################################################
+                                    ################################################################
+
+
+
+set xrange [0:3]
+PF=29.98
+
+
+
+p   'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_xx_12802_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+rep 'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+
+p   'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_xy_12802_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+rep 'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+
+p   'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_xz_12802_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+rep 'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+
+p   'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_yx_12802_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+rep 'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+
+p   'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_yy_12802_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+rep 'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+
+p   'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_yz_12802_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+rep 'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+
+p   'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_zx_12802_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+rep 'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_zx_14452_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+
+p   'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_zy_12802_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+rep 'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_zy_14452_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+
+p   'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_zz_12802_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+rep 'hnbGh-ab-res-0-20-2001pts/v.sm_0.03_zz_14452_75-spin_scissor_0_Nc_32' u 1:($2*PF) w l 
+
+
+
 
 
 
