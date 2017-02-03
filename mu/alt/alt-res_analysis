@@ -559,6 +559,27 @@ rep 'alt-res-0-4-2001pts/mu.sm_0.03_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz
 rep 'alt-res-0-4-2001pts/mu.sm_0.03_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_12802_65-spin_scissor_0_Nc_32' u 1:($9*h) w l
 rep 'alt-res-0-4-2001pts/mu.sm_0.03_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_12802_65-spin_scissor_0_Nc_32' u 1:($10*h) w l
 
+################################################################################
+
+                                V ^ a b  A N A L Y S I S
+
+
+
+p   'alt-res-0-4-2001pts/v.sm_0.03_xx_14452_65-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
+rep 'alt-res-0-4-2001pts/v.sm_0.03_xy_14452_65-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
+rep 'alt-res-0-4-2001pts/v.sm_0.03_xz_14452_65-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
+rep 'alt-res-0-4-2001pts/v.sm_0.03_yx_14452_65-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
+rep 'alt-res-0-4-2001pts/v.sm_0.03_yy_14452_65-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
+rep 'alt-res-0-4-2001pts/v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
+rep 'alt-res-0-4-2001pts/v.sm_0.03_zx_14452_65-spin_scissor_0_Nc_32' u 1:($2*29.98) w l # intense
+rep 'alt-res-0-4-2001pts/v.sm_0.03_zy_14452_65-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
+rep 'alt-res-0-4-2001pts/v.sm_0.03_zz_14452_65-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
+
+
+
+
+
+
 
 
 

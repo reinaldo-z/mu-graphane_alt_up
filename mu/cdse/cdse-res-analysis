@@ -129,18 +129,18 @@ rep 'cdse-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzz
                                 V ^ a b   I N D E P E N D E N T   &   H I G H E S T 
 
 highest:
-rep 'cdse-res-0-4-2001pts/v.sm_0.03_zz_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l 
+rep   'cdse-res-0-4-2001pts/v.sm_0.03_zz_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l 
 
 independent:
 p   'cdse-res-0-4-2001pts/v.sm_0.03_xx_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l 
 rep 'cdse-res-0-4-2001pts/v.sm_0.03_xy_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l 
-# rep 'cdse-res-0-4-2001pts/v.sm_0.03_xz_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l # almost zero 
-# rep 'cdse-res-0-4-2001pts/v.sm_0.03_yx_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l # same as other component
-# rep 'cdse-res-0-4-2001pts/v.sm_0.03_yy_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l # same as other component
-# rep 'cdse-res-0-4-2001pts/v.sm_0.03_yz_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l # almost zero 
-# rep 'cdse-res-0-4-2001pts/v.sm_0.03_zx_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l # almost zero 
-# rep 'cdse-res-0-4-2001pts/v.sm_0.03_zy_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l # almost zero 
-rep 'cdse-res-0-4-2001pts/v.sm_0.03_zz_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l 
+rep 'cdse-res-0-4-2001pts/v.sm_0.03_xz_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l # almost zero 
+rep 'cdse-res-0-4-2001pts/v.sm_0.03_yx_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l # same as other component
+rep 'cdse-res-0-4-2001pts/v.sm_0.03_yy_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l # same as other component
+rep 'cdse-res-0-4-2001pts/v.sm_0.03_yz_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l # almost zero 
+rep 'cdse-res-0-4-2001pts/v.sm_0.03_zx_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l # almost zero 
+rep 'cdse-res-0-4-2001pts/v.sm_0.03_zy_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l # almost zero 
+rep 'cdse-res-0-4-2001pts/v.sm_0.03_zz_3234_15-spin_scissor_0_Nc_16' u 1:($2*29.98) w l # intense
 
 
 
