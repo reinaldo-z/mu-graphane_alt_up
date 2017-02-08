@@ -26,8 +26,8 @@ Date:   Wed Oct 12 10:08:24 2016 -0500
     machines scf/pmn
 PMN1:
 /homee/reinaldo/hnbGh/hnbGh-aa/2-bands-conv/75z75Ha/hnbGh-aa-40b
-    hexa03
     hexa02
+    hexa03
     hexa04
     hexa05
     hexa06
@@ -43,7 +43,6 @@ PMN1:
     hexa17
     hexa18
     hexa19
-    hexa24
     hexa25
     hexa26
     hexa28
@@ -75,13 +74,14 @@ PMN7:
     #MakeMachines_latm/res
 rm .machines_latm &>/dev/null
 rm .machines_res  &>/dev/null
-printf 'hexa3\n%.0s'        >  .machines_latm.original
-printf 'hexa3\n%.0s' {1..9} >  .machines_res.original
+printf 'hexa2\n%.0s'        >  .machines_latm.original
+printf 'hexa2\n%.0s' {1..9} >  .machines_res.original
 
     #MakeMachines_pmn/scf
 rm .machines_pmn &>/dev/null
 rm .machines_scf &>/dev/null
-printf 'hexa03\n%.0s' > .machines_scf.original
+printf 'hexa02\n%.0s' > .machines_scf.original
+printf 'hexa03\n%.0s' >> .machines_scf.original
 printf 'hexa04\n%.0s' >> .machines_scf.original
 printf 'hexa05\n%.0s' >> .machines_scf.original
 printf 'hexa06\n%.0s' >> .machines_scf.original
@@ -97,13 +97,19 @@ printf 'hexa16\n%.0s' >> .machines_scf.original
 printf 'hexa17\n%.0s' >> .machines_scf.original
 printf 'hexa18\n%.0s' >> .machines_scf.original
 printf 'hexa19\n%.0s' >> .machines_scf.original
+printf 'hexa24\n%.0s' >> .machines_scf.original
 printf 'hexa25\n%.0s' >> .machines_scf.original
 printf 'hexa26\n%.0s' >> .machines_scf.original
+printf 'hexa28\n%.0s' >> .machines_scf.original
 printf 'hexa30\n%.0s' >> .machines_scf.original
 printf 'hexa31\n%.0s' >> .machines_scf.original
 printf 'hexa32\n%.0s' >> .machines_scf.original
 printf 'hexa33\n%.0s' >> .machines_scf.original
-printf 'hexa03\n%.0s' {1..12} > .machines_pmn.original
+printf 'hexa34\n%.0s' >> .machines_scf.original
+printf 'hexa35\n%.0s' >> .machines_scf.original
+printf 'hexa36\n%.0s' >> .machines_scf.original
+printf 'hexa02\n%.0s' {1..12} > .machines_pmn.original
+printf 'hexa03\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa04\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa05\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa06\n%.0s' {1..12} >> .machines_pmn.original
@@ -119,12 +125,17 @@ printf 'hexa16\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa17\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa18\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa19\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa24\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa25\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa26\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa28\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa30\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa31\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa32\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa33\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa34\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa35\n%.0s' {1..12} >> .machines_pmn.original
+printf 'hexa36\n%.0s' {1..12} >> .machines_pmn.original
 
 
 

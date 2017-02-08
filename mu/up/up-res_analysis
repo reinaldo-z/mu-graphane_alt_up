@@ -485,7 +485,20 @@ rep 'up-res-0-4-2001pts/mu.sm_0.03_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_
 rep 'up-res-0-4-2001pts/mu.sm_0.03_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_12802_40-spin_scissor_0_Nc_32' u 1:($10*n) w l 
 
 
+###############################################################################
 
+                                V ^ a b  A N A L Y S I S
+
+
+p   'up-res-0-4-2001pts/v.sm_0.03_xx_12802_40-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
+rep 'up-res-0-4-2001pts/v.sm_0.03_xy_12802_40-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
+rep 'up-res-0-4-2001pts/v.sm_0.03_xz_12802_40-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
+rep 'up-res-0-4-2001pts/v.sm_0.03_yx_12802_40-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
+rep 'up-res-0-4-2001pts/v.sm_0.03_yy_12802_40-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
+rep 'up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
+rep 'up-res-0-4-2001pts/v.sm_0.03_zx_12802_40-spin_scissor_0_Nc_32' u 1:($2*29.98) w l # intense
+rep 'up-res-0-4-2001pts/v.sm_0.03_zy_12802_40-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
+rep 'up-res-0-4-2001pts/v.sm_0.03_zz_12802_40-spin_scissor_0_Nc_32' u 1:($2*29.98) w l 
 
 
 
