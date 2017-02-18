@@ -107,26 +107,126 @@ rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzz
 
                                     M U   I N D E P E N D E N T   &   H I G H E S T
 
-higest:
-p   'gaas-res-0-4-2001pts/mu.sm_0.15_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l
 
-independent:
-p   'gaas-res-0-4-2001pts/mu.sm_0.15_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l
-rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:6 w l 
-rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:3 w l 
-# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:4 w l # same as other component
-# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:5 w l # same as other component
-# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l # same as other component
-# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:6 w l # same as other component
-# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:8 w l # almost zero
-# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:9 w l # almost zero
-# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:7 w l # same as other component
-# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:8 w l # almost zero
-# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:4 w l # same as other component
-# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:7 w l # same as other component
-# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l # same as other component
-# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l # same as other component
+p   'gaas-res-0-4-2001pts/mu.sm_0.15_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l lw 2 t "xxxx" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:3 w l lw 2 t "xxxy"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:4 w l lw 2 t "xxxz"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:5 w l lw 2 t "xxyx"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:6 w l lw 2 t "xxyy"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:7 w l lw 2 t "xxyz"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:8 w l lw 2 t "xxzx"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:9 w l lw 2 t "xxzy"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l lw 2 t "xxzz" # nz
 
+# p   'gaas-res-0-4-2001pts/mu.sm_0.15_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l lw 2 t "xyxx"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:3 w l lw 2 t "xyxy" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:4 w l lw 2 t "xyxz"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:5 w l lw 2 t "xyyx" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:6 w l lw 2 t "xyyy"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:7 w l lw 2 t "xyyz"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:8 w l lw 2 t "xyzx"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:9 w l lw 2 t "xyzy"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l lw 2 t "xyzz"
+
+# p   'gaas-res-0-4-2001pts/mu.sm_0.15_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l lw 2 t "xzxx"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:3 w l lw 2 t "xzxy"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:4 w l lw 2 t "xzxz" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:5 w l lw 2 t "xzyx"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:6 w l lw 2 t "xzyy"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:7 w l lw 2 t "xzyz"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:8 w l lw 2 t "xzzx" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:9 w l lw 2 t "xzzy"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l lw 2 t "xzzz"
+
+# p   'gaas-res-0-4-2001pts/mu.sm_0.15_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l lw 2 t "yxxx"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:3 w l lw 2 t "yxxy" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:4 w l lw 2 t "yxxz"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:5 w l lw 2 t "yxyx" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:6 w l lw 2 t "yxyy"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:7 w l lw 2 t "yxyz"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:8 w l lw 2 t "yxzx"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:9 w l lw 2 t "yxzy"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l lw 2 t "yxzz"
+
+rep   'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l lw 2 t "yyxx" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:3 w l lw 2 t "yyxy"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:4 w l lw 2 t "yyxz"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:5 w l lw 2 t "yyyx"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:6 w l lw 2 t "yyyy" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:7 w l lw 2 t "yyyz"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:8 w l lw 2 t "yyzx"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:9 w l lw 2 t "yyzy"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l lw 2 t "yyzz" # nz
+
+# p   'gaas-res-0-4-2001pts/mu.sm_0.15_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l lw 2 t "yzxx"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:3 w l lw 2 t "yzxy"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:4 w l lw 2 t "yzxz"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:5 w l lw 2 t "yzyx"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:6 w l lw 2 t "yzyy"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:7 w l lw 2 t "yzyz"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:8 w l lw 2 t "yzzx"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:9 w l lw 2 t "yzzy" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l lw 2 t "yzzz"
+
+# p   'gaas-res-0-4-2001pts/mu.sm_0.15_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l lw 2 t "zxxx"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:3 w l lw 2 t "zxxy"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:4 w l lw 2 t "zxxz" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:5 w l lw 2 t "zxyx"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:6 w l lw 2 t "zxyy" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:7 w l lw 2 t "zxyz"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:8 w l lw 2 t "zxzx" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:9 w l lw 2 t "zxzy"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l lw 2 t "zxzz"
+
+# p   'gaas-res-0-4-2001pts/mu.sm_0.15_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l lw 2 t "zyxx"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:3 w l lw 2 t "zyxy"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:4 w l lw 2 t "zyxz"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:5 w l lw 2 t "zyyx"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:6 w l lw 2 t "zyyy"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:7 w l lw 2 t "zyyz"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:8 w l lw 2 t "zyzx"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:9 w l lw 2 t "zyzy" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l lw 2 t "zyzz"
+
+rep   'gaas-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l lw 2 t "zzxx" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:3 w l lw 2 t "zzxy"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:4 w l lw 2 t "zzxz"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:5 w l lw 2 t "zzyx"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:6 w l lw 2 t "zzyy" # nz
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:7 w l lw 2 t "zzyz"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:8 w l lw 2 t "zzzx"
+# rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:9 w l lw 2 t "zzzy"
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l lw 2 t "zzzz" # nz
+
+
+p   'gaas-res-0-4-2001pts/mu.sm_0.15_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l lw 2 t "xxxx" # nz
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:6 w l lw 2 t "yyyy" # nz
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l lw 2 t "zzzz" # nz
+
+p   'gaas-res-0-4-2001pts/mu.sm_0.15_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l lw 2 t "xxzz" # nz
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l lw 2 t "yyxx" # nz
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l lw 2 t "zzxx" # nz
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l lw 2 t "yyzz" # nz
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:6 w l lw 2 t "zzyy" # nz
+
+p   'gaas-res-0-4-2001pts/mu.sm_0.15_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:3 w l lw 2 t "xyxy" # nz
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:5 w l lw 2 t "yxyx" # nz
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:4 w l lw 2 t "xzxz" # nz
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:8 w l lw 2 t "zxzx" # nz
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:8 w l lw 2 t "xzzx" # nz
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:4 w l lw 2 t "zxxz" # nz
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:3 w l lw 2 t "yxxy" # nz
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:5 w l lw 2 t "xyyx" # nz
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:9 w l lw 2 t "yzzy" # nz
+rep 'gaas-res-0-4-2001pts/mu.sm_0.15_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:9 w l lw 2 t "zyzy" # nz
+
+xxxx yyyy zzzz
+xxzz yyxx
+xyxy xzxz xzzx yxxy yxyx
+
+iiii
+iijj
+ijij=jiji
 
 ########################################################################################################################
 
@@ -134,15 +234,15 @@ rep 'gaas-res-0-4-2001pts/mu.sm_0.15_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyz
                                 V ^ a b   I N D E P E N D E N T   &   H I G H E S T 
 
 
-p   'gaas-res-0-4-2001pts/v.sm_0.03_xx_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l # intense
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_xy_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l 
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_xz_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l # almost zero
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_yx_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l # same as other component
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_yy_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l # same as other component
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_yz_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l # almost zero
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_zx_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l # almost zero
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_zy_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l # almost zero
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_zz_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l 
+p   'gaas-res-0-4-2001pts/v.sm_0.03_xx_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "xx" # intense
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_xy_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "xy" 
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_xz_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "xz" # almost zero
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_yx_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "yx" # same as other component
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_yy_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "yy" # same as other component
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_yz_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "yz" # almost zero
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_zx_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "zx" # almost zero
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_zy_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "zy" # almost zero
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_zz_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "zz" 
 
 
 
