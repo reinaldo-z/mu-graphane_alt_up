@@ -1234,15 +1234,62 @@ rep 'hnbGh-aa-res-0-4-2001pts/mu.sm_0.03_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy
                                 V ^ a b  A N A L Y S I S
 
 
-p   'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l 
-rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l 
-rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l 
-rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l # intense
-rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l 
-rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l 
-rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zx_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l 
-rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zy_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l 
-rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zz_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l 
+p   'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l lw 2 t "xx" 
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l lw 2 t "xy" 
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l lw 2 t "xz" 
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l lw 2 t "yx" # intense
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l lw 2 t "yy" 
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l lw 2 t "yz" 
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zx_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l lw 2 t "zx" 
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zy_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l lw 2 t "zy" 
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zz_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:($2*29.98) w l lw 2 t "zz" 
+
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:(2*29.98) w l lw 2 t "xx 00"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_30' u 1:(2*29.98) w l lw 2 t "xx 30"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_45' u 1:(2*29.98) w l lw 2 t "xx 45"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_60' u 1:(2*29.98) w l lw 2 t "xx 60"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_90' u 1:(2*29.98) w l lw 2 t "xx 90"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:(2*29.98) w l lw 2 t "xy 00"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_30' u 1:(2*29.98) w l lw 2 t "xy 30"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_45' u 1:(2*29.98) w l lw 2 t "xy 45"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_60' u 1:(2*29.98) w l lw 2 t "xy 60"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_90' u 1:(2*29.98) w l lw 2 t "xy 90"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:(2*29.98) w l lw 2 t "xz 00"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_30' u 1:(2*29.98) w l lw 2 t "xz 30"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_45' u 1:(2*29.98) w l lw 2 t "xz 45"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_60' u 1:(2*29.98) w l lw 2 t "xz 60"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_90' u 1:(2*29.98) w l lw 2 t "xz 90"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:(2*29.98) w l lw 2 t "yx 00"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_30' u 1:(2*29.98) w l lw 2 t "yx 30"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_45' u 1:(2*29.98) w l lw 2 t "yx 45"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_60' u 1:(2*29.98) w l lw 2 t "yx 60"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_90' u 1:(2*29.98) w l lw 2 t "yx 90"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:(2*29.98) w l lw 2 t "yy 00"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_30' u 1:(2*29.98) w l lw 2 t "yy 30"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_45' u 1:(2*29.98) w l lw 2 t "yy 45"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_60' u 1:(2*29.98) w l lw 2 t "yy 60"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_90' u 1:(2*29.98) w l lw 2 t "yy 90"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:(2*29.98) w l lw 2 t "yz 00"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_30' u 1:(2*29.98) w l lw 2 t "yz 30"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_45' u 1:(2*29.98) w l lw 2 t "yz 45"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_60' u 1:(2*29.98) w l lw 2 t "yz 60"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_90' u 1:(2*29.98) w l lw 2 t "yz 90"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zx_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:(2*29.98) w l lw 2 t "zx 00"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zx_14452_75-spin_scissor_0_Nc_32_ang_30' u 1:(2*29.98) w l lw 2 t "zx 30"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zx_14452_75-spin_scissor_0_Nc_32_ang_45' u 1:(2*29.98) w l lw 2 t "zx 45"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zx_14452_75-spin_scissor_0_Nc_32_ang_60' u 1:(2*29.98) w l lw 2 t "zx 60"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zx_14452_75-spin_scissor_0_Nc_32_ang_90' u 1:(2*29.98) w l lw 2 t "zx 90"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zy_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:(2*29.98) w l lw 2 t "zy 00"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zy_14452_75-spin_scissor_0_Nc_32_ang_30' u 1:(2*29.98) w l lw 2 t "zy 30"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zy_14452_75-spin_scissor_0_Nc_32_ang_45' u 1:(2*29.98) w l lw 2 t "zy 45"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zy_14452_75-spin_scissor_0_Nc_32_ang_60' u 1:(2*29.98) w l lw 2 t "zy 60"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zy_14452_75-spin_scissor_0_Nc_32_ang_90' u 1:(2*29.98) w l lw 2 t "zy 90"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zz_14452_75-spin_scissor_0_Nc_32_ang_00' u 1:(2*29.98) w l lw 2 t "zz 00"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zz_14452_75-spin_scissor_0_Nc_32_ang_30' u 1:(2*29.98) w l lw 2 t "zz 30"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zz_14452_75-spin_scissor_0_Nc_32_ang_45' u 1:(2*29.98) w l lw 2 t "zz 45"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zz_14452_75-spin_scissor_0_Nc_32_ang_60' u 1:(2*29.98) w l lw 2 t "zz 60"
+rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zz_14452_75-spin_scissor_0_Nc_32_ang_90' u 1:(2*29.98) w l lw 2 t "zz 90"
+
 
 
 
