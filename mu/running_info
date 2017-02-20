@@ -101,7 +101,6 @@ printf 'hexa25\n%.0s' >> .machines_scf.original
 printf 'hexa26\n%.0s' >> .machines_scf.original
 printf 'hexa30\n%.0s' >> .machines_scf.original
 printf 'hexa31\n%.0s' >> .machines_scf.original
-printf 'hexa32\n%.0s' >> .machines_scf.original
 printf 'hexa33\n%.0s' >> .machines_scf.original
 printf 'hexa34\n%.0s' >> .machines_scf.original
 printf 'hexa35\n%.0s' >> .machines_scf.original
@@ -127,15 +126,16 @@ printf 'hexa25\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa26\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa30\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa31\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa32\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa33\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa34\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa35\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa36\n%.0s' {1..12} >> .machines_pmn.original
 
-hexa10ib not working
-hexa11ib not working
-hexa33ib not working
+hexa10: ib not working
+hexa11: ib not working
+hexa33: ib not working
+
+hexa32: broken pipe
 
     kill process
 PMN1:

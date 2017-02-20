@@ -4,7 +4,7 @@
 strc=alt
 kpts=14452
 pws=10174
-layers=( 1 2 3 4)
+layers=( 1 2 3 4 )
 ################################################################################
 
 for i in ${layers[@]}; do
@@ -14,7 +14,6 @@ for i in ${layers[@]}; do
     echo -e "\n\n\n"
     sleep 20
     run_tiniba.sh -r run -k "$kpts" -N 1 -x 2 -C 12 -P "$pws" -c
-    run_tiniba.sh -r erase
 
     clear
 
