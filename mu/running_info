@@ -74,8 +74,8 @@ PMN7:
     #MakeMachines_latm/res
 rm .machines_latm &>/dev/null
 rm .machines_res  &>/dev/null
-printf 'hexa2\n%.0s'        >  .machines_latm.original
-printf 'hexa2\n%.0s' {1..9} >  .machines_res.original
+printf 'hexa32\n%.0s'        >  .machines_latm.original
+printf 'hexa32\n%.0s' {1..9} >  .machines_res.original
 
     #MakeMachines_pmn/scf
 rm .machines_pmn &>/dev/null
@@ -139,32 +139,32 @@ hexa32: broken pipe
 
     kill process
 PMN1:
-ssh hexa03 'rm -r /data/reinaldo/workspace/'
-ssh hexa04 'rm -r /data/reinaldo/workspace/'
-ssh hexa05 'rm -r /data/reinaldo/workspace/'
-ssh hexa06 'rm -r /data/reinaldo/workspace/'
-ssh hexa07 'rm -r /data/reinaldo/workspace/'
-ssh hexa08 'rm -r /data/reinaldo/workspace/'
-ssh hexa09 'rm -r /data/reinaldo/workspace/'
-ssh hexa10 'rm -r /data/reinaldo/workspace/'
-ssh hexa11 'rm -r /data/reinaldo/workspace/'
-ssh hexa12 'rm -r /data/reinaldo/workspace/'
-ssh hexa13 'rm -r /data/reinaldo/workspace/'
-ssh hexa14 'rm -r /data/reinaldo/workspace/'
-ssh hexa16 'rm -r /data/reinaldo/workspace/'
-ssh hexa17 'rm -r /data/reinaldo/workspace/'
-ssh hexa18 'rm -r /data/reinaldo/workspace/'
-ssh hexa19 'rm -r /data/reinaldo/workspace/'
-ssh hexa24 'rm -r /data/reinaldo/workspace/'
-ssh hexa25 'rm -r /data/reinaldo/workspace/'
-ssh hexa26 'rm -r /data/reinaldo/workspace/'
-ssh hexa30 'rm -r /data/reinaldo/workspace/'
-ssh hexa31 'rm -r /data/reinaldo/workspace/'
-ssh hexa32 'rm -r /data/reinaldo/workspace/'
-ssh hexa33 'rm -r /data/reinaldo/workspace/'
-ssh hexa34 'rm -r /data/reinaldo/workspace/'
-ssh hexa35 'rm -r /data/reinaldo/workspace/'
-ssh hexa36 'rm -r /data/reinaldo/workspace/'
+ssh hexa03 'killall -u reinaldo'
+ssh hexa04 'killall -u reinaldo'
+ssh hexa05 'killall -u reinaldo'
+ssh hexa06 'killall -u reinaldo'
+ssh hexa07 'killall -u reinaldo'
+ssh hexa08 'killall -u reinaldo'
+ssh hexa09 'killall -u reinaldo'
+ssh hexa10 'killall -u reinaldo'
+ssh hexa11 'killall -u reinaldo'
+ssh hexa12 'killall -u reinaldo'
+ssh hexa13 'killall -u reinaldo'
+ssh hexa14 'killall -u reinaldo'
+ssh hexa16 'killall -u reinaldo'
+ssh hexa17 'killall -u reinaldo'
+ssh hexa18 'killall -u reinaldo'
+ssh hexa19 'killall -u reinaldo'
+ssh hexa24 'killall -u reinaldo'
+ssh hexa25 'killall -u reinaldo'
+ssh hexa26 'killall -u reinaldo'
+ssh hexa30 'killall -u reinaldo'
+ssh hexa31 'killall -u reinaldo'
+ssh hexa33 'killall -u reinaldo'
+ssh hexa34 'killall -u reinaldo'
+ssh hexa35 'killall -u reinaldo'
+ssh hexa36 'killall -u reinaldo'
+ssh hexa32 'killall -u reinaldo'
 
     machines free
 

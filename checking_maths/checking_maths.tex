@@ -1,0 +1,103 @@
+\documentclass[landscape]{article}
+
+\usepackage[spanish]{babel}
+\decimalpoint
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\usepackage{amsmath}
+\usepackage{multicol}
+% \usepackage{eurosym}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.12}
+
+\author{Reinaldo Arturo Zapata Pe\~na}
+\title{Checking Maths for $\mathcal{V}^{\mathrm{ab}}$} 
+\date{}
+
+
+\begin{document}
+\maketitle
+
+The equation for $\mathcal{V}^{\mathrm{ab}}$ for normal incidence in the $xy$ plane
+is given by
+\begin{align*}
+\mathcal{V}^{\mathrm{ab}} 
+&= \frac{\mu^{\mathrm{abxx}}E^{2}\cos^{2}\theta + 
+\mu^{\mathrm{abyy}}E^{2}\sin^{2}\theta + 
+2\mu^{\mathrm{abxy}}E^{2}\cos\theta\sin\theta }
+{\xi^{\mathrm{xx}}E^{2}\cos^{2}\theta + \xi^{\mathrm{yy}}E^{2}\sin^{2}\theta}, \\
+&= \frac{\mu^{\mathrm{abxx}}\cos^{2}\theta + 
+\mu^{\mathrm{abyy}}\sin^{2}\theta + 2\mu^{\mathrm{abxy}}\cos\theta\sin\theta }
+{\xi^{\mathrm{xx}}\cos^{2}\theta + \xi^{\mathrm{yy}}\sin^{2}\theta}.
+\end{align*}
+For an angle $\theta = \frac{\pi}{4}$ this expression can be reduced to 
+\begin{align*}
+\mathcal{V}^{\mathrm{ab}} 
+&= \frac{\mu^{\mathrm{abxx}} + \mu^{\mathrm{abyy}} + 2\mu^{\mathrm{abxy}}}
+{\xi^{\mathrm{xx}} + \xi^{\mathrm{yy}}}.
+\end{align*}
+
+The input files are
+
+{\tt
+\begin{tabular}{lr}
+chi1.kk\_xx\_yy\_zz\_\ldots &  {\rm 7 columns} \\
+\hline
+mu.kk\_xxxx\_xxxy\_xxxz\_xxyx\_xxyy\_xxyz\_xxzx\_xxzy\_xxzz\_\ldots & {\rm 10 columns}\\
+mu.kk\_xyxx\_xyxy\_xyxz\_xyyx\_xyyy\_xyyz\_xyzx\_xyzy\_xyzz\_\ldots & \\
+mu.kk\_xzxx\_xzxy\_xzxz\_xzyx\_xzyy\_xzyz\_xzzx\_xzzy\_xzzz\_\ldots & \\
+mu.kk\_yxxx\_yxxy\_yxxz\_yxyx\_yxyy\_yxyz\_yxzx\_yxzy\_yxzz\_\ldots & \\
+mu.kk\_yyxx\_yyxy\_yyxz\_yyyx\_yyyy\_yyyz\_yyzx\_yyzy\_yyzz\_\ldots & \\
+mu.kk\_yzxx\_yzxy\_yzxz\_yzyx\_yzyy\_yzyz\_yzzx\_yzzy\_yzzz\_\ldots & \\
+\end{tabular}
+}
+
+\vspace{0.5cm}
+Then I pasted first each \textbf{\tt mu.kk\ldots} followed for the \textbf{\tt
+chi1.kk\ldots} file to have 17 column file
+
+\vspace{0.5cm}
+{\footnotesize
+\begin{tabular}{lcccccccccccccccccc}
+& \multicolumn{10}{c}{\tt mu.kk\ldots} & \multicolumn{7}{c}{\tt chi1.kk\ldots} \\
+\cline {2-11} \cline{13-19}
+&energy & abxx & abxy & abxz & abyx & abyy & abyz & abzx & abzy & abzz & &
+energy & Re xx & Im xx & Re yy & Im yy & Re zz & Im zz \\
+column: & 1& 2& 3& 4& 5& 6& 7& 8& 9& 10 & & 11& 12& 13& 14& 15& 16& 17\\
+\end{tabular}
+}
+
+\newpage
+I defined the variables
+\begin{align*}
+&\texttt{coscuad} = \cos^{2}\theta \\
+&\texttt{sincuad} = \sin^{2} \theta\\
+&\texttt{cossin}  = \cos\theta \sin\theta 
+\end{align*}
+and used {\tt awk} comand to produce the corresponding \tt{\textbf{v.kk\_ab...}}
+file as follows:
+
+\noindent
+{\tt awk \textquotesingle\{ print \$1, ((\$2*\textquotesingle
+\,``\$coscuad''\textquotesingle + \$6* \textquotesingle\,``\$sincuad''
+\textquotesingle + 2* \$3* \textquotesingle\,``\$cossin''\textquotesingle)/(\$13*
+\textquotesingle\,``\$coscuad'' \textquotesingle + \$15* \textquotesingle
+\,``\$sincuad'' \textquotesingle + 0.00001)) \}\textquotesingle }
+
+
+
+
+
+\end{document}
+
+
+
+
+
+
