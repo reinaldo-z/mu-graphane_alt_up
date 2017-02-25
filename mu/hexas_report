@@ -1,0 +1,36 @@
+ssh hexa1ib "exit"
+ssh hexa2ib "exit"
+ssh hexa3ib "exit"
+ssh hexa4ib "exit" # infiniband not working
+ssh hexa5ib "exit"
+ssh hexa6ib "exit"
+ssh hexa7ib "exit"
+ssh hexa8ib "exit"
+ssh hexa9ib "exit"
+ssh hexa10ib "exit" # infiniband not working
+ssh hexa11ib "exit" # infiniband not working
+ssh hexa12ib "exit"
+ssh hexa13ib "exit"
+ssh hexa14ib "exit"
+ssh hexa15ib "exit" # infiniband not working
+ssh hexa16ib "exit"
+ssh hexa17ib "exit"
+ssh hexa18ib "exit"
+ssh hexa19ib "exit"
+ssh hexa20ib "exit"
+ssh hexa21ib "exit"
+ssh hexa22ib "exit"
+ssh hexa23ib "exit"
+ssh hexa24ib "exit"
+ssh hexa25ib "exit"
+ssh hexa26ib "exit"
+ssh hexa27ib "exit" #
+ssh hexa28ib "exit"
+ssh hexa29ib "exit" # no tcpip but infiniband working
+ssh hexa30ib "exit"
+ssh hexa31ib "exit"
+ssh hexa32ib "exit"
+ssh hexa33ib "exit"
+ssh hexa34ib "exit"
+ssh hexa35ib "exit"
+ssh hexa36ib "exit"
