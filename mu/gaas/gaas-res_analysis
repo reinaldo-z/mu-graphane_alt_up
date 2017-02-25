@@ -234,15 +234,15 @@ ijij=jiji
                                 V ^ a b   I N D E P E N D E N T   &   H I G H E S T 
 
 
-p   'gaas-res-0-4-2001pts/v.sm_0.03_xx_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "xx" # intense
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_xy_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "xy" 
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_xz_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "xz" # almost zero
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_yx_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "yx" # same as other component
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_yy_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "yy" # same as other component
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_yz_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "yz" # almost zero
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_zx_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "zx" # almost zero
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_zy_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "zy" # almost zero
-rep 'gaas-res-0-4-2001pts/v.sm_0.03_zz_5216_15-spin_scissor_0_Nc_24' u 1:($2*29.98) w l lw 2 t "zz" 
+p   'gaas-res-0-4-2001pts/v.sm_0.03_xx_5216_15-spin_scissor_0_Nc_24_ang_00' u 1:($2*29.98) w l lw 2 t "xx" # intense
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_xy_5216_15-spin_scissor_0_Nc_24_ang_00' u 1:($2*29.98) w l lw 2 t "xy" 
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_xz_5216_15-spin_scissor_0_Nc_24_ang_00' u 1:($2*29.98) w l lw 2 t "xz" # almost zero
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_yx_5216_15-spin_scissor_0_Nc_24_ang_00' u 1:($2*29.98) w l lw 2 t "yx" # same as other component
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_yy_5216_15-spin_scissor_0_Nc_24_ang_00' u 1:($2*29.98) w l lw 2 t "yy" # same as other component
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_yz_5216_15-spin_scissor_0_Nc_24_ang_00' u 1:($2*29.98) w l lw 2 t "yz" # almost zero
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_zx_5216_15-spin_scissor_0_Nc_24_ang_00' u 1:($2*29.98) w l lw 2 t "zx" # almost zero
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_zy_5216_15-spin_scissor_0_Nc_24_ang_00' u 1:($2*29.98) w l lw 2 t "zy" # almost zero
+rep 'gaas-res-0-4-2001pts/v.sm_0.03_zz_5216_15-spin_scissor_0_Nc_24_ang_00' u 1:($2*29.98) w l lw 2 t "zz" 
 
 
 
