@@ -25,4 +25,6 @@ paste $vax $vay $vaz | awk 'NR>1{printf("%1.6E\n", $2-p)} {p=$2}'  > .diffvax
 paste $vax $vay $vaz | awk 'NR>1{printf("%1.6E\n", $4-p)} {p=$4}'  > .diffvay
 paste $vax $vay $vaz | awk 'NR>1{printf("%1.6E\n", $6-p)} {p=$6}'  > .diffvaz
 
+paste $vax $vay $vaz | awk 'NR>1{printf("%1.6E\n", $6-p)} {p=$6}'  > .diffvaz
+
 paste $vax $vay $vaz .diffener .diffvax .diffvay .diffvaz #| awk '{printf (%1.6E   %1.6E   %1.6E   %1.6E   %1.6E\n )}'
