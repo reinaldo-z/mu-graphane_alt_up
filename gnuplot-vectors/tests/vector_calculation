@@ -16,9 +16,9 @@ awk '{printf("%.4f   %.4f   %.4f   %.4f   %.4f    %.4f\n", $1, $2, $3, sqrt($1+$
 
 unset key
 
-set xlabel "x"
-set ylabel "y"
-set zlabel "z"
+set xlabel "Photon energy [eV]"
+set ylabel "x"
+set zlabel "y         "
 
 set xrange [0:]
 set yrange [-0.06:0.06]
