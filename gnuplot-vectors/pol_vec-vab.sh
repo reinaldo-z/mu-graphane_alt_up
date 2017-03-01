@@ -28,3 +28,6 @@ paste $vax $vay $vaz | awk 'NR>1{printf("%1.6E\n", $6-p)} {p=$6}'  > .diffvaz
 paste $vax $vay $vaz | awk 'NR>1{printf("%1.6E\n", $6-p)} {p=$6}'  > .diffvaz
 
 paste $vax $vay $vaz .diffener .diffvax .diffvay .diffvaz #| awk '{printf (%1.6E   %1.6E   %1.6E   %1.6E   %1.6E\n )}'
+
+
+paste cos-sin | awk 'NR>1{printf("%1.6E   %1.6E   %1.6E   %1.6E   %1.6E   %1.6E\n", $1, $2, $3, $1-p, $2-q, $3-r)} {p=$1, q=$2, r=$3}'  
