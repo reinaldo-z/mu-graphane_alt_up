@@ -20,14 +20,11 @@ vaz=$3
 # paste $vax $vay $vaz 
 
 # Calculation of the diferences between rows for the energy, V^{ax}, V^{ay}, and V^{az}
-paste $vax $vay $vaz | awk 'NR>1{printf("%1.6E\n", $1-p)} {p=$1}'  > .diffener
-paste $vax $vay $vaz | awk 'NR>1{printf("%1.6E\n", $2-p)} {p=$2}'  > .diffvax
-paste $vax $vay $vaz | awk 'NR>1{printf("%1.6E\n", $4-p)} {p=$4}'  > .diffvay
-paste $vax $vay $vaz | awk 'NR>1{printf("%1.6E\n", $6-p)} {p=$6}'  > .diffvaz
+paste $vax $vay $vaz | awk 'NR>1{printf("%1.6E   %1.6E   %1.6E   %1.6E\n", $1-p, $2-q, $4-r, $6-s)} {p=$1} {q=$2} {r=$4} {r=$6}' | sed  '$ d' > .diff
+paste $vax $vay $vaz .diff | awk '{printf ("%1.6E   %1.6E   %1.6E   %1.6E   %1.6E   %1.6E   %1.6E   %1.6E\n", $1, $2, $4, $6, sqrt($2*$2 + $4*$4 + $6*$6), $7, $8, $9 )}' > output
 
-paste $vax $vay $vaz | awk 'NR>1{printf("%1.6E\n", $6-p)} {p=$6}'  > .diffvaz
-
-paste $vax $vay $vaz .diffener .diffvax .diffvay .diffvaz #| awk '{printf (%1.6E   %1.6E   %1.6E   %1.6E   %1.6E\n )}'
+rm .diff
 
 
-paste cos-sin | awk 'NR>1{printf("%1.6E   %1.6E   %1.6E   %1.6E   %1.6E   %1.6E\n", $1, $2, $3, $1-p, $2-q, $3-r)} {p=$1, q=$2, r=$3}'  
+# paste cos-sin | awk 'NR>1{printf("%1.6E   %1.6E   %1.6E   %1.6E   %1.6E   %1.6E\n", $1, $2, $3, $1-p, $2-q, $3-r)} {p=$1} {q=$2} {r=$3}'  
+# paste cos-sin | awk 'NR>1{printf("%1.6E   %1.6E   %1.6E\n", $1-p, $2-q, $3-r)} {p=$1} {q=$2} {r=$3}' | sed  '$ d' > temp
