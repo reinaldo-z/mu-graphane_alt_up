@@ -79,6 +79,7 @@ rep 'up-v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_90' u 1:($2*pf*sl) w l lw
 reset
 set ylabel 'V^{yz} [km/s]' font ",16"
 set xrange [:0.2]
+# set xrange [1.8:2.4]
 set key top right font ",16"
 p   'up-v.sm_0.03_xx_12802_40-spin_scissor_0_Nc_32_ang_45' u 1:($2*pf*sl) w l lw 2.0 t 'xx'
 rep 'up-v.sm_0.03_xy_12802_40-spin_scissor_0_Nc_32_ang_45' u 1:($2*pf*sl) w l lw 2.0 t 'xy'
@@ -87,6 +88,7 @@ rep 'up-v.sm_0.03_xz_12802_40-spin_scissor_0_Nc_32_ang_45' u 1:($2*pf*sl) w l lw
 reset
 set ylabel 'V^{yz} [km/s]' font ",16"
 set xrange [:0.2]
+# set xrange [1.8:2.3]
 set key top right font ",16"
 p   'up-v.sm_0.03_yx_12802_40-spin_scissor_0_Nc_32_ang_45' u 1:($2*pf*sl) w l lw 2.0 t 'yx'
 rep 'up-v.sm_0.03_yy_12802_40-spin_scissor_0_Nc_32_ang_45' u 1:($2*pf*sl) w l lw 2.0 t 'yy'

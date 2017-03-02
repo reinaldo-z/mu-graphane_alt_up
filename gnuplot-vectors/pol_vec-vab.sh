@@ -7,7 +7,7 @@ if [ -z $3 ]; then
     echo -e "\tUsage:"
     echo -e "\t\t$scriptname [V^{ax} filename] [V^{ay} filename] [V^{az} filename] "
     echo -e ""
-    echo -e "\t\tfrom the input files V^{ab}, the superscript \"a\" is for the "
+    echo -e "\t\tFrom the input files V^{ab}, the superscript \"a\" is for the "
     echo -e "\t\tvelocity and \"b\" for the spin polarization. "
     echo -e "\t\tThe output file contains 9 columns corresponding to:"
     echo -e "\t\t  1: Energy"
@@ -19,7 +19,6 @@ if [ -z $3 ]; then
     echo -e "\t\t  7: Difference between consecutive rows of V^{ax}."
     echo -e "\t\t  8: Difference between consecutive rows of V^{ay}."
     echo -e "\t\t  9: Difference between consecutive rows of V^{az}."
-    echo -e ""
     exit 0
 fi
 
