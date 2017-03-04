@@ -36,3 +36,6 @@ awk '{if(NR>1){print $1-_n};_n=$1}' cos-sin
 awk 'NR>1{printf("  %.4f\n", $1-p)} {p=$1}' cos-sin | sed  '$ d' > dif-row-c1
 awk 'NR>1{printf(" %.4f\n", $2-p)} {p=$2}' cos-sin | sed  '$ d' > dif-row-c2
 awk 'NR>1{printf(" %.4f\n", $3-p)} {p=$3}' cos-sin | sed  '$ d' > dif-row-c3
+
+
+awk '{printf("%1.8E\n", atan2($2,$1))}'
