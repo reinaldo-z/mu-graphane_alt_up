@@ -4,11 +4,10 @@ set xlabel "{\\Large Photon Energy (eV)}"
 set colors classic
 
 
-# set ytics nomirror
-set ytics 10
+set yrange [-15:15]
+set ytics 5
 
-set xrange [0.5:3.5]
-set xrange [0.5:1.8]
+set xrange [0.6:1.8]
 
 pf=29.98       # prefactor
 sl=299792.458  # speed of light [Km/s]
