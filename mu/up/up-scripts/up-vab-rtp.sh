@@ -1,10 +1,11 @@
 #/bin/bash
 
+an=040
+
 kp=12802
 ec=40
 sc=0
 nc=32
-an=040
 
 
 
