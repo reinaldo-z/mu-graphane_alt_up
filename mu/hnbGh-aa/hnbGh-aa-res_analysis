@@ -1301,10 +1301,83 @@ rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zz_14452_75-spin_scissor_0_Nc_32_ang_60'
 rep 'hnbGh-aa-res-0-4-2001pts/v.sm_0.03_zz_14452_75-spin_scissor_0_Nc_32_ang_90' u 1:($2*29.98) w l lw 2 t "zz 90"
 
 
+###############################################################################
+
+                    V ^ a b   A N G L E  A N A L Y S I S 
+
+# set colors classic
+pf=29.98        # prefactor
+sl=299792.458   # speed of light
+f=pf*sl
+set xrange [0.5:2.7]
+set xrange [1.8:2.5]
+set yrange [-8.0:-6.0]
+
+p   'v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_135' u 1:($2*f) w l lw 1.5 t "xx, 130" 
+rep 'v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_135' u 1:($2*f) w l lw 1.5 t "xx, 135" # intense
+rep 'v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_140' u 1:($2*f) w l lw 1.5 t "xx, 140"
+# rep 'v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 t "xx, 145"
+# rep 'v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_150' u 1:($2*f) w l lw 1.5 t "xx, 150"
+# rep 'v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_155' u 1:($2*f) w l lw 1.5 t "xx, 155"
+# rep 'v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_160' u 1:($2*f) w l lw 1.5 t "xx, 160"
+# rep 'v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_165' u 1:($2*f) w l lw 1.5 t "xx, 165"
+
+# p   'v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_135' u 1:($2*f) w l lw 1.5 t "xy, 135" 
+# rep 'v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_140' u 1:($2*f) w l lw 1.5 t "xy, 140"
+# rep 'v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 t "xy, 145"
+# rep 'v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_150' u 1:($2*f) w l lw 1.5 t "xy, 150"
+p   'v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_155' u 1:($2*f) w l lw 1.5 t "xy, 155"
+rep 'v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_160' u 1:($2*f) w l lw 1.5 t "xy, 160" # intense
+rep 'v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_165' u 1:($2*f) w l lw 1.5 t "xy, 165"
+
+# p   'v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_135' u 1:($2*f) w l lw 1.5 t "xz, 135" 
+# rep 'v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_140' u 1:($2*f) w l lw 1.5 t "xz, 140"
+# rep 'v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 t "xz, 145"
+p   'v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_150' u 1:($2*f) w l lw 1.5 t "xz, 150"
+rep 'v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_155' u 1:($2*f) w l lw 1.5 t "xz, 155" # intense
+rep 'v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_160' u 1:($2*f) w l lw 1.5 t "xz, 160"
+rep 'v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_165' u 1:($2*f) w l lw 1.5 t "xz, 165"
+
+# p   'v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_135' u 1:($2*f) w l lw 1.5 t "yx, 135" 
+# rep 'v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_140' u 1:($2*f) w l lw 1.5 t "yx, 140"
+# rep 'v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 t "yx, 145"
+# rep 'v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_150' u 1:($2*f) w l lw 1.5 t "yx, 150"
+# rep 'v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_155' u 1:($2*f) w l lw 1.5 t "yx, 155"
+p   'v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_160' u 1:($2*f) w l lw 1.5 t "yx, 160"
+rep 'v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_165' u 1:($2*f) w l lw 1.5 t "yx, 165" # intense
+rep 'v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_170' u 1:($2*f) w l lw 1.5 t "yx, 170"
+
+# p   'v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_135' u 1:($2*f) w l lw 1.5 t "yy, 135" 
+# rep 'v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_140' u 1:($2*f) w l lw 1.5 t "yy, 140"
+# rep 'v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 t "yy, 145"
+# rep 'v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_150' u 1:($2*f) w l lw 1.5 t "yy, 150"
+# rep 'v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_155' u 1:($2*f) w l lw 1.5 t "yy, 155"
+# rep 'v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_160' u 1:($2*f) w l lw 1.5 t "yy, 160"
+# rep 'v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_165' u 1:($2*f) w l lw 1.5 t "yy, 165"
+p   'v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_170' u 1:($2*f) w l lw 1.5 t "yy, 170"
+rep 'v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_175' u 1:($2*f) w l lw 1.5 t "yy, 175"
+rep 'v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_180' u 1:($2*f) w l lw 1.5 t "yy, 180" # intense
+
+# p   'v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_135' u 1:($2*f) w l lw 1.5 t "yz, 135" 
+# rep 'v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_140' u 1:($2*f) w l lw 1.5 t "yz, 140"
+# rep 'v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 t "yz, 145"
+# rep 'v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_150' u 1:($2*f) w l lw 1.5 t "yz, 150"
+# rep 'v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_155' u 1:($2*f) w l lw 1.5 t "yz, 155"
+# rep 'v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_160' u 1:($2*f) w l lw 1.5 t "yz, 160"
+# rep 'v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_165' u 1:($2*f) w l lw 1.5 t "yz, 165"
+p   'v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_170' u 1:($2*f) w l lw 1.5 t "yz, 170"
+rep 'v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_175' u 1:($2*f) w l lw 1.5 t "yz, 175"
+rep 'v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_180' u 1:($2*f) w l lw 1.5 t "yz, 180" # intense
 
 
 
-
+# Intense:
+p   'v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_135' u 1:($2*f) w l lw 1.5 t "xx, 135" 
+rep 'v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_160' u 1:($2*f) w l lw 1.5 t "xy, 160" 
+rep 'v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_155' u 1:($2*f) w l lw 1.5 t "xz, 155"
+rep 'v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_165' u 1:($2*f) w l lw 1.5 t "yx, 165" # intense
+rep 'v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_180' u 1:($2*f) w l lw 1.5 t "yy, 180" 
+rep 'v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_180' u 1:($2*f) w l lw 1.5 t "yz, 180" 
 
 
 

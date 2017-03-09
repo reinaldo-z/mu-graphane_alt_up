@@ -18,7 +18,7 @@ set xrange [0.4:3.0]
 
 set view 44,45
 set hidden3d
- set xtics 0.8, 0.4, 3.0
+set xtics 0.8, 0.4, 3.0
 set ytics 30
 set ztics 4
 set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0

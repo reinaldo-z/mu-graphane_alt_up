@@ -10,7 +10,7 @@ set xrange [0:4]
 set ylabel '$\cal{V}^{\mathrm{ab}}$ [Km/s]'
 
 pf=29.98        # prefactor
-sl=299792.458    # speed of light
+sl=299792.458   # speed of light
 f=pf*sl
 
 set key at graph 0.3, 0.95
