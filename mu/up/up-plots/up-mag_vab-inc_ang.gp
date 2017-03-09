@@ -3,31 +3,68 @@ set terminal mp color dashed latex 11
 set colors classic
 set ticslevel 0
 
-set xlabel "{\\Large Photon Energy (eV)}"
+set xlabel '{\Large Photon Energy (eV)}'
 set ytics nomirror
+
+unset key
 
 pf=29.98        # prefactor
 sl=299792.458   # speed of light
 f=pf*sl
 
 
-##################### INTENSE RESPONSE
-
+################################# [0.0:0.2] ####################################
 set xrange [0:0.2]
-set ylabel '$\cal{V}^{\mathrm{yz}}$ [Km/s]'
-set ytics 20 
-set y2tics 45
-set output "up-yz-rtp-1.mp"
 
-set key at graph 0.30, 0.35
-p   '../up-res-0-4-2001pts/up-vyz-xyz-rtp' u 1:($5*f) axis x1y1 w l lw 1.5 t '$|\mathcal{V}^{\mathrm{yz}}|$' ,\
-    '../up-res-0-4-2001pts/up-vyz-xyz-rtp' u 1:($6*d) axis x1y2 w l lw 1.5 t '$\theta$' ,\
-    '../up-res-0-4-2001pts/up-vyz-xyz-rtp' u 1:($7*d) axis x1y2 w l lw 1.5 t '$\varphi$' 
+set view 44,45
+set hidden3d
+set ytics 30
+set ztics 20
+set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
+set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
+set zlabel '$|\cal{V}^{\mathrm{xb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
+set output "up-magvxb-incang-1-4545.mp"
+sp  '../up-res-0-4-2001pts/magv.sm_0.03_xb_12802_40-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:3:($2*f) w l lw 1.0 lt 8
 
-# set xrange [1.8:2.1]
-# set ylabel '$\cal{V}^{\mathrm{yz}}$ [Km/s]'
-# set output "up-yz-rtp-2.mp"
-# p   '../up-res-0-4-2001pts/up-vyz-xyz-rtp' u 1:($5*f) axis x1y1 w l lw 1.5 t '$|\mathcal{V}^{\mathrm{yz}}|$' ,\
-#     '../up-res-0-4-2001pts/up-vyz-xyz-rtp' u 1:($6*d) axis x1y2 w l lw 1.5 t '$\theta$' ,\
-#     '../up-res-0-4-2001pts/up-vyz-xyz-rtp' u 1:($7*d) axis x1y2 w l lw 1.5 t '$\varphi$' 
+
+set view 44,45
+set hidden3d
+set ytics 30
+set ztics 20
+set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
+set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
+set zlabel '$|\cal{V}^{\mathrm{yb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
+set output "up-magvyb-incang-1-4545.mp"
+sp  '../up-res-0-4-2001pts/magv.sm_0.03_yb_12802_40-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:3:($2*f) w l lw 1.0 lt 8
+
+
+
+
+################################# [1.85:2.1] ###################################
+set xrange [1.80:2.1]
+
+set view 44,45
+set hidden3d
+set xtics 1.85, 0.05, 2.1 
+set ytics 30
+set ztics 3
+set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
+set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
+set zlabel '$|\cal{V}^{\mathrm{xb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
+set output "up-magvxb-incang-2-4545.mp"
+sp  '../up-res-0-4-2001pts/magv.sm_0.03_xb_12802_40-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:3:($2*f) w l lw 0.7 lt 8
+
+
+set view 44,45
+set hidden3d
+set xtics 1.85, 0.05, 2.1 
+set ytics 30
+set ztics 20
+set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
+set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
+set zlabel '$|\cal{V}^{\mathrm{yb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
+set output "up-magvyb-incang-2-4545.mp"
+sp  '../up-res-0-4-2001pts/magv.sm_0.03_yb_12802_40-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:3:($2*f) w l lw 0.7 lt 8
+
+
 

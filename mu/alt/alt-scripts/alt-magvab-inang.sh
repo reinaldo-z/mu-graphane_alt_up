@@ -31,11 +31,15 @@ angles=( 000 005 010 015 020 025 030 035 040 045 050 055 060 065 070 075 080 085
 rm "$outputxkk" "$outputxsm" "$outputykk" "$outputysm" > /dev/null 2>&1
 for i in ${angles[@]}; do
     paste "${inputxsm[0]}""$i"  "${inputxsm[1]}""$i"  "${inputxsm[2]}""$i" | awk '{printf("%1.5E    %1.6E    %3.0f\n"), $1, sqrt($2*$2 + $4*$4 + $6*$6), '"$i"' }' >> $outputxkk
+    echo "" >> $outputxkk
     paste "${inputysm[0]}""$i"  "${inputysm[1]}""$i"  "${inputysm[2]}""$i" | awk '{printf("%1.5E    %1.6E    %3.0f\n"), $1, sqrt($2*$2 + $4*$4 + $6*$6), '"$i"' }' >> $outputykk
+    echo "" >> $outputykk
 done
 
 for i in ${angles[@]}; do
     paste "${inputxkk[0]}""$i"  "${inputxkk[1]}""$i"  "${inputxkk[2]}""$i" | awk '{printf("%1.5E    %1.6E    %3.0f\n"), $1, sqrt($2*$2 + $4*$4 + $6*$6), '"$i"' }' >> $outputxsm
+    echo "" >> $outputxsm
     paste "${inputykk[0]}""$i"  "${inputykk[1]}""$i"  "${inputykk[2]}""$i" | awk '{printf("%1.5E    %1.6E    %3.0f\n"), $1, sqrt($2*$2 + $4*$4 + $6*$6), '"$i"' }' >> $outputysm
+    echo "" >> $outputysm
 done
 
