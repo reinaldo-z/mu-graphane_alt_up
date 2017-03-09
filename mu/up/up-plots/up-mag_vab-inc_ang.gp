@@ -1,6 +1,7 @@
 set terminal mp color dashed latex 11
 
 set colors classic
+set ticslevel 0
 
 set xlabel "{\\Large Photon Energy (eV)}"
 set ytics nomirror
@@ -9,13 +10,11 @@ pf=29.98        # prefactor
 sl=299792.458   # speed of light
 f=pf*sl
 
-d=360/(2*pi)    # fron radiangs to degrees
 
 ##################### INTENSE RESPONSE
 
 set xrange [0:0.2]
 set ylabel '$\cal{V}^{\mathrm{yz}}$ [Km/s]'
-set y2label "Angle [deg.]" 
 set ytics 20 
 set y2tics 45
 set output "up-yz-rtp-1.mp"
