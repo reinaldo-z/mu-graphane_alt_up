@@ -14,8 +14,9 @@ d=360/(2*pi)    # fron radiangs to degrees
 
 ##################### INTENSE RESPONSE
 
-set xrange [0.6:1.2]
-set key at graph 0.95, 0.85
+set xrange [0.5:2.7]
+
+# set key at graph 0.95, 0.85
 set ylabel '$\cal{V}^{\mathrm{yz}}$ @ 150$^{\circ}$ [Km/s]'
 set y2label "Angle [deg.]" 
 set ytics 4

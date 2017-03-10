@@ -21,17 +21,17 @@ set output "up-yz-rtp-1.mp"
 
 set ytics 20 
 set key at graph 0.95, 0.35
-p   '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($5*f) axis x1y1 w l lw 1.5 t '$|\mathcal{V}^{\mathrm{yz}}|$' ,\
-    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($6*d) axis x1y2 w l lw 1.5 t '$\theta$' ,\
-    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($7*d) axis x1y2 w l lw 1.5 t '$\varphi$' 
+p   '../up-res-0-4-2001pts/magv.kk_xb_12802_40-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:($5*f) axis x1y1 w l lw 1.5 t '$|\mathcal{V}^{\mathrm{yz}}|$' ,\
+    '../up-res-0-4-2001pts/magv.kk_xb_12802_40-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:($6*d) axis x1y2 w l lw 1.5 t '$\theta$' ,\
+    '../up-res-0-4-2001pts/magv.kk_xb_12802_40-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:($7*d) axis x1y2 w l lw 1.5 t '$\varphi$' 
 
 set ytics 2
 set key at graph 0.30, 0.35
 set xrange [1.8:2.1]
 set ylabel '$\cal{V}^{\mathrm{yz}}$ @ 40$^{\circ}$ [Km/s] [Km/s]'
 set output "up-yz-rtp-2.mp"
-p   '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($5*f) axis x1y1 w l lw 1.5 t '$|\mathcal{V}^{\mathrm{yz}}|$' ,\
-    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($6*d) axis x1y2 w l lw 1.5 t '$\theta$' ,\
-    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($7*d) axis x1y2 w l lw 1.5 t '$\varphi$' 
+p   '../up-res-0-4-2001pts/magv.kk_xb_12802_40-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:($5*f) axis x1y1 w l lw 1.5 t '$|\mathcal{V}^{\mathrm{yz}}|$' ,\
+    '../up-res-0-4-2001pts/magv.kk_xb_12802_40-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:($6*d) axis x1y2 w l lw 1.5 t '$\theta$' ,\
+    '../up-res-0-4-2001pts/magv.kk_xb_12802_40-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:($7*d) axis x1y2 w l lw 1.5 t '$\varphi$' 
 
 
