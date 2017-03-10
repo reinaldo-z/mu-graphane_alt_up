@@ -18,6 +18,7 @@ set xrange [0:0.2]
 set ylabel '$|\cal{V}^{\mathrm{yb}}|$ @ 40$^{\circ}$ [Km/s]'
 set y2label "Angle [deg.]" 
 set y2tics 45
+set my2tics 5
 set output "up-yz-rtp-1.mp"
 
 set ytics 20 
@@ -36,3 +37,4 @@ p   '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_0
     '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($7*d) axis x1y2 w l lw 2.5  dt 3 t '$\varphi$' 
 
 
+ 
