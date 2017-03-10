@@ -82,8 +82,8 @@ p   '../up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040' u
     '../up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_050' u 1:($2*f) w l lw 2.5 dt 5 t '50$^{\circ}$' 
 
 
-##################### THREE COMPONENTS
-
+############################### THREE COMPONENTS ###############################
+################################## [0.0:0.2] ###################################
 set xrange [0:0.2]
 
 set key top right
@@ -106,6 +106,8 @@ p   '< paste ../up-res-0-4-2001pts/v.sm_0.03_yx_12802_40-spin_scissor_0_Nc_32_an
     '../up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($2*f) w l lw 1.5 dt 1 t '$ \mathcal{V}^{\mathrm{yz}} $' 
 
 
+
+################################## [1.8:2.1] ###################################
 set xrange [1.8:2.1]
 
 set key top right
