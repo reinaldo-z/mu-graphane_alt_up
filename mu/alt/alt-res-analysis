@@ -617,6 +617,7 @@ rep 'v.sm_0.03_yy_14452_65-spin_scissor_0_Nc_32_ang_150' u 1:($2*f) w l lw 1.5 t
 rep 'v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_150' u 1:($2*f) w l lw 1.5 t "yz, 150" # intense
 
 
+set label "C$_{16}$H$_{8}$-alt" at graph 0.1, 0.0, 0.95 
 
 
 
