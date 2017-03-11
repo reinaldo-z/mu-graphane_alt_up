@@ -2,11 +2,12 @@ set terminal mp color dashed latex 11
 
 set colors classic
 
-set xlabel "{\\Large Photon Energy (eV)}"
+set xlabel '{\Large Photon Energy (eV)}'
+set zeroaxis lw 1.5
 set ytics nomirror
-set ytics 
 
-set label "C$_{16}$H$_{8}$-up" at graph 0.1 , 0.9
+set label 'C$_{16}$H$_{8}$-up' at graph 0.1 , 0.9
+set xtics nomirror
 
 # Noormalization factors:
 # up structure
