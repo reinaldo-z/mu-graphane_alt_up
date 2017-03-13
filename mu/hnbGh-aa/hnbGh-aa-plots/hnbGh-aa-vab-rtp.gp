@@ -22,18 +22,18 @@ set key at graph 0.25, 0.3
 set key samplen 2
 
 
-set ylabel '$|\mathcal{V}^{\mathrm{xb}}|$ @ 145$^{\circ}$ [Km/s]'
+set ylabel '$|\mathcal{V}^{\mathrm{xb}}|$ @ 155$^{\circ}$ [Km/s]'
 set y2label "Angle [deg.]" 
-set yrange [:8]
+set yrange [:12]
 set ytics 2
 set y2tics 45
 set output "hnbGh-aa-vxb-rtp.mp"
-p   '../hnbGh-aa-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_75-spin_scissor_0_Nc_32_ang_180' u 1:($5*f) axis x1y1 w l lw 1.5 dt 1 t '$|\mathcal{V}^{\mathrm{xb}}|$' ,\
-    '../hnbGh-aa-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_75-spin_scissor_0_Nc_32_ang_180' u 1:($6*d) axis x1y2 w l lw 2.5 dt 2 t '$\theta$' ,\
-    '../hnbGh-aa-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_75-spin_scissor_0_Nc_32_ang_180' u 1:($7*d) axis x1y2 w l lw 2.5 dt 3 t '$\varphi$' 
+p   '../hnbGh-aa-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_75-spin_scissor_0_Nc_32_ang_155' u 1:($5*f) axis x1y1 w l lw 1.5 dt 1 t '$|\mathcal{V}^{\mathrm{xb}}|$' ,\
+    '../hnbGh-aa-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_75-spin_scissor_0_Nc_32_ang_155' u 1:($6*d) axis x1y2 w l lw 2.5 dt 2 t '$\theta$' ,\
+    '../hnbGh-aa-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_75-spin_scissor_0_Nc_32_ang_155' u 1:($7*d) axis x1y2 w l lw 2.5 dt 3 t '$\varphi$' 
 
 
-set ylabel '$|\mathcal{V}^{\mathrm{yb}}|$ @ 145$^{\circ}$ [Km/s]'
+set ylabel '$|\mathcal{V}^{\mathrm{yb}}|$ @ 180$^{\circ}$ [Km/s]'
 set y2label "Angle [deg.]" 
 set yrange [:12]
 set ytics 2
