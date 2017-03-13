@@ -103,10 +103,10 @@ set yrange [-30:35]
 set ytics 10
 set ylabel '$\mathcal{V}^{\mathrm{xb}}$ @ 145$^{\circ}$ [Km/s]'
 set output "alt-vab-xb.mp"
-p   '< paste ../alt-res-0-4-2001pts/v.sm_0.03_xx_14452_65-spin_scissor_0_Nc_32_ang_145 ../alt-res-0-4-2001pts/v.sm_0.03_xy_14452_65-spin_scissor_0_Nc_32_ang_145 ../alt-res-0-4-2001pts/v.sm_0.03_xz_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:(f*sqrt($2**2 + $4**2 + $6**2)) w l lw 2.5 dt 2 t '$|\mathcal{V}^{\mathrm{xb}}|$' ,\
-    '../alt-res-0-4-2001pts/v.sm_0.03_xx_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 dt 1 t 'xx' ,\
-    '../alt-res-0-4-2001pts/v.sm_0.03_xy_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 dt 1 t 'xy' ,\
-    '../alt-res-0-4-2001pts/v.sm_0.03_xz_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 dt 1 t 'xz' ,\
+p   '< paste ../alt-res-0-4-2001pts/v.sm_0.03_xx_14452_65-spin_scissor_0_Nc_32_ang_145 ../alt-res-0-4-2001pts/v.sm_0.03_xy_14452_65-spin_scissor_0_Nc_32_ang_145 ../alt-res-0-4-2001pts/v.sm_0.03_xz_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:(f*sqrt($2**2 + $4**2 + $6**2)) w l lw 1.5 dt 1 t '$|\mathcal{V}^{\mathrm{xb}}|$' ,\
+    '../alt-res-0-4-2001pts/v.sm_0.03_xx_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 2.5 dt 2 t 'xx' ,\
+    '../alt-res-0-4-2001pts/v.sm_0.03_xy_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 2.5 dt 3 t 'xy' ,\
+    '../alt-res-0-4-2001pts/v.sm_0.03_xz_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 2.5 dt 4 t 'xz' ,\
 
 
 
@@ -115,10 +115,10 @@ set yrange [-45:70]
 set ytics 20
 set ylabel '$\mathcal{V}^{\mathrm{yb}}$ @ 145$^{\circ}$ [Km/s]'
 set output "alt-vab-yb.mp"
-p   '< paste ../alt-res-0-4-2001pts/v.sm_0.03_yx_14452_65-spin_scissor_0_Nc_32_ang_145 ../alt-res-0-4-2001pts/v.sm_0.03_yy_14452_65-spin_scissor_0_Nc_32_ang_145 ../alt-res-0-4-2001pts/v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:(f*sqrt($2**2 + $4**2 + $6**2)) w l lw 2.5 dt 2 t '$|\mathcal{V}^{\mathrm{yb}}|$' ,\
-    '../alt-res-0-4-2001pts/v.sm_0.03_yx_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 dt 1 t 'yx' ,\
-    '../alt-res-0-4-2001pts/v.sm_0.03_yy_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 dt 1 t 'yy' ,\
-    '../alt-res-0-4-2001pts/v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 dt 1 t 'yz' ,\
+p   '< paste ../alt-res-0-4-2001pts/v.sm_0.03_yx_14452_65-spin_scissor_0_Nc_32_ang_145 ../alt-res-0-4-2001pts/v.sm_0.03_yy_14452_65-spin_scissor_0_Nc_32_ang_145 ../alt-res-0-4-2001pts/v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:(f*sqrt($2**2 + $4**2 + $6**2)) w l lw 1.5 dt 1 t '$|\mathcal{V}^{\mathrm{yb}}|$' ,\
+    '../alt-res-0-4-2001pts/v.sm_0.03_yx_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 2.5 dt 2 t 'yx' ,\
+    '../alt-res-0-4-2001pts/v.sm_0.03_yy_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 2.5 dt 3 t 'yy' ,\
+    '../alt-res-0-4-2001pts/v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 2.5 dt 4 t 'yz' ,\
 
 
 

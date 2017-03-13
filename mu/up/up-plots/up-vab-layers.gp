@@ -20,7 +20,7 @@ sl=299792.458  # speed of light
 set ytics 20
 set xrange [0:0.2]
 set ylabel '$\cal{V}^{\mathrm{yz}}$ @ 40$^{\circ}$ [Km/s]'
-set output "up-vyz-1.mp"
+set output "up-vyz-layers-1.mp"
 p   '../up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040'     u 1:($2*pf*sl) w l lw 1.5 dt 1 t 'total'         ,\
     '../up-res-0-4-2001pts/calv.sm_0.03_yz_12802_1_40-spin_scissor_0_Nc_18_ang_40' u 1:($2*pf*sl) w l lw 2.5 dt 2 t '$\ell_{1}$'    ,\
     '../up-res-0-4-2001pts/calv.sm_0.03_yz_12802_2_40-spin_scissor_0_Nc_18_ang_40' u 1:($2*pf*sl) w l lw 2.5 dt 3 t '$\ell_{2}$' 
@@ -28,7 +28,7 @@ p   '../up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040'  
 set ytics 10
 set xrange [1.8:2.1]
 set ylabel '$\cal{V}^{\mathrm{yz}}$ @ 40$^{\circ}$ [Km/s]'
-set output "up-vyz-2.mp"
+set output "up-vyz-layers-2.mp"
 p   '../up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040'     u 1:($2*pf*sl) w l lw 1.5 dt 1 t 'total'         ,\
     '../up-res-0-4-2001pts/calv.sm_0.03_yz_12802_1_40-spin_scissor_0_Nc_18_ang_40' u 1:($2*pf*sl) w l lw 2.5 dt 2 t '$\ell_{1}$'    ,\
     '../up-res-0-4-2001pts/calv.sm_0.03_yz_12802_2_40-spin_scissor_0_Nc_18_ang_40' u 1:($2*pf*sl) w l lw 2.5 dt 3 t '$\ell_{2}$' 
