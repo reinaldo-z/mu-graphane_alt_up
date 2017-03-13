@@ -110,7 +110,7 @@ p   '<paste ../hnbGh-ab-res-0-4-2001pts/v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_
 set key top right samplen 3
 set ylabel '$|\mathcal{V}^{\mathrm{yb}}|$ @ 115$^{\circ}$ [Km/s]'
 set output "hnbGh-ab-vyb.mp"
-p   '<paste ../hnbGh-ab-res-0-4-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_115 ../hnbGh-ab-res-0-4-2001pts/v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_115 ../hnbGh-ab-res-0-4-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_115' u 1:(f*sqrt($2**2 + $4**2 + $6**2)) w l lw 1.5 dt 1 t '135$^{\circ}$' ,\
+p   '<paste ../hnbGh-ab-res-0-4-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_115 ../hnbGh-ab-res-0-4-2001pts/v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_115 ../hnbGh-ab-res-0-4-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_115' u 1:(f*sqrt($2**2 + $4**2 + $6**2)) w l lw 1.5 dt 1 t '115$^{\circ}$' ,\
     '../hnbGh-ab-res-0-4-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_115' u 1:($2*f) w l lw 2.5 dt 2 t '$\mathcal{V}^{\mathrm{xx}}$' ,\
     '../hnbGh-ab-res-0-4-2001pts/v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_115' u 1:($2*f) w l lw 2.5 dt 3 t '$\mathcal{V}^{\mathrm{xy}}$' ,\
     '../hnbGh-ab-res-0-4-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_115' u 1:($2*f) w l lw 2.5 dt 4 t '$\mathcal{V}^{\mathrm{xz}}$' 
