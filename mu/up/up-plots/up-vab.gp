@@ -102,7 +102,7 @@ set key top right
 set yrange [-20:100]
 set ylabel '$\mathcal{V}^{\mathrm{yb}}$ @ 40$^{\circ}$ [Km/s]'
 set output "up-vab-yb-1.mp"
-p   '< paste ../up-res-0-4-2001pts/v.sm_0.03_yx_12802_40-spin_scissor_0_Nc_32_ang_040 ../up-res-0-4-2001pts/v.sm_0.03_yy_12802_40-spin_scissor_0_Nc_32_ang_040 ../up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:(f*sqrt($2**2 + $4**2 + $6**2)) w l lw 1.5 dt 1 t '$|\mathcal{V}^{\mathrm{xb}}|$' ,\
+p   '< paste ../up-res-0-4-2001pts/v.sm_0.03_yx_12802_40-spin_scissor_0_Nc_32_ang_040 ../up-res-0-4-2001pts/v.sm_0.03_yy_12802_40-spin_scissor_0_Nc_32_ang_040 ../up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:(f*sqrt($2**2 + $4**2 + $6**2)) w l lw 1.5 dt 1 t '$|\mathcal{V}^{\mathrm{yb}}|$' ,\
     '../up-res-0-4-2001pts/v.sm_0.03_yx_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($2*f) w l lw 2.5 dt 2 t '$ \mathcal{V}^{\mathrm{yx}} $' ,\
     '../up-res-0-4-2001pts/v.sm_0.03_yy_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($2*f) w l lw 2.5 dt 3 t '$ \mathcal{V}^{\mathrm{yy}} $' ,\
     '../up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($2*f) w l lw 2.5 dt 4 t '$ \mathcal{V}^{\mathrm{yz}} $' 

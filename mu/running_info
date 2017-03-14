@@ -74,8 +74,8 @@ PMN7:
     #MakeMachines_latm/res
 rm .machines_latm &>/dev/null
 rm .machines_res  &>/dev/null
-printf 'hexa2\n%.0s'        >  .machines_latm.original
-printf 'hexa2\n%.0s' {1..9} >  .machines_res.original
+printf 'hexa3\n%.0s'        >  .machines_latm.original
+printf 'hexa3\n%.0s' {1..9} >  .machines_res.original
 
     #MakeMachines_pmn/scf
 rm .machines_pmn &>/dev/null
@@ -98,7 +98,6 @@ printf 'hexa19\n%.0s' >> .machines_scf.original
 printf 'hexa24\n%.0s' >> .machines_scf.original
 printf 'hexa25\n%.0s' >> .machines_scf.original
 printf 'hexa26\n%.0s' >> .machines_scf.original
-printf 'hexa30\n%.0s' >> .machines_scf.original
 printf 'hexa31\n%.0s' >> .machines_scf.original
 printf 'hexa33\n%.0s' >> .machines_scf.original
 printf 'hexa34\n%.0s' >> .machines_scf.original
@@ -122,7 +121,6 @@ printf 'hexa19\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa24\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa25\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa26\n%.0s' {1..12} >> .machines_pmn.original
-printf 'hexa30\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa31\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa33\n%.0s' {1..12} >> .machines_pmn.original
 printf 'hexa34\n%.0s' {1..12} >> .machines_pmn.original

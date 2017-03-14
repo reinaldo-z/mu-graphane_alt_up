@@ -46,7 +46,7 @@ set xrange [1.8:2.1]
 
 
 set key at graph 0.30, 0.45
-set ytics 10 
+set ytics 2 
 set ylabel '$|\cal{V}^{\mathrm{xb}}|$ @ 40$^{\circ}$ [Km/s]'
 set output "up-vxb-rtp-2.mp"
 set key at graph 0.28, 0.45
