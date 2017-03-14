@@ -1,8 +1,8 @@
 # set terminal mp color dashed latex 11
 
-# pf=29.98       # prefactor
-# sl=299792.458  # speed of light [Km/s]
-# f=pf*sl
+pf=29.98       # prefactor
+sl=299792.458  # speed of light [Km/s]
+f=pf*sl
 
 unset key
 set ticslevel 0 
@@ -32,7 +32,7 @@ set ytics ('-π' -pi, '-π/2' -pi/2, 0, 'π/2' pi/2, 'π' pi)
 
 set view 75,0
 set xrange [:0.2]
-sp 'up-vyb-3d' u 1:(0):(0):(0):6:7 w vectors, '' u 1:6:7 w l lw 2
+# sp 'up-vyb-3d' u 1:(0):(0):(0):6:7 w vectors, '' u 1:6:7 w l lw 2
 sp 'up-vyb-3d' u 1:(0):(0):(0):7:6 w vectors, '' u 1:7:6 w l lw 2
 
 set view 65,40
@@ -48,3 +48,10 @@ sp 'up-vyb-3d' u 1:(0):(0):(0):6:7 w vectors, '' u 1:6:7 w l lw 2
 set view 65,40
 set xrange [1.8:2.1]
 sp 'up-vyb-3d' u 1:(0):(0):(0):6:7 w vectors, '' u 1:6:7 w l lw 2
+
+################################################################################
+
+p 
+
+
+
