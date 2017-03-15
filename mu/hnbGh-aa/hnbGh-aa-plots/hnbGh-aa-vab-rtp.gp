@@ -33,15 +33,15 @@ p   '../hnbGh-aa-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_75-spin_scissor_0_Nc_32
     '../hnbGh-aa-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_75-spin_scissor_0_Nc_32_ang_155' u 1:($7*d) axis x1y2 w l lw 2.5 dt 3 t '$\varphi$' 
 
 
-set ylabel '$|\mathcal{V}^{\mathrm{yb}}|$ @ 180$^{\circ}$ [Km/s]'
+set ylabel '$|\mathcal{V}^{\mathrm{yb}}|$ @ 175$^{\circ}$ [Km/s]'
 set y2label "Angle [deg.]" 
 set yrange [:12]
 set ytics 2
 set y2tics 45
 set output "hnbGh-aa-vyb-rtp.mp"
-p   '../hnbGh-aa-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_75-spin_scissor_0_Nc_32_ang_180' u 1:($5*f) axis x1y1 w l lw 1.5 dt 1 t '$|\mathcal{V}^{\mathrm{yb}}|$' ,\
-    '../hnbGh-aa-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_75-spin_scissor_0_Nc_32_ang_180' u 1:($6*d) axis x1y2 w l lw 2.5 dt 2 t '$\theta$' ,\
-    '../hnbGh-aa-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_75-spin_scissor_0_Nc_32_ang_180' u 1:($7*d) axis x1y2 w l lw 2.5 dt 3 t '$\varphi$' 
+p   '../hnbGh-aa-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_75-spin_scissor_0_Nc_32_ang_175' u 1:($5*f) axis x1y1 w l lw 1.5 dt 1 t '$|\mathcal{V}^{\mathrm{yb}}|$' ,\
+    '../hnbGh-aa-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_75-spin_scissor_0_Nc_32_ang_175' u 1:($6*d) axis x1y2 w l lw 2.5 dt 2 t '$\theta$' ,\
+    '../hnbGh-aa-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_75-spin_scissor_0_Nc_32_ang_175' u 1:($7*d) axis x1y2 w l lw 2.5 dt 3 t '$\varphi$' 
 
 
 

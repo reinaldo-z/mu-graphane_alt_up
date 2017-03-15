@@ -1,6 +1,6 @@
 #!/bin/bash
 
-an=180   # Pol. angle of incoming light
+an=175   # Pol. angle of incoming light
 layers=(1 2 3 4 5 6)
 kp=14452
 ec=75
