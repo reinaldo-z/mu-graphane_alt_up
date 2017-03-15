@@ -25,7 +25,7 @@ set ztics 1
 set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
 set zlabel '$|\cal{V}^{\mathrm{xb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
-set output "hnbGh-ab-magvxb-incang-1-4545.mp"
+set output "hnbGh-ab-magvxb-incang-4545.mp"
 sp  '../hnbGh-ab-res-0-4-2001pts/magv.sm_0.03_xb_14452_75-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:3:($2*f) every 10 w l lw 0.8 lt 8
 
 
@@ -37,7 +37,7 @@ set ztics 1
 set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
 set zlabel '$|\cal{V}^{\mathrm{yb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
-set output "hnbGh-ab-magvyb-incang-1-4545.mp"
+set output "hnbGh-ab-magvyb-incang-4545.mp"
 sp  '../hnbGh-ab-res-0-4-2001pts/magv.sm_0.03_yb_14452_75-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:3:($2*f) every 10 w l lw 0.8 lt 8
 
 

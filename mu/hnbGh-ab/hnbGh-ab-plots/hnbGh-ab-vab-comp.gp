@@ -16,10 +16,10 @@ f=pf*sl
 
 ################################################################################
 
-set key bottom right samplen 2.5
-set ylabel '$\mathcal{V}^{\mathrm{xb}}$ @ 115$^{\circ}$ [Km/s]'
-set output "hnbGh-ab-vxb-comp.mp"
-p   '../hnbGh-ab-res-0-4-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_115'    u 1:($2*f) w l lw 1.5 dt 1 t 'ab yx' ,\
+set key at graph 0.65, 0.30 samplen 4
+set ylabel '$\mathcal{V}^{\mathrm{ab}}$ [Km/s]'
+set output "hnbGh-ab-vab-comp.mp"
+p   '../hnbGh-ab-res-0-4-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_125'    u 1:($2*f) w l lw 1.5 dt 1 t 'ab yz @ 125$^{\circ}$' ,\
     '../../cdse/cdse-res-0-4-2001pts/v.sm_0.03_zz_3234_15-spin_scissor_0_Nc_16_ang_00'  u 1:($2*f)  w l lw 2.5 dt 2 t 'CdSe zz' ,\
     '../../gaas/gaas-res-0-4-2001pts/v.sm_0.03_xx_5216_15-spin_scissor_0_Nc_24_ang_00'  u 1:($2*f)  w l lw 2.5 dt 3 t 'GaAs xx' 
 
