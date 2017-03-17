@@ -1,12 +1,50 @@
-PENDIENTES
+            P E N D I E N T E S
 
-16/feb/17
+    16/feb/17
 REVISAR QUE LAS FÓRMULAS SEAN CORRECTAS
 revisar angulo de incidencia para bultos zz (ciclico)
 comparar superficies con bultos
 analizar gráficas
 comparar todas las componentes de las superficies
 
-8/mar/17
+    8/mar/17
 gnuplot if function
+
+    15/03/2017
+agregar figuras de las estructuras
+revisar ángulos de hidrógenos
+*revisar grafica 6: suma de cuadrados sea correcta
+grafica nueva comparando |V^{xb}| y |V^{yb}| para cada caso
+revisar grafica 19: suma de cuadrados sea correcta
+graficas rtp: tener presentes los máximos de r para poder comentar comportamiento de tp
+*capas: revisar sumas que de el total
+preguntar a Anatoli la presición de las coordenadas
+**correr alt con pocos puntos, poca energia y reduciendo decimales
+chi capa por capa para aa
+*bandas para todos
+grafica 43: revisar para que angulo se mantinene mayor vyb para estructura ab
+    en consecuencia a lo anterior corregir análisis para vyb ne estructura ab
+
+dx.doi.org
+
+(23.483258854 + 22.885684957)/2
+
+23.1844719055
+
+4.649999329   0.647110749    2.782450
+4.649999331   0.058257913    0.748999
+6.974999152   6.608080086    0.298787
+6.974999154   4.130666585   -0.298787
+4.649999329   2.626484881   -0.748885
+4.649999329   2.037458819   -2.782320
+
+awk '{printf ("%1.9f   %1.9f   %1.9f\n", $1, $2, ($3-23.1844719055) )}' alt-70z65Ha.xyz
+
+4.649999329   0.647110749    2.7820
+4.649999331   0.058257913    0.7480
+6.974999152   6.608080086    0.2987
+6.974999154   4.130666585   -0.2987
+4.649999329   2.626484881   -0.7480
+4.649999329   2.037458819   -2.7820
+
 
