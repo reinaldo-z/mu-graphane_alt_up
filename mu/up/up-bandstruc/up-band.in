@@ -11,7 +11,7 @@ kptopt1 1          # Option for the automatic generation of k points,
 nshiftk1 1
 shiftk1  0.0 0.0 0.5
 
-ngkpt1  10 10 10  
+ngkpt1  25 25 2   
 prtden1  1         # Print the density, for use by dataset 2
 toldfe1  1.0d-12
 
@@ -21,7 +21,7 @@ getden2  -1
 kptopt2  -3
 
 nband2  36
-ndivk2   20 20 18      # 20, 20 and 18 divisions of the 3 segments, delimited
+ndivk2   40 40 36      # 40, 40 and 36 divisions of the 3 segments, delimited
                        # by 4 points.
 kptbounds2  1/3 1/3 0   # K   
             0   0   0   # G   
