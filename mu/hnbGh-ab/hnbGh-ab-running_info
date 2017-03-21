@@ -46,7 +46,7 @@ echo 1 | rklist.sh 171 171 2 abinit # --> 14452 kpts
 
 run_tiniba.sh
 
-run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 12 -P 2265 -w -e -p -s; run_tiniba.sh -r erase
+run_tiniba.sh -r run -k 14452 -N 0 -x 2 -C 12 -P 9111 -w -e -p -s; run_tiniba.sh -r erase
 
 
 # res:
