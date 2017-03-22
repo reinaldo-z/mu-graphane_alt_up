@@ -1,7 +1,7 @@
-alt-ecut.in
-alt-ecut.out
-alt-ecut_i
-alt-ecut_o
-alt-ecut_x
+alt-kpts.in
+alt-kpts.out
+alt-kpts_i
+alt-kpts_o
+alt-kpts_x
 /home/reinaldo/tiniba/pseudopotentials/hgh/1h.1.hgh
 /home/reinaldo/tiniba/pseudopotentials/hgh/6c.4.hgh

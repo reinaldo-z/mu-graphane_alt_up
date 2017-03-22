@@ -1,7 +1,7 @@
-# C16-H8-alt structure
+# HNBC2H-aa structure
 # Convergence with respect to the number of k points.
 
-ndtset 1
+ndtset 4
 
 #Definition of the k-point grids
 kptopt 1          # Option for the automatic generation of k points, taking
@@ -12,7 +12,10 @@ shiftk  0.5 0.5 0.5  # These shifts will be the same for all grids
         0.0 0.5 0.0
         0.0 0.0 0.5
 
-ngkpt1  7 7 2     # Definition of the different grids
+ngkpt1  3 3 2     # Definition of the different grids
+ngkpt2  7 7 2
+ngkpt3  11 11 2
+ngkpt4  15 15 2
 
 getwfk -1         # This is to speed up the calculation, by restarting
                   # from previous wavefunctions, transferred from the old
@@ -21,31 +24,33 @@ getwfk -1         # This is to speed up the calculation, by restarting
 
 
 #Definition of the unit cell
-acell  4.393612923 7.609926556 70
-rprim      0.8660254037844385 -0.5 0.0
-                 0.0           1.0 0.0
-                 0.0           0.0 1.0
+acell  4.75  4.75 75
+rprim  0.86602540378  0.5  0.0
+      -0.86602540378  0.5  0.0
+       0.0            0.0  1.0
+
 
 #Definition of the atom types
-ntypat      2
-znucl       1   6
+ntypat      4
+znucl       1   7   5   6
 
 
 #Definition of the atoms
 natom     6
-typat     1*1 4*2 1*1
+typat     1 2 3 4 4 1
 
 
 xcart
-4.649999329   0.647110749  25.966924309
-4.649999331   0.058257913  23.933471206
-6.974999152   6.608080086  23.483258854
-6.974999154   4.130666585  22.885684957
-4.649999329   2.626484881  22.435586871
-4.649999329   2.037458819  20.402154147
+-0.000591898    -0.001061879    9.054480825
+-0.000238419    -0.000443346    7.078954664
+ 2.742216428    -0.000443346    6.084893061
+ 2.742379468    -0.000145903    3.012344267
+-0.000023269    -0.000052355    2.118896737
+ 0.000000000     0.000000000    0.000000000
+
 
 #Definition of the planewave basis set
-ecut  12.0        # Maximal kinetic energy cut-off, in Hartree
+ecut  24.0        # Maximal kinetic energy cut-off, in Hartree
 
 #Definition of the SCF procedure
 nstep 10          # Maximal number of SCF cycles

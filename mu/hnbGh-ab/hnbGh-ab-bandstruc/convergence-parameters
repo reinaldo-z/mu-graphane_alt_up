@@ -1,0 +1,22 @@
+	grep -n etotal up-ecut.out* @ 1-ecutconv :
+aa-ecut.out:            etotal1    -2.4505262995E+01    (12ha)
+aa-ecut.outA:           etotal1    -2.4850701909E+01    (16ha)
+aa-ecut.outB:           etotal1    -2.5082329845E+01    (20ha)
+aa-ecut.outC:           etotal1    -2.5217933802E+01    (24ha)
+aa-ecut.outD:           etotal1    -2.5300795662E+01    (28ha)
+aa-ecut.outE:           etotal1    -2.5356003495E+01    (32ha)
+
+convergence for ecut reached for 24ha with an accuracy of 99.6%.
+
+
+################################################################
+
+
+        grep -n etotal up-ecut.out @ 2-kptsconv :
+2302:           etotal1    -2.5218022615E+01        (grid of kpts: 3 3 2)
+2303:           etotal2    -2.5218129758E+01        (grid of kpts: 7 7 2)
+2304:           etotal3    -2.5218126938E+01        (grid of kpts: 11 11 2)
+2305:           etotal4    -2.5218122549E+01        (grid of kpts: 15 15 2)
+convergence for kpts reached for a grid of 7 7 2 with an accuracy 
+of 99.9%.
+
