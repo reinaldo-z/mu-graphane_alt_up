@@ -13,9 +13,9 @@ gnuplot if function
     15/03/2017
 \agregar figuras de las estructuras
 revisar ángulos de hidrógenos
-*revisar grafica 6: suma de cuadrados sea correcta
-grafica nueva comparando |V^{xb}| y |V^{yb}| para cada caso
-revisar grafica 19: suma de cuadrados sea correcta
+\*revisar grafica 6: suma de cuadrados sea correcta
+\grafica nueva comparando |V^{xb}| y |V^{yb}| para cada caso
+\revisar grafica 19: suma de cuadrados sea correcta
 graficas rtp: tener presentes los máximos de r para poder comentar comportamiento de tp
 *capas: revisar sumas que de el total
 preguntar a Anatoli la presición de las coordenadas

@@ -84,8 +84,8 @@ p   '../up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040' u
     '../up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_050' u 1:($2*f) w l lw 2.5 dt 5 t '50$^{\circ}$' 
 
 
-# ############################### THREE COMPONENTS ###############################
-# ################################## [0.0:0.2] ###################################
+############################### THREE COMPONENTS ###############################
+################################## [0.0:0.2] ###################################
 set xrange [0:0.2]
 
 set key top right
@@ -106,6 +106,8 @@ p   '< paste ../up-res-0-4-2001pts/v.sm_0.03_yx_12802_40-spin_scissor_0_Nc_32_an
     '../up-res-0-4-2001pts/v.sm_0.03_yx_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($2*f) w l lw 2.5 dt 2 t '$ \mathcal{V}^{\mathrm{yx}} $' ,\
     '../up-res-0-4-2001pts/v.sm_0.03_yy_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($2*f) w l lw 2.5 dt 3 t '$ \mathcal{V}^{\mathrm{yy}} $' ,\
     '../up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($2*f) w l lw 2.5 dt 4 t '$ \mathcal{V}^{\mathrm{yz}} $' 
+
+
 
 
 
@@ -131,6 +133,24 @@ p   '< paste ../up-res-0-4-2001pts/v.sm_0.03_yx_12802_40-spin_scissor_0_Nc_32_an
     '../up-res-0-4-2001pts/v.sm_0.03_yy_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($2*f) w l lw 2.5 dt 3 t '$ \mathcal{V}^{\mathrm{yy}} $' ,\
     '../up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($2*f) w l lw 2.5 dt 4 t '$ \mathcal{V}^{\mathrm{yz}} $' 
 
+
+############################### COMPARISON OF ABS ##############################
+
+
+set key top right
+set yrange [0:100]
+set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 40$^{\circ}$ [Km/s]'
+set output "up-absvab-1.mp"
+p   '< paste ../up-res-0-4-2001pts/v.sm_0.03_xx_12802_40-spin_scissor_0_Nc_32_ang_040 ../up-res-0-4-2001pts/v.sm_0.03_xy_12802_40-spin_scissor_0_Nc_32_ang_040 ../up-res-0-4-2001pts/v.sm_0.03_xz_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:(f*sqrt($2**2 + $4**2 + $6**2)) w l lw 1.5 dt 1 t '$|\mathcal{V}^{\mathrm{xb}}|$' ,\
+    '< paste ../up-res-0-4-2001pts/v.sm_0.03_yx_12802_40-spin_scissor_0_Nc_32_ang_040 ../up-res-0-4-2001pts/v.sm_0.03_yy_12802_40-spin_scissor_0_Nc_32_ang_040 ../up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:(f*sqrt($2**2 + $4**2 + $6**2)) w l lw 1.5 dt 1 t '$|\mathcal{V}^{\mathrm{yb}}|$' ,\
+
+
+set key top right
+set yrange [0:50]
+set ylabel '$\mathcal{V}^{\mathrm{yb}}$ @ 40$^{\circ}$ [Km/s]'
+set output "up-absvab-2.mp"
+p   '< paste ../up-res-0-4-2001pts/v.sm_0.03_xx_12802_40-spin_scissor_0_Nc_32_ang_040 ../up-res-0-4-2001pts/v.sm_0.03_xy_12802_40-spin_scissor_0_Nc_32_ang_040 ../up-res-0-4-2001pts/v.sm_0.03_xz_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:(f*sqrt($2**2 + $4**2 + $6**2)) w l lw 1.5 dt 1 t '$|\mathcal{V}^{\mathrm{xb}}|$' ,\
+    '< paste ../up-res-0-4-2001pts/v.sm_0.03_yx_12802_40-spin_scissor_0_Nc_32_ang_040 ../up-res-0-4-2001pts/v.sm_0.03_yy_12802_40-spin_scissor_0_Nc_32_ang_040 ../up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:(f*sqrt($2**2 + $4**2 + $6**2)) w l lw 1.5 dt 1 t '$|\mathcal{V}^{\mathrm{xb}}|$' ,\
 
 
 
