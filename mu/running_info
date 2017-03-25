@@ -135,29 +135,29 @@ hexa32: broken pipe
 
     kill process
 PMN1:
-ssh hexa03 'rm -r /data/reinaldo/workspace/*'
-ssh hexa05 'rm -r /data/reinaldo/workspace/*'
-ssh hexa06 'rm -r /data/reinaldo/workspace/*'
-ssh hexa07 'rm -r /data/reinaldo/workspace/*'
-ssh hexa08 'rm -r /data/reinaldo/workspace/*'
-ssh hexa09 'rm -r /data/reinaldo/workspace/*'
-ssh hexa10 'rm -r /data/reinaldo/workspace/*'
-ssh hexa11 'rm -r /data/reinaldo/workspace/*'
-ssh hexa12 'rm -r /data/reinaldo/workspace/*'
-ssh hexa13 'rm -r /data/reinaldo/workspace/*'
-ssh hexa14 'rm -r /data/reinaldo/workspace/*'
-ssh hexa16 'rm -r /data/reinaldo/workspace/*'
-ssh hexa17 'rm -r /data/reinaldo/workspace/*'
-ssh hexa18 'rm -r /data/reinaldo/workspace/*'
-ssh hexa19 'rm -r /data/reinaldo/workspace/*'
-ssh hexa24 'rm -r /data/reinaldo/workspace/*'
-ssh hexa25 'rm -r /data/reinaldo/workspace/*'
-ssh hexa26 'rm -r /data/reinaldo/workspace/*'
-ssh hexa31 'rm -r /data/reinaldo/workspace/*'
-ssh hexa33 'rm -r /data/reinaldo/workspace/*'
-ssh hexa34 'rm -r /data/reinaldo/workspace/*'
-ssh hexa35 'rm -r /data/reinaldo/workspace/*'
-ssh hexa36 'rm -r /data/reinaldo/workspace/*'
+ssh hexa03 'rm -r '
+ssh hexa05 'rm -r '
+ssh hexa06 'rm -r '
+ssh hexa07 'rm -r '
+ssh hexa08 'rm -r '
+ssh hexa09 'rm -r '
+ssh hexa10 'rm -r '
+ssh hexa11 'rm -r '
+ssh hexa12 'rm -r '
+ssh hexa13 'rm -r '
+ssh hexa14 'rm -r '
+ssh hexa16 'rm -r '
+ssh hexa17 'rm -r '
+ssh hexa18 'rm -r '
+ssh hexa19 'rm -r '
+ssh hexa24 'rm -r '
+ssh hexa25 'rm -r '
+ssh hexa26 'rm -r '
+ssh hexa31 'rm -r '
+ssh hexa33 'rm -r '
+ssh hexa34 'rm -r '
+ssh hexa35 'rm -r '
+ssh hexa36 'rm -r '
 
     machines free
 
@@ -219,6 +219,9 @@ abinit_check.sh 2 | grep "number of plane waves" | awk '{print $7}' >> PWs
 96172/5     19234
 
 82815/5     16563
+
+
+
 
 
 

@@ -1,0 +1,29 @@
+
+Route KMΓK:
+kptbounds2  1/3 1/3 0   # K
+            0   0   0   # Γ
+            1/2 0   0   # M
+            1/3 1/3 0   # K
+
+
+Route ΓMKΓ:
+kptbounds2  0   0   0   # Γ
+            1/2 0   0   # M
+            1/3 1/3 0   # K
+            0   0   0   # Γ
+
+
+Distances between bounds:
+Γ-M: sqrt(1/2)                  =   0.7071067812
+M-K: sqrt((1/3-1/2)^2+(1/3)^2)  =   0.3726779962  approx (0.71)*Γ-M
+K-Γ: sqrt(2*(1/3^2))            =   0.4714045208  approx (0.80)*Γ-M
+
+
+if  Γ-M has 20 divisions -->
+    M-K     14
+    K-Γ     16
+
+if  Γ-M has 40 divisions -->
+    M-K     28
+    K-Γ     32
+
