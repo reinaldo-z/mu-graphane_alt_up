@@ -2,7 +2,7 @@ set terminal mp color dashed latex 11
 
 set colors classic
 
-set zeroaxis lw 2.0
+set zeroaxis lw 2.5
 
 
 # set label 'C$_{16}$H$_{8}$-up' at graph 0.53 , 0.25 center
