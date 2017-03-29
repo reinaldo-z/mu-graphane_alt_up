@@ -27,21 +27,6 @@ PMN4: hnbGh-aa-48b, hnbGh-aa-64bh
     fat1
     fat2
 
-    #MakeMachines_latm/res
-rm .machines_latm &>/dev/null
-rm .machines_res  &>/dev/null
-printf 'fat01\n%.0s'        >  .machines_latm.original
-printf 'fat01\n%.0s' {1..9} >  .machines_res.original
-
-    #MakeMachines_pmn/scf
-rm .machines_pmn &>/dev/null
-rm .machines_scf &>/dev/null
-printf 'fat01\n%.0s' >  .machines_scf.original
-printf 'fat02\n%.0s' >> .machines_scf.original
-printf 'fat01\n%.0s' {1..64} >  .machines_pmn.original
-printf 'fat02\n%.0s' {1..64} >> .machines_pmn.original
-
-
 running time 240 hexas:
 w e:  9.5h hrs
 p s:  0.35 hrs
@@ -50,6 +35,9 @@ total: ~ 10 hrs
 abinit_check.sh 1
 abinit_check.sh 2
 
+echo "2" > .peso1
+echo "2" > .peso2
+
 echo 1 | rklist.sh 31 31 2 abinit   # --> 452   kpts
 echo 1 | rklist.sh 131 131 2 abinit # --> 8452 kpts
 echo 1 | rklist.sh 141 141 2 abinit # --> 9802 kpts
@@ -57,6 +45,8 @@ echo 1 | rklist.sh 151 151 2 abinit # --> 11252 kpts
 echo 1 | rklist.sh 161 161 2 abinit # --> 12802 kpts
 echo 1 | rklist.sh 171 171 2 abinit # --> 14452 kpts
 echo 1 | rklist.sh 181 181 2 abinit # --> 16202 kpts
+
+rlayer.sh 32.21761 1 4 1 1
 
 run_tiniba.sh -r run -k 452 -N 0 -x 2 -C 12 -P 948 -w -e -p -s ; run_tiniba.sh -r erase ; run_tiniba.sh -r erasescf
 

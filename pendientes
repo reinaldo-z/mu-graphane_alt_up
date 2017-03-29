@@ -28,14 +28,14 @@ grafica 43: revisar para que angulo se mantinene mayor vyb para estructura ab
 
     22/03/2017
 up:
-    Fix the energy for the maximum response, plot |V^{ab}| vs pol angle 
-    Change energy range in |vab| rtp only for the region of interest
-    Make new plot vabrtp with three components of V^{ab} and tp.
+Fix the energy for the maximum response, plot |V^{ab}| vs pol angle 
+Change energy range in |vab| rtp only for the region of interest
+Make new plot vabrtp with three components of V^{ab} and tp.
 
 alt:
-    Add more layers to isolate each carbon atom.
-    Add bonds to 2d gnuplot layer 2:3 plot
-    fig:alt-comp: Reduce energy values only to show the response vs CdSe 
+Add more layers to isolate each carbon atom.
+Add bonds to 2d gnuplot layer 2:3 plot
+fig:alt-comp: Reduce energy values only to show the response vs CdSe 
 
 plots with colors of zones of intensities for 3D
 

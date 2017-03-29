@@ -32,7 +32,7 @@ en=3.0736881622782204
 
 unset key
 
-set output "up-band-gmkg.mp"
+set output "alt-band-gmkg.mp"
 p   '../alt-bandstruc/eigen_51-gmkg_65-spin' u 1:($2 +en) w l ls 1 lw 1.5 dt 1 ,\
     '../alt-bandstruc/eigen_51-gmkg_65-spin' u 1:($3 +en) w l ls 1 lw 1.5 dt 1 ,\
     '../alt-bandstruc/eigen_51-gmkg_65-spin' u 1:($4 +en) w l ls 1 lw 1.5 dt 1 ,\
