@@ -8,7 +8,7 @@ set xtics nomirror
 set y2tics 45
 set my2tics 3
 
-set label "C$_{16}$H$_{8}$-up" at graph 0.15 , 0.9
+set label "C$_{16}$H$_{8}$-up" at graph 0.15 , 0.9 center
 
 
 d=360/(2*pi)    # factor fron radiangs to degrees
@@ -20,7 +20,8 @@ f=pf*sl
 set y2label 'Angle [deg.]' 
 
 ############################## [0.0:0.2] #######################################
-set xrange [0.0:0.2]
+
+set xrange [0.0:0.13]
 
 
 set key at graph 0.95, 0.35
@@ -42,7 +43,8 @@ p   '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_0
 
  
 ############################## [1.8:2.1] #######################################
-set xrange [1.8:2.1]
+
+set xrange [1.85:2.02]
 
 
 set key at graph 0.30, 0.45
