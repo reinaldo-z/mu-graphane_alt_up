@@ -2,7 +2,7 @@ set terminal mp color dashed latex 11
 
 set colors classic
 
-set label 'HNNC$_{2}$H-ab' at graph 0.01 , 0.93
+set label 'HNNC$_{2}$H-ab' at graph 0.03 , 0.93
 
 set xlabel '{\Large Photon Energy (eV)}'
 set xrange [0.0:3.0]
@@ -33,15 +33,15 @@ p   '../hnbGh-ab-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_75-spin_scissor_0_Nc_32
     '../hnbGh-ab-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_75-spin_scissor_0_Nc_32_ang_155' u 1:($7*d) axis x1y2 w l lw 2.5 dt 3 t '$\varphi$' 
 
 
-set ylabel '$|\mathcal{V}^{\mathrm{yb}}|$ @ 125$^{\circ}$ [Km/s]'
+set ylabel '$|\mathcal{V}^{\mathrm{yb}}|$ @ 85$^{\circ}$ [Km/s]'
 set y2label "Angle [deg.]" 
-set yrange [:4]
+set yrange [:3.2]
 # set ytics 2
 set y2tics 45
 set output "hnbGh-ab-vyb-rtp.mp"
-p   '../hnbGh-ab-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_75-spin_scissor_0_Nc_32_ang_125' u 1:($5*f) axis x1y1 w l lw 1.5 dt 1 t '$|\mathcal{V}^{\mathrm{yb}}|$' ,\
-    '../hnbGh-ab-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_75-spin_scissor_0_Nc_32_ang_125' u 1:($6*d) axis x1y2 w l lw 2.5 dt 2 t '$\theta$' ,\
-    '../hnbGh-ab-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_75-spin_scissor_0_Nc_32_ang_125' u 1:($7*d) axis x1y2 w l lw 2.5 dt 3 t '$\varphi$' 
+p   '../hnbGh-ab-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_75-spin_scissor_0_Nc_32_ang_085' u 1:($5*f) axis x1y1 w l lw 1.5 dt 1 t '$|\mathcal{V}^{\mathrm{yb}}|$' ,\
+    '../hnbGh-ab-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_75-spin_scissor_0_Nc_32_ang_085' u 1:($6*d) axis x1y2 w l lw 2.5 dt 2 t '$\theta$' ,\
+    '../hnbGh-ab-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_75-spin_scissor_0_Nc_32_ang_085' u 1:($7*d) axis x1y2 w l lw 2.5 dt 3 t '$\varphi$' 
 
 
 

@@ -84,9 +84,9 @@ printf 'hexa08\n%.0s' {1..3} >> .machines_pmn.original
 
     #MakeMachines_latm/res
 rm .machines_latm* &>/dev/null
-printf 'hexa5\n%.0s'        >  .machines_latm.original
+printf 'hexa1\n%.0s'        >  .machines_latm.original
 rm .machines_res*  &>/dev/null
-printf 'hexa5\n%.0s' {1..9} >  .machines_res.original
+printf 'hexa1\n%.0s' {1..9} >  .machines_res.original
 
     #MakeMachines_pmn/scf
 rm .machines_scf* &>/dev/null
