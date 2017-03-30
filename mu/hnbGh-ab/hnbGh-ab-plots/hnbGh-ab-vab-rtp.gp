@@ -5,7 +5,7 @@ set colors classic
 set label 'HNNC$_{2}$H-ab' at graph 0.03 , 0.93
 
 set xlabel '{\Large Photon Energy (eV)}'
-set xrange [0.0:3.0]
+set xrange [0.0:2.6]
 set ytics nomirror
 set xtics nomirror
 set y2tics 45

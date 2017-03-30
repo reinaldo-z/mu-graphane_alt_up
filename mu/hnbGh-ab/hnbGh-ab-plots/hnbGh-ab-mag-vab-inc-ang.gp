@@ -7,6 +7,7 @@ set ticslevel 0
 set xlabel '{\Large Photon Energy (eV)}'
 set ytics nomirror
 
+set label 'HNNC$_{2}$H-ab' at graph 0.1, 0.0, 1.1
 unset key
 
 pf=29.98        # prefactor

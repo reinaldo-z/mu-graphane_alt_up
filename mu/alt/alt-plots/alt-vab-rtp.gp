@@ -6,7 +6,7 @@ set label 'C$_{16}$H$_{8}$-alt' at graph 0.07 , 0.93
 
 set xlabel '{\Large Photon Energy (eV)}'
 set ytics nomirror
-set xtics nomirror
+set xtics nomirror 0.1
 set y2tics 45
 set my2tics 3
 
@@ -17,7 +17,7 @@ f=pf*sl
 d=360/(2*pi)    # fron radiangs to degrees
 
 ################################################################################
-set xrange [0.5:1.1]
+set xrange [0.5:0.95]
 set key at graph 0.24, 0.3
 set key samplen 2
 

@@ -2,8 +2,8 @@ set terminal mp color dashed latex 11
 
 set colors classic
 
-
 set ticslevel 0
+
 set xlabel '{\Large Photon Energy (eV)}'
 set ytics nomirror
 
