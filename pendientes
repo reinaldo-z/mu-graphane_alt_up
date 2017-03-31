@@ -30,7 +30,7 @@ graficas rtp: tener presentes los máximos de r para poder comentar comportamien
 alt: Add more layers to isolate each carbon atom.
 
 Make new plot vabrtp with three components of V^{ab} and tp
-Add bonds to 2d gnuplot layer 2:3 plot
+\Add bonds to 2d gnuplot layer 2:3 plot
 plots with colors of zones of intensities for 3D
 
 
