@@ -21,7 +21,13 @@ set xrange [0:0.2]
 set view 44,45
 set hidden3d
 set ytics 30
+
 set ztics 20
+set pm3d scansbackward
+set pm3d implicit at s
+set cbrange [0:60]
+# unset ztics
+
 set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
 set zlabel '$|\cal{V}^{\mathrm{xb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
@@ -32,7 +38,13 @@ sp  '../up-res-0-4-2001pts/magv.sm_0.03_xb_12802_40-spin_scissor_0_Nc_32_incang_
 set view 44,45
 set hidden3d
 set ytics 30
+
 set ztics 20
+set pm3d scansbackward
+set pm3d implicit at s
+set cbrange [-2:90]
+# unset ztics
+
 set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
 set zlabel '$|\cal{V}^{\mathrm{yb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
@@ -49,7 +61,13 @@ set view 44,45
 set hidden3d
 set xtics 1.85, 0.05, 2.1 
 set ytics 30
+
 set ztics 3
+set pm3d scansbackward
+set pm3d implicit at s
+set cbrange [0:10]
+# unset ztics
+
 set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
 set zlabel '$|\cal{V}^{\mathrm{xb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
@@ -61,7 +79,13 @@ set view 44,45
 set hidden3d
 set xtics 1.85, 0.05, 2.1 
 set ytics 30
+
 set ztics 20
+set pm3d scansbackward
+set pm3d implicit at s
+set cbrange [0:50]
+# unset ztics
+
 set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
 set zlabel '$|\cal{V}^{\mathrm{yb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
