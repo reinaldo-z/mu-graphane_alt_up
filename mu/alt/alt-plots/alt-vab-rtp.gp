@@ -1,8 +1,9 @@
 set terminal mp color dashed latex 11
 
 set colors classic
+set zeroaxis lw 1.5
 
-set label 'C$_{16}$H$_{8}$-alt' at graph 0.07 , 0.93
+set label 1 'C$_{16}$H$_{8}$-alt' at graph 0.07 , 0.93
 
 set xlabel '{\Large Photon Energy (eV)}'
 set ytics nomirror
@@ -44,7 +45,7 @@ p   '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_
     '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($6*d) axis x1y2 w l lw 2.5 dt 2 t '$\theta$' ,\
     '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($7*d) axis x1y2 w l lw 2.5 dt 3 t '$\varphi$' 
 
-############################## MULTIPLOT #######################################
+################################# MULTIPLOT ####################################
 
 unset y2tics
 unset y2label
@@ -52,7 +53,7 @@ unset y2label
 set xrange [0.5:1.0]
 
 set size 1.0,1.5
-set output "up-vxb-rtp-m.mp"
+set output "alt-vxb-rtp-m.mp"
 set tmargin 0
 set bmargin 0
 set lmargin 10
@@ -71,9 +72,9 @@ set ytics  -30, 5, 15
 
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
-p   '../alt-res-0-4-2001pts/v.sm_0.03_xx_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 dt 1 t '$ \mathcal{V}^{\mathrm{xx}} $' ,\
-    '../alt-res-0-4-2001pts/v.sm_0.03_xy_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 2.5 dt 2 t '$ \mathcal{V}^{\mathrm{xy}} $' ,\
-    '../alt-res-0-4-2001pts/v.sm_0.03_xz_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 2.5 dt 3 t '$ \mathcal{V}^{\mathrm{xz}} $' 
+p   '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 dt 1 t '$ \mathcal{V}^{\mathrm{xx}} $' ,\
+    '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($3*f) w l lw 2.5 dt 2 t '$ \mathcal{V}^{\mathrm{xy}} $' ,\
+    '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($4*f) w l lw 2.5 dt 3 t '$ \mathcal{V}^{\mathrm{xz}} $' 
 
 
 unset label 1
@@ -97,10 +98,9 @@ unset multiplot
 #########################
 
 set xrange [0.5:1.0]
-unset key
 
 set size 1.0,1.5
-set output "up-vyb-rtp-m.mp"
+set output "alt-vyb-rtp-m.mp"
 set tmargin 0
 set bmargin 0
 set lmargin 10
@@ -108,20 +108,21 @@ set rmargin 2
 
 set multiplot
 
+set label 1 'C$_{16}$H$_{8}$-alt' at graph 0.07 , 0.93
 set key at graph -0.10, 0.2
 
 unset xlabel
 unset xtics
 
 set ylabel '$|\mathcal{V}^{\mathrm{xb}}|$ @ 145$^{\circ}$ [Km/s]'
-set yrange [-42:4]
+set yrange [-42:5]
 set ytics  -45, 5, 5
 
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
-p   '../alt-res-0-4-2001pts/v.sm_0.03_yx_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 dt 1 t '$ \mathcal{V}^{\mathrm{yx}} $' ,\
-    '../alt-res-0-4-2001pts/v.sm_0.03_yy_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 2.5 dt 2 t '$ \mathcal{V}^{\mathrm{yy}} $' ,\
-    '../alt-res-0-4-2001pts/v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 2.5 dt 3 t '$ \mathcal{V}^{\mathrm{yz}} $' 
+p   '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5 dt 1 t '$ \mathcal{V}^{\mathrm{yx}} $' ,\
+    '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($3*f) w l lw 2.5 dt 2 t '$ \mathcal{V}^{\mathrm{yy}} $' ,\
+    '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($4*f) w l lw 2.5 dt 3 t '$ \mathcal{V}^{\mathrm{yz}} $' 
 
 
 unset label 1

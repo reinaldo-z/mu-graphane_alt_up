@@ -1,6 +1,7 @@
 set terminal mp color dashed latex 11
 
 set colors classic
+set zeroaxis lw 1.5
 
 set xlabel '{\Large Photon Energy (eV)}'
 set ytics nomirror
@@ -129,6 +130,7 @@ set rmargin 2
 
 set multiplot
 
+set label 1 "C$_{16}$H$_{8}$-up" at graph 0.15 , 0.9 center
 set key at graph 0.60, 0.90 center
 
 unset xlabel
@@ -179,6 +181,7 @@ set rmargin 2
 
 set multiplot
 
+set label 1 "C$_{16}$H$_{8}$-up" at graph 0.15 , 0.9 center
 set key at graph 0.60, 0.90 center
 
 unset xlabel
@@ -225,14 +228,15 @@ set rmargin 2
 
 set multiplot
 
-set key at graph -0.06, 0.90 center
+set label 1 "C$_{16}$H$_{8}$-up" at graph 0.15 , 0.9 center
+set key at graph -0.1, 0.15 center
 
 unset xlabel
 unset xtics
 
 set ylabel '$|\cal{V}^{\mathrm{ab}}|$ @ 40$^{\circ}$ [Km/s]'
-set yrange [-32:30]
-set ytics  -30, 10, 30
+set yrange [-32:25]
+set ytics  -30, 5, 25
 
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
