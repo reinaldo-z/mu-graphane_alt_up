@@ -14,6 +14,7 @@ for i in ${layers[@]}; do
     echo -e "\n\n\n"
     sleep 20
     run_tiniba.sh -r run -k "$kpts" -N 1 -x 2 -C 12 -P "$pws" -c
+    
     clear
 
     END=$(date)

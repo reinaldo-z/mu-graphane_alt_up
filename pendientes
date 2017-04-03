@@ -7,10 +7,10 @@ comparar superficies con bultos
 analizar gráficas
 comparar todas las componentes de las superficies
 
-    8/mar/17
+    08/mar/17
 gnuplot if function
 
-    15/03/2017
+    15/mar/2017
 graficas rtp: tener presentes los máximos de r para poder comentar comportamiento de tp
 \chi capa por capa para aa
 \grafica 43: revisar para que angulo se mantinene mayor vyb para estructura ab
@@ -26,18 +26,22 @@ graficas rtp: tener presentes los máximos de r para poder comentar comportamien
 \*bandas para todos
 
 
-    22/03/2017
-alt: Add more layers to isolate each carbon atom.
+    22/mar/2017
 
-Make new plot vabrtp with three components of V^{ab} and tp
+\Make new plot vabrtp with three components of V^{ab} and tp
 \Add bonds to 2d gnuplot layer 2:3 plot
-plots with colors of zones of intensities for 3D
+\plots with colors of zones of intensities for 3D
 
 
 \Change energy range in |vab| rtp only for the region of interest
 \fig:alt-comp: Reduce energy values only to show the response vs CdSe 
 \Fix the energy for the maximum response, plot |V^{ab}| vs pol angle 
 \hnbc2h lables correction
+
+    02/abr/2017
+alt: Add more layers to isolate each carbon atom.
+\alt & up: change perspective of hexagonal structures 
+
 
 
 ################################################################################
