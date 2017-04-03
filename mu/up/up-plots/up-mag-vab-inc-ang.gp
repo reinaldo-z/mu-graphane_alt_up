@@ -25,10 +25,10 @@ set ytics 30
 set ztics 20
 set pm3d scansbackward
 set pm3d implicit at s
-set cbrange [0:60]
+set cbrange [-2:60]
 # unset ztics
 
-set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
+set ylabel 'Polarization angle $\alpha$ [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
 set zlabel '$|\cal{V}^{\mathrm{xb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
 set output "up-magvxb-incang-1-4545.mp"
@@ -42,10 +42,10 @@ set ytics 30
 set ztics 20
 set pm3d scansbackward
 set pm3d implicit at s
-set cbrange [-2:90]
+set cbrange [-3:90]
 # unset ztics
 
-set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
+set ylabel 'Polarization angle $\alpha$ [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
 set zlabel '$|\cal{V}^{\mathrm{yb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
 set output "up-magvyb-incang-1-4545.mp"
@@ -65,10 +65,10 @@ set ytics 30
 set ztics 3
 set pm3d scansbackward
 set pm3d implicit at s
-set cbrange [0:10]
+set cbrange [0.3:10]
 # unset ztics
 
-set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
+set ylabel 'Polarization angle $\alpha$ [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
 set zlabel '$|\cal{V}^{\mathrm{xb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
 set output "up-magvxb-incang-2-4545.mp"
@@ -83,10 +83,10 @@ set ytics 30
 set ztics 20
 set pm3d scansbackward
 set pm3d implicit at s
-set cbrange [0:50]
+set cbrange [-0.8:50]
 # unset ztics
 
-set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
+set ylabel 'Polarization angle $\alpha$ [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
 set zlabel '$|\cal{V}^{\mathrm{yb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
 set output "up-magvyb-incang-2-4545.mp"

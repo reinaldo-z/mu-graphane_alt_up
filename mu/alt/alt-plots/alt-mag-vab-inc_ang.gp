@@ -23,15 +23,16 @@ set hidden3d
 set xtics 0.7, 0.05, 1.0
 set ytics 30
 
-set ztics 15
+set zrange [0:35]
+set ztics 5
 set pm3d scansbackward
 set pm3d implicit at s
-set cbrange [0:30]
+set cbrange [-1:30]
 # unset ztics
 
-set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
-set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '$|\cal{V}^{\mathrm{xb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
+set ylabel 'Polarization angle $\alpha$ [deg.]'       rotate parallel offset 1.3,-1.0, 0.0
+set xlabel 'Photon Energy [eV]'              rotate parallel offset 0.0,-1.5, 0.0
+set zlabel '$|\cal{V}^{\mathrm{x}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
 set output "alt-magvxb-incang-4545.mp"
 sp  '../alt-res-0-4-2001pts/magv.sm_0.03_xb_14452_65-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:3:($2*f) w l lw 0.6 lt 8
 
@@ -41,15 +42,16 @@ set hidden3d
 set xtics 0.7, 0.05, 1.0
 set ytics 30
 
-set ztics 15
+set zrange [0:60]
+set ztics 10
 set pm3d scansbackward
 set pm3d implicit at s
-set cbrange [0:50]
+set cbrange [-2:50]
 # unset ztics
 
-set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
-set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '$|\cal{V}^{\mathrm{yb}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
+set ylabel 'Polarization angle $\alpha$ [deg.]'       rotate parallel offset 1.3,-1.0, 0.0
+set xlabel 'Photon Energy [eV]'              rotate parallel offset 0.0,-1.5, 0.0
+set zlabel '$|\cal{V}^{\mathrm{y}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
 set output "alt-magvyb-incang-4545.mp"
 sp  '../alt-res-0-4-2001pts/magv.sm_0.03_yb_14452_65-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:3:($2*f) w l lw 0.65 lt 8
 
