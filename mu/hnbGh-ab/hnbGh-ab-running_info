@@ -32,7 +32,6 @@ abinit_check.sh 1
 abinit_check.sh 2
 
 echo 1 | rklist.sh 31 31 2 abinit # --> 452 kpts
-
 echo 1 | rklist.sh 71 71 2 abinit   # --> 2452 kpts
 echo 1 | rklist.sh 81 81 2 abinit   # --> 3202 kpts
 echo 1 | rklist.sh 91 91 2 abinit   # --> 4052 kpts
@@ -46,8 +45,7 @@ echo 1 | rklist.sh 171 171 2 abinit # --> 14452 kpts
 
 run_tiniba.sh
 
-run_tiniba.sh -r run -k 14452 -N 0 -x 2 -C 12 -P 9111 -w -e -p -s; run_tiniba.sh -r erase
-
+run_tiniba.sh -r run -k 14452 -N 0 -x 2 -C 12 -P 9111 -w -e -p -s; ssh cassandra "echo -e 'Calculations -w -e -p -s completed' | mail -s 'ab -w -e -p -s ' reychino@gmail.com"
 
 # res:
 all_responses.sh
