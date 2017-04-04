@@ -9,8 +9,8 @@
 \usepackage{cuted}
 \usepackage{blindtext}
 \usepackage{color}
-% \usepackage[inline]{showlabels}
-% \usepackage{showframe}
+\usepackage[inline]{showlabels}
+\usepackage{showframe}
 
 \usepackage[section]{placeins}
 \let\Oldsection\section
@@ -29,35 +29,37 @@ Anatoli I. Shkrebtii}
 \begin{document}
 \maketitle
 
+\section{abstract} % (fold)
+\label{sec:abstract}
+\textcolor{red}{{\huge Filling with text.}\\ \blindtext}
+% section abstract (end)
+
 \section{Introuction} % (fold)
 \label{sec:introuction}
 
-\textcolor{red}{
-{\huge Filling with text.}\\
-\blindtext
-}
-\begin{figure}[h]
+\textcolor{red}{\blindtext}
+\begin{figure}[ht!]
     \centering
-    \includegraphics[width=\linewidth]{figures/altstruc1}
     \includegraphics[width=\linewidth]{figures/altstruc2}
+    \includegraphics[width=\linewidth]{figures/altstruc1}
     \caption{Alt structure.}
     \label{fig:altstruc}
 \end{figure}
-\begin{figure}[h!]
+\begin{figure}[ht!]
     \centering
-    \includegraphics[width=\linewidth]{figures/upstruc1}
     \includegraphics[width=\linewidth]{figures/upstruc2}
+    \includegraphics[width=\linewidth]{figures/upstruc1}
     \caption{Up structure}
     \label{fig:upstruc}
 \end{figure}
-% \begin{figure}[h]
+% \begin{figure}[tb]
 %     \centering
 %     \includegraphics[width=\linewidth]{figures/hnbGh-aa-1}
 %     \includegraphics[width=\linewidth]{figures/hnbGh-aa-2}
 %     \caption{HNBC$_{2}$H-aa structure}
 %     \label{fig:aastruc}
 % \end{figure}
-% \begin{figure}[h]
+% \begin{figure}[tb]
 %     \centering
 %     \includegraphics[width=\linewidth]{figures/hnbGh-ab-1}
 %     \includegraphics[width=\linewidth]{figures/hnbGh-ab-2}
@@ -110,7 +112,7 @@ For an angle $\alpha = \frac{\pi}{4}$ this expression can be reduced to
 \end{align}
 
 We also define $|\mathcal{V}^{\mathrm{a}}|$ as 
-\begin{equation}\label{eq:vab-mag}
+\begin{equation}\label{eq:va-mag}
 |\mathcal{V}^{\mathrm{a}}| = 
 \sqrt {
 (\mathcal{V}^{\mathrm{ax}})^{2} +
@@ -187,8 +189,10 @@ No. & type & $x$ & $y$ & $z$  \\
 \end{tabular}
 \caption{Unit cell of \emph{alt} structure. Layer division, atom types and
 positions for the \emph{alt} structure. The structure unit cell was divided in
-six layers corresponding each one to atoms in different $z$ positions.}
-\label{tab:altunitcell}
+six layers corresponding each one to atoms in different $z$ positions. The
+corresponding layer atom position is depicted in Fig. \ref{fig:altstruc} with
+the corresponding number of layer.}
+\label{tab:alt-unitcell}
 \end{table}
 
 The structures presented here where divided into layers to analyze the he layer-
@@ -198,8 +202,8 @@ hydrogen atoms, from the second to the forth to carbon atoms in different $z$
 positions, and the sixth and last one to the bottom hydrogen atoms. The
 \emph{up} structure was divided into two layers, the first one comprised by the
 top hydrogen atoms and the second by the carbon atoms. The layer divisions and
-atom positions for the unit cells are shown in Tables \ref{tab:altunitcell} and
-\ref{tab:upunitcell}.
+atom positions for the unit cells are shown in Tables \ref{tab:alt-unitcell} and
+\ref{tab:up-unitcell}.
 
 \begin{table}[tb]
 \center
@@ -218,30 +222,35 @@ No. & type & $x$ & $y$ & $z$  \\
 \end{tabular}
 \caption{Unit cell of \emph{up} structure. Layer division, atom types and
 positions for the \emph{up} structure. The structure unit cell was divided in
-two layers corresponding to hydrogen and carbon atoms.}
-\label{tab:upunitcell}
+two layers corresponding to hydrogen and carbon atoms.The corresponding layer
+atom position is depicted in Fig. \ref{fig:upstruc} with the corresponding
+number of layer.}
+\label{tab:up-unitcell}
 \end{table}
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ALT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ALT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{alt} % (fold)
 \label{sec:results-alt}
 
-In Fig. \ref{fig:alt-magvxbincang} we present the $\mathcal{V}^{\mathrm{x}}$
-spectra resulting from evaluate the Eq. \eqref{eq:vab-mag} at using different
-polarization angles $\alpha$ in Eq. \eqref{eq:vab} for the C$_16$H$_8$-alt
-structure. The onset of the response is when the energy of the incoming light is
-the same of the gap energy. From this picture we can see that for the zone
-between the energy range of 0.90\,eV-0.93\,eV and polarization angles between
-120$^{\circ}$ and 150$^{\circ}$ is the zone of the maximum response is held
-reaching values of $\mathcal{V}^{\mathrm{x}}$ near to 30\,Km/s. Also there is a
-second zone between the energy range of 0.70\,eV-0.74\,eV and same polarization
-angles where a local maximum of $\mathcal{V}^{\mathrm{x}}$ reaching values near
-to 22\,Km/s.We also found that the absolute maximum of the response is obtained
-for a polarization angle $\alpha = 145^{\circ}$. The decomposition of
+For the \emph{alt} structure we analized the energby range from 0.6\,eV to
+1.0\,eV where we found the major response for $\mathcal{V}^{\mathrm{ab}}$ and
+$|\mathcal{V}^{\mathrm{a}}|$. In Fig. \ref{fig:alt-magvxbincang} we present the
+$|\mathcal{V}^{\mathrm{x}}|$ spectra resulting from evaluate Eq.
+\eqref{eq:va-mag} using different polarization angles $\alpha$ in Eq.
+\eqref{eq:vab} forthe C$_{16}$H$_{8}$-alt structure. The onset of the response
+is when the energy of the incoming light is the same of the gap energy. From
+this picture we can see that for the zone between the energy range of
+0.90\,eV-0.93\,eV and polarization angles between 120$^{\circ}$ and
+150$^{\circ}$ is the zone of the maximum response is held reaching
+$|\mathcal{V}^{\mathrm{x}}|$ values of near to 30\,Km/s. Also there is a second
+zone between the energy range of 0.70\,eV-0.74\,eV and same polarization angles
+where a local maximum of $\mathcal{V}^{\mathrm{x}}$ reaching values near to
+22\,Km/s.We also found that the absolute maximum of the response is obtained for
+a polarization angle $\alpha = 145^{\circ}$. The decomposition of
 $|\mathcal{V}^{\mathrm{a}}|$ in the corresponding $\mathcal{V}^{\mathrm{x}}$,
 $\mathcal{V}^{\mathrm{y}}$, and $\mathcal{V}^{\mathrm{z}}$ components is
 depicted in Fig. \ref{fig:alt-vxb}. From this figure we can see that for the
@@ -250,18 +259,18 @@ contribute with almost the same intensity. In the other hand, for the energy
 range from 0.88\,eV to 0.95\,eV there is a major contribution coming from the
 $\mathcal{V}^{\mathrm{xz}}$ component.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%% xb [0.6:1.0] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%% xb [0.6:1.0] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % \subsubsection{$\mathcal{V}^{\mathrm{x}}$}
-\begin{figure}[]
+\begin{figure}[tb]
     \centering
     \includegraphics[width=\linewidth]{altplots/alt-magvxb-incang-4545.pdf}
-    \caption{$\mathcal{V}^{\mathrm{x}}$ for C$_16$H$_8$-alt structure. The
+    \includegraphics[width=\linewidth]{altplots/alt-magvyb-incang-4545.pdf}  
+    \caption{$|\mathcal{V}^{\mathrm{x}}|$ response for C$_{16}$H$_{8}$-alt structure. The
     maximum response zone is localized for an energy range from 0.90\,eV to
     0.93\,eV. 145$^{\circ}$ and for a polarization angle of the incoming beam from 120$^{\circ}$ to 150$^{\circ}$.}
     \label{fig:alt-magvxbincang}
 \end{figure}
-
-\begin{figure}[]
+\begin{figure}[tb]
     \centering
     \includegraphics[width=\linewidth]{altplots/alt-vab-xb.pdf}
     \caption{Three components of $\mathcal{V}^{\mathrm{x}} $ @ 145$^{\circ}$.}
@@ -269,239 +278,239 @@ $\mathcal{V}^{\mathrm{xz}}$ component.
 \end{figure}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%% yb [0.6:1.0] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{$\mathcal{V}^{\mathrm{y}}$}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{altplots/alt-magvyb-incang-4545.pdf}
-    \caption{The most intense response for $\mathcal{V}^{\mathrm{y}} $ is for 
-    145$^{\circ}$.}
-    \label{fig:alt-magvybincang1}
-\end{figure}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{altplots/alt-vxx.pdf}
-    \includegraphics[width=\linewidth]{altplots/alt-vxy.pdf}\\
-    \includegraphics[width=\linewidth]{altplots/alt-vxz.pdf}
-    \caption{Cheking angle of incidence for $yb$ components.}
-    \label{fig:alt-ybangcomp}
-\end{figure}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{altplots/alt-vab-yb.pdf}
-    \caption{Three components of $\mathcal{V}^{\mathrm{y}} $ @ 145$^{\circ}$.}
-    \label{fig:alt-vyb1}
-\end{figure}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%% yb [0.6:1.0] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsubsection{$\mathcal{V}^{\mathrm{y}}$}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{altplots/alt-magvyb-incang-4545.pdf}
+%     \caption{The most intense response for $\mathcal{V}^{\mathrm{y}} $ is for 
+%     145$^{\circ}$.}
+%     \label{fig:alt-magvybincang1}
+% \end{figure}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{altplots/alt-vxx.pdf}
+%     \includegraphics[width=\linewidth]{altplots/alt-vxy.pdf}\\
+%     \includegraphics[width=\linewidth]{altplots/alt-vxz.pdf}
+%     \caption{Cheking angle of incidence for $yb$ components.}
+%     \label{fig:alt-ybangcomp}
+% \end{figure}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{altplots/alt-vab-yb.pdf}
+%     \caption{Three components of $\mathcal{V}^{\mathrm{y}} $ @ 145$^{\circ}$.}
+%     \label{fig:alt-vyb1}
+% \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%% |V^{ab}| [0.6:1.0] rtp comp %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{$|\mathcal{V}^{\mathrm{ab}}|$, angles
-$\theta$ and $\varphi$, layers, and comparison with CdSe and GaAs.}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{altplots/alt-vxb-rtp.pdf}
-    \includegraphics[width=\linewidth]{altplots/alt-vyb-rtp.pdf}
-    \caption{$|\mathcal{V}^{\mathrm{ab}}|$ (solid line, leftside scale) and the
-    corresponding angles $\theta$ and $\varphi$ (dashed lines, rightside scale).}
-    \label{fig:alt-rtp}
-\end{figure}
+% %%%%%%%%%%%%%%%%%%% |V^{ab}| [0.6:1.0] rtp comp %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsubsection{$|\mathcal{V}^{\mathrm{ab}}|$, angles
+% $\theta$ and $\varphi$, layers, and comparison with CdSe and GaAs.}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{altplots/alt-vxb-rtp.pdf}
+%     \includegraphics[width=\linewidth]{altplots/alt-vyb-rtp.pdf}
+%     \caption{$|\mathcal{V}^{\mathrm{ab}}|$ (solid line, leftside scale) and the
+%     corresponding angles $\theta$ and $\varphi$ (dashed lines, rightside scale).}
+%     \label{fig:alt-rtp}
+% \end{figure}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{altplots/alt-vyz-layers.pdf}
-    \caption{Layer decomposition for the most intense response:
-    $\mathcal{V}^{\mathrm{yz}}$.}
-    \label{fig:alt-lay}
-\end{figure}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{altplots/alt-vyz-layers.pdf}
+%     \caption{Layer decomposition for the most intense response:
+%     $\mathcal{V}^{\mathrm{yz}}$.}
+%     \label{fig:alt-lay}
+% \end{figure}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{altplots/alt-vab-comp.pdf}
-    \caption{Comparisson of the most intense response vs the most intense
-    responses of CdSe and GaAs.}
-    \label{fig:alt-comp}
-\end{figure}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{altplots/alt-vab-comp.pdf}
+%     \caption{Comparisson of the most intense response vs the most intense
+%     responses of CdSe and GaAs.}
+%     \label{fig:alt-comp}
+% \end{figure}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{altplots/alt-absvab.pdf}
-    \caption{Comparisson of $|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$}    
-    \label{fig:alt-xbybcomp}
-\end{figure}
-
-
-% subsection alt (end)
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{altplots/alt-absvab.pdf}
+%     \caption{Comparisson of $|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$}    
+%     \label{fig:alt-xbybcomp}
+% \end{figure}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% UP %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Up (graphone)} % (fold)
-\label{sec:results-up}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%% xb [0.0:0.2] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % subsection alt (end)
 
 
-\subsubsection{$\mathcal{V}^{\mathrm{x}}$ energy range 0.0--0.2 eV }
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-magvxb-incang-1-4545.pdf}
-    \caption{The most intense response for $\mathcal{V}^{\mathrm{x}} $ is for 
-    40$^{\circ}$.}
-    \label{fig:up-magvxbincang1}
-\end{figure}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-vab-xx-angcomp.pdf}
-    \includegraphics[width=\linewidth]{upplots/up-vab-xy-angcomp.pdf}\\
-    \includegraphics[width=\linewidth]{upplots/up-vab-xz-angcomp.pdf}
-    \caption{Cheking angle of incidence for $xb$ components for up structure.}
-    \label{fig:up-xbangcomp}
-\end{figure}
-\begin{figure}[tb]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-vab-xb-1.pdf}
-    \caption{Three components of $\mathcal{V}^{\mathrm{x}} $ @ 40$^{\circ}$.}
-    \label{fig:up-vxb1}
-\end{figure}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% UP %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsection{Up (graphone)} % (fold)
+% \label{sec:results-up}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%% xb [0.0:0.2] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% \subsubsection{$\mathcal{V}^{\mathrm{x}}$ energy range 0.0--0.2 eV }
+% \begin{figure}[tb]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-magvxb-incang-1-4545.pdf}
+%     \caption{The most intense response for $\mathcal{V}^{\mathrm{x}} $ is for 
+%     40$^{\circ}$.}
+%     \label{fig:up-magvxbincang1}
+% \end{figure}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-vab-xx-angcomp.pdf}
+%     \includegraphics[width=\linewidth]{upplots/up-vab-xy-angcomp.pdf}\\
+%     \includegraphics[width=\linewidth]{upplots/up-vab-xz-angcomp.pdf}
+%     \caption{Cheking angle of incidence for $xb$ components for up structure.}
+%     \label{fig:up-xbangcomp}
+% \end{figure}
+% \begin{figure}[tb]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-vab-xb-1.pdf}
+%     \caption{Three components of $\mathcal{V}^{\mathrm{x}} $ @ 40$^{\circ}$.}
+%     \label{fig:up-vxb1}
+% \end{figure}
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%% yb [0.0:0.2] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%% yb [0.0:0.2] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsubsection{$\mathcal{V}^{\mathrm{y}}$ energy range 0.0--0.2 eV }
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-magvyb-incang-1-4545.pdf}
-    \caption{The most intense response for $\mathcal{V}^{\mathrm{y}} $ is for 
-    40$^{\circ}$.}
-    \label{fig:up-magvybincang1}
-\end{figure}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-vab-yx-angcomp.pdf}
-    \includegraphics[width=\linewidth]{upplots/up-vab-yy-angcomp.pdf}\\
-    \includegraphics[width=\linewidth]{upplots/up-vab-yz-angcomp.pdf}
-    \caption{Cheking angle of incidence for $yb$ components.}
-    \label{fig:up-ybangcomp}
-\end{figure}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-vab-yb-1.pdf}
-    \caption{Three components of $\mathcal{V}^{\mathrm{y}} $ @ 40$^{\circ}$.}
-    \label{fig:up-vyb1}
-\end{figure}
+% \subsubsection{$\mathcal{V}^{\mathrm{y}}$ energy range 0.0--0.2 eV }
+% \begin{figure}[tb]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-magvyb-incang-1-4545.pdf}
+%     \caption{The most intense response for $\mathcal{V}^{\mathrm{y}} $ is for 
+%     40$^{\circ}$.}
+%     \label{fig:up-magvybincang1}
+% \end{figure}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-vab-yx-angcomp.pdf}
+%     \includegraphics[width=\linewidth]{upplots/up-vab-yy-angcomp.pdf}\\
+%     \includegraphics[width=\linewidth]{upplots/up-vab-yz-angcomp.pdf}
+%     \caption{Cheking angle of incidence for $yb$ components.}
+%     \label{fig:up-ybangcomp}
+% \end{figure}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-vab-yb-1.pdf}
+%     \caption{Three components of $\mathcal{V}^{\mathrm{y}} $ @ 40$^{\circ}$.}
+%     \label{fig:up-vyb1}
+% \end{figure}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-absvab-1.pdf}
-    \caption{Comparisson of $|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$}    
-    \label{fig:up-xbybcomp-1}
-\end{figure}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-absvab-1.pdf}
+%     \caption{Comparisson of $|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$}    
+%     \label{fig:up-xbybcomp-1}
+% \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%% xb [1.8:2.1] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%% xb [1.8:2.1] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsubsection{$\mathcal{V}^{\mathrm{x}}$ energy range 1.8--2.1 eV }
-
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-magvxb-incang-2-4545.pdf}
-    \caption{The most intense response for $\mathcal{V}^{\mathrm{x}} $ is for 
-    40$^{\circ}$.}
-    \label{fig:up-magxbincang2}
-\end{figure}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-vab-xb-2.pdf}
-    \caption{Three components of $\mathcal{V}^{\mathrm{x}} $ @ 40$^{\circ}$.}
-    \label{fig:up-vxb2}
-\end{figure}
+% \subsubsection{$\mathcal{V}^{\mathrm{x}}$ energy range 1.8--2.1 eV }
 
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-magvyb-incang-2-4545.pdf}
-    \caption{The most intense response for $\mathcal{V}^{\mathrm{y}} $ is for 
-    40$^{\circ}$.}
-    \label{fig:up-magybincang2}
-\end{figure}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-vab-yb-2.pdf}
-    \caption{Three components of $\mathcal{V}^{\mathrm{y}} $ @ 40$^{\circ}$.}
-    \label{fig:upvyb2}
-\end{figure}
+% \begin{figure}[tb]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-magvxb-incang-2-4545.pdf}
+%     \caption{The most intense response for $\mathcal{V}^{\mathrm{x}} $ is for 
+%     40$^{\circ}$.}
+%     \label{fig:up-magxbincang2}
+% \end{figure}
+% \begin{figure}[tb]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-vab-xb-2.pdf}
+%     \caption{Three components of $\mathcal{V}^{\mathrm{x}} $ @ 40$^{\circ}$.}
+%     \label{fig:up-vxb2}
+% \end{figure}
 
-\clearpage
 
-%%%%%%%%%%%%%%%%%%%%% |V^{ab}| [0.0:0.2] rtp comp %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{$|\mathcal{V}^{\mathrm{ab}}|$, angles
-$\theta$ and $\varphi$, layers, and comparison with CdSe and GaAs for the energy
-range of 0.0--0.2 eV.}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-magvyb-incang-2-4545.pdf}
+%     \caption{The most intense response for $\mathcal{V}^{\mathrm{y}} $ is for 
+%     40$^{\circ}$.}
+%     \label{fig:up-magybincang2}
+% \end{figure}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-vab-yb-2.pdf}
+%     \caption{Three components of $\mathcal{V}^{\mathrm{y}} $ @ 40$^{\circ}$.}
+%     \label{fig:upvyb2}
+% \end{figure}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-vxb-rtp-1.pdf}
-    \includegraphics[width=\linewidth]{upplots/up-vyb-rtp-1.pdf}
-    \caption{$|\mathcal{V}^{\mathrm{ab}}|$ (solid line, leftside scale) and the
-    corresponding angles $\theta$ and $\varphi$ (dashed lines, rightside scale).}
-    \label{fig:up-rtp1}
-\end{figure}
+% \clearpage
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-vyz-layers-1.pdf}
-    \caption{Layer decomposition for the most intense response:
-    $\mathcal{V}^{\mathrm{yz}}$.}
-    \label{fig:up-lay1}
-\end{figure}
+% %%%%%%%%%%%%%%%%%%% |V^{ab}| [0.0:0.2] rtp comp %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsubsection{$|\mathcal{V}^{\mathrm{ab}}|$, angles
+% $\theta$ and $\varphi$, layers, and comparison with CdSe and GaAs for the energy
+% range of 0.0--0.2 eV.}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-vab-yz-comp-1.pdf}
-    \caption{Comparisson of the most intense response vs the most intense
-    responses of CdSe and GaAs.}
-    \label{fig:up-comp1}
-\end{figure}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-vxb-rtp-1.pdf}
+%     \includegraphics[width=\linewidth]{upplots/up-vyb-rtp-1.pdf}
+%     \caption{$|\mathcal{V}^{\mathrm{ab}}|$ (solid line, leftside scale) and the
+%     corresponding angles $\theta$ and $\varphi$ (dashed lines, rightside scale).}
+%     \label{fig:up-rtp1}
+% \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%% |V^{ab}| [1.8:2.1] rtp comp %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{$|\mathcal{V}^{\mathrm{ab}}|$, angles
-$\theta$ and $\varphi$, layers, and comparison with CdSe and GaAs for the energy
-range of 1.8--2.1 eV}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-vyz-layers-1.pdf}
+%     \caption{Layer decomposition for the most intense response:
+%     $\mathcal{V}^{\mathrm{yz}}$.}
+%     \label{fig:up-lay1}
+% \end{figure}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-vxb-rtp-2.pdf}
-    \includegraphics[width=\linewidth]{upplots/up-vyb-rtp-2.pdf}
-    \caption{$|\mathcal{V}^{\mathrm{ab}}|$ (solid line, leftside scale) and the
-    corresponding angles $\theta$ and $\varphi$ (dashed lines, rightside scale).}
-    \label{fig:up-rtp2}
-\end{figure}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-vab-yz-comp-1.pdf}
+%     \caption{Comparisson of the most intense response vs the most intense
+%     responses of CdSe and GaAs.}
+%     \label{fig:up-comp1}
+% \end{figure}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-vyz-layers-2.pdf}
-    \caption{Layer decomposition for the most intense response:
-    $\mathcal{V}^{\mathrm{yz}}$.}
-    \label{fig:up-lay2}
-\end{figure}
+% %%%%%%%%%%%%%%%%%%% |V^{ab}| [1.8:2.1] rtp comp %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsubsection{$|\mathcal{V}^{\mathrm{ab}}|$, angles
+% $\theta$ and $\varphi$, layers, and comparison with CdSe and GaAs for the energy
+% range of 1.8--2.1 eV}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-vab-yz-comp-2.pdf}
-    \caption{Comparisson of the most intense response vs the most intense
-    responses of CdSe and GaAs.}
-    \label{fig:up-comp2}
-\end{figure}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-vxb-rtp-2.pdf}
+%     \includegraphics[width=\linewidth]{upplots/up-vyb-rtp-2.pdf}
+%     \caption{$|\mathcal{V}^{\mathrm{ab}}|$ (solid line, leftside scale) and the
+%     corresponding angles $\theta$ and $\varphi$ (dashed lines, rightside scale).}
+%     \label{fig:up-rtp2}
+% \end{figure}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{upplots/up-absvab-2.pdf}
-    % \caption{Comparisson of $|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$}    
-    \label{fig:up-xbybcomp-2}
-\end{figure}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-vyz-layers-2.pdf}
+%     \caption{Layer decomposition for the most intense response:
+%     $\mathcal{V}^{\mathrm{yz}}$.}
+%     \label{fig:up-lay2}
+% \end{figure}
 
-% subsection up (end)
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-vab-yz-comp-2.pdf}
+%     \caption{Comparisson of the most intense response vs the most intense
+%     responses of CdSe and GaAs.}
+%     \label{fig:up-comp2}
+% \end{figure}
+
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\linewidth]{upplots/up-absvab-2.pdf}
+%     % \caption{Comparisson of $|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$}    
+%     \label{fig:up-xbybcomp-2}
+% \end{figure}
+
+% % subsection up (end)
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% AA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -625,7 +634,7 @@ range of 1.8--2.1 eV}
 % \subsection{HNBC$_{2}$H-ab} % (fold)
 % \label{sec:results-ab}
 
-% \begin{figure}[h]
+% \begin{figure}[tb]
 %     \centering
 %     \includegraphics[width=\linewidth]{../hnbGh-ab/hnbGh-ab-figures/hnbGh-ab-1}
 %     \includegraphics[width=\linewidth]{../hnbGh-ab/hnbGh-ab-figures/hnbGh-ab-2}
