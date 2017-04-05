@@ -1,85 +1,77 @@
-% \documentclass[]{article}
-\documentclass[twocolumn]{article}
+\documentclass[prb,11pt,tightenlines,twocolumn,aps]{revtex4-1}
 
-\usepackage{geometry}
-\geometry{letterpaper, margin=2cm}
-\usepackage{amsmath}
-\usepackage{graphicx}
-\usepackage{subfigure}
-\usepackage{cuted}
-\usepackage{blindtext}
+% preamble:
+
+\usepackage{amsmath}    % need for subequations
+\usepackage{graphicx}   % need for figures
+\usepackage{verbatim}   % useful for program listings
+\usepackage{color}      % use if color is used in text
+\usepackage{subfigure}  % use for side-by-side figures
+\usepackage{hyperref}   % use for hypertext links, including those to external
+                        % documents and URLs 
+\usepackage{blindtext}  % fill text
 \usepackage{color}
-\usepackage[inline]{showlabels}
-\usepackage{showframe}
+% \usepackage{showframe}
+% \usepackage[inline]{showlabels}
 
-\usepackage[section]{placeins}
-\let\Oldsection\section
-\renewcommand{\section}{\FloatBarrier\Oldsection}
-\let\Oldsubsection\subsection
-\renewcommand{\subsection}{\FloatBarrier\Oldsubsection}
-\let\Oldsubsubsection\subsubsection
-\renewcommand{\subsubsection}{\FloatBarrier\Oldsubsubsection}
-
-\title{Pure Spin Current Injection in Hydrogenated Graphene Structures}
-\author{Reinaldo Zapata-Pe\~na,
-Bernardo S. Mendoza,
-Anatoli I. Shkrebtii}
-\date{}
+\raggedbottom           % don't add extra vertical space
 
 \begin{document}
+
+\title{Pure Spin Current Injection in Hydrogenated Graphene Structures}
+\author{Reinaldo Zapata-Pe\~na\textsuperscript{1},
+        Bernardo S. Mendoza\textsuperscript{1},
+        Anatoli I. Shkrebtii\textsuperscript{2}}
+\affiliation{\textsuperscript{1}Centro de Investigaciones en \'Optica, Le\'on,
+Guanajuato 37150, M\'exico}
+\affiliation{\textsuperscript{2}University of Ontario, Institute of Technology,
+Oshawa, ON, L1H 7L7, Canada}
+
+\date{\today}
+
+\begin{abstract}
+\blindtext
+\end{abstract}
+
 \maketitle
 
-\section{abstract} % (fold)
-\label{sec:abstract}
-\textcolor{red}{{\huge Filling with text.}\\ \blindtext}
-% section abstract (end)
-
-\section{Introuction} % (fold)
-\label{sec:introuction}
-
-\textcolor{red}{\blindtext}
+\section{Introduction}
+\blindtext
 \begin{figure}[ht!]
     \centering
-    \includegraphics[width=\linewidth]{figures/altstruc2}
-    \includegraphics[width=\linewidth]{figures/altstruc1}
+    \subfigure[\ $xz$ plane view]
+    {\includegraphics[width=\linewidth]{figures/altstruc2}}
+    \label{fig:alt-struc-xz}
+    \\
+    \subfigure[\ $xy$ plane view]
+    {\includegraphics[width=\linewidth]{figures/altstruc1}}
+    \label{fig:alt-struc-xy}
     \caption{Alt structure.}
-    \label{fig:altstruc}
+    \label{fig:alt-struc}
 \end{figure}
 \begin{figure}[ht!]
     \centering
-    \includegraphics[width=\linewidth]{figures/upstruc2}
-    \includegraphics[width=\linewidth]{figures/upstruc1}
+    \subfigure[\ $xz$ plane view]
+    {\includegraphics[width=\linewidth]{figures/upstruc2}}
+    \label{fig:up-struc-xz}
+    \\
+    \subfigure[\ $xy$ plane view]
+    {\includegraphics[width=\linewidth]{figures/upstruc1}}
+    \label{fig:up-struc-xy}
     \caption{Up structure}
-    \label{fig:upstruc}
+    \label{fig:up-struc}
 \end{figure}
-% \begin{figure}[tb]
-%     \centering
-%     \includegraphics[width=\linewidth]{figures/hnbGh-aa-1}
-%     \includegraphics[width=\linewidth]{figures/hnbGh-aa-2}
-%     \caption{HNBC$_{2}$H-aa structure}
-%     \label{fig:aastruc}
-% \end{figure}
-% \begin{figure}[tb]
-%     \centering
-%     \includegraphics[width=\linewidth]{figures/hnbGh-ab-1}
-%     \includegraphics[width=\linewidth]{figures/hnbGh-ab-2}
-%     \caption{HNBC$_{2}$H-ab structure}
-%     \label{fig:abstruc}
-% \end{figure}
+\blindtext
+\blindtext
 
-% % section introuction (end)
-\textcolor{red}{
 \blindtext
-\blindtext
-\blindtext
-}
 
 \section{Theory} % (fold)
 \label{sec:theory}
 The equation for $\mathcal{V}^{\mathrm{ab}}$ for normal incidence in the $xy$
 plane with a polarization angle $\alpha$ is given by
 
-\begin{strip}
+\begin{widetext}
 \begin{align}
 \mathcal{V}^{\mathrm{ab}} (\omega) 
 &= \frac{\mu^{\mathrm{abxx}}(\omega)
@@ -100,7 +92,7 @@ E^{2}(\omega)\sin^{2}(\alpha)},
 \xi^{\mathrm{yy}}(\omega)\sin^{2}(\alpha)}.
 \label{eq:vab}
 \end{align}
-\end{strip}
+\end{widetext}
 
 For an angle $\alpha = \frac{\pi}{4}$ this expression can be reduced to 
 \begin{align}
@@ -122,12 +114,14 @@ We also define $|\mathcal{V}^{\mathrm{a}}|$ as
 \end{equation}
 and the corresponding polar and azimuthal angles $\theta$ and $\varphi$ as
 \begin{align}
-\theta  =& \cos^{-1} \left(  \frac{\mathcal{V}^{\mathrm{az}}}
+\theta  =& \cos^{-1} \left( \frac{\mathcal{V}^{\mathrm{az}}}
 {|\mathcal{V}^{\mathrm{a}}|} \right),
 & 0 \leq &\theta \leq \pi, 
-\label{eq:polar-ang} \\
-\varphi =& \tan^{-1} \left( \frac{\mathcal{V}^{\mathrm{ay}}}{\mathcal{V}^{\mathrm{ax}}} \right),
-& 0 \leq &\varphi \leq 2\pi. \\ 
+\label{eq:polar-ang}
+\\
+\varphi =& \tan^{-1} \left( \frac{\mathcal{V}^{\mathrm{ay}}}
+{\mathcal{V}^{\mathrm{ax}}} \right),
+& 0 \leq &\varphi \leq 2\pi.
 \label{eq:azimuthal-ang} 
 \end{align}
 
@@ -145,24 +139,25 @@ the upper and bottom sides of the carbon sheet, while the \emph{up} system has H
 only on the upper side. We take the hexagonal carbon lattice to be on the $xy$
 plane for both structures, and the carbon-hydrogen bonds on the perpendicular
 $xz$ plane, as depicted in Figs.
-\ref{fig:altstruc} and \ref{fig:upstruc}.
+\ref{fig:alt-struc} and \ref{fig:up-struc}.
 
 Using the ABINIT code \cite{gonzeCPC09} we calculated the self- consistent
 ground state and the Kohn-Sham states using density functional theory in the
 local density approximation (DFT-LDA) with a planewave basis. We used
 Hartwigsen- Goedecker-Hutter (HGH) relativistic separable dual-space Gaussian
-pseudopotentials \cite{hartwigsenPRB98} including the spin-orbit interaction for
-calculating $\mathcal{V}^{\mathrm{a}}(\omega)$.
+pseudopotentials \cite{hartwigsenPRB98} including the spin-orbit interaction
+for calculating $\mathcal{V}^{\mathrm{a}}(\omega)$.
 
 The convergence parameters for the calculations of our results corresponding to
 the \emph{alt} and \emph{up} structures are cutoff energies of 65\,Ha and
-40\,Ha, respectively. The energy eigenvalues and matrix elements were calculated
-using 14452 $\mathbf{k}$ points and 8452 $\mathbf{k}$ points in the irreducible
-Brillouin zone (IBZ) and present LDA energy band gaps of 0.72\,eV and 0.088\,eV,
-respectively for the \emph{alt} and \emph{up} structures. As mentioned in
+40\,Ha, respectively. The energy eigenvalues and matrix elements were
+calculated using 14452 $\mathbf{k}$ points and 8452 $\mathbf{k}$ points in the
+irreducible Brillouin zone (IBZ) and present LDA energy band gaps of 0.72\,eV
+and 0.088\,eV, respectively for the \emph{alt} and \emph{up} structures. As
+mentioned in
 \cite{zapataPSB2016}, using DFT the LDA is only one method of many other that
-can be used to calculate the electronic structure of materials. Also it is known
-that all methods predict a different band gap than the obtained in the
+can be used to calculate the electronic structure of materials. Also it is
+known that all methods predict a different band gap than the obtained in the
 experiment. A correction for the band gap energy value can be calculated by
 other \emph{ab-initio} methods such as the GW approximation \cite{onidaRMP02}
 being this outside the scope of this paper.
@@ -184,26 +179,24 @@ No. & type & $x$ & $y$ & $z$  \\
 5 & C &  -0.61516 &  -0.37396 &  -0.39632 \\
 6 & H &  -0.61516 &  -0.68566 &  -1.47237 \\
 \hline
-% \multicolumn{5}{c}{\includegraphics[width=0.4\linewidth]{figures/alt-unitcell-layers.pdf}} \\
-% \hline
 \end{tabular}
 \caption{Unit cell of \emph{alt} structure. Layer division, atom types and
 positions for the \emph{alt} structure. The structure unit cell was divided in
 six layers corresponding each one to atoms in different $z$ positions. The
-corresponding layer atom position is depicted in Fig. \ref{fig:altstruc} with
+corresponding layer atom position is depicted in Fig. \ref{fig:alt-struc} with
 the corresponding number of layer.}
 \label{tab:alt-unitcell}
 \end{table}
 
-The structures presented here where divided into layers to analyze the he layer-
-by-layer contribution for $\mathcal{V}^{\mathrm{ab}}$ response. The \emph{alt}
-structure was divided in six layers corresponding the first one to the top
-hydrogen atoms, from the second to the forth to carbon atoms in different $z$
-positions, and the sixth and last one to the bottom hydrogen atoms. The
-\emph{up} structure was divided into two layers, the first one comprised by the
-top hydrogen atoms and the second by the carbon atoms. The layer divisions and
-atom positions for the unit cells are shown in Tables \ref{tab:alt-unitcell} and
-\ref{tab:up-unitcell}.
+The structures presented here where divided into layers to analyze the he
+layer-by-layer contribution for $\mathcal{V}^{\mathrm{ab}}$ response. The
+\emph{alt} structure was divided in six layers corresponding the first one to
+the top hydrogen atoms, from the second to the forth to carbon atoms in
+different $z$ positions, and the sixth and last one to the bottom hydrogen
+atoms. The \emph{up} structure was divided into two layers, the first one
+comprised by the top hydrogen atoms and the second by the carbon atoms. The
+layer divisions and atom positions for the unit cells are shown in Tables
+\ref{tab:alt-unitcell} and \ref{tab:up-unitcell}.
 
 \begin{table}[tb]
 \center
@@ -223,7 +216,7 @@ No. & type & $x$ & $y$ & $z$  \\
 \caption{Unit cell of \emph{up} structure. Layer division, atom types and
 positions for the \emph{up} structure. The structure unit cell was divided in
 two layers corresponding to hydrogen and carbon atoms.The corresponding layer
-atom position is depicted in Fig. \ref{fig:upstruc} with the corresponding
+atom position is depicted in Fig. \ref{fig:up-struc} with the corresponding
 number of layer.}
 \label{tab:up-unitcell}
 \end{table}
@@ -235,46 +228,89 @@ number of layer.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{alt} % (fold)
 \label{sec:results-alt}
-
-For the \emph{alt} structure we analized the energby range from 0.6\,eV to
-1.0\,eV where we found the major response for $\mathcal{V}^{\mathrm{ab}}$ and
-$|\mathcal{V}^{\mathrm{a}}|$. In Fig. \ref{fig:alt-magvxbincang} we present the
-$|\mathcal{V}^{\mathrm{x}}|$ spectra resulting from evaluate Eq.
-\eqref{eq:va-mag} using different polarization angles $\alpha$ in Eq.
-\eqref{eq:vab} forthe C$_{16}$H$_{8}$-alt structure. The onset of the response
-is when the energy of the incoming light is the same of the gap energy. From
-this picture we can see that for the zone between the energy range of
-0.90\,eV-0.93\,eV and polarization angles between 120$^{\circ}$ and
-150$^{\circ}$ is the zone of the maximum response is held reaching
-$|\mathcal{V}^{\mathrm{x}}|$ values of near to 30\,Km/s. Also there is a second
-zone between the energy range of 0.70\,eV-0.74\,eV and same polarization angles
-where a local maximum of $\mathcal{V}^{\mathrm{x}}$ reaching values near to
-22\,Km/s.We also found that the absolute maximum of the response is obtained for
-a polarization angle $\alpha = 145^{\circ}$. The decomposition of
-$|\mathcal{V}^{\mathrm{a}}|$ in the corresponding $\mathcal{V}^{\mathrm{x}}$,
-$\mathcal{V}^{\mathrm{y}}$, and $\mathcal{V}^{\mathrm{z}}$ components is
-depicted in Fig. \ref{fig:alt-vxb}. From this figure we can see that for the
-energy range from 0.70\,eV to 0.74\,eV all the $x$, $y$, and $z$ components
-contribute with almost the same intensity. In the other hand, for the energy
-range from 0.88\,eV to 0.95\,eV there is a major contribution coming from the
-$\mathcal{V}^{\mathrm{xz}}$ component.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%% xb [0.6:1.0] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % \subsubsection{$\mathcal{V}^{\mathrm{x}}$}
 \begin{figure}[tb]
     \centering
-    \includegraphics[width=\linewidth]{altplots/alt-magvxb-incang-4545.pdf}
-    \includegraphics[width=\linewidth]{altplots/alt-magvyb-incang-4545.pdf}  
-    \caption{$|\mathcal{V}^{\mathrm{x}}|$ response for C$_{16}$H$_{8}$-alt structure. The
-    maximum response zone is localized for an energy range from 0.90\,eV to
-    0.93\,eV. 145$^{\circ}$ and for a polarization angle of the incoming beam from 120$^{\circ}$ to 150$^{\circ}$.}
-    \label{fig:alt-magvxbincang}
+    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ for \emph{alt} structure]
+    {\includegraphics[width=\linewidth]{altplots/alt-magvxb-incang-4545.pdf}}
+    \label{fig:alt-vx}
+    \\
+    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ for \emph{alt} structure]
+    {\includegraphics[width=\linewidth]{altplots/alt-magvyb-incang-4545.pdf}}
+    \label{fig:alt-vy}
+    \caption{$|\mathcal{V}^{\mathrm{x}}|$ response for C$_{16}$H$_{8}$-alt
+    structure. The maximum response zone is localized for an energy range from
+    0.90\,eV to 0.93\,eV. 145$^{\circ}$ and for a polarization angle of the
+    incoming beam from 120$^{\circ}$ to 150$^{\circ}$.}
+    \label{fig:alt-vab-mag}
 \end{figure}
+For the \emph{alt} structure we analyzed the energy range of energy from
+0.6\,eV to 1.0\,eV where we found the most intense response for
+$\mathcal{V}^{\mathrm{ab}}$ and $|\mathcal{V}^{\mathrm{a}}|$. In Fig. 
+\ref{fig:alt-vab-mag} we present the $|\mathcal{V}^{\mathrm{a}}|$ spectra
+resulting from evaluate Eq. \eqref{eq:va-mag} using different polarization
+angles $\alpha$ in Eq. \eqref{eq:vab} for the C$_{16}$H$_{8}$-alt structure. We
+can see that the onset of the response is when the energy of the incoming light
+is the same of the gap energy.
+%
+From this picture we can see that for the zone between the energy range of
+0.90\,eV-0.93\,eV and polarization angles between 120$^{\circ}$ and
+150$^{\circ}$ is the zone of the absolute maximum response having for both,
+$|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$. Also there is
+another zone of interest for energies from 0.70\,eV to 0.74\,eV where a local
+maximum is obtained.
+%
+From Fig. \ref{fig:alt-vx} we have that $|\mathcal{V}^{\mathrm{x}}|$reaches
+values near to 30\,Km/s for the first zone mentioned before and 20\,Km/s for
+the second one. 
+%
+We also found that the absolute maximum of the response is obtained for a
+polarization angle $\alpha = 145^{\circ}$. The decomposition of
+$|\mathcal{V}^{\mathrm{x}}|$ in the corresponding $\mathcal{V}^{\mathrm{xx}}$,
+$\mathcal{V}^{\mathrm{xy}}$, and $\mathcal{V}^{\mathrm{xz}}$ components is
+depicted in Fig. \ref{fig:alt-vx-comp} and the decomposition of
+$|\mathcal{V}^{\mathrm{y}}|$ in its corresponding $\mathcal{V}^{\mathrm{yx}}$,
+$\mathcal{V}^{\mathrm{yy}}$, and $\mathcal{V}^{\mathrm{yz}}$ is shown in Fig.
+\ref{fig:alt-vy} for this polarization angle.
+%
+Making the analysis for $|\mathcal{V}^{\mathrm{x}}|$ we can see that for the
+energy range from 0.70\,eV to 0.74\,eV all the $xx$, $xy$, and $xz$ components
+contribute with almost the same intensity giving a total spin-velocity near to
+30\,Km/s. In the other hand, for the energy range from 0.88\,eV to 0.95\,eV
+there is a major contribution coming from the $\mathcal{V}^{\mathrm{xz}}$
+component resulting in a spin-velocity near to 20\,Km/s.
+%
+Also we notice that for the range of 0.70-0.74\,eV all the contributions are
+positive while for the range of 0.88-0.95\,eV the $xx$ component remains
+positive but the components $xy$ and $xz$ change in direction. This is due to
+\textcolor{red}{\large a change in the spin polarization}.
+%
+Making now the analysis for $|\mathcal{V}^{\mathrm{y}}|$, which is almost two
+times more intense than $|\mathcal{V}^{\mathrm{x}}|$, we have that for the
+energy range from 0.70\,eV to 0.74\,eV the $yx$ and $yy$ components have a
+lesser contribution than $yz$ but for the energy range all three components
+have almost the same intensity resulting in a spin-velocity near to 50\,Km/s in
+both cases.
+%
+Now we have that the three components of $|\mathcal{V}^{\mathrm{y}}|$ are
+negative for the energy range from 0.65\,eV to 0.95\,eV \textcolor{red}{keeping
+the same spin polarization for all this range.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% xb [0.6:1.0] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[tb]
     \centering
-    \includegraphics[width=\linewidth]{altplots/alt-vab-xb.pdf}
-    \caption{Three components of $\mathcal{V}^{\mathrm{x}} $ @ 145$^{\circ}$.}
-    \label{fig:alt-vxb}
+    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$]
+    {\includegraphics[width=\linewidth]{altplots/alt-vab-xb.pdf}}
+    \label{fig:alt-vx-comp}
+    \\
+    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$]
+    {\includegraphics[width=\linewidth]{altplots/alt-vab-yb.pdf}}
+    \label{fig:alt-vy-comp}
+    \caption{Most intense responses of $|\mathcal{V}^{\mathrm{x}}|$ and
+    $|\mathcal{V}^{\mathrm{y}}|$ and the corresponding three components for the
+    \emph{alt} structure. Both maxima where obtained for a polarization
+    angle $\alpha=145^{\circ}$. }
+    \label{fig:alt-vab-xy-comp}
 \end{figure}
 
 
@@ -286,14 +322,6 @@ $\mathcal{V}^{\mathrm{xz}}$ component.
 %     \caption{The most intense response for $\mathcal{V}^{\mathrm{y}} $ is for 
 %     145$^{\circ}$.}
 %     \label{fig:alt-magvybincang1}
-% \end{figure}
-% \begin{figure}[ht]
-%     \centering
-%     \includegraphics[width=\linewidth]{altplots/alt-vxx.pdf}
-%     \includegraphics[width=\linewidth]{altplots/alt-vxy.pdf}\\
-%     \includegraphics[width=\linewidth]{altplots/alt-vxz.pdf}
-%     \caption{Cheking angle of incidence for $yb$ components.}
-%     \label{fig:alt-ybangcomp}
 % \end{figure}
 % \begin{figure}[ht]
 %     \centering
@@ -752,20 +780,6 @@ $\mathcal{V}^{\mathrm{xz}}$ component.
 
 % section results (end)
 
-\bibliographystyle{plain}
 \bibliography{article.bib}
 
-
 \end{document}
-
-
-
-
-
-
-
-
-
-
-
-
