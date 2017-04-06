@@ -74,7 +74,8 @@ plane with a polarization angle $\alpha$ is given by
 \begin{widetext}
 \begin{align}
 \mathcal{V}^{\mathrm{ab}} (\omega) 
-&= \frac{\mu^{\mathrm{abxx}}(\omega)
+&= \frac{2}{\hbar}
+\frac{\mu^{\mathrm{abxx}}(\omega)
 E^{2}(\omega)\cos^{2}(\alpha) + 
 \mu^{\mathrm{abyy}}(\omega)
 E^{2}(\omega)\sin^{2}(\alpha) + 
@@ -85,9 +86,10 @@ E^{2}(\omega)\cos^{2}(\alpha) +
 \xi^{\mathrm{yy}}(\omega)
 E^{2}(\omega)\sin^{2}(\alpha)},
 \nonumber \\
-&= \frac{\mu^{\mathrm{abxx}}(\omega)\cos^{2}(\alpha) + 
+&= \frac{2}{\hbar}
+\frac{\mu^{\mathrm{abxx}}(\omega)\cos^{2}(\alpha) + 
 \mu^{\mathrm{abyy}}(\omega)\sin^{2}(\alpha) + 
-2\mu^{\mathrm{abxy}}(\omega)\cos(\alpha)\sin(\alpha)}
+\mu^{\mathrm{abxy}}(\omega)\sin(2\alpha)}
 {\xi^{\mathrm{xx}}(\omega)\cos^{2}(\alpha) + 
 \xi^{\mathrm{yy}}(\omega)\sin^{2}(\alpha)}.
 \label{eq:vab}
@@ -97,7 +99,8 @@ E^{2}(\omega)\sin^{2}(\alpha)},
 For an angle $\alpha = \frac{\pi}{4}$ this expression can be reduced to 
 \begin{align}
 \mathcal{V}^{\mathrm{ab}} (\omega)
-&= \frac{\mu^{\mathrm{abxx}}(\omega) + \mu^{\mathrm{abyy}}(\omega) + 
+&= \frac{2}{\hbar}
+\frac{\mu^{\mathrm{abxx}}(\omega) + \mu^{\mathrm{abyy}}(\omega) + 
 2\mu^{\mathrm{abxy}}(\omega)}
 {\xi^{\mathrm{xx}}(\omega) + \xi^{\mathrm{yy}}(\omega)}.
 \label{eq:vab-90deg}
@@ -124,6 +127,8 @@ and the corresponding polar and azimuthal angles $\theta$ and $\varphi$ as
 & 0 \leq &\varphi \leq 2\pi.
 \label{eq:azimuthal-ang} 
 \end{align}
+
+
 
 % section theory (end)
 
@@ -783,3 +788,56 @@ the same spin polarization for all this range.}
 \bibliography{article.bib}
 
 \end{document}
+
+
+
+\begin{align}
+\mathcal{V}^\mathrm{a}_{\sigma} = 
+\sqrt{
+\mathcal{V}^\mathrm{ax} + 
+\mathcal{V}^\mathrm{ay} +
+\mathcal{V}^\mathrm{az}
+}
+\end{align}
+
+\begin{align}
+\mathcal{V}^\mathrm{a}_{\sigma\parallel} = 
+\sqrt{
+\mathcal{V}^\mathrm{ax} + 
+\mathcal{V}^\mathrm{ay} 
+}
+\end{align}
+
+\begin{align}
+\theta_{a} &=
+\sin^{-1}
+\left( 
+\frac{\mathcal{V}^\mathrm{a}_{\sigma\parallel}}
+{\mathcal{V}^\mathrm{a}_{\sigma}}
+\right)
+\\
+\varphi_{a} &=
+\sin^{-1}
+\left(
+\frac{\mathcal{V}^\mathrm{ay}}{\mathcal{V}^\mathrm{a}_{\sigma\parallel}}
+\right)
+\end{align}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
