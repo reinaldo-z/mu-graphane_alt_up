@@ -12,12 +12,16 @@ inputsxkk=( v.kk_xx_14452_65-spin_scissor_0_Nc_32_ang_
 inputsxsm=( v.sm_0.03_xx_14452_65-spin_scissor_0_Nc_32_ang_  
             v.sm_0.03_yx_14452_65-spin_scissor_0_Nc_32_ang_  )
 
-echo -e "E              Vsx               PolAng" > $outputxkk
-echo -e "E              Vsx               PolAng" > $outputxsm
+deg=180/3.141592
+
+echo -e "E              V_{s^x}           Pol  V^{xx}          V^{yx}          gamma" > $outputxkk
+echo -e "E              V_{s^x}           Pol  V^{xx}          V^{yx}          gamma" > $outputxsm
 for i in ${angles[@]}; do
-    paste "${inputsxkk[0]}""$i"  "${inputsxkk[1]}""$i" | awk '{printf("%1.5E    %1.6E    %3.0f\n"), $1, sqrt($2*$2 + $4*$4), '"$i"' }' >> $outputxkk
+    paste "${inputsxkk[0]}""$i"  "${inputsxkk[1]}""$i" | awk '{if($4 != 0) {printf("%1.6E\n", atan2($4,$2)*'"$deg"' ) ;} else if($4==0) {printf("%1.6E\n"), 0,0 } }' > .temp1
+    paste "${inputsxkk[0]}""$i"  "${inputsxkk[1]}""$i"  .temp1 | awk '{printf("%1.5E    %1.6E    %3.0f    %1.6E    %1.6E    %1.6E\n"), $1, sqrt($2*$2 + $4*$4), '"$i"', $2, $4, $5 }' >> $outputxkk
     echo "" >> $outputxkk
-    paste "${inputsxsm[0]}""$i"  "${inputsxsm[1]}""$i" | awk '{printf("%1.5E    %1.6E    %3.0f\n"), $1, sqrt($2*$2 + $4*$4), '"$i"' }' >> $outputxsm
+    paste "${inputsxkk[0]}""$i"  "${inputsxkk[1]}""$i" | awk '{if($4 != 0) {printf("%1.6E\n", atan2($4,$2)*'"$deg"' ) ;} else if($4==0) {printf("%1.6E\n"), 0,0 } }' > .temp2
+    paste "${inputsxkk[0]}""$i"  "${inputsxkk[1]}""$i"  .temp2 | awk '{printf("%1.5E    %1.6E    %3.0f    %1.6E    %1.6E    %1.6E\n"), $1, sqrt($2*$2 + $4*$4), '"$i"', $2, $4, $5 }' >> $outputxsm
     echo "" >> $outputxsm
 done
 
@@ -31,12 +35,14 @@ inputsykk=( v.kk_xy_14452_65-spin_scissor_0_Nc_32_ang_
 inputsysm=( v.sm_0.03_xy_14452_65-spin_scissor_0_Nc_32_ang_  
             v.sm_0.03_yy_14452_65-spin_scissor_0_Nc_32_ang_  )
 
-echo -e "E              Vsy               PolAng" > $outputykk
-echo -e "E              Vsy               PolAng" > $outputysm
+echo -e "E              V_{s^y}           Pol  V^{xy}          V^{yy}          gamma" > $outputykk
+echo -e "E              V_{s^y}           Pol  V^{xy}          V^{yy}          gamma" > $outputysm
 for i in ${angles[@]}; do
-    paste "${inputsykk[0]}""$i"  "${inputsykk[1]}""$i" | awk '{printf("%1.5E    %1.6E    %3.0f\n"), $1, sqrt($2*$2 + $4*$4), '"$i"' }' >> $outputykk
+    paste "${inputsykk[0]}""$i"  "${inputsykk[1]}""$i" | awk '{if($4 != 0) {printf("%1.6E\n", atan2($4,$2)*'"$deg"' ) ;} else if($4==0) {printf("%1.6E\n"), 0,0 } }' > .temp1
+    paste "${inputsykk[0]}""$i"  "${inputsykk[1]}""$i"  .temp1 | awk '{printf("%1.5E    %1.6E    %3.0f    %1.6E    %1.6E    %1.6E\n"), $1, sqrt($2*$2 + $4*$4), '"$i"', $2, $4, $5 }' >> $outputykk
     echo "" >> $outputykk
-    paste "${inputsysm[0]}""$i"  "${inputsysm[1]}""$i" | awk '{printf("%1.5E    %1.6E    %3.0f\n"), $1, sqrt($2*$2 + $4*$4), '"$i"' }' >> $outputysm
+    paste "${inputsysm[0]}""$i"  "${inputsysm[1]}""$i" | awk '{if($4 != 0) {printf("%1.6E\n", atan2($4,$2)*'"$deg"' ) ;} else if($4==0) {printf("%1.6E\n"), 0,0 } }' > .temp2
+    paste "${inputsysm[0]}""$i"  "${inputsysm[1]}""$i"  .temp2 | awk '{printf("%1.5E    %1.6E    %3.0f    %1.6E    %1.6E    %1.6E\n"), $1, sqrt($2*$2 + $4*$4), '"$i"', $2, $4, $5 }' >> $outputysm
     echo "" >> $outputysm
 done
 
@@ -50,11 +56,14 @@ inputszkk=( v.kk_xz_14452_65-spin_scissor_0_Nc_32_ang_
 inputszsm=( v.sm_0.03_xz_14452_65-spin_scissor_0_Nc_32_ang_  
             v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_  )
 
-echo -e "E              Vsz               PolAng" > $outputzkk
-echo -e "E              Vsz               PolAng" > $outputzsm
+echo -e "E              V_{s^z}           Pol  V^{xz}          V^{yz}          gamma" > $outputzkk
+echo -e "E              V_{s^z}           Pol  V^{xz}          V^{yz}          gamma" > $outputzsm
 for i in ${angles[@]}; do
-    paste "${inputszkk[0]}""$i"  "${inputsykk[1]}""$i" | awk '{printf("%1.5E    %1.6E    %3.0f\n"), $1, sqrt($2*$2 + $4*$4), '"$i"' }' >> $outputzkk
+    paste "${inputszkk[0]}""$i"  "${inputsykk[1]}""$i" | awk '{if($4 != 0) {printf("%1.6E\n", atan2($4,$2)*'"$deg"' ) ;} else if($4==0) {printf("%1.6E\n"), 0,0 } }' > .temp1
+    paste "${inputszkk[0]}""$i"  "${inputsykk[1]}""$i"  .temp1 | awk '{printf("%1.5E    %1.6E    %3.0f    %1.6E    %1.6E    %1.6E\n"), $1, sqrt($2*$2 + $4*$4), '"$i"', $2, $4, $5 }' >> $outputzkk
     echo "" >> $outputzkk
-    paste "${inputszsm[0]}""$i"  "${inputsysm[1]}""$i" | awk '{printf("%1.5E    %1.6E    %3.0f\n"), $1, sqrt($2*$2 + $4*$4), '"$i"' }' >> $outputzsm
+    paste "${inputszsm[0]}""$i"  "${inputsysm[1]}""$i" | awk '{if($4 != 0) {printf("%1.6E\n", atan2($4,$2)*'"$deg"' ) ;} else if($4==0) {printf("%1.6E\n"), 0,0 } }' > .temp2
+    paste "${inputszsm[0]}""$i"  "${inputsysm[1]}""$i"  .temp2 | awk '{printf("%1.5E    %1.6E    %3.0f    %1.6E    %1.6E    %1.6E\n"), $1, sqrt($2*$2 + $4*$4), '"$i"', $2, $4, $5 }' >> $outputzsm
     echo "" >> $outputzsm
 done
+rm .temp1 .temp2

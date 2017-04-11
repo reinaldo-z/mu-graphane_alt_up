@@ -7,7 +7,7 @@ set zeroaxis lw 1.5 dt 10
 set xtics nomirror
 set ytics nomirror
 
-set label 'C$_{16}$H$_{8}$-alt' at graph 0.1 , 0.93
+set label 'C$_{16}$H$_{8}$-alt' at graph 0.3 , 0.93
 
 set xrange [0.65:1.05]
 
