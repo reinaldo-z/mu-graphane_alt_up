@@ -21,7 +21,7 @@ f=pf*sl
 set key top right
 set yrange [-30:30]
 set ytics 10
-set ylabel '$\mathcal{V}^{\mathrm{ax}}$ @ 145$^{\circ}$ [Km/s]'
+set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 145$^{\circ}$ [Km/s]'
 set output "alt-svab-ax.mp"
 p   '< paste ../alt-res-0-4-2001pts/v.sm_0.03_xx_14452_65-spin_scissor_0_Nc_32_ang_145 ../alt-res-0-4-2001pts/v.sm_0.03_yx_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:(f*sqrt($2**2 + $4**2)) w l lw 1.5 dt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{x}}}|$' ,\
     '../alt-res-0-4-2001pts/v.sm_0.03_xx_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 2.5 dt 2 t 'xx' ,\
@@ -31,7 +31,7 @@ p   '< paste ../alt-res-0-4-2001pts/v.sm_0.03_xx_14452_65-spin_scissor_0_Nc_32_a
 set key top right
 set yrange [-35:35]
 set ytics 10
-set ylabel '$\mathcal{V}^{\mathrm{ay}}$ @ 145$^{\circ}$ [Km/s]'
+set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 145$^{\circ}$ [Km/s]'
 set output "alt-svab-ay.mp"
 p   '< paste ../alt-res-0-4-2001pts/v.sm_0.03_xy_14452_65-spin_scissor_0_Nc_32_ang_145 ../alt-res-0-4-2001pts/v.sm_0.03_yy_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:(f*sqrt($2**2 + $4**2)) w l lw 1.5 dt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{y}}}|$' ,\
     '../alt-res-0-4-2001pts/v.sm_0.03_xy_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 2.5 dt 2 t 'xy' ,\

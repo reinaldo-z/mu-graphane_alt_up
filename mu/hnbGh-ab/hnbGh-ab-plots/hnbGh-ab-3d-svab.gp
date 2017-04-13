@@ -36,7 +36,7 @@ set cbtics 0,0.3,2.1
 set ylabel 'Polarization angle [deg.]'                    rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'                           rotate parallel offset 0.0,-1.5, 0.0
 set zlabel '$|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
-set output "hnbGh-ab-magxvax-incang-4545.mp"
+set output "hnbGh-ab-3d-svax.mp"
 sp  '../hnbGh-ab-res-0-4-2001pts/magsv.sm_0.03_ax_14452_75-spin_scissor_0_Nc_32_incang_000-360' u 1:3:($2*f) every 3 w l lw 0.8 lt 8
 
 
@@ -57,7 +57,7 @@ set cbtics 0,0.4,2.4
 set ylabel 'Polarization angle [deg.]'                    rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'                           rotate parallel offset 0.0,-1.5, 0.0
 set zlabel '$|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
-set output "hnbGh-ab-magxvay-incang-4545.mp"
+set output "hnbGh-ab-3d-svay.mp"
 sp  '../hnbGh-ab-res-0-4-2001pts/magsv.sm_0.03_ay_14452_75-spin_scissor_0_Nc_32_incang_000-360' u 1:3:($2*f) every 3 w l lw 0.8 lt 8
 
 
@@ -78,7 +78,7 @@ set cbtics 0,0.5,3.5
 set ylabel 'Polarization angle [deg.]'                    rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'                           rotate parallel offset 0.0,-1.5, 0.0
 set zlabel '$|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
-set output "hnbGh-ab-magxvaz-incang-4545.mp"
+set output "hnbGh-ab-3d-svaz.mp"
 sp  '../hnbGh-ab-res-0-4-2001pts/magsv.sm_0.03_az_14452_75-spin_scissor_0_Nc_32_incang_000-360' u 1:3:($2*f) every 3 w l lw 0.8 lt 8
 
 
