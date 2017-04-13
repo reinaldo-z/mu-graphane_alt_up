@@ -57,30 +57,29 @@ p   '< paste  ../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xz_14452_75-spin_scissor_0_N
 
 
 ############################## THREE COMPONENTS ###############################
+set key at graph 1.00, 0.95 samplen 2.5
+set yrange [:8]
+set ylabel '$\mathcal{V}^{\mathrm{ax}}$ @ 165 $^{\circ}$ [Km/s]'
+set output "hnbGh-aa-magsvax.mp"
+p   '< paste  ../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_165  ../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_165' u 1:(f*sqrt($2**2 + $4**2)) w l lw 1.5 dt 1 t '$\mathcal{V}_{\sigma^{\mathrm{ax}}}$' ,\
+    '../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_165'  u 1:($2*f) w l lw 2.5 dt 2 t 'xx' ,\
+    '../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_165'  u 1:($2*f) w l lw 2.5 dt 3 t 'yx' ,\
 
-# set key at graph 1.00, 0.95 samplen 2.5
-# set yrange [:8]
-# set ylabel '$\mathcal{V}^{\mathrm{ax}}$ @ 165 $^{\circ}$ [Km/s]'
-# set output "hnbGh-aa-magsvax.mp"
-# p   '< paste  ../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_165  ../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_165' u 1:(f*sqrt($2**2 + $4**2)) w l lw 1.5 dt 1 t '$\mathcal{V}_{\sigma^{\mathrm{ax}}}$' ,\
-#     '../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xx_14452_75-spin_scissor_0_Nc_32_ang_165'  u 1:($2*f) w l lw 2.5 dt 2 t 'xx' ,\
-#     '../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yx_14452_75-spin_scissor_0_Nc_32_ang_165'  u 1:($2*f) w l lw 2.5 dt 3 t 'yx' ,\
+set key at graph 1.00, 0.95 samplen 2.5
+set yrange [:9]
+set ylabel '$\mathcal{V}^{\mathrm{ay}}$ @ 170 $^{\circ}$ [Km/s]'
+set output "hnbGh-aa-magsvay.mp"
+p   '< paste  ../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_170  ../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_170' u 1:(f*sqrt($2**2 + $4**2)) w l lw 1.5 dt 1 t '$\mathcal{V}_{\sigma^{\mathrm{ay}}}$' ,\
+    '../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_170'  u 1:($2*f) w l lw 2.5 dt 2 t 'xy' ,\
+    '../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_170'  u 1:($2*f) w l lw 2.5 dt 3 t 'yy' ,\
 
-# set key at graph 1.00, 0.95 samplen 2.5
-# set yrange [:9]
-# set ylabel '$\mathcal{V}^{\mathrm{ay}}$ @ 170 $^{\circ}$ [Km/s]'
-# set output "hnbGh-aa-magsvay.mp"
-# p   '< paste  ../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_170  ../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_170' u 1:(f*sqrt($2**2 + $4**2)) w l lw 1.5 dt 1 t '$\mathcal{V}_{\sigma^{\mathrm{ay}}}$' ,\
-#     '../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xy_14452_75-spin_scissor_0_Nc_32_ang_170'  u 1:($2*f) w l lw 2.5 dt 2 t 'xy' ,\
-#     '../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yy_14452_75-spin_scissor_0_Nc_32_ang_170'  u 1:($2*f) w l lw 2.5 dt 3 t 'yy' ,\
-
-# set key at graph 1.00, 0.95 samplen 2.5
-# set yrange [:9]
-# set ylabel '$\mathcal{V}^{\mathrm{az}}$ @ 165 $^{\circ}$ [Km/s]'
-# set output "hnbGh-aa-magsvaz.mp"
-# p   '< paste  ../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_165  ../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_165' u 1:(f*sqrt($2**2 + $4**2)) w l lw 1.5 dt 1 t '$\mathcal{V}_{\sigma^{\mathrm{az}}}$' ,\
-#     '../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_165'  u 1:($2*f) w l lw 2.5 dt 2 t 'xz' ,\
-#     '../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_165'  u 1:($2*f) w l lw 2.5 dt 3 t 'yz' ,\
+set key at graph 1.00, 0.95 samplen 2.5
+set yrange [:9]
+set ylabel '$\mathcal{V}^{\mathrm{az}}$ @ 165 $^{\circ}$ [Km/s]'
+set output "hnbGh-aa-magsvaz.mp"
+p   '< paste  ../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_165  ../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_165' u 1:(f*sqrt($2**2 + $4**2)) w l lw 1.5 dt 1 t '$\mathcal{V}_{\sigma^{\mathrm{az}}}$' ,\
+    '../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_xz_14452_75-spin_scissor_0_Nc_32_ang_165'  u 1:($2*f) w l lw 2.5 dt 2 t 'xz' ,\
+    '../hnbGh-aa-res-0-4-2001pts/v.sm_0.03_yz_14452_75-spin_scissor_0_Nc_32_ang_165'  u 1:($2*f) w l lw 2.5 dt 3 t 'yz' ,\
 
 
 
