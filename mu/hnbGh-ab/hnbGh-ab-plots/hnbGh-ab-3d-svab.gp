@@ -28,10 +28,12 @@ set ytics 30
 
 set zrange [0:2.4]
 set ztics 0,0.6,2.4
+set format z "%3.1f"
 set pm3d scansbackward
 set pm3d implicit at s
 set cbrange [-0.05:2.1]
 set cbtics 0,0.3,2.1
+set format cb "%3.1f"
 
 set ylabel 'Polarization angle [deg.]'                    rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'                           rotate parallel offset 0.0,-1.5, 0.0
@@ -49,10 +51,12 @@ set ytics 30
 
 set zrange [0:2.4]
 set ztics 0,0.4,2.4
+set format z "%3.1f"
 set pm3d scansbackward
 set pm3d implicit at s
 set cbrange [-0.05:2.4]
 set cbtics 0,0.4,2.4
+set format cb "%3.1f"
 
 set ylabel 'Polarization angle [deg.]'                    rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'                           rotate parallel offset 0.0,-1.5, 0.0
@@ -70,10 +74,12 @@ set ytics 30
 
 set zrange [0:3.5]
 set ztics 0,0.5,3.5
+set format z "%3.1f"
 set pm3d scansbackward
 set pm3d implicit at s
 set cbrange [-0.1:3.5]
 set cbtics 0,0.5,3.5
+set format cb "%3.1f"
 
 set ylabel 'Polarization angle [deg.]'                    rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'                           rotate parallel offset 0.0,-1.5, 0.0

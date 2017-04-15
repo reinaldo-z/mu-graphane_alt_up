@@ -26,10 +26,12 @@ set ytics 30
 
 set zrange [0:4.0]
 set ztics 0,1,4.0
+set format z "%3.0f"
 set pm3d scansbackward
 set pm3d implicit at s
 set cbrange [-0.05:3.5]
 set cbtics 0,0.5,3.5
+set format cb "%3.1f"
 
 set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0
@@ -39,7 +41,6 @@ sp  '../hnbGh-ab-res-0-4-2001pts/magv.sm_0.03_yb_14452_75-spin_scissor_0_Nc_32_i
 
 
 set view 44,45
-# set view 90,90
 set hidden3d
 set xtics 0.8, 0.4, 3.0
 
@@ -48,10 +49,12 @@ set ytics 30
 
 set zrange [0:2.8]
 set ztics 0,0.4,2.8
+set format z "%3.1f"
 set pm3d scansbackward
 set pm3d implicit at s
 set cbrange [-0.1:2.8]
 set cbtics 0,0.4,2.8
+set format cb "%3.1f"
 
 set ylabel 'Polarization angle [deg.]'        rotate parallel offset 1.3,-1.0, 0.0
 set xlabel 'Photon Energy [eV]'               rotate parallel offset 0.0,-1.5, 0.0

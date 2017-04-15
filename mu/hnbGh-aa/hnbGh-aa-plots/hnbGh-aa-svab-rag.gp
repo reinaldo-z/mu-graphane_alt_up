@@ -25,7 +25,7 @@ set rmargin 2
 
 set multiplot
 
-set label 1 'C$_{16}$H$_{8}$-alt' at graph 0.22 , 0.93
+set label 1 'HNBC$_{2}$H-aa' at graph 0.22 , 0.93
 set key at graph 0.98, 0.20
 
 unset xlabel
@@ -80,7 +80,7 @@ set rmargin 2
 
 set multiplot
 
-set label 1 'C$_{16}$H$_{8}$-alt' at graph 0.05 , 0.93
+set label 1 'HNBC$_{2}$H-aa' at graph 0.05 , 0.93
 set key at graph 0.55, 0.5
 
 unset xlabel
@@ -135,7 +135,7 @@ set rmargin 2
 
 set multiplot
 
-set label 1 'C$_{16}$H$_{8}$-alt' at graph 0.05 , 0.93
+set label 1 'HNBC$_{2}$H-aa' at graph 0.05 , 0.93
 set key at graph 0.55, 0.5
 
 unset xlabel
