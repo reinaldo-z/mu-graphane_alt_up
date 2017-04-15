@@ -41,7 +41,7 @@ p   '< paste ../alt-res-0-4-2001pts/v.sm_0.03_xy_14452_65-spin_scissor_0_Nc_32_a
 set key top right
 set yrange [-45:45]
 set ytics 10
-set ylabel '$\mathcal{V}^{\mathrm{az}}$ @ 145$^{\circ}$ [Km/s]'
+set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 145$^{\circ}$ [Km/s]'
 set output "alt-svab-az.mp"
 p   '< paste ../alt-res-0-4-2001pts/v.sm_0.03_xz_14452_65-spin_scissor_0_Nc_32_ang_145 ../alt-res-0-4-2001pts/v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:(f*sqrt($2**2 + $4**2)) w l lw 1.5 dt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{z}}}|$' ,\
     '../alt-res-0-4-2001pts/v.sm_0.03_xz_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 2.5 dt 2 t 'xz' ,\

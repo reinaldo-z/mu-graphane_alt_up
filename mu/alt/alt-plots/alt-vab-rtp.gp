@@ -5,7 +5,7 @@ set zeroaxis lw 1.5
 
 set label 1 'C$_{16}$H$_{8}$-alt' at graph 0.07 , 0.93
 
-set xlabel '{\Large Photon Energy (eV)}'
+set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 set ytics nomirror
 set xtics nomirror 0.1
 set y2tics 45
