@@ -58,7 +58,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$|\mathcal{V}^{\mathrm{ab}}|$ @ 0.912\,eV [Km/s]'
+set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]'
 set yrange [-40:0]
 set ytics nomirror
 set ytics  -40, 10, -10
@@ -114,7 +114,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$|\mathcal{V}^{\mathrm{ab}}|$ @ 0.912\,eV [Km/s]'
+set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]'
 set yrange [-30:15]
 set ytics nomirror
 set ytics  -30, 10, 15
@@ -170,7 +170,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$|\mathcal{V}^{\mathrm{ab}}|$ @ 0.912\,eV [Km/s]'
+set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]'
 set yrange [0:100]
 set ytics nomirror
 set ytics  0, 20, 90
@@ -202,7 +202,7 @@ set rmargin 2
 set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-up' at graph 0.05 , 0.20
-set key at graph 0.30, 0.90
+set key at graph 0.25, 0.90
 
 unset xlabel
 set xtics nomirror
@@ -230,7 +230,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$|\mathcal{V}^{\mathrm{ab}}|$ @ 0.912\,eV [Km/s]'
+set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]'
 set yrange [-30:0]
 set ytics nomirror
 set ytics  -30, 10, 0
@@ -258,7 +258,7 @@ set rmargin 2
 set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-up' at graph 0.05 , 0.20
-set key at graph 0.30, 0.9
+set key at graph 0.25, 0.9
 
 unset xlabel
 set xtics nomirror  
@@ -286,7 +286,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$|\mathcal{V}^{\mathrm{ab}}|$ @ 0.912\,eV [Km/s]'
+set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]'
 set yrange [-30:0]
 set ytics nomirror
 set ytics  -30, 10, 0
@@ -314,7 +314,7 @@ set rmargin 2
 set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-up' at graph 0.05 , 0.20
-set key at graph  0.30, 0.9
+set key at graph  0.25, 0.9
 
 unset xlabel
 set xtics nomirror
@@ -342,7 +342,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$|\mathcal{V}^{\mathrm{ab}}|$ @ 0.912\,eV [Km/s]'
+set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]'
 set yrange [-31:0]
 set ytics nomirror
 set ytics  -30, 10, 0
