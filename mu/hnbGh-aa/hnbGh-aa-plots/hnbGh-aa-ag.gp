@@ -5,7 +5,7 @@ set colors classic
 set zeroaxis lw 1.5 dt 10
 set xtics nomirror
 set ytics nomirror
-set format y "%6.1f"
+set format y "%6.0f"
 
 set xrange [0:180]
 
