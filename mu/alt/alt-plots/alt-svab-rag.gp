@@ -179,28 +179,4 @@ p   '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:($4*f) w l lw
 
 unset multiplot
 
-########
-
-
-# # # p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:6:($2*1000000) w points lt 2 pt 10 ps variable
-# # set output "alt-vab-ag.mp"
-# # pt 5
-# # pt 9
-
-# # set xrange [0.5:0.95]
-
-# reset
-# set key  
-# # set key samplen 2
-
-
-
-# set ylabel 'Vel. angle $\gamma$ [deg.]'
-# set ytics 4
-# set y2tics 45
-# set output "alt-vab-ag.mp"
-# p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:6:($1*10) w p pt 5 ps variable
-
-
-
 
