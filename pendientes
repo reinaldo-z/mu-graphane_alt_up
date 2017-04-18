@@ -42,13 +42,18 @@ graficas rtp: tener presentes los máximos de r para poder comentar comportamien
 \alt: Add more layers to isolate each carbon atom.
 \alt & up: change perspective of hexagonal structures 
 
-
     10/04/17
+\gráficas 360
 
-revisar angulos para los cuales los ángulos alpha y gamma son perpendiculares /
-colineales.
-gráficas 360
-
+    17/04/17
+pol vs gamma iguales con rectángulos
+\Large y lables
+Format y labels
+More decimal places for gamma in:
+    *_magsvab-inang.sh
+    *_svab_rag.gp
+    *_ag.gp
+Set key for up v_{s^z}
 
 ################################################################################
 

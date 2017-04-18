@@ -36,7 +36,7 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '$|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ @ 0.912\,eV [Km/s]'
+set ylabel '$|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ @ 0.088\,eV [Km/s]'
 set yrange [0:45]
 set ytics 0, 5, 45
 
@@ -58,7 +58,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]'
+set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.088\,eV [Km/s]'
 set yrange [-40:0]
 set ytics nomirror
 set ytics  -40, 10, -10
@@ -73,7 +73,7 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-0.088eV' u 3:($4*f) w l lw 
 
 unset multiplot
 
-################################ V_{s^y} 0.912eV ###############################
+################################ V_{s^y} 0.088eV ###############################
 
 set output "up-vay-rag-1.mp"
 
@@ -92,7 +92,7 @@ unset xlabel
 set xtics nomirror  
 set format x " "
 
-set ylabel '$|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ @ 0.912\,eV [Km/s]'
+set ylabel '$|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ @ 0.088\,eV [Km/s]'
 set yrange [4:25]
 set ytics 5, 5, 25
 
@@ -114,7 +114,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]'
+set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.088\,eV [Km/s]'
 set yrange [-30:15]
 set ytics nomirror
 set ytics  -30, 10, 15
@@ -129,7 +129,7 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-0.088eV' u 3:($4*f) w l lw 
 
 unset multiplot
 
-################################ V_{s^z} 0.912eV ###############################
+################################ V_{s^z} 0.088eV ###############################
 
 set output "up-vaz-rag-1.mp"
 
@@ -148,14 +148,16 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '$|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ @ 0.912\,eV [Km/s]'
+set ylabel '$|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ @ 0.088\,eV [Km/s]'
 set yrange [18:100]
 set ytics 0, 20, 100
 
 set y2label 'Vel. angle $\gamma$ [deg.]' 
 set y2tics
-set y2range [65.0:65.8]
-set y2tics  65.0, 0.1, 65.8
+# set y2range [65.0:65.8]
+# set y2tics  65.0, 0.1, 65.8
+set y2range [64.0:68.0]
+set y2tics  64.0, 0.5, 68.0
 set format y2 "%3.1f"
 
 set origin 0.0 , 2.0
@@ -170,7 +172,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]'
+set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.088\,eV [Km/s]'
 set yrange [0:100]
 set ytics nomirror
 set ytics  0, 20, 90
