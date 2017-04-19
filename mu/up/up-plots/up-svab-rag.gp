@@ -21,7 +21,7 @@ f=pf*sl
 ################################################################################
 
 ################################ V_{s^x} 0.912eV ###############################
-# col alpha~13.2; perp alpha~100.05
+# col alpha~(13.2,13.2); perp alpha~(100.05,10.05)
 
 set output "up-vax-rag-1.mp"
 
@@ -82,7 +82,7 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-0.088eV' u 3:($4*f) w l lw 
 unset multiplot
 
 ################################ V_{s^y} 0.088eV ###############################
-# perp alpha~67.85; col alpha~163
+# perp alpha~(67.85,157.85); col alpha~(163,163)
 
 set output "up-vay-rag-1.mp"
 
@@ -269,7 +269,7 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-1.972eV' u 3:($4*f) w l lw 
 unset multiplot
 
 ################################ V_{s^y} 0.912eV ###############################
-# col alpha~70.6; perp al~169.2
+# col alpha~78.6; perp al~169.2
 
 set output "up-vay-rag-2.mp"
 
