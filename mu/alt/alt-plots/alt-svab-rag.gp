@@ -6,6 +6,9 @@ set zeroaxis lw 1.5 dt 10
 set xtics nomirror
 set ytics nomirror
 
+set mxtics 4
+set my2tics 5
+set grid y2tics my2tics xtics mxtics
 
 set xrange [0:180]
 
@@ -15,6 +18,7 @@ f=pf*sl
 
 
 ################################ V_{s^x} 0.912eV ###############################
+# perp alpha~9.1; col alpha~100.3
 
 set output "alt-vax-rag.mp"
 
@@ -46,6 +50,10 @@ set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:($2*f) w l axis x1y1 lw 1.5 dt 1 lt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{x}}}|$' ,\
     '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:6      w l axis x1y2 lw 2.5 dt 2 lt 2 t '$\gamma$' ,\
+    '../../aux-ang' u 1:1 w l axis x1y2 lw 3 dt 1 lt 4 t "" ,\
+    '../../aux-ang' u 1:2 w l axis x1y2 lw 3 dt 1 lt 5 t "" ,\
+    '../../aux-ang' u 1:3 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
+    '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
 set key at graph 0.78, 0.50 center
@@ -101,6 +109,10 @@ set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 3:($2*f) w l axis x1y1 lw 1.5 dt 1 lt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{y}}}|$' ,\
     '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 3:6      w l axis x1y2 lw 2.5 dt 2 lt 2 t '$\gamma$' ,\
+    '../../aux-ang' u 1:1 w l axis x1y2 lw 3 dt 1 lt 4 t "" ,\
+    '../../aux-ang' u 1:2 w l axis x1y2 lw 3 dt 1 lt 5 t "" ,\
+    '../../aux-ang' u 1:3 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
+    '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
 set key at graph 0.80, 0.45 
@@ -125,6 +137,7 @@ p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 3:($4*f) w l lw
 unset multiplot
 
 ################################ V_{s^z} 0.912eV ###############################
+# col alpha~53.45; perp alpha~49.86
 
 set output "alt-vaz-rag.mp"
 
@@ -156,6 +169,10 @@ set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:($2*f) w l axis x1y1 lw 1.5 dt 1 lt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{z}}}|$' ,\
     '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:6      w l axis x1y2 lw 2.5 dt 2 lt 2 t '$\gamma$' ,\
+    '../../aux-ang' u 1:1 w l axis x1y2 lw 3 dt 1 lt 4 t "" ,\
+    '../../aux-ang' u 1:2 w l axis x1y2 lw 3 dt 1 lt 5 t "" ,\
+    '../../aux-ang' u 1:3 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
+    '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
 set key at graph 0.80, 0.65 

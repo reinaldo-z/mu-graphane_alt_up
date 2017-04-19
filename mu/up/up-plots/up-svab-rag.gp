@@ -6,6 +6,9 @@ set zeroaxis lw 1.5 dt 10
 set xtics nomirror
 set ytics nomirror
 
+set mxtics 4
+set my2tics 5
+set grid y2tics my2tics xtics mxtics
 
 set xrange [0:180]
 
@@ -18,6 +21,7 @@ f=pf*sl
 ################################################################################
 
 ################################ V_{s^x} 0.912eV ###############################
+# col alpha~13.2; perp alpha~100.05
 
 set output "up-vax-rag-1.mp"
 
@@ -50,6 +54,10 @@ set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-0.088eV' u 3:($2*f) w l axis x1y1 lw 1.5 dt 1 lt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{x}}}|$' ,\
     '../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-0.088eV' u 3:6      w l axis x1y2 lw 2.5 dt 2 lt 2 t '$\gamma$' ,\
+    '../../aux-ang' u 1:1 w l axis x1y2 lw 3 dt 1 lt 4 t "" ,\
+    '../../aux-ang' u 1:2 w l axis x1y2 lw 3 dt 1 lt 5 t "" ,\
+    '../../aux-ang' u 1:3 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
+    '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
 set key at graph 0.60, 0.20 center
@@ -74,6 +82,7 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-0.088eV' u 3:($4*f) w l lw 
 unset multiplot
 
 ################################ V_{s^y} 0.088eV ###############################
+# perp alpha~67.85; col alpha~163
 
 set output "up-vay-rag-1.mp"
 
@@ -106,6 +115,10 @@ set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-0.088eV' u 3:($2*f) w l axis x1y1 lw 1.5 dt 1 lt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{y}}}|$' ,\
     '../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-0.088eV' u 3:6      w l axis x1y2 lw 2.5 dt 2 lt 2 t '$\gamma$' ,\
+    '../../aux-ang' u 1:1 w l axis x1y2 lw 3 dt 1 lt 4 t "" ,\
+    '../../aux-ang' u 1:2 w l axis x1y2 lw 3 dt 1 lt 5 t "" ,\
+    '../../aux-ang' u 1:3 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
+    '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
 set key at graph 0.60, 0.25 
@@ -130,6 +143,7 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-0.088eV' u 3:($4*f) w l lw 
 unset multiplot
 
 ################################ V_{s^z} 0.088eV ###############################
+# col alpha~65.35; perp alpha~155.5
 
 set output "up-vaz-rag-1.mp"
 
@@ -162,6 +176,10 @@ set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-0.088eV' u 3:($2*f) w l axis x1y1 lw 1.5 dt 1 lt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{z}}}|$' ,\
     '../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-0.088eV' u 3:6      w l axis x1y2 lw 2.5 dt 2 lt 2 t '$\gamma$' ,\
+    '../../aux-ang' u 1:1 w l axis x1y2 lw 3 dt 1 lt 4 t "" ,\
+    '../../aux-ang' u 1:2 w l axis x1y2 lw 3 dt 1 lt 5 t "" ,\
+    '../../aux-ang' u 1:3 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
+    '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
 set key at graph  0.80, 0.75 
@@ -190,6 +208,7 @@ unset multiplot
 ################################################################################
 
 ################################ V_{s^x} 0.912eV ###############################
+# col alpha~79.4; perp alpha~169.9   
 
 set output "up-vax-rag-2.mp"
 
@@ -222,6 +241,10 @@ set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-1.972eV' u 3:($2*f) w l axis x1y1 lw 1.5 dt 1 lt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{x}}}|$' ,\
     '../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-1.972eV' u 3:6      w l axis x1y2 lw 2.5 dt 2 lt 2 t '$\gamma$' ,\
+    '../../aux-ang' u 1:1 w l axis x1y2 lw 3 dt 1 lt 4 t "" ,\
+    '../../aux-ang' u 1:2 w l axis x1y2 lw 3 dt 1 lt 5 t "" ,\
+    '../../aux-ang' u 1:3 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
+    '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
 set key at graph 0.50, 0.20 center
@@ -246,6 +269,7 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-1.972eV' u 3:($4*f) w l lw 
 unset multiplot
 
 ################################ V_{s^y} 0.912eV ###############################
+# col alpha~70.6; perp al~169.2
 
 set output "up-vay-rag-2.mp"
 
@@ -278,6 +302,10 @@ set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-1.972eV' u 3:($2*f) w l axis x1y1 lw 1.5 dt 1 lt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{y}}}|$' ,\
     '../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-1.972eV' u 3:6      w l axis x1y2 lw 2.5 dt 2 lt 2 t '$\gamma$' ,\
+    '../../aux-ang' u 1:1 w l axis x1y2 lw 3 dt 1 lt 4 t "" ,\
+    '../../aux-ang' u 1:2 w l axis x1y2 lw 3 dt 1 lt 5 t "" ,\
+    '../../aux-ang' u 1:3 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
+    '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
 set key at graph 0.50, 0.25 
@@ -302,6 +330,7 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-1.972eV' u 3:($4*f) w l lw 
 unset multiplot
 
 ############################### V_{s^z} 1.972eV ###############################
+# col alpha~78.3; perp alpha~168.4
 
 set output "up-vaz-rag-2.mp"
 
@@ -334,6 +363,10 @@ set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-1.972eV' u 3:($2*f) w l axis x1y1 lw 1.5 dt 1 lt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{z}}}|$' ,\
     '../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-1.972eV' u 3:6      w l axis x1y2 lw 2.5 dt 2 lt 2 t '$\gamma$' ,\
+    '../../aux-ang' u 1:1 w l axis x1y2 lw 3 dt 1 lt 4 t "" ,\
+    '../../aux-ang' u 1:2 w l axis x1y2 lw 3 dt 1 lt 5 t "" ,\
+    '../../aux-ang' u 1:3 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
+    '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
 set key at graph  0.50, 0.25 
