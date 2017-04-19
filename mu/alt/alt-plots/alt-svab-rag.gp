@@ -33,11 +33,11 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '$|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ @ 0.912\,eV [Km/s]'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ @ 0.912\,eV [Km/s]}'
 set yrange [6:28]
 set ytics 5, 3, 28
 
-set y2label 'Vel. angle $\gamma$ [deg.]' 
+set y2label '{\Large Vel. angle $\gamma$ [deg.]}'
 set y2range [97.5:100.5]
 set y2tics  97.5, 0.5, 100.5
 set format y2 "%6.1f"
@@ -54,7 +54,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]}'
 set yrange [-30:12]
 set ytics nomirror
 set ytics  -30, 10, 10
@@ -88,11 +88,11 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '$|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ @ 0.912\,eV [Km/s]'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ @ 0.912\,eV [Km/s]}'
 set yrange [8:35]
 set ytics 5, 5, 35
 
-set y2label 'Vel. angle $\gamma$ [deg.]' 
+set y2label '{\Large Vel. angle $\gamma$ [deg.]}'
 set y2range [66:68]
 set y2tics  66, 0.5, 68
 set format y2 "%3.1f"
@@ -109,7 +109,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]}'
 set yrange [-32:0]
 set ytics nomirror
 set ytics  -32, 8, -4
@@ -143,11 +143,11 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '$|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ @ 0.912\,eV [Km/s]'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ @ 0.912\,eV [Km/s]}'
 set yrange [9:45]
 set ytics 10, 5, 45
 
-set y2label 'Vel. angle $\gamma$ [deg.]' 
+set y2label '{\Large Vel. angle $\gamma$ [deg.]}'
 set y2range [49.5:53.5]
 set y2tics  49.5, 0.5, 53.5
 set format y2 "%3.1f"
@@ -164,7 +164,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]}'
 set yrange [-35:0]
 set ytics nomirror
 set ytics  -35, 5, -5

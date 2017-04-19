@@ -15,7 +15,7 @@ f=pf*sl
 
 ################################ V_{s^x} 0.912eV ###############################
 
-set output "alt-vax-rag.mp"
+set output "hnbGh-aa-vax-rag.mp"
 
 set size 1.0,1.5
 set tmargin 0
@@ -32,11 +32,11 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '$|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ @ 0.912\,eV [Km/s]'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ @ 0.912\,eV [Km/s]}'
 set yrange [2.5:8]
 set ytics 2, 1, 8
 
-set y2label 'Vel. angle $\gamma$ [deg.]' 
+set y2label '{\Large Vel. angle $\gamma$ [deg.]}'
 set y2range [20:180]
 set y2tics  20, 20, 180
 set format y2 "%6.0f"
@@ -53,7 +53,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]}'
 set yrange [-8:9]
 set ytics nomirror
 set ytics  -8, 4, 8
@@ -70,7 +70,7 @@ unset multiplot
 
 ################################ V_{s^y} 0.912eV ###############################
 
-set output "alt-vay-rag.mp"
+set output "hnbGh-aa-vay-rag.mp"
 
 set size 1.0,1.5
 set tmargin 0
@@ -87,11 +87,11 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '$|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ @ 0.912\,eV [Km/s]'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ @ 0.912\,eV [Km/s]}'
 set yrange [0:9]
 set ytics 0, 1, 9
 
-set y2label 'Vel. angle $\gamma$ [deg.]' 
+set y2label '{\Large Vel. angle $\gamma$ [deg.]}'
 set y2range [0:180]
 set y2tics  0, 20, 180
 set format y2 "%3.0f"
@@ -108,7 +108,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]}'
 set yrange [-8:9.5]
 set ytics nomirror
 set ytics  -8, 4, 8
@@ -125,7 +125,7 @@ unset multiplot
 
 ################################ V_{s^z} 0.912eV ###############################
 
-set output "alt-vaz-rag.mp"
+set output "hnbGh-aa-vaz-rag.mp"
 
 set size 1.0,1.5
 set tmargin 0
@@ -142,11 +142,11 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '$|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ @ 0.912\,eV [Km/s]'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ @ 0.912\,eV [Km/s]}'
 set yrange [0:9]
 set ytics 0, 1, 9
 
-set y2label 'Vel. angle $\gamma$ [deg.]' 
+set y2label '{\Large Vel. angle $\gamma$ [deg.]}'
 set y2range [0:180]
 set y2tics  0, 20, 180
 set format y2 "%3.0f"
@@ -163,7 +163,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]}'
 set yrange [-8:9.5]
 set ytics nomirror
 set ytics  -8, 4, 8

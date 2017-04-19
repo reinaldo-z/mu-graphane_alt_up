@@ -1,3 +1,4 @@
+
 set terminal mp color dashed latex 11
 
 set colors classic
@@ -13,7 +14,7 @@ pf=29.98       # prefactor
 sl=299792.458  # speed of light [Km/s]
 f=pf*sl
 
-################################ V_{s^x} 0.912eV ###############################
+################################ V_{s^x} 2.264eV ###############################
 
 set output "hnbGh-ab-vax-rag.mp"
 
@@ -32,12 +33,12 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '$|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ @ 2.264\,eV [Km/s]'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ @ 2.264\,eV [Km/s]}'
 set yrange [0.7:2.3]
 set ytics 0.7, 0.2, 2.3
 set format y "%6.1f"
 
-set y2label 'Vel. angle $\gamma$ [deg.]' 
+set y2label '{\Large Vel. angle $\gamma$ [deg.]}'
 set y2range [0:180]
 set y2tics  0, 20, 180
 set format y2 "%6.0f"
@@ -54,7 +55,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 2.264\,eV [Km/s]'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 2.264\,eV [Km/s]}'
 set yrange [-2.2:2.6]
 set ytics nomirror
 set ytics  -2.2, 0.8, 2.0
@@ -69,7 +70,7 @@ p   '../hnbGh-ab-res-0-4-2001pts/magsv.sm_0.03_ax_14452_75-2.264eV' u 3:($4*f) w
 
 unset multiplot
 
-################################ V_{s^y} 0.912eV ###############################
+################################ V_{s^y} 2.462eV ###############################
 
 set output "hnbGh-ab-vay-rag.mp"
 
@@ -88,12 +89,12 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '$|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ @ 2.462\,eV [Km/s]'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ @ 2.462\,eV [Km/s]}'
 set yrange [0:2.4]
 set ytics 0, 0.4, 2.4
 set size 1.0,1.5
 
-set y2label 'Vel. angle $\gamma$ [deg.]' 
+set y2label '{\Large Vel. angle $\gamma$ [deg.]}'
 set y2tics
 set y2range [0:180]
 set y2tics  0, 20, 180
@@ -111,7 +112,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 2.462\,eV [Km/s]'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 2.462\,eV [Km/s]}'
 set yrange [-2.2:2.6]
 set ytics nomirror
 set ytics  -2.2, 0.8, 2.0
@@ -126,7 +127,7 @@ p   '../hnbGh-ab-res-0-4-2001pts/magsv.sm_0.03_ay_14452_75-2.462eV' u 3:($4*f) w
 
 unset multiplot
 
-################################ V_{s^z} 0.912eV ###############################
+################################ V_{s^z} 2.464eV ###############################
 
 set output "hnbGh-ab-vaz-rag.mp"
 
@@ -145,11 +146,11 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '$|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ @ 2.464\,eV [Km/s]'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ @ 2.464\,eV [Km/s]}'
 set yrange [0:3.5]
 set ytics 0, 0.5, 3.5
 
-set y2label 'Vel. angle $\gamma$ [deg.]' 
+set y2label '{\Large Vel. angle $\gamma$ [deg.]}'
 set y2range [0:180]
 set y2tics  0, 20, 180
 set format y2 "%3.0f"
@@ -166,7 +167,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '$\mathcal{V}^{\mathrm{ab}}$ @ 2.464\,eV [Km/s]'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 2.464\,eV [Km/s]}'
 set yrange [-2.2:2.6]
 set ytics nomirror
 set ytics  -2.2, 0.8, 2.0

@@ -47,13 +47,13 @@ graficas rtp: tener presentes los máximos de r para poder comentar comportamien
 
     17/04/17
 pol vs gamma iguales con rectángulos
-\Large y lables
-Format y labels
-More decimal places for gamma in:
-    *_magsvab-inang.sh
-    *_svab_rag.gp
-    *_ag.gp
-Set key for up v_{s^z}
+\More decimal places for gamma in:
+\    *-magsvab-inang.sh
+\    *-svab-rag.gp
+\    *-ag.gp
+\Set key for up v_{s^z}
+Large y lables
+Format y tics
 
 ################################################################################
 
