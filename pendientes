@@ -46,7 +46,7 @@ graficas rtp: tener presentes los máximos de r para poder comentar comportamien
 \gráficas 360
 
     17/04/17
-pol vs gamma iguales con rectángulos
+\pol vs gamma intersection for colinear and perp
 \More decimal places for gamma in:
 \    *-magsvab-inang.sh
 \    *-svab-rag.gp

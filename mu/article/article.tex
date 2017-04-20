@@ -11,8 +11,8 @@
                         % documents and URLs 
 \usepackage{blindtext}  % fill text
 \usepackage{color}
-% \usepackage{showframe}
-% \usepackage[inline]{showlabels}
+\usepackage{showframe}
+\usepackage[inline]{showlabels}
 
 \raggedbottom           % don't add extra vertical space
 
@@ -34,6 +34,10 @@ Oshawa, ON, L1H 7L7, Canada}
 \end{abstract}
 
 \maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  INTRODUCTION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Introduction}
 \blindtext
@@ -65,6 +69,10 @@ Oshawa, ON, L1H 7L7, Canada}
 \blindtext
 
 \blindtext
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% THEORY %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Theory} % (fold)
 \label{sec:theory}
@@ -106,7 +114,12 @@ For an angle $\alpha = \frac{\pi}{4}$ this expression can be reduced to
 \label{eq:vab-90deg}
 \end{align}
 
-We also define $|\mathcal{V}^{\mathrm{a}}|$ as 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Fixing vel %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Fixing velocity.}\label{sec:theory-fixvel}
+Considering that we have 2D structures we fixed the velocity in the $xy$ plane
+along $x$ and $y$ directions and we define $|\mathcal{V}^{\mathrm{a}}|$ as
 \begin{equation}\label{eq:va-mag}
 |\mathcal{V}^{\mathrm{a}}| = 
 \sqrt {
@@ -128,9 +141,32 @@ and the corresponding polar and azimuthal angles $\theta$ and $\varphi$ as
 \label{eq:azimuthal-ang} 
 \end{align}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Fixing spin %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\subsection{Fixing spin}\label{sec:theory-fixspin}
+In a similar way we can fix in the $xy$ plane the spin direction along the $x$,
+$y$, and $z$ directions and then define the magnitude of the spin velocity $|\mathcal{V}_{\sigma^{\mathrm{b}}}|$ in a fixed angle $\gamma_{b}$
+\begin{align}
+|\mathcal{V}_{\sigma^{\mathrm{b}}}| 
+&=
+\sqrt{
+(\mathcal{V}^{\mathrm{ax}})^{2} +
+(\mathcal{V}^{\mathrm{ay}})^{2} 
+}, \\
+\gamma_{\mathrm{b}} 
+&=
+\tan^{-1} \left( \frac{\mathcal{V}^{\mathrm{ay}}}
+{\mathcal{V}^{\mathrm{ax}}} \right),
+\end{align}
+where the angle is measured in the counter-clockwise direction from the positive
+$x$ axis.
 
 % section theory (end)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RESULTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Results} % (fold)
 \label{sec:results}
@@ -229,19 +265,19 @@ number of layer.}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ALT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{alt} % (fold)
-\label{sec:results-alt}
-% \subsubsection{$\mathcal{V}^{\mathrm{x}}$}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixin vel %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Fixing spin} % (fold)
+\label{sec:res-fixspin}
+
 \begin{figure}[tb]
     \centering
     \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ for \emph{alt} structure]
-    {\includegraphics[width=\linewidth]{altplots/alt-magvxb-incang-4545.pdf}}
+    {\includegraphics[width=\linewidth]{altplots/alt-3d-vxb}}
     \label{fig:alt-vx}
     \\
     \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ for \emph{alt} structure]
-    {\includegraphics[width=\linewidth]{altplots/alt-magvyb-incang-4545.pdf}}
+    {\includegraphics[width=\linewidth]{altplots/alt-3d-vyb}}
     \label{fig:alt-vy}
     \caption{$|\mathcal{V}^{\mathrm{x}}|$ response for C$_{16}$H$_{8}$-alt
     structure. The maximum response zone is localized for an energy range from
@@ -319,22 +355,6 @@ the same spin polarization for all this range.}
 \end{figure}
 
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%% yb [0.6:1.0] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \subsubsection{$\mathcal{V}^{\mathrm{y}}$}
-% \begin{figure}[ht]
-%     \centering
-%     \includegraphics[width=\linewidth]{altplots/alt-magvyb-incang-4545.pdf}
-%     \caption{The most intense response for $\mathcal{V}^{\mathrm{y}} $ is for 
-%     145$^{\circ}$.}
-%     \label{fig:alt-magvybincang1}
-% \end{figure}
-% \begin{figure}[ht]
-%     \centering
-%     \includegraphics[width=\linewidth]{altplots/alt-vab-yb.pdf}
-%     \caption{Three components of $\mathcal{V}^{\mathrm{y}} $ @ 145$^{\circ}$.}
-%     \label{fig:alt-vyb1}
-% \end{figure}
-
 % %%%%%%%%%%%%%%%%%%% |V^{ab}| [0.6:1.0] rtp comp %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % \subsubsection{$|\mathcal{V}^{\mathrm{ab}}|$, angles
 % $\theta$ and $\varphi$, layers, and comparison with CdSe and GaAs.}
@@ -375,8 +395,8 @@ the same spin polarization for all this range.}
 
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% UP %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RES UP %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 % \subsection{Up (graphone)} % (fold)
 % \label{sec:results-up}
 
@@ -834,18 +854,6 @@ the same spin polarization for all this range.}
 \section{Fixing spin} % (fold)
 \label{sec:fixing_spin}
 
-\begin{align}
-\mathcal{V}_{\sigma^{\mathrm{b}}} 
-&=
-\sqrt{
-(\mathcal{V^{\mathrm{xb}}})^2 +
-(\mathcal{V^{\mathrm{yb}}})^2
-}
-\\
-\tan(\gamma_{\mathrm{b}})
-&=
-\frac{\mathcal{V}^{\mathrm{yb}}}{\mathcal{V}^{\mathrm{xb}}}
-\end{align}
 
 % section fixing_spin (end)
 

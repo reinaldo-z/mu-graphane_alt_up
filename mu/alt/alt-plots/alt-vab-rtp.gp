@@ -26,8 +26,8 @@ set key samplen 2
 
 
 
-set ylabel '$|\mathcal{V}^{\mathrm{xb}}|$ @ 145$^{\circ}$ [Km/s]'
-set y2label "Angle [deg.]" 
+set ylabel '{\Large $|\mathcal{V}^{\mathrm{xb}}|$ @ 145$^{\circ}$ [Km/s]}'
+set y2label '{\Large Angle [deg.]}'
 set ytics 4
 set y2tics 45
 set output "alt-vxb-rtp.mp"
@@ -36,8 +36,8 @@ p   '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_
     '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($7*d) axis x1y2 w l lw 2.5 dt 3 t '$\varphi$' 
 
 
-set ylabel '$|\mathcal{V}^{\mathrm{yb}}|$ @ 145$^{\circ}$ [Km/s]'
-set y2label "Angle [deg.]" 
+set ylabel '{\Large $|\mathcal{V}^{\mathrm{yb}}|$ @ 145$^{\circ}$ [Km/s]}'
+set y2label '{\Large Angle [deg.]}'
 set ytics 7
 set y2tics 45
 set output "alt-vyb-rtp.mp"
@@ -66,7 +66,7 @@ set key at graph 0.24, 0.3
 unset xlabel
 unset xtics
 
-set ylabel '$|\mathcal{V}^{\mathrm{xb}}|$ @ 145$^{\circ}$ [Km/s]'
+set ylabel '{\Large $|\mathcal{V}^{\mathrm{xb}}|$ @ 145$^{\circ}$ [Km/s]}'
 set yrange [-31:15]
 set ytics  -30, 5, 15
 
@@ -83,7 +83,7 @@ set key at graph 0.10, 0.15 center
 set xtics nomirror
 set xlabel '{\Large Photon Energy (eV)}'
 
-set ylabel 'Angle [deg.]' 
+set ylabel '{\Large Angle [deg.]}'
 set yrange [-170:180]
 set ytics  -150, 50, 160
 
@@ -114,7 +114,7 @@ set key at graph -0.10, 0.2
 unset xlabel
 unset xtics
 
-set ylabel '$|\mathcal{V}^{\mathrm{xb}}|$ @ 145$^{\circ}$ [Km/s]'
+set ylabel '{\Large $|\mathcal{V}^{\mathrm{xb}}|$ @ 145$^{\circ}$ [Km/s]}'
 set yrange [-42:5]
 set ytics  -45, 5, 5
 
@@ -131,7 +131,7 @@ set key at graph 0.10, 0.15
 set xtics nomirror
 set xlabel '{\Large Photon Energy (eV)}'
 
-set ylabel 'Angle [deg.]' 
+set ylabel '{\Large Angle [deg.]}'
 set yrange [-175:185]
 set ytics  -150, 50, 160
 
