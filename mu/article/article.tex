@@ -11,8 +11,8 @@
                         % documents and URLs 
 \usepackage{blindtext}  % fill text
 \usepackage{color}
-\usepackage{showframe}
-\usepackage[inline]{showlabels}
+% \usepackage{showframe}
+% \usepackage[inline]{showlabels}
 
 \raggedbottom           % don't add extra vertical space
 
@@ -267,8 +267,8 @@ number of layer.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixin vel %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Fixing spin} % (fold)
-\label{sec:res-fixspin}
+\subsection{Fixing velocity} % (fold)
+\label{sec:res-fixvel}
 
 \begin{figure}[tb]
     \centering
@@ -285,6 +285,22 @@ number of layer.}
     incoming beam from 120$^{\circ}$ to 150$^{\circ}$.}
     \label{fig:alt-vab-mag}
 \end{figure}
+\begin{figure}[tb]
+    \centering
+    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$]
+    {\includegraphics[width=\linewidth]{altplots/alt-vxb-rtp-m}}
+    \label{fig:alt-vx-comp-rtp}
+    \\
+    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$]
+    {\includegraphics[width=\linewidth]{altplots/alt-vyb-rtp-m}}
+    \label{fig:alt-vy-comp-rtp}
+    \caption{Most intense responses of $|\mathcal{V}^{\mathrm{x}}|$ and
+    $|\mathcal{V}^{\mathrm{y}}|$ and the corresponding three components for the
+    \emph{alt} structure. Both maxima where obtained for a polarization
+    angle $\alpha=145^{\circ}$. }
+    \label{fig:alt-vab-xy-comp-rtp}
+\end{figure}
+
 For the \emph{alt} structure we analyzed the energy range of energy from
 0.6\,eV to 1.0\,eV where we found the most intense response for
 $\mathcal{V}^{\mathrm{ab}}$ and $|\mathcal{V}^{\mathrm{a}}|$. In Fig. 
@@ -309,7 +325,7 @@ We also found that the absolute maximum of the response is obtained for a
 polarization angle $\alpha = 145^{\circ}$. The decomposition of
 $|\mathcal{V}^{\mathrm{x}}|$ in the corresponding $\mathcal{V}^{\mathrm{xx}}$,
 $\mathcal{V}^{\mathrm{xy}}$, and $\mathcal{V}^{\mathrm{xz}}$ components is
-depicted in Fig. \ref{fig:alt-vx-comp} and the decomposition of
+depicted in Fig. \ref{fig:alt-vx-comp-rtp} and the decomposition of
 $|\mathcal{V}^{\mathrm{y}}|$ in its corresponding $\mathcal{V}^{\mathrm{yx}}$,
 $\mathcal{V}^{\mathrm{yy}}$, and $\mathcal{V}^{\mathrm{yz}}$ is shown in Fig.
 \ref{fig:alt-vy} for this polarization angle.
@@ -338,21 +354,7 @@ negative for the energy range from 0.65\,eV to 0.95\,eV \textcolor{red}{keeping
 the same spin polarization for all this range.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%% xb [0.6:1.0] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[tb]
-    \centering
-    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$]
-    {\includegraphics[width=\linewidth]{altplots/alt-vab-xb.pdf}}
-    \label{fig:alt-vx-comp}
-    \\
-    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$]
-    {\includegraphics[width=\linewidth]{altplots/alt-vab-yb.pdf}}
-    \label{fig:alt-vy-comp}
-    \caption{Most intense responses of $|\mathcal{V}^{\mathrm{x}}|$ and
-    $|\mathcal{V}^{\mathrm{y}}|$ and the corresponding three components for the
-    \emph{alt} structure. Both maxima where obtained for a polarization
-    angle $\alpha=145^{\circ}$. }
-    \label{fig:alt-vab-xy-comp}
-\end{figure}
+
 
 
 % %%%%%%%%%%%%%%%%%%% |V^{ab}| [0.6:1.0] rtp comp %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
