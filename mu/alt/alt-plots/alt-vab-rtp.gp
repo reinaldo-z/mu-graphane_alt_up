@@ -94,7 +94,7 @@ unset y2label
 set key at graph 0.00, 0.2 center
 
 set xtics nomirror
-set xlabel '{\Large Photon Energy (eV)}'
+set xlabel '{\Large Photon Energy [eV]}'
 
 set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 145$^{\circ}$ [Km/s]}'
 set yrange [-30:15]
@@ -149,7 +149,7 @@ unset y2label
 set key at graph 0.00, 0.20
 
 set xtics nomirror
-set xlabel '{\Large Photon Energy (eV)}'
+set xlabel '{\Large Photon Energy [eV]}'
 
 set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 145$^{\circ}$ [Km/s]}'
 set yrange [-42:5]

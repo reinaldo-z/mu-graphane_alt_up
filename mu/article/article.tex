@@ -12,7 +12,7 @@
 \usepackage{blindtext}  % fill text
 \usepackage{color}
 % \usepackage{showframe}
-% \usepackage[inline]{showlabels}
+\usepackage[inline]{showlabels}
 
 \raggedbottom           % don't add extra vertical space
 
@@ -272,33 +272,32 @@ number of layer.}
 
 \begin{figure}[tb]
     \centering
-    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ for \emph{alt} structure]
+    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ for \emph{alt} structure 
+    \label{fig:alt-3d-vx}]
     {\includegraphics[width=\linewidth]{altplots/alt-3d-vxb}}
-    \label{fig:alt-vx}
     \\
-    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ for \emph{alt} structure]
+    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ for \emph{alt} structure 
+    \label{fig:alt-3d-vy}]
     {\includegraphics[width=\linewidth]{altplots/alt-3d-vyb}}
-    \label{fig:alt-vy}
     \caption{$|\mathcal{V}^{\mathrm{x}}|$ response for C$_{16}$H$_{8}$-alt
     structure. The maximum response zone is localized for an energy range from
     0.90\,eV to 0.93\,eV. 145$^{\circ}$ and for a polarization angle of the
     incoming beam from 120$^{\circ}$ to 150$^{\circ}$.}
     \label{fig:alt-vab-mag}
 \end{figure}
+
 \begin{figure}[tb]
     \centering
-    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$]
+    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ \label{fig:alt-vx-comp-rtp}]
     {\includegraphics[width=\linewidth]{altplots/alt-vxb-rtp-m}}
-    \label{fig:alt-vx-comp-rtp}
     \\
-    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$]
+    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ \label{fig:alt-vy-comp-rtp}]
     {\includegraphics[width=\linewidth]{altplots/alt-vyb-rtp-m}}
-    \label{fig:alt-vy-comp-rtp}
     \caption{Most intense responses of $|\mathcal{V}^{\mathrm{x}}|$ and
     $|\mathcal{V}^{\mathrm{y}}|$ and the corresponding three components for the
     \emph{alt} structure. Both maxima where obtained for a polarization
     angle $\alpha=145^{\circ}$. }
-    \label{fig:alt-vab-xy-comp-rtp}
+    \label{fig:alt-vab-comp-rtp}
 \end{figure}
 
 For the \emph{alt} structure we analyzed the energy range of energy from
@@ -312,42 +311,64 @@ is the same of the gap energy.
 %
 From this picture we can see that for the zone between the energy range of
 0.90\,eV-0.93\,eV and polarization angles between 120$^{\circ}$ and
-150$^{\circ}$ is the zone of the absolute maximum response having for both,
+150$^{\circ}$ is the zone of the absolute maximum response for both,
 $|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$. Also there is
 another zone of interest for energies from 0.70\,eV to 0.74\,eV where a local
 maximum is obtained.
-%
-From Fig. \ref{fig:alt-vx} we have that $|\mathcal{V}^{\mathrm{x}}|$reaches
+From Fig. \ref{fig:alt-3d-vx} we have that $|\mathcal{V}^{\mathrm{x}}|$reaches
 values near to 30\,Km/s for the first zone mentioned before and 20\,Km/s for
 the second one. 
+% %%%%%%%%%%%%%%%%
+% %% Starting description of ALT |V^{a}|, components and RTP
+% %%%%%%%%%%%%%%%%
+We also found that the absolute maximum of the response is obtained when the
+polarization angle is $\alpha = 145^{\circ}$. 
 %
-We also found that the absolute maximum of the response is obtained for a
-polarization angle $\alpha = 145^{\circ}$. The decomposition of
-$|\mathcal{V}^{\mathrm{x}}|$ in the corresponding $\mathcal{V}^{\mathrm{xx}}$,
-$\mathcal{V}^{\mathrm{xy}}$, and $\mathcal{V}^{\mathrm{xz}}$ components is
-depicted in Fig. \ref{fig:alt-vx-comp-rtp} and the decomposition of
-$|\mathcal{V}^{\mathrm{y}}|$ in its corresponding $\mathcal{V}^{\mathrm{yx}}$,
-$\mathcal{V}^{\mathrm{yy}}$, and $\mathcal{V}^{\mathrm{yz}}$ is shown in Fig.
-\ref{fig:alt-vy} for this polarization angle.
+In the top frames of Figs. \ref{fig:alt-vx-comp-rtp}  and 
+\ref{fig:alt-vy-comp-rtp} we present the results for
+$|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$ fixing the
+polarization angle to $145^{\circ}$ for the \emph{alt} structure vs the photon
+energy and the corresponding azimuthal $\theta$ and polar $\varphi$ angles.
 %
-Making the analysis for $|\mathcal{V}^{\mathrm{x}}|$ we can see that for the
-energy range from 0.70\,eV to 0.74\,eV all the $xx$, $xy$, and $xz$ components
-contribute with almost the same intensity giving a total spin-velocity near to
-30\,Km/s. In the other hand, for the energy range from 0.88\,eV to 0.95\,eV
-there is a major contribution coming from the $\mathcal{V}^{\mathrm{xz}}$
-component resulting in a spin-velocity near to 20\,Km/s.
+Also in the bottom frames of Figs. \ref{fig:alt-vx-comp-rtp} and 
+%
+\ref{fig:alt-vy-comp-rtp} we present the decomposition of
+$|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$ in the
+corresponding $\mathcal{V}^{\mathrm{xx}}$, $\mathcal{V}^{\mathrm{xy}}$,
+$\mathcal{V}^{\mathrm{xz}}$ and
+$\mathcal{V}^{\mathrm{yx}},\mathcal{V}^{\mathrm{yy}}$
+$\mathcal{V}^{\mathrm{yz}}$ components for the fixed polarization angle.
+% %%%%%%%%%%%%%%%%
+% %% Description of ALT |V^{x}|, components and RTP
+% %%%%%%%%%%%%%%%%
+Making the analysis for the components and angles for
+$|\mathcal{V}^{\mathrm{x}}|$ we can see that for the energy range from 0.70\,eV
+to 0.74\,eV all the $xx$, $xy$, and $xz$ components contribute with almost the
+same intensity giving a total spin-velocity near to 30\,Km/s and spin angles
+$\theta$ and $\varphi$ near to $45.8^{\circ}$ and $40.7^{\circ}$, respectively.
+%
+In the other hand, for the energy range from 0.88\,eV to 0.95\,eV there is a
+major contribution coming from the $\mathcal{V}^{\mathrm{xz}}$ component
+resulting in a spin-velocity magnitude near to 20\,Km/s. In this case the spin
+angle over the $xy$ plane have values near to $290^{\circ}$ and the
+corresponding polar angle correspond to values near to $153^{\circ}$.
 %
 Also we notice that for the range of 0.70-0.74\,eV all the contributions are
 positive while for the range of 0.88-0.95\,eV the $xx$ component remains
 positive but the components $xy$ and $xz$ change in direction. This is due to
 \textcolor{red}{\large a change in the spin polarization}.
+% %%%%%%%%%%%%%%%%
+% %% Description of ALT |V^{y}|, components and RTP
+% %%%%%%%%%%%%%%%%
+Making now the analysis for $|\mathcal{V}^{\mathrm{y}}|$, we notice that this
+response is almost two times more intense than $|\mathcal{V}^{\mathrm{x}}|$. For
+the energy range from 0.70\,eV to 0.74\,eV the $yz$ component have a more
+intense response than $yx$ and $yy$ components. This results in a spin azimuthal
+angle near to $221^{\circ}$ and polar angle near to $141^{\circ}$.
 %
-Making now the analysis for $|\mathcal{V}^{\mathrm{y}}|$, which is almost two
-times more intense than $|\mathcal{V}^{\mathrm{x}}|$, we have that for the
-energy range from 0.70\,eV to 0.74\,eV the $yx$ and $yy$ components have a
-lesser contribution than $yz$ but for the energy range all three components
-have almost the same intensity resulting in a spin-velocity near to 50\,Km/s in
-both cases.
+For the energy range all three components have
+almost the same intensity resulting in a spin-velocity near to 50\,Km/s in both
+cases.
 %
 Now we have that the three components of $|\mathcal{V}^{\mathrm{y}}|$ are
 negative for the energy range from 0.65\,eV to 0.95\,eV \textcolor{red}{keeping

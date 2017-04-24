@@ -52,8 +52,8 @@ graficas rtp: tener presentes los máximos de r para poder comentar comportamien
 \    *-svab-rag.gp
 \    *-ag.gp
 \Set key for up v_{s^z}
-Large y lables
-Format y tics
+\Large y lables
+\Format y tics
 
 ################################################################################
 
