@@ -3,7 +3,9 @@ DESCRIPTIONS
 Fixing Velocity:
 3D:  Energy range of plot, evaluation of Eq & structure.
      Onset and gap.
-     Zone of energy & angle where the intense respones is kept.
+     Range of energy
+     Radiation (visible: 1.59 eV - 3.26 eV) 
+     Angle range where the intense respones is kept.
 
 RTP: Decomposition of response in components.
      Similar or mayor contribution of components.
