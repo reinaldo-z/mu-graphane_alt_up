@@ -21,7 +21,7 @@ f=pf*sl
 
 ##################### INTENSE RESPONSE
 set key at graph 0.25, 0.6
-set ylabel '$\mathcal{V}^{\mathrm{yz}}$ @ 145$^{\circ}$ [Km/s]'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{yz}}$ @ 145$^{\circ}$ [Km/s]}'
 set output "alt-vyz-layers.mp"
 p   '../alt-res-0-4-2001pts/v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_145'      u 1:($2*f) w l lw 1.5 dt 1 t 'total' ,\
     '../alt-res-0-4-2001pts/calv.sm_0.03_yz_14452_1_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 2.5 dt 2 t '$\ell_{1}$' ,\
@@ -33,7 +33,7 @@ p   '../alt-res-0-4-2001pts/v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_145' 
 
 
 set key at graph 0.25, 0.7
-set ylabel '$\mathcal{V}^{\mathrm{yz}}$ @ 145$^{\circ}$ [Km/s]'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{yz}}$ @ 145$^{\circ}$ [Km/s]}'
 set output "alt-vyz-layerssum.mp"
 p   '../alt-res-0-4-2001pts/v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_145'      u 1:($2*f) w l lw 1.5 dt 1 t 'total' ,\
     '../alt-res-0-4-2001pts/calv.sm_0.03_yz_14452_1_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 2.5 dt 2 t '$\ell_{1}$' ,\
