@@ -76,9 +76,43 @@ Oshawa, ON, L1H 7L7, Canada}
 
 \section{Theory} % (fold)
 \label{sec:theory}
-The equation for $\mathcal{V}^{\mathrm{ab}}$ for normal incidence in the $xy$
-plane with a polarization angle $\alpha$ is given by
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Pure spin current %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Pure spin-current} % (fold)
+\label{sec:theory-pure_spin_current}
+
+The spin density injection current $\dot{K}^{\mathrm{ab}}$ with speed along
+direction $\mathrm{a}$ and spin polarization along $\mathrm{b}$ is defined as
+\begin{equation}
+\dot{K} = \mu^{\mathrm{abcd}}(\omega)
+E^{\mathrm{c}}(\omega) E^{\mathrm{d*}}(\omega)
+\label{eq:dotk}
+\end{equation}
+where
+\begin{widetext}
+\begin{equation}
+\mu^{\mathrm{abcd}} (\omega) =
+\frac{\pi e^{2}}{\hbar^{2}} \int 
+\frac{d^{3}K}{8 \pi^{3}} \sum_{vcc'}^{'}
+\mathrm{Re} \left[ K^{\mathrm{ab}}_{cc'} ( 
+r^{\mathrm{c}}_{vc'} 
+r^{\mathrm{d}}_{cv } +
+r^{\mathrm{d}}_{vc'} 
+r^{\mathrm{c}}_{cv } ) \right]
+\delta(\omega-\omega_{cv})
+\label{eq:mu}
+\end{equation}
+\end{widetext}
+is the corresponding spin density injection current pseudotensor. The $'$
+in the sum means that $c$ and $c'$ are quasi degenerate states and the sum only
+covers these states.
+
+Now we define the spin velocity, $\mathcal{V}^{\mathrm{ab}}$ as the speed at
+which the spin polarized in the $\mathrm{b}$   direction moves along the
+$\mathrm{a}$ direction when a normal incident beam reaches the $xy$ plane with a
+polarization angle $\alpha$. Then,
 \begin{widetext}
 \begin{align}
 \mathcal{V}^{\mathrm{ab}} (\omega) 
@@ -114,12 +148,16 @@ For an angle $\alpha = \frac{\pi}{4}$ this expression can be reduced to
 \label{eq:vab-90deg}
 \end{align}
 
+% section theory-pure_spin_current (end)
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Fixing spin %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Fixing spin}\label{sec:theory-fixspin}
-In a similar way we can fix in the $xy$ plane the spin direction along the $x$,
-$y$, and $z$ directions and then define the magnitude of the spin velocity $|\mathcal{V}_{\sigma^{\mathrm{b}}}|$ in a fixed angle $\gamma_{b}$
+Considering that we have 2D structures we can fix the spin direction along the
+$x$, $y$, and $z$ Cartesian coordinates and then define the magnitude of the
+spin velocity $|\mathcal{V}_{\sigma^{\mathrm{b}}}|$ in a fixed angle
+$\gamma_{b}$ as
 \begin{align}
 |\mathcal{V}_{\sigma^{\mathrm{b}}}| (\omega)
 &=
@@ -142,8 +180,9 @@ $x$ axis.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Fixing vel %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Fixing velocity.}\label{sec:theory-fixvel}
-Considering that we have 2D structures we fixed the velocity in the $xy$ plane
-along $x$ and $y$ directions and we define $|\mathcal{V}^{\mathrm{a}}|$ as
+
+In a similar way we can fix the velocity in the $xy$ plane
+along $x$ and $y$ directions and define $|\mathcal{V}^{\mathrm{a}}|$ as
 \begin{equation}
 |\mathcal{V}^{\mathrm{a}}| (\omega)= 
 \sqrt {
@@ -292,8 +331,15 @@ layer divisions and atom positions for the unit cells are shown in Tables
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixin spin Alt  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixing spin Alt  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Fixing spin} % (fold)
 \label{sec:res-fixspin}
+
+\blindtext
 
 % section res-fixspin (end)
 
