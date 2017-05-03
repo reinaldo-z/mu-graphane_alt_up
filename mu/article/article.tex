@@ -115,52 +115,82 @@ For an angle $\alpha = \frac{\pi}{4}$ this expression can be reduced to
 \end{align}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Fixing vel %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Fixing velocity.}\label{sec:theory-fixvel}
-Considering that we have 2D structures we fixed the velocity in the $xy$ plane
-along $x$ and $y$ directions and we define $|\mathcal{V}^{\mathrm{a}}|$ as
-\begin{equation}\label{eq:va-mag}
-|\mathcal{V}^{\mathrm{a}}| = 
-\sqrt {
-(\mathcal{V}^{\mathrm{ax}})^{2} +
-(\mathcal{V}^{\mathrm{ay}})^{2} +
-(\mathcal{V}^{\mathrm{az}})^{2} 
-},
-\end{equation}
-and the corresponding polar and azimuthal angles $\theta$ and $\varphi$ as
-\begin{align}
-\theta  =& \cos^{-1} \left( \frac{\mathcal{V}^{\mathrm{az}}}
-{|\mathcal{V}^{\mathrm{a}}|} \right),
-& 0 \leq &\theta \leq \pi, 
-\label{eq:polar-ang}
-\\
-\varphi =& \tan^{-1} \left( \frac{\mathcal{V}^{\mathrm{ay}}}
-{\mathcal{V}^{\mathrm{ax}}} \right),
-& 0 \leq &\varphi \leq 2\pi.
-\label{eq:azimuthal-ang} 
-\end{align}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Fixing spin %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Fixing spin}\label{sec:theory-fixspin}
 In a similar way we can fix in the $xy$ plane the spin direction along the $x$,
 $y$, and $z$ directions and then define the magnitude of the spin velocity $|\mathcal{V}_{\sigma^{\mathrm{b}}}|$ in a fixed angle $\gamma_{b}$
 \begin{align}
-|\mathcal{V}_{\sigma^{\mathrm{b}}}| 
+|\mathcal{V}_{\sigma^{\mathrm{b}}}| (\omega)
 &=
 \sqrt{
-(\mathcal{V}^{\mathrm{ax}})^{2} +
-(\mathcal{V}^{\mathrm{ay}})^{2} 
-}, \\
-\gamma_{\mathrm{b}} 
+(\mathcal{V}^{\mathrm{ax}}(\omega))^{2}\ +
+(\mathcal{V}^{\mathrm{ay}}(\omega))^{2}\ 
+}, 
+\label{eq:vs-mag}
+\\
+\gamma_{\mathrm{b}} (\omega)
 &=
-\tan^{-1} \left( \frac{\mathcal{V}^{\mathrm{ay}}}
-{\mathcal{V}^{\mathrm{ax}}} \right),
+\tan^{-1} \left( \frac{\mathcal{V}^{\mathrm{ay}}(\omega)}
+{\mathcal{V}^{\mathrm{ax}}(\omega)} \right),
+\label{eq:gamma-ang}
 \end{align}
 where the angle is measured in the counter-clockwise direction from the positive
 $x$ axis.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Fixing vel %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Fixing velocity.}\label{sec:theory-fixvel}
+Considering that we have 2D structures we fixed the velocity in the $xy$ plane
+along $x$ and $y$ directions and we define $|\mathcal{V}^{\mathrm{a}}|$ as
+\begin{equation}
+|\mathcal{V}^{\mathrm{a}}| (\omega)= 
+\sqrt {
+(\mathcal{V}^{\mathrm{ax}}(\omega))^{2} +
+(\mathcal{V}^{\mathrm{ay}}(\omega))^{2} +
+(\mathcal{V}^{\mathrm{az}}(\omega))^{2} 
+},
+\label{eq:vv-mag}
+\end{equation}
+and the corresponding polar and azimuthal angles $\theta$ and $\varphi$ as
+\begin{align}
+\theta  (\omega)
+=& 
+\cos^{-1} \left( \frac{\mathcal{V}^{\mathrm{az}}(\omega)}
+{|\mathcal{V}^{\mathrm{a}}(\omega)|} \right),
+& 0 \leq &\theta \leq \pi, 
+\label{eq:polar-ang}
+\\
+\varphi (\omega)
+=& 
+\tan^{-1} \left( \frac{\mathcal{V}^{\mathrm{ay}}(\omega)}
+{\mathcal{V}^{\mathrm{ax}}(\omega)} \right),
+& 0 \leq &\varphi \leq 2\pi.
+\label{eq:azimuthal-ang} 
+\end{align}
+
+\subsection{Layer-by-layer analysis.}\label{sec:theory-layer}
+
+For a layered system we have that the total contribution of Eqns. 
+\eqref{eq:vs-mag} and \eqref{eq:vv-mag} is given \cite{arzatePRB14} by 
+
+\begin{align}
+|\mathcal{V}_{\sigma^{\mathrm{b}}}(\omega)|
+=& 
+\ell_{\mathrm{eff}}
+\sum_{\ell=1}^{N_{\mathrm{eff}}}
+|\mathcal{V}_{\sigma^{\mathrm{b}}} (\ell | \omega)|
+\label{eq:vs-layer}
+\\
+|\mathcal{V}^{\mathrm{a}}(\omega)|
+=&
+\ell_{\mathrm{eff}}
+\sum_{\ell=1}^{N_{\mathrm{eff}}}
+|\mathcal{V}^{\mathrm{a}} (\ell | \omega)|
+\label{eq:vv-layer}
+\end{align}
+
 
 % section theory (end)
 
@@ -259,6 +289,13 @@ comprised by the top hydrogen atoms and the second by the carbon atoms. The
 layer divisions and atom positions for the unit cells are shown in Tables
 \ref{tab:alt-unitcell} and \ref{tab:up-unitcell}.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixin spin Alt  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Fixing spin} % (fold)
+\label{sec:res-fixspin}
+
+% section res-fixspin (end)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixin vel Alt  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -309,7 +346,7 @@ For the \emph{alt} structure we analyzed the energy range from 0.6\,eV to
 1.0\,eV where we found the most intense response for 
 $|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{a}}|$. In Fig. 
 \ref{fig:alt-3d} we present the $|\mathcal{V}^{\mathrm{a}}|$ spectra resulting 
-from evaluate Eq. \eqref{eq:va-mag} using different polarization angles $\alpha$
+from evaluate Eq. \eqref{eq:vv-mag} using different polarization angles $\alpha$
 in Eq. \eqref{eq:vab} for the C$_{16}$H$_{8}$-alt structure. We can see that the
 onset of the response is when the energy of the incoming light is the same of
 the gap energy.
@@ -508,7 +545,7 @@ For the \emph{up} structure we first analyzed the energy range from 0.00\,eV to
 0.16\,eV where we found the most intense response for $\mathcal{V}^{\mathrm{x}}$
 and $|\mathcal{V}^{\mathrm{y}}|$. In Fig. \ref{fig:up-3d-1} we present the
 $\mathcal{V}^{\mathrm{a}}$ spectra resulting from evaluate again Eq. 
-\eqref{eq:va-mag} using different polarization angles $\alpha$ in Eq.  
+\eqref{eq:vv-mag} using different polarization angles $\alpha$ in Eq.  
 \eqref{eq:vab} but now for the C$_{16}$H$_{8}$-up structure. We can see that the
 onset of the response is when the energy of the incoming light is the same of
 the gap energy.
@@ -621,7 +658,7 @@ goes to zero.
 Also there is another energy range of interest for an incoming energy beam from
 1.80\,eV to 2.10\,eV presented in Fig. \ref{fig:up-3d-2} where two local maxima
 of $|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$ are obtained
-for the \emph{up} structure resulting from evaluate Eqns. \eqref{eq:va-mag} and
+for the \emph{up} structure resulting from evaluate Eqns. \eqref{eq:vv-mag} and
 \eqref{eq:vab}.
 % 
 From this figure we have that for the zone between the energy ranges from
@@ -731,7 +768,6 @@ response comes from the second layer composed by carbon atoms presented in Tab.
 the other hand, the response for the energy range from 1.8\,eV to 2.1\,eV almost
 all the response comes from the carbon atoms having a leaser contribution from
 the hydrogen layer.
-
 
 
 \bibliography{article.bib}
