@@ -11,6 +11,7 @@
                         % documents and URLs 
 \usepackage{blindtext}  % fill text
 \usepackage{color}
+\usepackage{multirow}
 % \usepackage{showframe}
 \usepackage[inline]{showlabels}
 
@@ -257,9 +258,9 @@ For a layered system we have that the total contribution of Eqns.
 \center
 \begin{tabular}{ccccc}\\
 \hline
-Layer & Atom & \multicolumn{3}{c}{Position [\AA]} \\
+\quad Layer \quad & \quad Atom \qquad & \multicolumn{3}{c}{Position [\AA]} \\
 \cline{3-5}
-No. & type & $x$ & $y$ & $z$  \\
+\quad No.   \quad & \quad type \qquad & $x$ & $y$ & $z$  \\
 \hline
 1 & H &  -0.61516 &  -1.42140 & \ 1.47237 \\
 2 & C &  -0.61516 &  -1.73300 & \ 0.39631 \\
@@ -281,9 +282,9 @@ the corresponding number of layer.}
 \center
 \begin{tabular}{ccccc}\\
 \hline
-Layer & Atom & \multicolumn{3}{c}{Position [\AA]} \\
+\quad Layer \quad & \quad Atom \qquad & \multicolumn{3}{c}{Position [\AA]} \\
 \cline{3-5}
-No. & type & $x$ & $y$ & $z$  \\
+\quad No.   \quad & \quad type \qquad & $x$ & $y$ & $z$  \\
 \hline
 1 & H & -0.61516 & -1.77416 &  0.73196 \\
 1 & H &  0.61518 &  0.35514 &  0.73175 \\
@@ -362,8 +363,61 @@ layer divisions and atom positions for the unit cells are shown in Tables
     \label{fig:vab-str-comp}
 \end{figure}
 
-In figure \ref{fig:vab-str-comp}
-
+In figure \ref{fig:vab-str-comp} we present a comparison of the most intense
+responses resulting from evaluate the Eq. \eqref{eq:vab} for the \emph{alt} and
+\emph{up} 2D structures vs. CdSe and GaAs bulk structures. As we can see from
+this figure the most intense response corresponds to the \emph{up} structure
+centered at 0.088\,eV corresponding to the terahertz radiation and reaching a
+spin velocity of 87.16\,Km/s.
+% 
+In the other hand, for an energy range from 0.66\,eV to 3.0\,eV all the
+four structures have contributions in the same order of magnitude. 
+% 
+Starting with the 2D structures we have that the \emph{up} structure has other
+two peaks centered at 1.94\,eV and 1.97\,eV reaching spin velocities of
+22.2\,Km/s and -29.7\,Km/s, respectively, and the \emph{alt} structure has two
+peaks centered at 0.72\,eV and 0.91\,eV reaching spin velocities of -40.2\,Km/s
+and -32.9\,Km/s, respectively.
+% 
+Then, for the bulk structures we have that the CdSe has only one intense
+response centered at 0.91\,eV reaching a spin velocity of -26.9\,Km/s, and the
+GaAs structure has a large and almost planar zone where the response is hold
+reaching the maximum for an incoming beam of energy of 2.31\,eV and reaching a
+spin velocity of -21.6\,Km/s.
+% 
+In table \ref{tab:vab-str-comp} we present the comparison of this values for the 2D and bulk structures.
+% 
+\begin{table}[t]
+\begin{tabular}{cccccc}
+\hline
+\hline
+Kind of  & 
+\multirow{2}{*}{\quad Structure \quad} & 
+Pol. &
+Energy & 
+\multicolumn{2}{c}{$\mathcal{V}^{\mathrm{ab}}(\omega)$}\\
+\cline{5-6}
+system & & Ang. & [eV] & $\mathrm{ab}$ \quad & [Km/s]\\
+\hline
+\hline
+2D   & \emph{up}    & 40    & 0.09  & $\mathrm{yz}$ &  87.16    \\
+     &              &       & 1.94  & $\mathrm{yz}$ &  22.22    \\
+     &              &       & 1.97  & $\mathrm{yz}$ & -29.70    \\
+\hline
+2D   & \emph{alt}   & 145   & 0.72  & $\mathrm{yz}$ & -40.21    \\
+     &              &       & 0.91  & $\mathrm{yz}$ & -32.89    \\
+\hline
+bulk &  CdSe        & 90    & 0.91  & $\mathrm{zz}$ & -26.87    \\
+\hline
+bulk &  GaAs        & 90    & 2.31  & $\mathrm{xx}$ & -21.62    \\
+\hline
+\hline
+\end{tabular}
+\caption{Comparison of the reported maxima values of $\mathcal{V}^{\mathrm{ab}}$
+for different structures and the corresponding polarization angles and energy
+values.}
+\label{tab:vab-str-comp}
+\end{table}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

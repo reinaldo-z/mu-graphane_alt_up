@@ -5,16 +5,14 @@ set colors classic
 set xlabel '{\Large Photon Energy [eV]}'
 set zeroaxis lw 1.5
 set ytics nomirror
-set ytics 
-
-
+set xtics nomirror
 
 pf=29.98        # prefactor
 sl=299792.458   # speed of light
 f=pf*sl
 
 set xrange [0.0:3.0]
-
+set yrange [-45:90]
 
 set key at graph 0.98, 0.95
 
