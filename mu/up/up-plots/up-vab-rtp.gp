@@ -109,6 +109,10 @@ set key at graph -0.1, 0.75 center
 unset xlabel
 unset xtics
 
+set arrow 1 from 0.065, 18 to 0.040, 18 ls 1
+set arrow 2 from second 0.140, 155 to second 0.155, 155 ls 2
+set arrow 3 from second 0.130, 230 to second 0.155, 230 ls 3
+
 set ylabel '{\Large $|\cal{V}^{\mathrm{x}}|$ @ 40$^{\circ}$ [Km/s]}'
 set yrange [0:60]
 set ytics  10
@@ -127,6 +131,10 @@ p   '../up-res-0-4-2001pts/vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_0
 unset label 1
 unset y2label
 unset y2tics
+
+unset arrow 1
+unset arrow 2
+unset arrow 3
 
 set key at graph -0.09, 0.80 center
 
@@ -168,6 +176,10 @@ set key at graph -0.1, 0.75 center
 unset xlabel
 unset xtics
 
+set arrow 1 from 0.060, 18 to 0.035, 18 ls 1
+set arrow 2 from second 0.123,  90 to second 0.143,  90 ls 2
+set arrow 3 from second 0.123, 225 to second 0.143, 225 ls 3
+
 set ylabel '{\Large $|\cal{V}^{\mathrm{y}}|$ @ 40$^{\circ}$ [Km/s]}'
 set yrange [0:90]
 set ytics  15
@@ -186,6 +198,10 @@ p   '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_0
 unset label 1
 unset y2label
 unset y2tics
+
+unset arrow 1
+unset arrow 2
+unset arrow 3
 
 set key at graph -0.09, 0.80 center
 
@@ -230,6 +246,11 @@ set key at graph -0.11, 0.60
 unset xlabel
 unset xtics
 
+set arrow 1 from 1.880, 3 to 1.825, 3 ls 1
+set arrow 2 from second 2.06, 165 to second 2.09, 165 ls 2
+set arrow 3 from second 2.06, 275 to second 2.09, 275 ls 3
+
+
 set ylabel '{\Large $|\cal{V}^{\mathrm{x}}|$ @ 40$^{\circ}$ [Km/s]}'
 set yrange [0:10]
 set ytics  2
@@ -248,6 +269,10 @@ p   '../up-res-0-4-2001pts/vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_0
 unset label 1
 unset y2tics
 unset y2label
+
+unset arrow 1
+unset arrow 2
+unset arrow 3
 
 set key at graph -0.09, 0.20 center
 
@@ -288,6 +313,10 @@ set key at graph -0.11, 0.60 center
 unset xlabel
 unset xtics
 
+set arrow 1 from 1.90, 15 to 1.85, 15 ls 1
+set arrow 2 from second 2.06, 145 to second 2.09, 145 ls 2
+set arrow 3 from second 2.06, 275 to second 2.09, 275 ls 3
+
 set ylabel '{\Large $|\cal{V}^{\mathrm{y}}|$ @ 40$^{\circ}$ [Km/s]}'
 set yrange [0:50]
 set ytics 10
@@ -306,6 +335,10 @@ p   '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_0
 unset label 1
 unset y2tics
 unset y2label
+
+unset arrow 1
+unset arrow 2
+unset arrow 3
 
 set key at graph -0.09, 0.20 center
 

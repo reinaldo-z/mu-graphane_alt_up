@@ -72,6 +72,10 @@ set key at graph 0.24, 0.95
 unset xlabel
 unset xtics
 
+set arrow 1 from 0.69, 9 to 0.63, 9 ls 1
+set arrow 2 from second 0.960, 100 to second 1.03, 100 ls 2
+set arrow 3 from second 0.960, 235 to second 1.03, 235 ls 3
+
 set ylabel '{\Large $|\mathcal{V}^{\mathrm{x}}|$ @ 145$^{\circ}$ [Km/s]}'
 set yrange [0:32]
 set ytics  4
@@ -90,6 +94,10 @@ p   '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_
 unset label 1
 unset y2tics
 unset y2label
+
+unset arrow 1
+unset arrow 2
+unset arrow 3
 
 set key at graph -0.09, 0.2 center
 
@@ -111,7 +119,7 @@ unset multiplot
 
 #########################
 
-set xrange [0.60:1.0]
+set xrange [0.60:1.05]
 
 set size 1.0,1.5
 set output "alt-vyb-rtp-m.mp"
@@ -127,6 +135,10 @@ set key at graph -0.10, 0.85
 
 unset xlabel
 unset xtics
+
+set arrow 1 from 0.69, 9 to 0.63, 9 ls 1
+set arrow 2 from second 0.956, 100 to second 1.03, 100 ls 2
+set arrow 3 from second 0.985, 235 to second 1.03, 235 ls 3
 
 set ylabel '{\Large $|\mathcal{V}^{\mathrm{y}}|$ @ 145$^{\circ}$ [Km/s]}'
 set yrange [0:55]
@@ -146,8 +158,12 @@ p   '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_
 unset label 1
 unset y2tics
 unset y2label
-set key at graph -0.09, 0.20
 
+unset arrow 1
+unset arrow 2
+unset arrow 3
+
+set key at graph -0.09, 0.20
 set xtics nomirror
 set xlabel '{\Large Photon Energy [eV]}'
 
