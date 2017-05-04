@@ -3,7 +3,7 @@ set terminal mp color dashed latex 11
 set colors classic
 
 set zeroaxis lw 1.5
-set xlabel '{\Large Photon Energy (eV)}'
+set xlabel '{\Large Photon Energy [eV]}'
 set xrange [0.5:3.0]
 set xtics nomirror
 set ytics nomirror

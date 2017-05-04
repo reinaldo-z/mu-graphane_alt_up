@@ -1,6 +1,13 @@
-DESCRIPTIONS
+                           D E S C R I P T I O N S
+
+Fixing Spin:
+
+
+
+########
 
 Fixing Velocity:
+
 3D:  Energy range of plot, evaluation of Eq & structure.
      Onset and gap.
      Range of energy
@@ -16,5 +23,9 @@ RTP: Decomposition of response in components.
      Going to zero.
      
      Comparison of V^x and V^y maxima.
+
+########
      
-LAY: Layer comparisson contribution.
+LAY: 
+
+Layer comparisson contribution.
