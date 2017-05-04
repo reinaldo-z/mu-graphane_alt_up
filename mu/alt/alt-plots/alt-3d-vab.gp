@@ -3,7 +3,7 @@ set terminal mp color dashed latex 11
 set colors classic
 set ticslevel 0
 
-set xlabel '{\Large Photon Energy (eV)}'
+set xlabel '{\large Photon Energy (eV)}'
 set ytics nomirror
 
 unset key
@@ -33,9 +33,9 @@ set pm3d implicit at s
 set cbrange [-1:32]
 set cbtics 0,8,32
 
-set ylabel 'Polarization angle $\alpha$ [deg.]'  rotate parallel offset 1.3,-1.0, 0.0
-set xlabel 'Photon Energy [eV]'                  rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '$|\mathcal{V}^{\mathrm{x}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
+set ylabel '{\large Polarization angle $\alpha$ [deg.]}'  rotate parallel offset 1.3,-1.0, 0.0
+set xlabel '{\large Photon Energy [eV]}'                  rotate parallel offset 0.0,-1.5, 0.0
+set zlabel '{\large $|\mathcal{V}^{\mathrm{x}}|$ [Km/s]}' rotate parallel offset 1.0, 0.0, 0.0 
 set output "alt-3d-vxb.mp"
 sp  '../alt-res-0-4-2001pts/magv.sm_0.03_xb_14452_65-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:3:($2*f) w l lw 0.6 lt 8
 
@@ -54,9 +54,9 @@ set pm3d implicit at s
 set cbrange [-2:50]
 set cbtics 0, 10, 50
 
-set ylabel 'Polarization angle $\alpha$ [deg.]'  rotate parallel offset 1.3,-1.0, 0.0
-set xlabel 'Photon Energy [eV]'                  rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '$|\mathcal{V}^{\mathrm{y}}|$ [Km/s]' rotate parallel offset 1.0, 0.0, 0.0 
+set ylabel '{\large Polarization angle $\alpha$ [deg.]}'  rotate parallel offset 1.3,-1.0, 0.0
+set xlabel '{\large Photon Energy [eV]}'                  rotate parallel offset 0.0,-1.5, 0.0
+set zlabel '{\large $|\mathcal{V}^{\mathrm{y}}|$ [Km/s]}' rotate parallel offset 1.0, 0.0, 0.0 
 set output "alt-3d-vyb.mp"
 sp  '../alt-res-0-4-2001pts/magv.sm_0.03_yb_14452_65-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:3:($2*f) w l lw 0.65 lt 8
 

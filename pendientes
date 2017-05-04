@@ -71,9 +71,8 @@ Intro:
     Centrosimetría
 
 Res:
-    Secciones: fix spin, fix vel, layer.
+    /Secciones: fix spin, fix vel, layer.
     Fix spin: mostrar sólo |V_{s^z}| y mencionar las otras dos.
-
 
     Énfasis en pseudopotenciales con spin
     Comenzar fijando spin.
