@@ -59,10 +59,10 @@ graficas rtp: tener presentes los máximos de r para poder comentar comportamien
     2/may/2017
 
 Figs:
-    Escala derecha del color de la línea.
-    Fix spin: 
-        quitar lineas
-        flecha de correspondencia colineal/perpendicular a velocidad
+    \Escala derecha del color de la línea.
+    \Fix spin: 
+        \quitar lineas
+        \flecha de correspondencia colineal/perpendicular a velocidad
 
 
 Intro:
@@ -71,25 +71,26 @@ Intro:
     Centrosimetría
 
 Res:
-    /Secciones: fix spin, fix vel, layer.
+    \Secciones: fix spin, fix vel, layer.
     Fix spin: mostrar sólo |V_{s^z}| y mencionar las otras dos.
 
     Énfasis en pseudopotenciales con spin
-    Comenzar fijando spin.
+    \Comenzar fijando spin.
     Checar etiquetas de figuras sean consistentes.
 
-    Comenzar comparando con bultos.
-    Comenzar con up.
+    \Comenzar comparando con bultos.
+    \Comenzar con up.
     No ser repetitivo.
     Rango de energías para los cuales los angs tp son ctes.
     Ángulos sin decimales.
-    Revisar artivulos sipe para significado de negativos -V^{ab}.
+    Revisar artículos de Sipe para significado de negativos -V^{ab}.
     No poner valor numérico de cada componente salvo la más importante;
         sólo comparar y dar valor de |V^{ab}|.
 
     Alt: solo resultados importantes.
 
-    Layers por searado: mencionar no centrosimetría
+    \Layers por searado
+        mencionar no centrosimetría
 
 
 ################################################################################

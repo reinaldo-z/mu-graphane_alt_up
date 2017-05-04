@@ -1,7 +1,5 @@
 \documentclass[prb,11pt,tightenlines,twocolumn,aps]{revtex4-1}
 
-% preamble:
-
 \usepackage{amsmath}    % need for subequations
 \usepackage{graphicx}   % need for figures
 \usepackage{verbatim}   % useful for program listings
@@ -90,6 +88,7 @@ Oshawa, ON, L1H 7L7, Canada}
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Spin velocity %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+{\color{red}
 \subsection{Pure spin velocity} % (fold)
 \label{sec:theory-pure_spin_current}
 
@@ -123,6 +122,7 @@ Now we define the spin velocity, $\mathcal{V}^{\mathrm{ab}}$ as the speed at
 which the spin polarized in the $\mathrm{b}$   direction moves along the
 $\mathrm{a}$ direction when a normal incident beam reaches the $xy$ plane with a
 polarization angle $\alpha$. Then,
+} % COLOR RED END
 \begin{widetext}
 \begin{align}
 \mathcal{V}^{\mathrm{ab}} (\omega) 
@@ -220,6 +220,12 @@ and the corresponding polar and azimuthal angles $\theta$ and $\varphi$ as
 \label{eq:azimuthal-ang} 
 \end{align}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Layer by layer %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{\color{red}
 \subsection{Layer-by-layer analysis.}\label{sec:theory-layer}
 
 For a layered system we have that the total contribution of Eqns. 
@@ -241,7 +247,7 @@ For a layered system we have that the total contribution of Eqns.
 \label{eq:vv-layer}
 \end{align}
 
-
+} % COLOR RED END
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -347,7 +353,8 @@ layer divisions and atom positions for the unit cells are shown in Tables
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Results: Spin velocity %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+{\color{red}
+    
 \subsection{Spin velocity} % (fold)
 \label{sec:res-pure_spin_current_and_spin_velocity}
 
@@ -387,6 +394,7 @@ spin velocity of -21.6\,Km/s.
 In table \ref{tab:vab-str-comp} we present the comparison of this values for the 2D and bulk structures.
 % 
 \begin{table}[t]
+
 \begin{tabular}{cccccc}
 \hline
 \multirow{2}{*}{Structure \quad} & 
@@ -406,13 +414,12 @@ Energy &
  GaAs        & bulk & 90    & 2.31  & $\mathrm{xx}$ & -21.62    \\
 \hline
 \end{tabular}
-\caption{Comparison of the reported maxima values of $\mathcal{V}^{\mathrm{ab}}$
+\caption{\color{red} Comparison of the reported maxima values of $\mathcal{V}^{\mathrm{ab}}$
 for different structures and the corresponding polarization angle $\alpha$ and
 energy values.}
 \label{tab:vab-str-comp}
 \end{table}
-
-
+} % COLOR RED END
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Results: Fixing spin %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -420,10 +427,99 @@ energy values.}
 \subsection{Fixing spin} % (fold)
 \label{sec:res-fixspin}
 
+\blindtext
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixing spin Up  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\blindtext
+\begin{figure}[t]
+    \centering
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ for \emph{up} structure 
+    \label{fig:up-3d-vsx-1}]
+    {\includegraphics[width=\linewidth]{upplots/up-3d-svax-1}}
+    \\
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{up} structure 
+    \label{fig:up-3d-vsy-1}]
+    {\includegraphics[width=\linewidth]{upplots/up-3d-svay-1}}
+    \\
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ for \emph{up} structure 
+    \label{fig:up-3d-vsz-1}]
+    {\includegraphics[width=\linewidth]{upplots/up-3d-svaz-1}}
+    
+    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$,
+    $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$, and
+    $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ responses for the \emph{up}
+    structure.}
+    \label{fig:up-3d-vsb-1}
+\end{figure}
+
+
+\begin{figure}[t]
+    \centering
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ for \emph{up} structure 
+    \label{fig:up-3d-vsx-1}]
+    {\includegraphics[width=\linewidth]{upplots/up-3d-svax-2}}
+    \\
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{up} structure 
+    \label{fig:up-3d-vsy-1}]
+    {\includegraphics[width=\linewidth]{upplots/up-3d-svay-2}}
+    \\
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{up} structure 
+    \label{fig:up-3d-vsy-1}]
+    {\includegraphics[width=\linewidth]{upplots/up-3d-svaz-2}}
+
+    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$,
+    $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$, and
+    $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ responses for the \emph{up}
+    structure.}
+    \label{fig:up-3d-vsb-1}
+\end{figure}
+
+\begin{figure}[t]
+    \centering
+    \subfigure[\ \label{fig:up-vaz-rag-1}]
+    {\includegraphics[width=\linewidth]{upplots/up-vaz-rag-1}}
+    \\
+    \subfigure[\ \label{fig:up-vaz-rag-2}]
+    {\includegraphics[width=\linewidth]{upplots/up-vaz-rag-2}}
+
+    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ response for the
+    \emph{up} structure.}
+    \label{fig:up-vaz-rag}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixing spin Alt  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[t]
+    \centering
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ for \emph{alt} structure 
+    \label{fig:alt-3d-vsx}]
+    {\includegraphics[width=\linewidth]{altplots/alt-3d-svax}}
+    \\
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{alt} structure 
+    \label{fig:alt-3d-vsy}]
+    {\includegraphics[width=\linewidth]{altplots/alt-3d-svay}}
+    \\
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ for \emph{alt} structure 
+    \label{fig:alt-3d-vsz}]
+    {\includegraphics[width=\linewidth]{altplots/alt-3d-svaz}}
+
+
+    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$,
+    $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$, and
+    $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ responses for \emph{alt} structure. }
+    \label{fig:alt-3d-vsb}
+\end{figure}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\linewidth]{altplots/alt-vaz-rag}
+    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ response for the
+    \emph{alt} structure.}
+    \label{fig:figure1}
+\end{figure}
+
 \blindtext
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -449,17 +545,17 @@ energy values.}
 \begin{figure}[t]
     \centering
     \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vx-1}]
+    \label{fig:up-3d-vvx-1}]
     {\includegraphics[width=\linewidth]{upplots/up-3d-vxb-1}}
     \\
     \subfigure[\ $|\mathcal{V}^{\mathrm{y}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vy-1}]
+    \label{fig:up-3d-vvy-1}]
     {\includegraphics[width=\linewidth]{upplots/up-3d-vyb-1}}
     \caption{$|\mathcal{V}^{\mathrm{x}}|$ response for C$_{16}$H$_{8}$-up
     structure. The maximum response zone is localized for an energy range from
     0.04\,eV to 0.12\,eV and for a polarization angle of the
     incoming beam from 25$^{\circ}$ to 50$^{\circ}$.}
-    \label{fig:up-3d-1}
+    \label{fig:up-3d-vva-1}
 \end{figure}
 \begin{figure}[t]
     \centering
@@ -477,7 +573,7 @@ energy values.}
 
 For the \emph{up} structure we first analyzed the energy range from 0.00\,eV to
 0.16\,eV where we found the most intense response for $\mathcal{V}^{\mathrm{x}}$
-and $|\mathcal{V}^{\mathrm{y}}|$. In Fig. \ref{fig:up-3d-1} we present the
+and $|\mathcal{V}^{\mathrm{y}}|$. In Fig. \ref{fig:up-3d-vva-1} we present the
 $\mathcal{V}^{\mathrm{a}}$ spectra resulting from evaluate again Eq. 
 \eqref{eq:vv-mag} using different polarization angles $\alpha$ in Eq.  
 \eqref{eq:vab} but now for the C$_{16}$H$_{8}$-up structure. We can see that the
@@ -511,17 +607,17 @@ components with $\alpha$ fixed to $40^{\circ}$.
 \begin{figure}[t]
     \centering
     \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vx-2}]
+    \label{fig:up-3d-vvx-2}]
     {\includegraphics[width=\linewidth]{upplots/up-3d-vxb-2}}
     \\
     \subfigure[\ $|\mathcal{V}^{\mathrm{y}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vy-2}]
+    \label{fig:up-3d-vvy-2}]
     {\includegraphics[width=\linewidth]{upplots/up-3d-vyb-2}}
     \caption{$|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$
     response for C$_{16}$H$_{8}$-up structure. The local maxima responses zones
     are localized for an energy range from 1.95\,eV to 2.00\,eV and for
     polarization angles of the incoming beam from 25$^{\circ}$ to 50$^{\circ}$.}
-    \label{fig:up-3d-2}
+    \label{fig:up-3d-vva-2}
 \end{figure}
 
 \begin{figure}[t]
@@ -590,7 +686,7 @@ goes to zero.
 % %% up-3d-vab.gp
 % %%%%%%%%%%%%%%%%%
 Also there is another energy range of interest for an incoming energy beam from
-1.80\,eV to 2.10\,eV presented in Fig. \ref{fig:up-3d-2} where two local maxima
+1.80\,eV to 2.10\,eV presented in Fig. \ref{fig:up-3d-vva-2} where two local maxima
 of $|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$ are obtained
 for the \emph{up} structure resulting from evaluate Eqns. \eqref{eq:vv-mag} and
 \eqref{eq:vab}.
@@ -679,17 +775,17 @@ responses goes to zero.
 \begin{figure}[tb]
     \centering
     \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ for \emph{alt} structure 
-    \label{fig:alt-3d-vx}]
+    \label{fig:alt-3d-vvx}]
     {\includegraphics[width=\linewidth]{altplots/alt-3d-vxb}}
     \\
     \subfigure[\ $|\mathcal{V}^{\mathrm{y}}|$ for \emph{alt} structure 
-    \label{fig:alt-3d-vy}]
+    \label{fig:alt-3d-vvy}]
     {\includegraphics[width=\linewidth]{altplots/alt-3d-vyb}}
     \caption{$|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$
     responses for C$_{16}$H$_{8}$-alt structure. The maxima responses zones are
     localized for an energy range from 0.90\,eV to 0.93\,eV and for polarization
     angles of the incoming beam from 120$^{\circ}$ to 150$^{\circ}$.}
-    \label{fig:alt-3d}
+    \label{fig:alt-3d-vva}
 \end{figure}
 
 \begin{figure}[tb]
@@ -709,7 +805,7 @@ responses goes to zero.
 For the \emph{alt} structure we analyzed the energy range from 0.6\,eV to
 1.0\,eV where we found the most intense response for 
 $|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{a}}|$. In Fig. 
-\ref{fig:alt-3d} we present the $|\mathcal{V}^{\mathrm{a}}|$ spectra resulting 
+\ref{fig:alt-3d-vva} we present the $|\mathcal{V}^{\mathrm{a}}|$ spectra resulting 
 from evaluate Eq. \eqref{eq:vv-mag} using different polarization angles $\alpha$
 in Eq. \eqref{eq:vab} for the C$_{16}$H$_{8}$-alt structure. We can see that the
 onset of the response is when the energy of the incoming light is the same of
