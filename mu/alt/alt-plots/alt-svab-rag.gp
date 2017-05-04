@@ -54,10 +54,15 @@ set y2range [97.5:100.5]
 set y2tics  97.5, 0.5, 100.5
 set format y2 "%6.1f"
 
+set arrow 1 from 20, 12 to 5, 12 ls 1
+set arrow 2 from second 154, 100.1 to second 175, 100.1 ls 2
+set arrow 3 from second X1, Y1 to second X1, 99.10 ls 3
+set arrow 4 from second X2, Y2 to second X2, 99.25 ls 5
+
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:($2*f) w l axis x1y1 lw 1.5 dt 1 lt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{x}}}|$' ,\
-    '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:6      w l axis x1y2 lw 2.5 dt 2 lt 2 t '$\gamma$' ,\
+    '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:6      w l axis x1y2 lw 2.5 dt 2 lt 2 t '$\gamma_{x}$' ,\
     '' u (X1):(Y1):(tol) with errorbars axis x1y2 lw 1.5 lt 3 t "" ,\
     '' u (X2):(Y2):(tol) with errorbars axis x1y2 lw 1.5 lt 5 t "" ,\
     # '../../aux-ang' u 1:1 w l axis x1y2 lw 1 dt 1 lt 4 t "" ,\
@@ -67,7 +72,7 @@ p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:($2*f) w l ax
 
 unset arrow 1
 unset label 1
-set key at graph 0.78, 0.50 center
+set key at graph 0.63, 0.50 center
 
 set xtics mirror
 set format x "%g"
@@ -81,10 +86,15 @@ set ytics  -30, 10, 10
 unset y2tics
 unset y2label
 
+unset arrow 1
+unset arrow 2
+unset arrow 3
+unset arrow 4
+
 set origin 0.0 , 1.5
 set size   1.0 , 0.5
-p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:($4*f) w l lw 2.5 dt 3 lt 3 t '$\mathrm{xx}$' ,\
-    '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:($5*f) w l lw 2.5 dt 4 lt 4 t '$\mathrm{yx}$' ,\
+p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:($4*f) w l lw 2.5 dt 3 lt 3 t '$\mathcal{V}^{\mathrm{xx}}$' ,\
+    '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:($5*f) w l lw 2.5 dt 4 lt 4 t '$\mathcal{V}^{\mathrm{yx}}$' ,\
 
 unset multiplot
 
@@ -117,17 +127,20 @@ set y2range [66:68]
 set y2tics  66, 0.5, 68
 set format y2 "%3.1f"
 
+set arrow 1 from 20, 17 to 5, 17 ls 1
+set arrow 2 from second 152, 67.3 to second 175, 67.3 ls 2
+
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 3:($2*f) w l axis x1y1 lw 1.5 dt 1 lt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{y}}}|$' ,\
-    '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 3:6      w l axis x1y2 lw 2.5 dt 2 lt 2 t '$\gamma$' ,\
+    '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 3:6      w l axis x1y2 lw 2.5 dt 2 lt 2 t '$\gamma_{y}$' ,\
     # '../../aux-ang' u 1:1 w l axis x1y2 lw 3 dt 1 lt 4 t "" ,\
     # '../../aux-ang' u 1:2 w l axis x1y2 lw 3 dt 1 lt 5 t "" ,\
     # '../../aux-ang' u 1:3 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
     # '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
-set key at graph 0.80, 0.45 
+set key at graph 0.65, 0.45 
 
 set xtics mirror
 set format x "%g"
@@ -141,10 +154,15 @@ set ytics  -32, 8, -4
 unset y2tics
 unset y2label
 
+unset arrow 1
+unset arrow 2
+unset arrow 3
+unset arrow 4
+
 set origin 0.0 , 1.5
 set size   1.0 , 0.5
-p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 3:($4*f) w l lw 2.5 dt 3 lt 3 t '$\mathrm{xy}$' ,\
-    '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 3:($5*f) w l lw 2.5 dt 4 lt 4 t '$\mathrm{yy}$' ,\
+p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 3:($4*f) w l lw 2.5 dt 3 lt 3 t '$\mathcal{V}^{\mathrm{xy}}$' ,\
+    '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 3:($5*f) w l lw 2.5 dt 4 lt 4 t '$\mathcal{V}^{\mathrm{yy}}$' ,\
 
 unset multiplot
 
@@ -184,10 +202,15 @@ set y2range [49.5:53.5]
 set y2tics  49.5, 0.5, 53.5
 set format y2 "%3.1f"
 
+set arrow 1 from 30, 17 to 10, 17 ls 1
+set arrow 2 from second 154, 49.9 to second 175, 49.9 ls 2
+set arrow 3 from second X1, Y1 to second X1, 53.2 ls 3
+set arrow 4 from second X2, Y2 to second X2, 50.0 ls 5
+
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:($2*f) w l axis x1y1 lw 1.5 dt 1 lt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{z}}}|$' ,\
-    '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:6      w l axis x1y2 lw 2.5 dt 2 lt 2 t '$\gamma$' ,\
+    '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:6      w l axis x1y2 lw 2.5 dt 2 lt 2 t '$\gamma_{z}$' ,\
     '' u (X1):(Y1):(tol) with errorbars axis x1y2 lw 1.5 lt 3 t "" ,\
     '' u (X2):(Y2):(tol) with errorbars axis x1y2 lw 1.5 lt 5 t "" ,\
     # '../../aux-ang' u 1:1 w l axis x1y2 lw 3 dt 1 lt 4 t "" ,\
@@ -196,7 +219,7 @@ p   '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:($2*f) w l ax
     # '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
-set key at graph 0.80, 0.65 
+set key at graph 0.65 , 0.65 
 
 set xtics mirror
 set format x "%g"
@@ -210,10 +233,15 @@ set ytics  -35, 5, -5
 unset y2tics
 unset y2label
 
+unset arrow 1
+unset arrow 2
+unset arrow 3
+unset arrow 4
+
 set origin 0.0 , 1.5
 set size   1.0 , 0.5
-p   '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:($4*f) w l lw 2.5 dt 3 lt 3 t '$\mathrm{xz}$' ,\
-    '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:($5*f) w l lw 2.5 dt 4 lt 4 t '$\mathrm{yz}$' ,\
+p   '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:($4*f) w l lw 2.5 dt 3 lt 3 t '$\mathcal{V}^{\mathrm{xz}}$' ,\
+    '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:($5*f) w l lw 2.5 dt 4 lt 4 t '$\mathcal{V}^{\mathrm{yz}}$' ,\
 
 unset multiplot
 
