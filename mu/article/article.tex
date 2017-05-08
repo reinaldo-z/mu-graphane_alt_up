@@ -365,6 +365,33 @@ respectively for the \emph{alt} and \emph{up} structures.
 \subsection{Spin velocity} % (fold)
 \label{sec:res-spin_velocity}
 
+\begin{table}[b]
+\begin{tabular}{cccccc}
+\hline
+\multirow{2}{*}{Structure \quad} & 
+Kind of \quad & 
+Pol. &
+Energy & 
+\multicolumn{2}{c}{$\mathcal{V}^{\mathrm{ab}}(\omega)$}\\
+\cline{5-6}
+& system & Ang. & [eV] & $\mathrm{ab}$ \quad & [Km/s]\\
+\hline
+\emph{up}    & 2D   & 40    & 0.09  & $\mathrm{yz}$ &  87.16    \\
+             &      &       & 1.94  & $\mathrm{yz}$ &  22.22    \\
+             &      &       & 1.97  & $\mathrm{yz}$ & -29.70    \\
+\emph{alt}   & 2D   & 145   & 0.72  & $\mathrm{yz}$ & -40.21    \\
+             &      &       & 0.91  & $\mathrm{yz}$ & -32.89    \\
+ CdSe        & bulk & 90    & 0.91  & $\mathrm{zz}$ & -26.87    \\
+ GaAs        & bulk & 90    & 2.31  & $\mathrm{xx}$ & -21.62    \\
+\hline
+\end{tabular}
+
+\caption{\color{red} Comparison of the reported maxima values of
+$\mathcal{V}^{\mathrm{ab}}$ for different structures and the corresponding
+polarization angle $\alpha$ and energy values.}
+\label{tab:vab-str-comp}
+\end{table}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%% Res: mu & V^{ab} comparison %%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[t]
@@ -402,32 +429,6 @@ spin velocity of -21.6\,Km/s.
 In table \ref{tab:vab-str-comp} we present the comparison of this values for the
 2D and bulk structures.
 % 
-\begin{table}[t]
-\begin{tabular}{cccccc}
-\hline
-\multirow{2}{*}{Structure \quad} & 
-Kind of \quad & 
-Pol. &
-Energy & 
-\multicolumn{2}{c}{$\mathcal{V}^{\mathrm{ab}}(\omega)$}\\
-\cline{5-6}
-& system & Ang. & [eV] & $\mathrm{ab}$ \quad & [Km/s]\\
-\hline
-\emph{up}    & 2D   & 40    & 0.09  & $\mathrm{yz}$ &  87.16    \\
-             &      &       & 1.94  & $\mathrm{yz}$ &  22.22    \\
-             &      &       & 1.97  & $\mathrm{yz}$ & -29.70    \\
-\emph{alt}   & 2D   & 145   & 0.72  & $\mathrm{yz}$ & -40.21    \\
-             &      &       & 0.91  & $\mathrm{yz}$ & -32.89    \\
- CdSe        & bulk & 90    & 0.91  & $\mathrm{zz}$ & -26.87    \\
- GaAs        & bulk & 90    & 2.31  & $\mathrm{xx}$ & -21.62    \\
-\hline
-\end{tabular}
-
-\caption{\color{red} Comparison of the reported maxima values of
-$\mathcal{V}^{\mathrm{ab}}$ for different structures and the corresponding
-polarization angle $\alpha$ and energy values.}
-\label{tab:vab-str-comp}
-\end{table}
 } % COLOR RED END
 
 
@@ -436,13 +437,12 @@ polarization angle $\alpha$ and energy values.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-% \subsection{Fixing spin} % (fold)
-% \label{sec:res-fixspin}
+\subsection{Fixing spin} % (fold)
+\label{sec:res-fixspin}
 
-% \blindtext
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixing spin Up  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixing spin Up  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % \begin{figure}[t]
 %     \centering
@@ -487,21 +487,64 @@ polarization angle $\alpha$ and energy values.}
 %     \label{fig:up-3d-vsb-2}
 % \end{figure}
 
-% \begin{figure}[t]
-%     \centering
-%     \subfigure[\, \label{fig:up-vaz-rag-1}]
-%     {\includegraphics[width=\linewidth]{upplots/up-vaz-rag-1}}
-%     \\
-%     \subfigure[\, \label{fig:up-vaz-rag-2}]
-%     {\includegraphics[width=\linewidth]{upplots/up-vaz-rag-2}}
+\begin{figure}[t]
+    \centering
+    \subfigure[\ \label{fig:up-3d-vsz-1}]
+    {\includegraphics[width=\linewidth]{upplots/up-3d-svaz-1}}
+    \\
+    \subfigure[\ \label{fig:up-3d-vsz-2}]
+    {\includegraphics[width=\linewidth]{upplots/up-3d-svaz-2}}
 
-%     \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ response for the
-%     \emph{up} structure.}
-%     \label{fig:up-vaz-rag}
-% \end{figure}
+    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)$, response
+    vs. photon energy vs. polarization angle $\alpha$ for the \emph{up}
+    structure for two energy ranges. The absolute maxima is located for an
+    energy range from 0.08\,eV to 0.10\,eV and the local maximum from 1.95\,eV
+    to 2.0\,eV and both for polarization angles between $25^{\circ}$ and
+    $50^{\circ}$.}
+    \label{fig:up-3d-vsz}
+\end{figure}
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixing spin Alt  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[t]
+    \centering
+    \subfigure[\, \label{fig:up-vaz-rag-1}]
+    {\includegraphics[width=\linewidth]{upplots/up-vaz-rag-1}}
+    \\
+    \subfigure[\, \label{fig:up-vaz-rag-2}]
+    {\includegraphics[width=\linewidth]{upplots/up-vaz-rag-2}}
+
+    \caption{\color{red} Most intense response of
+    $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)$ (top frames, right scale of
+    figs (a) and (b)), the corresponding velocity angle
+    $\gamma_{\mathrm{z}}(\omega)$ (top frames, right scale), the collinear
+    (circled box) and perpendicular (square box) angles, and the two components
+    $\mathcal{V}^{\mathrm{xz}}(\omega)$ and $\mathcal{V}^{\mathrm{yz}}(\omega)$
+    (bottom frames) for the \emph{up} structure fixing the energy to 0.088\,eV.
+    }
+    \label{fig:up-vaz-rag}
+\end{figure}
+
+We first present two energy ranges for the \emph{up} structure, the first for an
+incoming energy beam from 0.0\,eV to 0.2\,eV where the absolute maximum of the
+$|\mathcal{V}_{\sigma^{\mathrm{x}}}|(\omega)$ response is obtained and the
+second for an energy range from 1.80\,eV to 2.1\,eV where two local maxima are
+found.
+% 
+In Fig. \ref{fig:up-3d-vsz} we present the
+$|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)$ spectra resulting from evaluate
+the Eq. \eqref{eq:vs-mag} using different polarization angles $\alpha$ in the
+Eq. \eqref{eq:vab} for the \emph{up} structure. In the figure we have that the
+onset of the response starts when the energy of the incoming beam is the same of
+the gap energy.
+% 
+From this figure we obtained that the zone where the maximum response is held
+corresponds to a energy range of the incident beam from 0.084\,eV to 0.093\,eV
+and polarization angles $\alpha$ between $30^{\circ}$ and $45^{\circ}$. Also two
+local maxima are held for same polarization angles but for an energy range of
+the incoming beam between 1.90\,eV and 2.05\,eV.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixing spin Alt  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % \begin{figure}[t]
 %     \centering
@@ -524,15 +567,31 @@ polarization angle $\alpha$ and energy values.}
 %     \label{fig:alt-3d-vsb}
 % \end{figure}
 
-% \begin{figure}[t]
-%     \centering
-%     \includegraphics[width=\linewidth]{altplots/alt-vaz-rag}
-%     \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ response for the
-%     \emph{alt} structure.}
-%     \label{fig:figure1}
-% \end{figure}
+\begin{figure}[tb]
+    \centering
+    \includegraphics[width=\linewidth]{altplots/alt-3d-svaz}
+    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)$, response
+    vs. photon energy vs. polarization angle $\alpha$ for the \emph{alt}
+    structure. The absolute maximum is located for an energy range from 0.90\,eV
+    to 0.93\,eV and for polarization angles between $120^{\circ}$ and
+    $150^{\circ}$.}
+    \label{fig:alt-3d-vsb}
+\end{figure}
 
-% \blindtext
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\linewidth]{altplots/alt-vaz-rag}
+    \caption{Most intense response of
+    $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)$ (top frame, left scale) the
+    corresponding velocity angle $\gamma_{\mathrm{z}}(\omega)$ (top frame, right
+    scale), the collinear (circled box) and perpendicular (square box) angles,
+    and the two components $\mathcal{V}^{\mathrm{xz}}(\omega)$ and
+    $\mathcal{V}^{\mathrm{yz}}(\omega)$ (bottom frame) for the \emph{alt}
+    structure fixing the energy to 0.912\,eV.}
+    \label{fig:figure1}
+\end{figure}
+
+\blindtext
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -570,7 +629,7 @@ polarization angle $\alpha$ and energy values.}
     polarization angle for the \emph{up} structure. The absolute maxima of both
     responses $|\mathcal{V}^{\mathrm{x}}|(\omega)$ and
     $|\mathcal{V}^{\mathrm{y}}|(\omega)$ are localized in the energy
-    range from 0.07\,eV to 0.10\,eV and for polarization angles from
+    range from 0.08\,eV to 0.10\,eV and for polarization angles from
     $25^{\circ}$ to $50^{\circ}$.}
     \label{fig:up-3d-vva-1}
 \end{figure}
@@ -597,9 +656,10 @@ polarization angle $\alpha$ and energy values.}
 For the \emph{up} structure we first analyzed the energy range from 0.00\,eV to
 0.16\,eV where we found the most intense response and the absolute maxima for
 $|\mathcal{V}^{\mathrm{x}}|(\omega)$ and $|\mathcal{V}^{\mathrm{y}}|(\omega)$.
+% 
 In Fig. \ref{fig:up-3d-vva-1} we present the
-$|\mathcal{V}^{\mathrm{a}}|(\omega)$ spectra resulting from evaluate Eq.
-\eqref{eq:vv-mag} using different polarization angles $\alpha$ in Eq.
+$|\mathcal{V}^{\mathrm{a}}|(\omega)$ spectra resulting from evaluate the Eq.
+\eqref{eq:vv-mag} using different polarization angles $\alpha$ in the Eq.
 \eqref{eq:vab} for the \emph{up} structure. We can see that the onset of the
 response is when the energy of the incoming light is the same of the gap energy.
 %

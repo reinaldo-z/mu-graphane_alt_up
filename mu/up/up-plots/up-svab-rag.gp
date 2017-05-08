@@ -46,7 +46,7 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ @ 0.088\,eV [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}|(\omega)$ @ 0.088\,eV [Km/s]}'
 set yrange [0:45]
 set ytics 0, 5, 45
 
@@ -79,7 +79,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 0.088\,eV [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ @ 0.088\,eV [Km/s]}'
 set yrange [-40:0]
 set ytics nomirror
 set ytics  -40, 10, -10
@@ -125,7 +125,7 @@ unset xlabel
 set xtics nomirror  
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ @ 0.088\,eV [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}|(\omega)$ @ 0.088\,eV [Km/s]}'
 set yrange [4:25]
 set ytics 5, 5, 25
 
@@ -158,7 +158,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 0.088\,eV [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ @ 0.088\,eV [Km/s]}'
 set yrange [-30:15]
 set ytics nomirror
 set ytics  -30, 10, 15
@@ -204,7 +204,7 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ @ 0.088\,eV [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)$ @ 0.088\,eV [Km/s]}'
 set yrange [18:100]
 set ytics 0, 10, 100
 
@@ -237,7 +237,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 0.088\,eV [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ @ 0.088\,eV [Km/s]}'
 set yrange [0:100]
 set ytics nomirror
 set ytics  0, 20, 90
