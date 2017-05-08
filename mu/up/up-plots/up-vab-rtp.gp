@@ -113,19 +113,19 @@ set arrow 1 from 0.065, 18 to 0.040, 18 ls 1
 set arrow 2 from second 0.140, 155 to second 0.155, 155 ls 2
 set arrow 3 from second 0.130, 230 to second 0.155, 230 ls 3
 
-set ylabel '{\Large $|\cal{V}^{\mathrm{x}}|$ @ 40$^{\circ}$ [Km/s]}'
+set ylabel '{\Large $|\cal{V}^{\mathrm{x}}|(\omega)$ @ 40$^{\circ}$ [Km/s]}'
 set yrange [0:60]
 set ytics  10
 
-set y2label '{\Large Angle [deg.]}'
+set y2label '{\Large $\theta_{\mathrm{x}}(\omega)$, $\varphi_{\mathrm{x}}(\omega)$ [deg.]}'
 set y2range [0:360]
 set y2tics 45
 
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../up-res-0-4-2001pts/vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($5*f) axis x1y1 w l lw 1.5  dt 1 t '$|\mathcal{V}^{\mathrm{x}}|$' ,\
-    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($6)   axis x1y2 w l lw 2.5  dt 2 t '$\theta$' ,\
-    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($7)   axis x1y2 w l lw 2.5  dt 3 t '$\varphi$',\
+    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($6)   axis x1y2 w l lw 2.5  dt 2 t '$\theta_{\mathrm{x}}$' ,\
+    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($7)   axis x1y2 w l lw 2.5  dt 3 t '$\gamma_{\mathrm{x}}$',\
 
 
 unset label 1
@@ -141,7 +141,7 @@ set key at graph -0.09, 0.80 center
 set xtics nomirror
 set xlabel '{\Large Photon Energy [eV]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 40$^{\circ}$ [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ @ 40$^{\circ}$ [Km/s]}'
 set yrange [-40:48]
 set ytics  20
 
@@ -180,19 +180,19 @@ set arrow 1 from 0.060, 18 to 0.035, 18 ls 1
 set arrow 2 from second 0.123,  90 to second 0.143,  90 ls 2
 set arrow 3 from second 0.123, 225 to second 0.143, 225 ls 3
 
-set ylabel '{\Large $|\cal{V}^{\mathrm{y}}|$ @ 40$^{\circ}$ [Km/s]}'
+set ylabel '{\Large $|\cal{V}^{\mathrm{y}}|(\omega)$ @ 40$^{\circ}$ [Km/s]}'
 set yrange [0:90]
 set ytics  15
 
-set y2label '{\Large Angle [deg.]}'
+set y2label '{\Large $\theta_{\mathrm{y}}(\omega)$, $\varphi_{\mathrm{y}}(\omega)$ [deg.]}'
 set y2range [0:360]
 set y2tics 45
 
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($5*f) axis x1y1 w l lw 1.5  dt 1 t '$|\mathcal{V}^{\mathrm{y}}|$' ,\
-    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($6)   axis x1y2 w l lw 2.5  dt 2 t '$\theta$' ,\
-    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($7)   axis x1y2 w l lw 2.5  dt 3 t '$\varphi$',\
+    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($6)   axis x1y2 w l lw 2.5  dt 2 t '$\theta_{\mathrm{y}}$' ,\
+    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($7)   axis x1y2 w l lw 2.5  dt 3 t '$\gamma_{\mathrm{y}}$',\
 
 
 unset label 1
@@ -208,7 +208,7 @@ set key at graph -0.09, 0.80 center
 set xtics nomirror
 set xlabel '{\Large Photon Energy [eV]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 40$^{\circ}$ [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ @ 40$^{\circ}$ [Km/s]}'
 set yrange [-15:99]
 set ytics  15
 
@@ -251,19 +251,19 @@ set arrow 2 from second 2.06, 165 to second 2.09, 165 ls 2
 set arrow 3 from second 2.06, 275 to second 2.09, 275 ls 3
 
 
-set ylabel '{\Large $|\cal{V}^{\mathrm{x}}|$ @ 40$^{\circ}$ [Km/s]}'
+set ylabel '{\Large $|\cal{V}^{\mathrm{x}}|(\omega)$ @ 40$^{\circ}$ [Km/s]}'
 set yrange [0:10]
 set ytics  2
 
-set y2label '{\Large Angle [deg.]}'
+set y2label '{\Large $\theta_{\mathrm{x}}(\omega)$, $\varphi_{\mathrm{x}}(\omega)$ [deg.]}'
 set y2range [0:360]
 set y2tics 45
 
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../up-res-0-4-2001pts/vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($5*f) axis x1y1 w l lw 1.5  dt 1 t '$|\mathcal{V}^{\mathrm{x}}|$' ,\
-    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($6)   axis x1y2 w l lw 2.5  dt 2 t '$\theta$' ,\
-    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($7)   axis x1y2 w l lw 2.5  dt 3 t '$\varphi$',\
+    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($6)   axis x1y2 w l lw 2.5  dt 2 t '$\theta_{\mathrm{x}}$' ,\
+    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($7)   axis x1y2 w l lw 2.5  dt 3 t '$\gamma_{\mathrm{x}}$',\
 
 
 unset label 1
@@ -279,7 +279,7 @@ set key at graph -0.09, 0.20 center
 set xtics nomirror
 set xlabel '{\Large Photon Energy [eV]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 40$^{\circ}$ [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ @ 40$^{\circ}$ [Km/s]}'
 set yrange [-7.0:7.5]
 set ytics 3
 
@@ -317,19 +317,19 @@ set arrow 1 from 1.90, 15 to 1.85, 15 ls 1
 set arrow 2 from second 2.06, 145 to second 2.09, 145 ls 2
 set arrow 3 from second 2.06, 275 to second 2.09, 275 ls 3
 
-set ylabel '{\Large $|\cal{V}^{\mathrm{y}}|$ @ 40$^{\circ}$ [Km/s]}'
+set ylabel '{\Large $|\cal{V}^{\mathrm{y}}|(\omega)$ @ 40$^{\circ}$ [Km/s]}'
 set yrange [0:50]
 set ytics 10
 
-set y2label '{\Large Angle [deg.]}'
+set y2label '{\Large $\theta_{\mathrm{y}}(\omega)$, $\varphi_{\mathrm{y}}(\omega)$ [deg.]}'
 set y2range [0:360]
 set y2tics 45
 
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
 p   '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($5*f) axis x1y1 w l lw 1.5  dt 1 t '$|\mathcal{V}^{\mathrm{y}}|$' ,\
-    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($6)   axis x1y2 w l lw 2.5  dt 2 t '$\theta$' ,\
-    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($7)   axis x1y2 w l lw 2.5  dt 3 t '$\varphi$',\
+    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($6)   axis x1y2 w l lw 2.5  dt 2 t '$\theta_{\mathrm{y}}$' ,\
+    '../up-res-0-4-2001pts/vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($7)   axis x1y2 w l lw 2.5  dt 3 t '$\gamma_{\mathrm{y}}$',\
 
 
 unset label 1
@@ -345,7 +345,7 @@ set key at graph -0.09, 0.20 center
 set xtics nomirror
 set xlabel '{\Large Photon Energy [eV]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 40$^{\circ}$ [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ @ 40$^{\circ}$ [Km/s]}'
 set yrange [-40:30]
 set ytics  20
 
