@@ -36,9 +36,9 @@ Oshawa, ON, L1H 7L7, Canada}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%                          %%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%  I N T R O D U C T I O N %%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%                          %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%                         %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% I N T R O D U C T I O N %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%                         %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -84,9 +84,11 @@ Oshawa, ON, L1H 7L7, Canada}
 \section{Theory} % (fold)
 \label{sec:theory}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Spin velocity %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 {\color{red}
 \subsection{Pure spin velocity} % (fold)
@@ -101,8 +103,9 @@ E^{\mathrm{c}}(\omega) E^{\mathrm{d*}}(\omega)
 \end{equation}
 where
 \begin{widetext}
-\begin{equation}
-\mu^{\mathrm{abcd}} (\omega) =
+\begin{align}
+\mu^{\mathrm{abcd}} (\omega) 
+&=
 \frac{\pi e^{2}}{\hbar^{2}} \int 
 \frac{d^{3}K}{8 \pi^{3}} \sum_{vcc'}^{'}
 \mathrm{Re} \left[ K^{\mathrm{ab}}_{cc'} ( 
@@ -112,7 +115,12 @@ r^{\mathrm{d}}_{vc'}
 r^{\mathrm{c}}_{cv } ) \right]
 \delta(\omega-\omega_{cv})
 \label{eq:mu}
-\end{equation}
+\\
+K^{\mathrm{ab}}_{mn}
+&=
+\sum_{\ell}v^{\mathrm{a}}_{nl} S^{\mathrm{b}}_{lm}
+\label{eq:velspi-matelem}
+\end{align}
 \end{widetext}
 is the corresponding spin density injection current pseudotensor. The $'$
 in the sum means that $c$ and $c'$ are quasi degenerate states and the sum only
@@ -163,6 +171,7 @@ For an angle $\alpha = \frac{\pi}{4}$ this expression can be reduced to
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Fixing spin %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
 \subsection{Fixing spin}\label{sec:theory-fixspin}
 Considering that we have 2D structures we can fix the spin direction along the
 $x$, $y$, and $z$ Cartesian coordinates and then define the magnitude of the
@@ -186,9 +195,11 @@ $\gamma_{b}$ as
 where the angle is measured in the counter-clockwise direction from the positive
 $x$ axis.
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Fixing vel %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \subsection{Fixing velocity.}\label{sec:theory-fixvel}
 
@@ -205,14 +216,14 @@ along $x$ and $y$ directions and define $|\mathcal{V}^{\mathrm{a}}|$ as
 \end{equation}
 and the corresponding polar and azimuthal angles $\theta$ and $\varphi$ as
 \begin{align}
-\theta  (\omega)
+\theta_{\mathrm{a}}  (\omega)
 =& 
 \cos^{-1} \left( \frac{\mathcal{V}^{\mathrm{az}}(\omega)}
 {|\mathcal{V}^{\mathrm{a}}(\omega)|} \right),
 & 0 \leq &\theta \leq \pi, 
 \label{eq:polar-ang}
 \\
-\varphi (\omega)
+\varphi_{\mathrm{a}} (\omega)
 =& 
 \tan^{-1} \left( \frac{\mathcal{V}^{\mathrm{ay}}(\omega)}
 {\mathcal{V}^{\mathrm{ax}}(\omega)} \right),
@@ -224,6 +235,7 @@ and the corresponding polar and azimuthal angles $\theta$ and $\varphi$ as
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Layer by layer %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 {\color{red}
 \subsection{Layer-by-layer analysis.}\label{sec:theory-layer}
@@ -276,6 +288,7 @@ For a layered system we have that the total contribution of Eqns.
 6 & H &  -0.61516 &  -0.68566 &  -1.47237 \\
 \hline
 \end{tabular}
+
 \caption{Unit cell of \emph{alt} structure. Layer division, atom types and
 positions for the \emph{alt} structure. The structure unit cell was divided in
 six layers corresponding each one to atoms in different $z$ positions. The
@@ -299,6 +312,7 @@ the corresponding number of layer.}
 2 & C &  0.61516 &  0.35763 & -0.49087 \\
 \hline
 \end{tabular}
+
 \caption{Unit cell of \emph{up} structure. Layer division, atom types and
 positions for the \emph{up} structure. The structure unit cell was divided in
 two layers corresponding to hydrogen and carbon atoms.The corresponding layer
@@ -317,55 +331,49 @@ plane for both structures, and the carbon-hydrogen bonds on the perpendicular
 $xz$ plane, as depicted in Figs.
 \ref{fig:alt-struc} and \ref{fig:up-struc}.
 
-Using the ABINIT code \cite{gonzeCPC09} we calculated the self- consistent
-ground state and the Kohn-Sham states using density functional theory in the
-local density approximation (DFT-LDA) with a planewave basis. We used
-Hartwigsen- Goedecker-Hutter (HGH) relativistic separable dual-space Gaussian
+Using the ABINIT code \cite{gonzeCPC09} we calculated the self-consistent ground
+state and the Kohn-Sham states using density functional theory in the local
+density approximation (DFT-LDA) with a planewave basis. We used Hartwigsen-
+Goedecker-Hutter (HGH) relativistic separable dual-space Gaussian
 pseudopotentials \cite{hartwigsenPRB98} including the spin-orbit interaction
-for calculating $\mathcal{V}^{\mathrm{a}}(\omega)$.
-
+\textcolor{red}{ needed to calculate $\mu^{\mathrm{abcd}}(\omega)$ (Eq.
+\eqref{eq:mu}) and $|\mathcal{V}^{\mathrm{a}}(\omega)|$ (Eq. \eqref{eq:vab}).}
+%
+{\color{red} 
+It is known that using DFT-LDA to calculate the electronic structure of
+materials predict a different band gap than the obtained experimentally. A
+correction for the band gap energy value can be calculated by other \emph{ab-
+initio} methods such as the GW approximation \cite{onidaRMP02} but this is
+outside the scope of this paper.
+} % COLOR RED END
+% 
 The convergence parameters for the calculations of our results corresponding to
 the \emph{alt} and \emph{up} structures are cutoff energies of 65\,Ha and
-40\,Ha, respectively. The energy eigenvalues and matrix elements were
-calculated using 14452 $\mathbf{k}$ points and 8452 $\mathbf{k}$ points in the
-irreducible Brillouin zone (IBZ) and present LDA energy band gaps of 0.72\,eV
-and 0.088\,eV, respectively for the \emph{alt} and \emph{up} structures. As
-mentioned in
-\cite{zapataPSB2016}, using DFT the LDA is only one method of many other that
-can be used to calculate the electronic structure of materials. Also it is
-known that all methods predict a different band gap than the obtained in the
-experiment. A correction for the band gap energy value can be calculated by
-other \emph{ab-initio} methods such as the GW approximation \cite{onidaRMP02}
-being this outside the scope of this paper.
-
-The structures presented here where divided into layers to analyze the he
-layer-by-layer contribution for $\mathcal{V}^{\mathrm{ab}}$ response. The
-\emph{alt} structure was divided in six layers corresponding the first one to
-the top hydrogen atoms, from the second to the forth to carbon atoms in
-different $z$ positions, and the sixth and last one to the bottom hydrogen
-atoms. The \emph{up} structure was divided into two layers, the first one
-comprised by the top hydrogen atoms and the second by the carbon atoms. The
-layer divisions and atom positions for the unit cells are shown in Tables
-\ref{tab:alt-unitcell} and \ref{tab:up-unitcell}.
+40\,Ha, respectively. The energy eigenvalues and matrix elements were calculated
+using 14452 $\mathbf{k}$ points and 8452 $\mathbf{k}$ points in the irreducible
+Brillouin zone (IBZ) and present LDA energy band gaps of 0.72\,eV and 0.088\,eV,
+respectively for the \emph{alt} and \emph{up} structures. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Results: Spin velocity %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
 {\color{red}
     
 \subsection{Spin velocity} % (fold)
-\label{sec:res-pure_spin_current_and_spin_velocity}
+\label{sec:res-spin_velocity}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%% Res: mu & V^{ab} comparison %%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[t]
     \centering
     \includegraphics[width=\linewidth]{plots/vab-str-comp}
-    \caption{Comparison of most intense responses for
-    $\mathcal{V}^{\mathrm{ab}}$ for \emph{alt}, \emph{up}, CdSe, and GaAs
-    structures}
+    
+    \caption{Comparison of most intense responses of $\mathcal{V}^{\mathrm{ab}}$
+    for \emph{alt}, \emph{up}, CdSe, and GaAs structures and the corresponding
+    polarization angles.}
     \label{fig:vab-str-comp}
 \end{figure}
 
@@ -387,14 +395,14 @@ and -32.9\,Km/s, respectively.
 % 
 Then, for the bulk structures we have that the CdSe has only one intense
 response centered at 0.91\,eV reaching a spin velocity of -26.9\,Km/s, and the
-GaAs structure has a large and almost planar zone where the response is hold
+GaAs structure has a large and almost planar zone where the response is held
 reaching the maximum for an incoming beam of energy of 2.31\,eV and reaching a
 spin velocity of -21.6\,Km/s.
 % 
-In table \ref{tab:vab-str-comp} we present the comparison of this values for the 2D and bulk structures.
+In table \ref{tab:vab-str-comp} we present the comparison of this values for the
+2D and bulk structures.
 % 
 \begin{table}[t]
-
 \begin{tabular}{cccccc}
 \hline
 \multirow{2}{*}{Structure \quad} & 
@@ -407,124 +415,130 @@ Energy &
 \hline
 \emph{up}    & 2D   & 40    & 0.09  & $\mathrm{yz}$ &  87.16    \\
              &      &       & 1.94  & $\mathrm{yz}$ &  22.22    \\
-             &      &       & 1.97  & $\mathrm{yz}$ & -29.70    \\ \\
+             &      &       & 1.97  & $\mathrm{yz}$ & -29.70    \\
 \emph{alt}   & 2D   & 145   & 0.72  & $\mathrm{yz}$ & -40.21    \\
-             &      &       & 0.91  & $\mathrm{yz}$ & -32.89    \\ \\
- CdSe        & bulk & 90    & 0.91  & $\mathrm{zz}$ & -26.87    \\ \\
+             &      &       & 0.91  & $\mathrm{yz}$ & -32.89    \\
+ CdSe        & bulk & 90    & 0.91  & $\mathrm{zz}$ & -26.87    \\
  GaAs        & bulk & 90    & 2.31  & $\mathrm{xx}$ & -21.62    \\
 \hline
 \end{tabular}
-\caption{\color{red} Comparison of the reported maxima values of $\mathcal{V}^{\mathrm{ab}}$
-for different structures and the corresponding polarization angle $\alpha$ and
-energy values.}
+
+\caption{\color{red} Comparison of the reported maxima values of
+$\mathcal{V}^{\mathrm{ab}}$ for different structures and the corresponding
+polarization angle $\alpha$ and energy values.}
 \label{tab:vab-str-comp}
 \end{table}
 } % COLOR RED END
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Results: Fixing spin %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Fixing spin} % (fold)
-\label{sec:res-fixspin}
 
-\blindtext
+% \subsection{Fixing spin} % (fold)
+% \label{sec:res-fixspin}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixing spin Up  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \blindtext
 
-\begin{figure}[t]
-    \centering
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vsx-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-svax-1}}
-    \\
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vsy-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-svay-1}}
-    \\
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vsz-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-svaz-1}}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixing spin Up  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \begin{figure}[t]
+%     \centering
+%     \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ for \emph{up} structure 
+%     \label{fig:up-3d-vsx-1}]
+%     {\includegraphics[width=\linewidth]{upplots/up-3d-svax-1}}
+%     \\
+%     \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{up} structure 
+%     \label{fig:up-3d-vsy-1}]
+%     {\includegraphics[width=\linewidth]{upplots/up-3d-svay-1}}
+%     \\
+%     \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ for \emph{up} structure 
+%     \label{fig:up-3d-vsz-1}]
+%     {\includegraphics[width=\linewidth]{upplots/up-3d-svaz-1}}
     
-    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$,
-    $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$, and
-    $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ responses for the \emph{up}
-    structure.}
-    \label{fig:up-3d-vsb-1}
-\end{figure}
+%     \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$,
+%     $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$, and
+%     $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ responses for the \emph{up}
+%     structure.}
+%     \label{fig:up-3d-vsb-1}
+% \end{figure}
 
 
-\begin{figure}[t]
-    \centering
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vsx-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-svax-2}}
-    \\
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vsy-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-svay-2}}
-    \\
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vsy-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-svaz-2}}
+% \begin{figure}[t]
+%     \centering
+%     \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ for \emph{up} structure 
+%     \label{fig:up-3d-vsx-2}]
+%     {\includegraphics[width=\linewidth]{upplots/up-3d-svax-2}}
+%     \\
+%     \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{up} structure 
+%     \label{fig:up-3d-vsy-2}]
+%     {\includegraphics[width=\linewidth]{upplots/up-3d-svay-2}}
+%     \\
+%     \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{up} structure 
+%     \label{fig:up-3d-vsz-2}]
+%     {\includegraphics[width=\linewidth]{upplots/up-3d-svaz-2}}
 
-    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$,
-    $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$, and
-    $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ responses for the \emph{up}
-    structure.}
-    \label{fig:up-3d-vsb-1}
-\end{figure}
+%     \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$,
+%     $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$, and
+%     $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ responses for the \emph{up}
+%     structure.}
+%     \label{fig:up-3d-vsb-2}
+% \end{figure}
 
-\begin{figure}[t]
-    \centering
-    \subfigure[\ \label{fig:up-vaz-rag-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-vaz-rag-1}}
-    \\
-    \subfigure[\ \label{fig:up-vaz-rag-2}]
-    {\includegraphics[width=\linewidth]{upplots/up-vaz-rag-2}}
+% \begin{figure}[t]
+%     \centering
+%     \subfigure[\, \label{fig:up-vaz-rag-1}]
+%     {\includegraphics[width=\linewidth]{upplots/up-vaz-rag-1}}
+%     \\
+%     \subfigure[\, \label{fig:up-vaz-rag-2}]
+%     {\includegraphics[width=\linewidth]{upplots/up-vaz-rag-2}}
 
-    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ response for the
-    \emph{up} structure.}
-    \label{fig:up-vaz-rag}
-\end{figure}
+%     \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ response for the
+%     \emph{up} structure.}
+%     \label{fig:up-vaz-rag}
+% \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixing spin Alt  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixing spin Alt  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{figure}[t]
-    \centering
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ for \emph{alt} structure 
-    \label{fig:alt-3d-vsx}]
-    {\includegraphics[width=\linewidth]{altplots/alt-3d-svax}}
-    \\
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{alt} structure 
-    \label{fig:alt-3d-vsy}]
-    {\includegraphics[width=\linewidth]{altplots/alt-3d-svay}}
-    \\
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ for \emph{alt} structure 
-    \label{fig:alt-3d-vsz}]
-    {\includegraphics[width=\linewidth]{altplots/alt-3d-svaz}}
+% \begin{figure}[t]
+%     \centering
+%     \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ for \emph{alt} structure 
+%     \label{fig:alt-3d-vsx}]
+%     {\includegraphics[width=\linewidth]{altplots/alt-3d-svax}}
+%     \\
+%     \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{alt} structure 
+%     \label{fig:alt-3d-vsy}]
+%     {\includegraphics[width=\linewidth]{altplots/alt-3d-svay}}
+%     \\
+%     \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ for \emph{alt} structure 
+%     \label{fig:alt-3d-vsz}]
+%     {\includegraphics[width=\linewidth]{altplots/alt-3d-svaz}}
 
 
-    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$,
-    $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$, and
-    $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ responses for \emph{alt} structure. }
-    \label{fig:alt-3d-vsb}
-\end{figure}
+%     \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$,
+%     $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$, and
+%     $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ responses for \emph{alt} structure. }
+%     \label{fig:alt-3d-vsb}
+% \end{figure}
 
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=\linewidth]{altplots/alt-vaz-rag}
-    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ response for the
-    \emph{alt} structure.}
-    \label{fig:figure1}
-\end{figure}
+% \begin{figure}[t]
+%     \centering
+%     \includegraphics[width=\linewidth]{altplots/alt-vaz-rag}
+%     \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ response for the
+%     \emph{alt} structure.}
+%     \label{fig:figure1}
+% \end{figure}
 
-\blindtext
+% \blindtext
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%% Results: Fixing velocity %%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \subsection{Fixing velocity} % (fold)
 \label{sec:res-fixvel}
@@ -532,8 +546,8 @@ energy values.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixin vel Up  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textbf{Up structure.}
 
+\textbf{Up structure.}
 % %%%%%%%%%%%%%%%%%
 % %% 0.0 eV - 0.16 eV
 % %% Description of UP |V^{a}| 3D
@@ -544,66 +558,79 @@ energy values.}
 % %%%%%%%%%%%%%%%%%
 \begin{figure}[t]
     \centering
-    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ for \emph{up} structure 
+    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|(\omega)$ for \emph{up} structure
     \label{fig:up-3d-vvx-1}]
     {\includegraphics[width=\linewidth]{upplots/up-3d-vxb-1}}
     \\
-    \subfigure[\ $|\mathcal{V}^{\mathrm{y}}|$ for \emph{up} structure 
+    \subfigure[\ $|\mathcal{V}^{\mathrm{y}}|(\omega)$ for \emph{up} structure
     \label{fig:up-3d-vvy-1}]
     {\includegraphics[width=\linewidth]{upplots/up-3d-vyb-1}}
-    \caption{$|\mathcal{V}^{\mathrm{x}}|$ response for C$_{16}$H$_{8}$-up
-    structure. The maximum response zone is localized for an energy range from
-    0.04\,eV to 0.12\,eV and for a polarization angle of the
-    incoming beam from 25$^{\circ}$ to 50$^{\circ}$.}
+    
+    \caption{$|\mathcal{V}^{\mathrm{a}}|(\omega)$ response vs. photon energy vs.
+    polarization angle for the \emph{up} structure. The absolute maxima of both
+    responses $|\mathcal{V}^{\mathrm{x}}|(\omega)$ and
+    $|\mathcal{V}^{\mathrm{y}}|(\omega)$ are localized in the energy
+    range from 0.07\,eV to 0.10\,eV and for polarization angles from
+    $25^{\circ}$ to $50^{\circ}$.}
     \label{fig:up-3d-vva-1}
 \end{figure}
 \begin{figure}[t]
     \centering
-    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ \label{fig:up-vx-comp-rtp-1}]
+    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|(\omega)$ 
+    \label{fig:up-vx-comp-rtp-1}]
     {\includegraphics[width=\linewidth]{upplots/up-vxb-rtp-m1}}
     \\
-    \subfigure[\ $|\mathcal{V}^{\mathrm{y}}|$ \label{fig:up-vy-comp-rtp-1}]
+    \subfigure[\ $|\mathcal{V}^{\mathrm{y}}|(\omega)$ 
+    \label{fig:up-vy-comp-rtp-1}]
     {\includegraphics[width=\linewidth]{upplots/up-vyb-rtp-m1}}
-    \caption{Most intense responses of $|\mathcal{V}^{\mathrm{x}}|$ and
-    $|\mathcal{V}^{\mathrm{y}}|$ and the corresponding three components for the
-    \emph{up} structure. Both maxima where obtained for a polarization
-    angle $\alpha=40^{\circ}$. }
+    
+    \caption{Most intense response of
+    $|\mathcal{V}^{\mathrm{x}}|(\omega)$ and
+    $|\mathcal{V}^{\mathrm{y}}|(\omega)$ (top frames left scale of Figs. (a) and
+    (b)), the corresponding polar $\varphi$ and azimuthal $\theta$ angles (top
+    frames right scale), and the corresponding three components (bottom frames)
+    for the \emph{up} structure fixing the polarization angle to
+    $\alpha=40^{\circ}$ to maximize the response.}
     \label{fig:up-vab-comp-rtp-1}
 \end{figure}
 
 For the \emph{up} structure we first analyzed the energy range from 0.00\,eV to
-0.16\,eV where we found the most intense response for $\mathcal{V}^{\mathrm{x}}$
-and $|\mathcal{V}^{\mathrm{y}}|$. In Fig. \ref{fig:up-3d-vva-1} we present the
-$\mathcal{V}^{\mathrm{a}}$ spectra resulting from evaluate again Eq. 
-\eqref{eq:vv-mag} using different polarization angles $\alpha$ in Eq.  
-\eqref{eq:vab} but now for the C$_{16}$H$_{8}$-up structure. We can see that the
-onset of the response is when the energy of the incoming light is the same of
-the gap energy.
-% 
+0.16\,eV where we found the most intense response and the absolute maxima for
+$|\mathcal{V}^{\mathrm{x}}|(\omega)$ and $|\mathcal{V}^{\mathrm{y}}|(\omega)$.
+In Fig. \ref{fig:up-3d-vva-1} we present the
+$|\mathcal{V}^{\mathrm{a}}|(\omega)$ spectra resulting from evaluate Eq.
+\eqref{eq:vv-mag} using different polarization angles $\alpha$ in Eq.
+\eqref{eq:vab} for the \emph{up} structure. We can see that the onset of the
+response is when the energy of the incoming light is the same of the gap energy.
+%
 From this picture we can see that for the zone between the energy range of
 0.084\,eV-0.093\,eV and polarization angles between $30^{\circ}$ and
-$45^{\circ}$ is the zone where the maximum zone of response for both,
-$|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$ is hold.
-% 
-We found that the absolute maximum of the response is obtained when the
-polarization angle is $\alpha=40^{\circ}$ and the energy of the incoming beam is
-0.088\,eV.
-%
+$45^{\circ}$ is the zone where the maximum response is held for both,
+$|\mathcal{V}^{\mathrm{x}}|(\omega)$ and $|\mathcal{V}^{\mathrm{y}}|(\omega)$.
+% %%%%%%%%%%%%%%%%%
+% %% 1.8 eV - 2.0 eV
+% %% Description of UP |V^{a}|, components and RTP
+% %% files: 
+% %% vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040
+% %% vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040
+% %% up-3d-vab.gp
+% %%%%%%%%%%%%%%%%%
+
 In the top frames of  Figs. \ref{fig:up-vx-comp-rtp-1} and 
 % 
-\ref{fig:up-vy-comp-rtp-1} we present the results of
-$|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$ (left scale)
-fixing the polarization angle to $\alpha=40^{\circ}$ for the \emph{up} structure
-vs photon energy and the corresponding polar $\varphi$ and azimuthal $\theta$
-angles (right scale). In the bottom frames of same figures we present the decomposition of
-$|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$ in the
-corresponding $\mathcal{V}^{\mathrm{xx}}$, 
-$\mathcal{V}^{\mathrm{xy}}$,
-$\mathcal{V}^{\mathrm{xz}}$, and
-$\mathcal{V}^{\mathrm{yx}}$, 
-$\mathcal{V}^{\mathrm{yy}}$,
-$\mathcal{V}^{\mathrm{yz}}$ 
-components with $\alpha$ fixed to $40^{\circ}$. 
+\ref{fig:up-vy-comp-rtp-1} we present in solid lines the results of
+$|\mathcal{V}^{\mathrm{x}}|(\omega)$ and $|\mathcal{V}^{\mathrm{y}}|(\omega)$,
+related to the left scale, fixing the polarization angle to $\alpha=40^{\circ}$
+for which the response is maximized for the \emph{up} structure. In the same
+figures and frames we present in dashed lines the corresponding polar
+$\theta_{a}(\omega)$ and azimuthal $\varphi_{a}(\omega)$ angles related to the
+right scale. Also, in the bottom frames of those figures we present the
+decomposition of $|\mathcal{V}^{\mathrm{x}}|(\omega)$ and
+$|\mathcal{V}^{\mathrm{y}}|(\omega)$ in the corresponding
+$\mathcal{V}^{\mathrm{xx}}(\omega)$, $\mathcal{V}^{\mathrm{xy}}(\omega)$,
+$\mathcal{V}^{\mathrm{xz}}(\omega)$, and $\mathcal{V}^{\mathrm{yx}}(\omega)$,
+$\mathcal{V}^{\mathrm{yy}}(\omega)$, $\mathcal{V}^{\mathrm{yz}}(\omega)$
+components.
 \begin{figure}[t]
     \centering
     \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ for \emph{up} structure 
@@ -613,13 +640,15 @@ components with $\alpha$ fixed to $40^{\circ}$.
     \subfigure[\ $|\mathcal{V}^{\mathrm{y}}|$ for \emph{up} structure 
     \label{fig:up-3d-vvy-2}]
     {\includegraphics[width=\linewidth]{upplots/up-3d-vyb-2}}
-    \caption{$|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$
-    response for C$_{16}$H$_{8}$-up structure. The local maxima responses zones
-    are localized for an energy range from 1.95\,eV to 2.00\,eV and for
-    polarization angles of the incoming beam from 25$^{\circ}$ to 50$^{\circ}$.}
+    
+    \caption{$|\mathcal{V}^{\mathrm{a}}|(\omega)$ response vs. photon energy vs.
+    polarization angle for the \emph{up} structure. The local maxima of both
+    responses $|\mathcal{V}^{\mathrm{x}}|(\omega)$ and
+    $|\mathcal{V}^{\mathrm{y}}|(\omega)$ are localized in the energy range from
+    1.95\,eV to 2.00\,eV and for polarization angles from $25^{\circ}$ to
+    $50^{\circ}$.}
     \label{fig:up-3d-vva-2}
 \end{figure}
-
 \begin{figure}[t]
     \centering
     \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ \label{fig:up-vx-comp-rtp-2}]
@@ -627,10 +656,15 @@ components with $\alpha$ fixed to $40^{\circ}$.
     \\
     \subfigure[\ $|\mathcal{V}^{\mathrm{y}}|$ \label{fig:up-vy-comp-rtp-2}]
     {\includegraphics[width=\linewidth]{upplots/up-vyb-rtp-m2}}
-    \caption{Intense responses of $|\mathcal{V}^{\mathrm{x}}|$ and
-    $|\mathcal{V}^{\mathrm{y}}|$ and the corresponding three components for the
-    \emph{up} structure. Both maxima where obtained for a polarization
-    angle $\alpha=40^{\circ}$. }
+    
+    \caption{Intense response of
+    $|\mathcal{V}^{\mathrm{x}}|(\omega)$ and
+    $|\mathcal{V}^{\mathrm{y}}|(\omega)$ (top frames left scale of Figs. (a) and
+    (b)), the corresponding polar $\varphi$ and azimuthal $\theta$ angles (top
+    frames right scale), and the corresponding three components (bottom frames)
+    for the \emph{up} structure fixing the polarization angle to
+    $\alpha=40^{\circ}$ to maximize the response.}
+
     \label{fig:up-vab-comp-rtp-2}
 \end{figure}
 % %%%%%%%%%%%%%%%%%
@@ -642,41 +676,55 @@ components with $\alpha$ fixed to $40^{\circ}$.
 % %% up-3d-vab.gp
 % %%%%%%%%%%%%%%%%%
 From Fig. \ref{fig:up-vx-comp-rtp-1} we have that for an incoming bean with
-energy of 0.088\,eV the three components have similar contributions and have
+energy of 0.088\,eV the three components have similar contributions and with
 values of 
 % 
-$\mathcal{V}^{\mathrm{xx}}=-36.5$\,Km/s,
-$\mathcal{V}^{\mathrm{xy}}=-23.2$\,Km/s, and
-$\mathcal{V}^{\mathrm{xz}}= 39.8$\,Km/s 
+$\mathcal{V}^{\mathrm{xx}}(\omega)=-36.5$\,Km/s,
+$\mathcal{V}^{\mathrm{xy}}(\omega)=-23.2$\,Km/s, and
+$\mathcal{V}^{\mathrm{xz}}(\omega)= 39.8$\,Km/s 
 % 
 resulting in a value of
 % 
-$|\mathcal{V}^{\mathrm{x}}|=58.7$\,Km/s 
+$|\mathcal{V}^{\mathrm{x}}|(\omega)=58.7$\,Km/s 
 % 
 being this value the absolute maximum obtained when the spin-velocity is fixed
 in the $x$ direction. To this value corresponds a polar and azimuthal angles of
-$\varphi=47.4$ and $\theta=212.5$, respectively.
+$\theta_{\mathrm{x}}(\omega)=47$ and $\varphi_{\mathrm{x}}(\omega)=212$,
+respectively, being directed upper the third Cartesian Quadrant of the $xy$
+plane. Also from this figure we have that those angle values are hold for almost
+all the peak of the response having a deviation of $\pm 2^{\circ}$ in the range
+of energies from 0.028\,eV to 0.098\,eV from the corresponding to the absolute
+maximum mentioned before.
 % 
-Now, from Fig. \ref{fig:up-vy-comp-rtp-1} we have that the $yx$ and $yy$
-components have less contributions for the total response than the $yz$ and for
-the same incoming beam energy have values of 
+Now, from Fig. \ref{fig:up-vy-comp-rtp-1} we have that the $\mathrm{yx}$ and
+$\mathrm{yy}$ components have less contributions for the total response than the
+$\mathrm{yz}$ and for the same incoming beam energy have values of
 % 
-$\mathcal{V}^{\mathrm{yx}}= -7.9$\,Km/s 
-$\mathcal{V}^{\mathrm{yy}}=  8.6$\,Km/s, and
-$\mathcal{V}^{\mathrm{yz}}= 87.2$\,Km/s 
+$\mathcal{V}^{\mathrm{yx}}(\omega)= -7.9$\,Km/s 
+$\mathcal{V}^{\mathrm{yy}}(\omega)=  8.6$\,Km/s, and
+$\mathcal{V}^{\mathrm{yz}}(\omega)= 87.2$\,Km/s 
 % 
 resulting in a value of the total response of
 % 
-$|\mathcal{V}^{\mathrm{y}}|=87.9$\,Km/s
+$|\mathcal{V}^{\mathrm{y}}|(\omega)=87.9$\,Km/s
 % 
 being this value the absolute maximum obtained when the spin-velocity is fixed
 in the $y$ direction and being 1.5 times more intense than
-$|\mathcal{V}^{\mathrm{x}}|$ and corresponding spin polar and azimuthal angles
-$\varphi=7.6$ $\theta=132.7$, respectively. We also found that since the onset
-of the response till an energy for the incoming beam of 0.118\,eV the components
-of both, $|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$ have no
-change in the spin polarization direction. Finally, after this energy value both
-goes to zero.
+$|\mathcal{V}^{\mathrm{x}}|(\omega)$ To this absolute maximum correspond spin
+polar and azimuthal angles $\theta_{\mathrm{y}}(\omega)=8$ and
+$\varphi_{\mathrm{y}}(\omega)=133$, respectively, being directed almost
+perpendicularly over the $xy$ plane and being localized on the first Cartesian
+Quadrant. In a different way than in the $|\mathcal{V}^{\mathrm{x}}|(\omega)$
+case only the polar angle is hold for the peak of the response having a
+deviation of $\pm 2^{\circ}$ since the onset to a energy value of 0.106\,eV but
+the azimuthal angle changes since the onset to 0.106\,eV from $99^{\circ}$ to
+$176^{\circ}$.
+% 
+We also found that since the onset of the response till an
+energy for the incoming beam of 0.118\,eV the components of both,
+$|\mathcal{V}^{\mathrm{x}}|(\omega)$ and $|\mathcal{V}^{\mathrm{y}}|(\omega)$
+have no change in the spin polarization direction. Finally, after this energy
+value both goes to zero.
 % %%%%%%%%%%%%%%%%%
 % %% 1.80 eV - 2.10 eV
 % %% Description of UP |V^{a}| 3D
@@ -686,77 +734,74 @@ goes to zero.
 % %% up-3d-vab.gp
 % %%%%%%%%%%%%%%%%%
 Also there is another energy range of interest for an incoming energy beam from
-1.80\,eV to 2.10\,eV presented in Fig. \ref{fig:up-3d-vva-2} where two local maxima
-of $|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$ are obtained
-for the \emph{up} structure resulting from evaluate Eqns. \eqref{eq:vv-mag} and
-\eqref{eq:vab}.
+1.80\,eV to 2.10\,eV presented in Fig. \ref{fig:up-3d-vva-2} where two local
+maxima of $|\mathcal{V}^{\mathrm{x}}|(\omega)$ and
+$|\mathcal{V}^{\mathrm{y}}|(\omega)$ are obtained for the \emph{up} structure.
 % 
 From this figure we have that for the zone between the energy ranges from
-1.92\,eV to 1.94\,eV and from 1.96\,eV to 1.98\,eV and angles from $30^{\circ}$
-to $45^{\circ}$ those maxima zones are hold. 
+1.92\,eV to 1.94\,eV and from 1.96\,eV to 1.98\,eV and for polarization angles
+from $30^{\circ}$ to $45^{\circ}$ those two local maxima zones are held.
 % 
-We found that the maxima are obtained when the polarization angle is fixed to
-$40^{\circ}$ and the corresponding energies are 1.934\,eV and 1.972\,eV.
-% 
-Again, in the top frames of Figs. \ref{fig:up-vx-comp-rtp-2} and 
-% 
-\ref{fig:up-vy-comp-rtp-2} we present the results of
-$|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$ (left scale)
-fixing the polarization angle to $\alpha=40^{\circ}$ vs the photon energy and
-the corresponding polar $\varphi$ and azimuthal $\theta$ angles (right scale)
-for the \emph{up} structure. In the bottom frames of same figures we present the
-three components $\mathrm{xx}$, $\mathrm{xy}$, $\mathrm{xz}$, and $\mathrm{yx}$,
-$\mathrm{yy}$, $\mathrm{yz}$ corresponding to $|\mathcal{V}^{\mathrm{x}}|$ and
-$|\mathcal{V}^{\mathrm{y}}|$ fixing the polarization angle to $40^{\circ}$.
+We found that the two local maxima are obtained for an energy of the incident
+beam energies of 1.934\,eV and 1.972\,eV fixing again the polarization angle to
+$40^{\circ}$. 
 % %%%%%%%%%%%%%%%%
 % %% Starting description of UP |V^{x}|, components and RTP
 % %% files: vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040
 % %%        vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040
 % %%        alt-plots/up-vab-rtp.gp
 % %%%%%%%%%%%%%%%%
-We found that for both cases, $|\mathcal{V}^{\mathrm{x}}|$ and
-$|\mathcal{V}^{\mathrm{y}}|$, the corresponding components have similar
-contributions and for an incoming energy beam of 1.934\,eV have values of
+In the top frames of Figs. \ref{fig:up-vx-comp-rtp-2} and 
 % 
-$\mathcal{V}^{\mathrm{xx}}= 2.3$\,Km/s, 
-$\mathcal{V}^{\mathrm{xy}}= 3.8$\,Km/s, 
-$\mathcal{V}^{\mathrm{xz}}= 4.9$\,Km/s, and
-$\mathcal{V}^{\mathrm{yx}}=11.5$\,Km/s,
-$\mathcal{V}^{\mathrm{yy}}=17.0$\,Km/s,
-$\mathcal{V}^{\mathrm{yz}}=20.4$\,Km/s
-resulting in a in values of 
-$|\mathcal{V}^{\mathrm{x}}|= 6.6$\,Km/s
-$|\mathcal{V}^{\mathrm{y}}|=28.7$\,Km/s
+\ref{fig:up-vy-comp-rtp-2} we present in solid lines the results of
+$|\mathcal{V}^{\mathrm{x}}|(\omega)$ and $|\mathcal{V}^{\mathrm{y}}|(\omega)$,
+related to the left scale, fixing the polarization angle to $\alpha=40^{\circ}$
+for which the response is maximized for the \emph{up} structure. In the same
+figures and frames we present in dashed lines the corresponding polar
+($\theta_{\mathrm{x}}(\omega)$ and $\theta_{\mathrm{y}}(\omega)$) and azimuthal
+($\varphi_{\mathrm{x}}(\omega)$ and $\varphi_{\mathrm{y}}(\omega)$) angles
+related to the right scale. In the bottom frames of same figures we present the
+decomposition of the responses in the three corresponding components
+$\mathcal{V}^{\mathrm{xx}}(\omega)$, $\mathcal{V}^{\mathrm{xy}}(\omega)$,
+$\mathcal{V}^{\mathrm{xz}}(\omega)$ and $\mathcal{V}^{\mathrm{yx}}(\omega)$,
+$\mathcal{V}^{\mathrm{yy}}(\omega)$, $\mathcal{V}^{\mathrm{yz}}(\omega)$. 
 % 
-being $|\mathcal{V}^{\mathrm{y}}|$ 4.3 times more intense than
-$|\mathcal{V}^{\mathrm{x}}|$ for this photon energy. The responses have polar
-and azimuthal spin polarization angels $\varphi= 42.0^{\circ}$ and $\theta=
-58.7^{\circ}$ for $|\mathcal{V}^{\mathrm{x}}|$ and $\varphi= 45.2^{\circ}$ and
-$\theta= 56.0^{\circ}$ for $|\mathcal{V}^{\mathrm{y}}|$.
+We found that for both cases, the components have similar contributions and for
+an incoming energy beam of 1.934\,eV  we have the first local maximum resulting
+in a value of $|\mathcal{V}^{\mathrm{x}}|(\omega)= 6.6$\,Km/s along the $x$
+direction  with polar and azimuthal spin polarization angles
+$\theta_{\mathrm{x}}(\omega)= 42^{\circ}$ and
+$\varphi_{\mathrm{x}}(\omega)=59^{\circ}$ having fluctuations but being directed
+over the first Cartesian Quadrant of the $xy$ plane.
 % 
-Alike, for an incoming energy beam of 1.972\,eV all the components of
-$|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$ have similar
-contributions having values of
+For the spin moving along the $y$ direction we have a value of
+$|\mathcal{V}^{\mathrm{y}}|(\omega)=28.7$\,Km/s with polar and azimuthal angles
+$\theta_{\mathrm{y}}(\omega)=45^{\circ}$ and
+$\varphi_{\mathrm{y}}(\omega)=56^{\circ}$ having variations of $\pm5^{\circ}$
+for energy variations of $\pm0.01$\,eV and being directed over the fir Cartesian
+Quadrant of the $xy$ plane.
 % 
-$\mathcal{V}^{\mathrm{xx}}= -5.0$\,Km/s, 
-$\mathcal{V}^{\mathrm{xy}}= -5.8$\,Km/s, 
-$\mathcal{V}^{\mathrm{xz}}= -6.2$\,Km/s, and
-$\mathcal{V}^{\mathrm{yx}}=-26.8$\,Km/s,
-$\mathcal{V}^{\mathrm{yy}}=-28.9$\,Km/s,
-$\mathcal{V}^{\mathrm{yz}}=-29.7$\,Km/s
-resulting in a in values of 
-$|\mathcal{V}^{\mathrm{x}}|= 9.9$\,Km/s
-$|\mathcal{V}^{\mathrm{y}}|=49.4$\,Km/s
+Alike, for an incoming energy beam of 1.972\,eV we found the second and more
+intense local maxima with all the components of both responses having similar
+contributions and resulting in values of
+$|\mathcal{V}^{\mathrm{x}}|(\omega)=9.9$\,Km/s and spin polarization angles
+$\theta_{\mathrm{x}}(\omega)=129^{\circ}$ and
+$\varphi_{\mathrm{x}}(\omega)=229^{\circ}$ being almost constant in the width of
+the peak having variations of $\pm1^{\circ}$ for variations in energy of
+$\pm0.01$\,eV and being directed downward the third Cartesian Quadrant of the
+$xy$ plane.
 % 
-being $|\mathcal{V}^{\mathrm{y}}|$ 5.0 times more intense than
-$|\mathcal{V}^{\mathrm{x}}|$ for this photon energy. The responses have polar
-and azimuthal spin polarization angles $\varphi=129.0^{\circ}$
-$\theta=229.1^{\circ}$ or $|\mathcal{V}^{\mathrm{x}}|$ and
-$\varphi=127.0^{\circ}$ and $\theta= 227.1^{\circ}$ for
-$|\mathcal{V}^{\mathrm{y}}|$.
+For the spin moving in the $y$ direction we have a value of
+$|\mathcal{V}^{\mathrm{y}}|(\omega)=49.4$\,Km/s with spin polarization angles
+$\theta_{\mathrm{y}}(\omega)=127^{\circ}$ and
+$\varphi_{\mathrm{y}}(\omega)=227^{\circ}$ being almost constant with variations
+of $\pm1^{\circ}$ for variations in energy of $\pm1$\,eV and being directed
+downward the third Cartesian Quadrant of the $xy$ plane.
 % 
-Finally we have that all the tree components of $|\mathcal{V}^{\mathrm{x}}|$ and
-$|\mathcal{V}^{\mathrm{y}}|$ keep the spin polarization positive till an energy
+Finally we have that for bot energies $|\mathcal{V}^{\mathrm{y}}|(\omega)$ is
+more intense than $|\mathcal{V}^{\mathrm{x}}|(\omega)$ being 4.4 times more
+intense for 1.932\,eV and 5.0 times more intense for 1.972\,eV. Also all the
+components of the responses keep the spin polarization positive till an energy
 of the incoming beam equal to 1.954\,eV when the spin polarization changes the
 direction and after an energy for the incoming beam equal to 2.05\,eV both
 responses goes to zero.
@@ -781,10 +826,13 @@ responses goes to zero.
     \subfigure[\ $|\mathcal{V}^{\mathrm{y}}|$ for \emph{alt} structure 
     \label{fig:alt-3d-vvy}]
     {\includegraphics[width=\linewidth]{altplots/alt-3d-vyb}}
-    \caption{$|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$
-    responses for C$_{16}$H$_{8}$-alt structure. The maxima responses zones are
-    localized for an energy range from 0.90\,eV to 0.93\,eV and for polarization
-    angles of the incoming beam from 120$^{\circ}$ to 150$^{\circ}$.}
+    
+    \caption{$|\mathcal{V}^{\mathrm{a}}|(\omega)$ response vs. photon energy vs.
+    polarization angle for the \emph{alt} structure. The absolute maxima of both
+    responses $|\mathcal{V}^{\mathrm{x}}|(\omega)$ and
+    $|\mathcal{V}^{\mathrm{y}}|(\omega)$ are localized in the energy range from
+    0.90\,eV to 0.93\,eV and for polarization angles from 120$^{\circ}$ to
+    150$^{\circ}$.}
     \label{fig:alt-3d-vva}
 \end{figure}
 
@@ -795,142 +843,111 @@ responses goes to zero.
     \\
     \subfigure[\ $|\mathcal{V}^{\mathrm{y}}|$ \label{fig:alt-vy-comp-rtp}]
     {\includegraphics[width=\linewidth]{altplots/alt-vyb-rtp-m}}
-    \caption{Most intense responses of $|\mathcal{V}^{\mathrm{x}}|$ and
-    $|\mathcal{V}^{\mathrm{y}}|$ and the corresponding three components for the
-    \emph{alt} structure. Both maxima where obtained for a polarization
-    angle $\alpha=145^{\circ}$. }
+
+    \caption{Most intense response of
+    $|\mathcal{V}^{\mathrm{x}}|(\omega)$ and
+    $|\mathcal{V}^{\mathrm{y}}|(\omega)$ (top frames left scale of Figs. (a) and
+    (b)), the corresponding polar $\varphi$ and azimuthal $\theta$ angles (top
+    frames right scale), and the corresponding three components (bottom frames)
+    for the \emph{alt} structure fixing the polarization angle to
+    $\alpha=145^{\circ}$ to maximize the response.}
     \label{fig:alt-vab-comp-rtp}
 \end{figure}
 
 For the \emph{alt} structure we analyzed the energy range from 0.6\,eV to
-1.0\,eV where we found the most intense response for 
-$|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{a}}|$. In Fig. 
-\ref{fig:alt-3d-vva} we present the $|\mathcal{V}^{\mathrm{a}}|$ spectra resulting 
-from evaluate Eq. \eqref{eq:vv-mag} using different polarization angles $\alpha$
-in Eq. \eqref{eq:vab} for the C$_{16}$H$_{8}$-alt structure. We can see that the
-onset of the response is when the energy of the incoming light is the same of
-the gap energy.
+1.0\,eV where we found the a local maxima and the most intense responses for
+$|\mathcal{V}^{\mathrm{x}}|(\omega)$ and $|\mathcal{V}^{\mathrm{a}}|(\omega)$.
+In Fig. \ref{fig:alt-3d-vva} we present the $|\mathcal{V}^{\mathrm{a}}|(\omega)$
+spectra resulting from evaluate again Eq. \eqref{eq:vv-mag} using different
+polarization angles $\alpha$ in Eq. \eqref{eq:vab} but now for the \emph{alt}
+structure. We can see that the onset of the response is when the energy of the
+incoming light is the same of the gap energy.
 %
 From this picture we can see that for the zone between the energy range of
 0.90\,eV-0.93\,eV and polarization angles between 120$^{\circ}$ and
 150$^{\circ}$ is the zone where the maximum response for both,
-$|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$ is kept.
+$|\mathcal{V}^{\mathrm{x}}|(\omega)$ and $|\mathcal{V}^{\mathrm{y}}|(\omega)$ is
+held. We also found that the first peak is obtained when the energy of the
+incoming beam is 0.720\,eV and  the absolute maximum of the response is obtained
+when for 0.912\,eV, both for a polarization angle $\alpha = 145^{\circ}$.
 % %%%%%%%%%%%%%%%%
 % %% Starting description of ALT |V^{a}|, components and RTP
 % %% files: magv.sm_0.03_xb_14452_65-spin_scissor_0_Nc_32_incang_0-180-step5
+% %%        vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_145
+% %%        vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_145
 % %%        alt-plots/alt-3d-vab.gp
 % %%%%%%%%%%%%%%%%
-We also found that the absolute maximum of the response is obtained when the
-energy of the incoming bean is 0.912\,eV and the polarization angle is $\alpha =
-145^{\circ}$. 
-% 
 In the top frames of Figs. \ref{fig:alt-vx-comp-rtp}  and 
 %
-\ref{fig:alt-vy-comp-rtp} we present the results for
-$|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$ (left scale)
-fixing the polarization angle to $145^{\circ}$ for the \emph{alt} structure vs
-the photon energy and the corresponding polar $\varphi$ and azimuthal $\theta$
-angles (right scale). Also in the bottom frames of Figs. 
+\ref{fig:alt-vy-comp-rtp} we present in solid lines the results of
+$|\mathcal{V}^{\mathrm{x}}|(\omega)$ and $|\mathcal{V}^{\mathrm{y}}|(\omega)$,
+related to the left scale, fixing the polarization angle to $\alpha=145^{\circ}$
+for which the response is maximized for the \emph{alt} structure. In the same
+figures and frames we present ind dashed lines the spin polarization angles
+related to the right scale and in the bottom frames the corresponding three
+components.
 % 
-\ref{fig:alt-vx-comp-rtp} and \ref{fig:alt-vy-comp-rtp} we present the
-decomposition of $|\mathcal{V}^{\mathrm{x}}|$ and $|\mathcal{V}^{\mathrm{y}}|$
-in the corresponding components $\mathcal{V}^{\mathrm{xx}}$,
-$\mathcal{V}^{\mathrm{xy}}$, $\mathcal{V}^{\mathrm{xz}}$ and
-$\mathcal{V}^{\mathrm{yx}}$, $\mathcal{V}^{\mathrm{yy}}$
-$\mathcal{V}^{\mathrm{yz}}$ with $\alpha$ fixed to $145^{\circ}$.
-% %%%%%%%%%%%%%%%%
-% %% Description of ALT |V^{x}|, components and RTP
-% %% files: vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_145
-% %%        alt-plots/alt-vab-rtp.gp
-% %%%%%%%%%%%%%%%%
-Making the analysis for the components and angles for
-$|\mathcal{V}^{\mathrm{x}}|$ depicted in Fig. \ref{fig:alt-vx-comp-rtp} we can
-see that for an incoming beam energy of 0.720\,eV the components contributions 
-are similar having values of
-%
-$\mathcal{V}^{\mathrm{xx}}= 10.5$\,Km/s, 
-$\mathcal{V}^{\mathrm{xy}}=  9.1$\,Km/s, and
-$\mathcal{V}^{\mathrm{xz}}= 13.5$\,Km/s
+Making the analysis for the components and angles when the spin current is
+directed in the $x$ direction, corresponding to the Fig. 
 % 
-resulting in a total spin-velocity 
+\ref{fig:alt-vx-comp-rtp}, we found that for the \emph{alt} structure when the
+energy of the incoming beam is 0.720\,eV we have similar contributions from all
+the components resulting in a response of
+$|\mathcal{V}^{\mathrm{x}}|(\omega)=19.4$\,Km/s and polar and azimuthal spin
+polarization angles $\theta_{\mathrm{x}}(\omega)=46^{\circ}$ and
+$\varphi_{\mathrm{x}}(\omega)=41^{\circ}$ having variations in the range of the
+peak but being directed over the first Cartesian Quadrant of the $xy$ plane;
 % 
-$|\mathcal{V}^{\mathrm{x}}|=19.4$\,Km/s 
+for an energy of 0.912\,eV we have a major contribution from the
+$\mathcal{V}^{\mathrm{xz}}(\omega)$ component resulting in a total response of
+$|\mathcal{V}^{\mathrm{x}}|(\omega)=30.9$\,Km/s and angles
+$\theta_{\mathrm{x}}(\omega)=154^{\circ}$, and
+$\varphi_{\mathrm{x}}(\omega)=290^{\circ}$ having variations of $\pm3^{\circ}$
+in for energy variations of $\pm1$\,eV and being directed downward the fourth
+Cartesian Quadrant of the $xy$ plane.
 % 
-and spin polar and azimuthal angles $\varphi = 45.8^{\circ}$ and
-$\theta=40.7^{\circ}$, respectively.
-%
-In the other hand, for an energy of the incoming beam equal to 0.912\,eV
-we found that the contribution of the components are 
+Making now the analysis for the components and angles when the spin current is
+directed along the $y$ direction, corresponding to the Fig.
 % 
-$\mathcal{V}^{\mathrm{xx}}=   4.8$\,Km/s
-$\mathcal{V}^{\mathrm{xy}}= -12.8$\,Km/s, and 
-$\mathcal{V}^{\mathrm{xz}}= -27.7$\,Km/s
+\ref{fig:alt-vy-comp-rtp}, we found that when the energy of the incoming beam is
+0.720\,eV we have more contribution from the $\mathcal{V}^{\mathrm{yz}}(\omega)$
+component resulting in a response of
+$|\mathcal{V}^{\mathrm{y}}|(\omega)=51.9$\,Km/s and angles
+$\theta_{\mathrm{y}}(\omega)=141^{\circ}$ and
+$\varphi_{\mathrm{y}}(\omega)=222^{\circ}$ being the first constant and the
+second having variations of $\pm3^{\circ}$ for energy variations of $\pm0.3$\,eV
+and being directed downward the third Cartesian Quadrant of the $xy$ plane.
 % 
-having a mayor response coming from the $xz$ component and resulting in a spin-
-velocity magnitude 
+Then, for the peak centered at 0.912\,eV we have similar contributions of all
+the components resulting in a response
+$|\mathcal{V}^{\mathrm{y}}|(\omega)=52.3$\,Km/s being this the absolute maximum
+response for the \emph{alt} structure. The corresponding angles are
+$\theta_{\mathrm{y}}(\omega)=129^{\circ}$ and
+$\varphi_{\mathrm{y}}(\omega)=229^{\circ}$ being both constant for the energy
+range of the peak and being directed downward the third Cartesian Quadrant of
+the $xy$ plane.
 % 
-$|\mathcal{V}^{\mathrm{x}}|=30.9$\,Km/s 
-% 
-being this the absolute maximum fixing the spin-velocity in the $x$ direction.
-Then, the components give us polar and azimuthal angles with values of
-$\varphi=153.8^{\circ}$ and $\theta=290.4^{\circ}$. This angles and its
-variation with the incoming energy beam are presented in the right scale of the
-top frame of Fig \ref{fig:alt-vx-comp-rtp}.
-% 
-Finally we have that since the onset of the response till an energy of the
-incoming bean of 0.744\,eV the three components of $|\mathcal{V}^{\mathrm{x}}|$
-are positive while for the range from 0.746\,eV to 0.886\,eV the
-$\mathcal{V}^{\mathrm{xx}}$ component is positive but the
-$\mathcal{V}^{\mathrm{xy}}$ and $\mathcal{V}^{\mathrm{xz}}$ components change in
-direction. This is due to a change in the spin polarization direction. Finally
-after the energy value of 0.886\,eV the response decreases and goes to zero.
-% %%%%%%%%%%%%%%%%
-% %% Description of ALT |V^{y}|, components and RTP
-% %% files: vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_145
-% %%        alt-plots/alt-vab-rtp.gp
-% %%%%%%%%%%%%%%%%
-Making now the analysis for $|\mathcal{V}^{\mathrm{y}}|$ depicted in Fig.
-\ref{fig:alt-vy-comp-rtp} we have that for an incoming energy beam of 0.720\,eV
-the $yz$ component have a major contribution than the $yx$ and $yy$ components
-having values of
-% 
-$\mathcal{V}^{\mathrm{yx}}= -24.6$\,Km/s, 
-$\mathcal{V}^{\mathrm{yy}}= -21.8$\,Km/s, and
-$\mathcal{V}^{\mathrm{yz}}= -40.2$\,Km/s
-%
-resulting in a total spin-velocity
-% 
-$|\mathcal{V}^{\mathrm{y}}|=51.9$\,Km/s
-%
-and spin polar and azimuthal angles $\varphi=140.7^{\circ}$ and
-$\theta=221.6^{\circ}$, respectively.
-%
-Also, for an energy of the incoming beam of 0.912\,eV we found that the
-contribution of the components are
-% 
-$\mathcal{V}^{\mathrm{xx}}=-26.7$\,Km/s
-$\mathcal{V}^{\mathrm{xy}}=-30.6$\,Km/s, and
-$\mathcal{V}^{\mathrm{xz}}=-32.9$\,Km/s
-% 
-having all the three components similar contributions and resulting in a spin-
-velocity magnitude $|\mathcal{V}^{\mathrm{y}}|=52.3$\,Km/s being this the
-absolute maximum spin-velocity for the velocity fixed to the $y$ direction and
-being 1.7 times more intense than the maximum of $|\mathcal{V}^{\mathrm{x}}|$.
-The components then give us the polar and azimuthal angles with values of
-$\varphi=129.0^{\circ}$ and $\theta=228.9^{\circ}$, respectively. This angles
-and the corresponding variation is presented in the right sale of the top frame
-of Fig. \ref{fig:alt-vy-comp-rtp}.
-% 
-We also have that the three components of $|\mathcal{V}^{\mathrm{y}}|$ are
+Finally we have that the three components of $|\mathcal{V}^{\mathrm{y}}|$ are
 negative keeping the same spin polarization since the onset of the response to a
 energy of the incoming beam of 0.886\,eV when the response decreases and goes to
 zero.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%% Res: Layer-by-layer  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Layer-by-layer analysis} % (fold)
 \label{sec:res-layer_by_layer_analysis}
+
+The structures presented here where divided into layers to analyze the he
+layer-by-layer contribution for $\mathcal{V}^{\mathrm{ab}}$ response. The
+\emph{alt} structure was divided in six layers corresponding the first one to
+the top hydrogen atoms, from the second to the forth to carbon atoms in
+different $z$ positions, and the sixth and last one to the bottom hydrogen
+atoms. The \emph{up} structure was divided into two layers, the first one
+comprised by the top hydrogen atoms and the second by the carbon atoms. The
+layer divisions and atom positions for the unit cells are shown in Tables
+\ref{tab:alt-unitcell} and \ref{tab:up-unitcell}.
 
 % %%%%%%%%%%%%%%%%
 % %% Description of Up layer |V^{yz}|
@@ -946,6 +963,7 @@ zero.
     \\
     \subfigure[\ \label{fig:up-vyz-lay-2}]
     {\includegraphics[width=\linewidth]{upplots/up-vyz-layers-2}}
+    
     \caption{Layer-by-layer contribution of $\mathcal{V}^{\mathrm{yz}}$ for the
      \emph{up} structure.}
     \label{fig:up-vyz-lay}
@@ -996,6 +1014,7 @@ $\mathcal{V}^{\mathrm{yz}}=-32.89$\,Km/s for an incoming beam with energy of
 \begin{figure}[b]
     \centering
     \includegraphics[width=\linewidth]{altplots/alt-vyz-layers}
+    
     \caption{Layer-by-layer contribution of $\mathcal{V}^{\mathrm{yz}}$ for the
      \emph{alt} structure.}
     \label{fig:alt-vyz-lay}

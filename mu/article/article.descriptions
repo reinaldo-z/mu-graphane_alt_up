@@ -18,11 +18,30 @@ RTP: Decomposition of response in components.
      Similar or mayor contribution of components.
      Values of components at maximum angle and energy.
      Resulting value and angles for maximum responses.
+     Space octannt localization.
      Local or absolute maximum.
      Change or mantain spin polarization.
      Going to zero.
      
      Comparison of V^x and V^y maxima.
+
+CAPTIONS 3d vel:
+    \caption{$|\mathcal{V}^{\mathrm{a}}|(\omega)$ response vs. photon energy vs.
+    polarization angle for the \emph{up} structure. 
+    The absolute maxima of both
+    responses $|\mathcal{V}^{\mathrm{x}}|(\omega)$ and
+    $|\mathcal{V}^{\mathrm{y}}|(\omega)$ are localized in the energy
+    range from 0.07\,eV to 0.10\,eV and for polarization angles from
+    $25^{\circ}$ to $50^{\circ}$.}
+CAPTION rtp:
+    \caption{Most intense response of
+    $|\mathcal{V}^{\mathrm{x}}|(\omega)$ and
+    $|\mathcal{V}^{\mathrm{y}}|(\omega)$ (top frames left scale of Figs. (a) and
+    (b)), the corresponding polar $\varphi$ and azimuthal $\theta$ angles (top
+    frames right scale), and the corresponding three components (bottom frames)
+    for the \emph{up} structure fixing the polarization angle to
+    $\alpha=40^{\circ}$ to maximize the response.}
+
 
 ########
      

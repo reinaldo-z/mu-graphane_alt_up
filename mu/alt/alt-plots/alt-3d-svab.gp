@@ -35,7 +35,7 @@ set cbtics 0, 4, 28
 
 set ylabel '{\large Polarization angle $\alpha$ [deg.]}'           rotate parallel offset 1.3,-1.0, 0.0
 set xlabel '{\large Photon Energy [eV]}'                           rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '{\large $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ [Km/s]}' rotate parallel offset 1.0, 0.0, 0.0 
+set zlabel '{\large $|\mathcal{V}_{\sigma^{\mathrm{x}}}|(\omega)$ [Km/s]}' rotate parallel offset 1.0, 0.0, 0.0 
 set output "alt-3d-svax.mp"
 sp  '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-spin_scissor_0_Nc_32_incang_000-360' u 1:3:($2*f) w l lw 0.6 lt 8 ,\
     # '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 1:3:($2*f+0.1) w l lw 6 lt 5 ,\
@@ -58,7 +58,7 @@ set cbtics 0, 5, 35
 
 set ylabel '{\large Polarization angle $\alpha$ [deg.]}'           rotate parallel offset 1.3,-1.0, 0.0
 set xlabel '{\large Photon Energy [eV]}'                           rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '{\large $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ [Km/s]}' rotate parallel offset 1.0, 0.0, 0.0 
+set zlabel '{\large $|\mathcal{V}_{\sigma^{\mathrm{y}}}|(\omega)$ [Km/s]}' rotate parallel offset 1.0, 0.0, 0.0 
 set output "alt-3d-svay.mp"
 sp  '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-spin_scissor_0_Nc_32_incang_000-360' u 1:3:($2*f) w l lw 0.65 lt 8
     # '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 1:3:($2*f+0.1) w l lw 6 lt 5 ,\
@@ -81,7 +81,7 @@ set cbtics 0, 9, 45
 
 set ylabel '{\large Polarization angle $\alpha$ [deg.]}'           rotate parallel offset 1.3,-1.0, 0.0
 set xlabel '{\large Photon Energy [eV]}'                           rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '{\large $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ [Km/s]}' rotate parallel offset 1.0, 0.0, 0.0 
+set zlabel '{\large $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)$ [Km/s]}' rotate parallel offset 1.0, 0.0, 0.0 
 set output "alt-3d-svaz.mp"
 sp  '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-spin_scissor_0_Nc_32_incang_000-360' u 1:3:($2*f) w l lw 0.65 lt 8
     # '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 1:3:($2*f+0.1) w l lw 6 lt 5 ,\

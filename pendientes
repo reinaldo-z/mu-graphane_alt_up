@@ -7,8 +7,12 @@ comparar superficies con bultos
 analizar gráficas
 comparar todas las componentes de las superficies
 
+########################
+
     08/mar/17
 gnuplot if function
+
+########################
 
     15/mar/2017
 graficas rtp: tener presentes los máximos de r para poder comentar comportamiento de tp
@@ -25,6 +29,7 @@ graficas rtp: tener presentes los máximos de r para poder comentar comportamien
 \**correr alt con pocos puntos, poca energia y reduciendo decimales
 \*bandas para todos
 
+########################
 
     22/mar/2017
 
@@ -38,9 +43,13 @@ graficas rtp: tener presentes los máximos de r para poder comentar comportamien
 \Fix the energy for the maximum response, plot |V^{ab}| vs pol angle 
 \hnbc2h lables correction
 
+########################
+
     02/abr/2017
 \alt: Add more layers to isolate each carbon atom.
 \alt & up: change perspective of hexagonal structures 
+
+########################
 
     10/04/17
 \gráficas 360
@@ -55,6 +64,7 @@ graficas rtp: tener presentes los máximos de r para poder comentar comportamien
 \Large y lables
 \Format y tics
 
+########################
 
     2/may/2017
 
@@ -74,9 +84,9 @@ Res:
     \Secciones: fix spin, fix vel, layer.
     Fix spin: mostrar sólo |V_{s^z}| y mencionar las otras dos.
 
-    Énfasis en pseudopotenciales con spin
+    \Énfasis en pseudopotenciales con spin
     \Comenzar fijando spin.
-    Checar etiquetas de figuras sean consistentes.
+    \Checar etiquetas de figuras sean consistentes.
 
     \Comenzar comparando con bultos.
     \Comenzar con up.
@@ -96,34 +106,5 @@ Res:
 ################################################################################
 
 dx.doi.org
-
-(23.483258854 + 22.885684957)/2
-
-23.1844719055
-
-4.649999329   0.647110749    2.782450
-4.649999331   0.058257913    0.748999
-6.974999152   6.608080086    0.298787
-6.974999154   4.130666585   -0.298787
-4.649999329   2.626484881   -0.748885
-4.649999329   2.037458819   -2.782320
-
-awk '{printf ("%1.9f   %1.9f   %1.9f\n", $1, $2, ($3-23.1844719055) )}' alt-70z65Ha.xyz
-
-4.649999329   0.647110749    2.7820
-4.649999331   0.058257913    0.7480
-6.974999152   6.608080086    0.2987
-6.974999154   4.130666585   -0.2987
-4.649999329   2.626484881   -0.7480
-4.649999329   2.037458819   -2.7820
-
-
-p 'magsv.sm_0.03_az_14452_65-spin_scissor_0_Nc_32_incang_0-180-step5'
-
-p 'magsv.sm_0.03_az_14452_65-spin_scissor_0_Nc_32_incang_0-180-step5' u ($1==.912? $3:1/0):($6<0? $6+180:$6)
-p '< paste v.sm_0.03_xy_14452_65-spin_scissor_0_Nc_32_ang_145 v.sm_0.03_xy_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:(f*$2):(f/3*abs($4)) w points lt 2 pt 10 ps variable
-
-p 'magsv.sm_0.03_az_14452_65-spin_scissor_0_Nc_32_incang_0-180-step5' u ($1==.912? $3:1/0):($6<0? $6+180:$6):($2*1000000) w points lt 2 pt 10 ps variable
-
 
 
