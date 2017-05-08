@@ -8,7 +8,9 @@ f = 8987777.8908    # factor = pf*sl
 
 
 ################################################################################
-############################ 4  S T R U C T U R E S ############################
+##########################  4  S T R U C T U R E S   ###########################
+########################## S P I N   V E L   C O M P ###########################
+################################################################################
 
 Struc: Up
 ../../up/up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040
@@ -33,11 +35,39 @@ Struc: GaAs
 LINE    Energy      V^{xx}@90       Km/s
 1157    2.31200    -0.240543E-05   -21.62
 
+
 ################################################################################
 ########################### U P    S T R U C T U R E ###########################
+###########################     F I X   S P I N      ###########################
+################################################################################
+RES: V_{s^z}
+files:  ../../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-0.088eV
+        up-plots/up-svab-rag.gp
 
-RES: V^x, 0.0 eV - 0.16 eV
-files:  vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040
+LINE    Energy          r               a       V^{xz}          V^{yz}          g_{z}
+8       8.80000E-02     4.156394E-06    040     -4.061730E-06   -8.820230E-07   012.251788
+                        37.356746099
+
+################################################################################
+########################## A L T   S T R U C T U R E ###########################
+##########################     F I X   S P I N       ###########################
+################################################################################
+
+RES: V_{s^z}
+files:  ../../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV
+        alt-plots/alt-svab-rag.gp
+
+LINE    Energy          r               a       V^{xz}          V^{yz}          g_{z}
+
+
+
+################################################################################
+########################### U P    S T R U C T U R E ###########################
+###########################      F I X   V E L       ###########################
+################################################################################
+
+RES: V^x
+files:  ../../vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040
         up-plots/up-vab-rtp.gp
 
 LINE     Energy          V^{ax}           V^{ay}            V^{az}          r               polar       azimuth 
@@ -50,8 +80,8 @@ LINE     Energy          V^{ax}           V^{ay}            V^{az}          r   
 
 ################
 
-RES: V^x, 0.0 eV - 0.16 eV
-files:  vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040
+RES: V^x
+files:  ../../vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040
         up-plots/up-vab-rtp.gp
 
 LINE     Energy          V^{ax}           V^{ay}            V^{az}          r               polar       azimuth 
@@ -64,9 +94,11 @@ LINE     Energy          V^{ax}           V^{ay}            V^{az}          r   
 
 ################################################################################
 ########################## A L T   S T R U C T U R E ###########################
+##########################       F I X   V E L       ###########################
+################################################################################
 
 RES: V^x
-files:  vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_145
+files:  ../../vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_145
         alt-plots/alt-vab-rtp.gp
 
 LINE     Energy          V^{ax}           V^{ay}            V^{az}          r               polar       azimuth
@@ -77,7 +109,7 @@ LINE     Energy          V^{ax}           V^{ay}            V^{az}          r   
 ################
 
 RES: V^y
-files:  vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_145
+files:  ../../vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_145
         alt-plots/alt-vab-rtp.gp
 
 LINE     Energy          V^{ax}           V^{ay}            V^{az}          r               polar       azimuth
@@ -123,7 +155,75 @@ Total   457     0.91200     -0.365988E-05  -32.89
 
 
 ################################################################################
+################################# N O T E S ####################################
 ################################################################################
 
+                                F I G U R E S :
+
+\begin{figure}[t]
+    \centering
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ for \emph{up} structure 
+    \label{fig:up-3d-vsx-1}]
+    {\includegraphics[width=\linewidth]{upplots/up-3d-svax-1}}
+    \\
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{up} structure 
+    \label{fig:up-3d-vsy-1}]
+    {\includegraphics[width=\linewidth]{upplots/up-3d-svay-1}}
+    \\
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ for \emph{up} structure 
+    \label{fig:up-3d-vsz-1}]
+    {\includegraphics[width=\linewidth]{upplots/up-3d-svaz-1}}
+    
+    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$,
+    $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$, and
+    $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ responses for the \emph{up}
+    structure.}
+    \label{fig:up-3d-vsb-1}
+\end{figure}
+
+
+\begin{figure}[t]
+    \centering
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ for \emph{up} structure 
+    \label{fig:up-3d-vsx-2}]
+    {\includegraphics[width=\linewidth]{upplots/up-3d-svax-2}}
+    \\
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{up} structure 
+    \label{fig:up-3d-vsy-2}]
+    {\includegraphics[width=\linewidth]{upplots/up-3d-svay-2}}
+    \\
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{up} structure 
+    \label{fig:up-3d-vsz-2}]
+    {\includegraphics[width=\linewidth]{upplots/up-3d-svaz-2}}
+
+    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$,
+    $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$, and
+    $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ responses for the \emph{up}
+    structure.}
+    \label{fig:up-3d-vsb-2}
+\end{figure}
+
+################
+
+\begin{figure}[t]
+    \centering
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ for \emph{alt} structure 
+    \label{fig:alt-3d-vsx}]
+    {\includegraphics[width=\linewidth]{altplots/alt-3d-svax}}
+    \\
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{alt} structure 
+    \label{fig:alt-3d-vsy}]
+    {\includegraphics[width=\linewidth]{altplots/alt-3d-svay}}
+    \\
+    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ for \emph{alt} structure 
+    \label{fig:alt-3d-vsz}]
+    {\includegraphics[width=\linewidth]{altplots/alt-3d-svaz}}
+
+
+    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$,
+    $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$, and
+    $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ responses for \emph{alt} structure. }
+    \label{fig:alt-3d-vsb}
+\end{figure}
 
 
