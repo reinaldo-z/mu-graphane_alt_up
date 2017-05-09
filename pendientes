@@ -77,7 +77,8 @@ Figs:
 
 Intro:
     Comenzar comparando con bultos.
-    Describir que abarcamos infrarrojo y visible.
+    \Describir que abarcamos infrarrojo y visible
+        \visible: 1.59 eV - 3.26 eV
     Centrosimetría
 
 Res:

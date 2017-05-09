@@ -2,9 +2,26 @@
 
 Fixing Spin:
 
+3D   Energy range of plot, evualuation of Eqns & struc, mention maximum.
+     Onset and gap.
+     Zone of energy and angles of maximum response.
+     Radiation (visible: 1.59 eV - 3.26 eV) 
 
 
-########
+
+RAG: Energy and angle of maximum.
+     Maximum value and velocity angle on the xy plane.
+     Collinear angle circled green and angle for both
+        Corresponding response value --> green (up/down)ward arrow
+     Variation of +-2 for gamma <--> alpha range;
+     Perpendicular angle square blue box and alpha angle.
+        Corresponding response value --> blue (up/down)ward arrow.
+     Variation of +-2 for gamma <--> alpha range;
+
+     Comparison of components.
+
+
+################
 
 Fixing Velocity:
 
@@ -12,7 +29,7 @@ Fixing Velocity:
      Onset and gap.
      Range of energy
      Radiation (visible: 1.59 eV - 3.26 eV) 
-     Angle range where the intense respones is kept.
+     Angle range where the intense respones is held.
 
 RTP: Decomposition of response in components.
      Similar or mayor contribution of components.
@@ -43,7 +60,7 @@ CAPTION rtp:
     $\alpha=40^{\circ}$ to maximize the response.}
 
 
-########
+################
      
 LAY: 
 

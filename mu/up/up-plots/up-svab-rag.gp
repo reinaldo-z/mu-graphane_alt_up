@@ -58,8 +58,8 @@ set format y2 "%6.1f"
 
 set arrow 1 from 18, 34 to 3, 34 ls 1
 set arrow 2 from second 155, 11.7 to second 175, 11.7 ls 2
-set arrow 3 from second X1, Y1 to second X1, 11.0 ls 3
-set arrow 4 from second X2, Y2 to second X2, 12.5 ls 5
+set arrow 3 from second X1, Y1 to second X1, 11.0 ls 3 lw 2.0 dt 2
+set arrow 4 from second X2, Y2 to second X2, 12.5 ls 5 lw 2.0 dt 2
 
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
@@ -137,8 +137,8 @@ set format y2 "%3.0f"
 
 set arrow 1 from 20, 23 to 5, 23 ls 1
 set arrow 2 from second 155, 160.5 to second 175, 160.5 ls 2
-set arrow 3 from second X1, Y1 to second X1, 161.8 ls 3
-set arrow 4 from second X2, Y2 to second X2, 156.3 ls 5
+set arrow 3 from second X1, Y1 to second X1, 161.8 ls 3 lw 2.0 dt 2
+set arrow 4 from second X2, Y2 to second X2, 156.3 ls 5 lw 2.0 dt 2
 
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
@@ -180,7 +180,7 @@ unset multiplot
 
 ################################ V_{s^z} 0.088eV ###############################
 # col alpha~(65.35,65.35); perp alpha~(155.5,65.5)
-tol=0.2
+tol=0.5
 
 X2=65.37    # col
 Y2=65.37    # col
@@ -216,8 +216,8 @@ set format y2 "%3.1f"
 
 set arrow 1 from 20, 91 to 5, 91 ls 1
 set arrow 2 from second 140, 65.1 to second 175, 65.1 ls 2
-set arrow 3 from second X1, Y1 to second X1, 64.4 ls 3
-set arrow 4 from second X2, Y2 to second X2, 67.0 ls 5
+set arrow 3 from second X1, Y1 to second X1, 64.4 ls 3 lw 2.0 dt 2
+set arrow 4 from second X2, Y2 to second X2, 67.0 ls 5 lw 2.0 dt 2
 
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
@@ -299,8 +299,8 @@ set format y2 "%6.0f"
 
 set arrow 1 from 20, 26 to 5, 26 ls 1
 set arrow 2 from second 154, 83.3 to second 175, 83.3 ls 2
-set arrow 3 from second X1, Y1 to second X1, 80.8 ls 3
-set arrow 4 from second X2, Y2 to second X2, 82.3 ls 5
+set arrow 3 from second X1, Y1 to second X1, 80.8 ls 3 lw 2.0 dt 2
+set arrow 4 from second X2, Y2 to second X2, 82.3 ls 5 lw 2.0 dt 2
 
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
@@ -378,8 +378,8 @@ set format y2 "%3.0f"
 
 set arrow 1 from 20, 28 to 5, 28 ls 1
 set arrow 2 from second 155, 81.5 to second 175, 81.5 ls 2
-set arrow 3 from second X1, Y1 to second X1, 80.0 ls 3
-set arrow 4 from second X2, Y2 to second X2, 82.0 ls 5
+set arrow 3 from second X1, Y1 to second X1, 80.0 ls 3 lw 2.0 dt 2
+set arrow 4 from second X2, Y2 to second X2, 82.0 ls 5 lw 2.0 dt 2
 
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
@@ -457,8 +457,8 @@ set format y2 "%3.0f"
 
 set arrow 1 from 20, 30 to 5, 30 ls 1
 set arrow 2 from second 154, 83.5 to second 175, 83.5 ls 2
-set arrow 3 from second X1, Y1 to second X1, 81.0 ls 3
-set arrow 4 from second X2, Y2 to second X2, 84.8 ls 5
+set arrow 3 from second X1, Y1 to second X1, 81.0 ls 3 lw 2.0 dt 2
+set arrow 4 from second X2, Y2 to second X2, 84.8 ls 5 lw 2.0 dt 2
 
 set origin 0.0 , 2.0
 set size   1.0 , 1.0

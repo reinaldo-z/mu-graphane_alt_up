@@ -21,7 +21,7 @@ f=pf*sl
 
 ################################ V_{s^x} 0.912eV ###############################
 # perp alpha~(9.13,99.13); col alpha~(100.28,100.28)
-tol=0.2
+tol=0.5
 
 X1=9.13     # perp
 Y1=99.13    # perp
@@ -56,8 +56,8 @@ set format y2 "%6.1f"
 
 set arrow 1 from 20, 12 to 5, 12 ls 1
 set arrow 2 from second 154, 100.1 to second 175, 100.1 ls 2
-set arrow 3 from second X1, Y1 to second X1, 99.10 ls 3
-set arrow 4 from second X2, Y2 to second X2, 99.25 ls 5
+set arrow 3 from second X1, Y1 to second X1, 99.10 ls 3 lw 2.0 dt 2
+set arrow 4 from second X2, Y2 to second X2, 99.25 ls 5 lw 2.0 dt 2
 
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
@@ -168,7 +168,7 @@ unset multiplot
 
 ################################ V_{s^z} 0.912eV ###############################
 # col alpha~(53.45,53.45); perp alpha~(139.85,49.85)
-tol=0.2
+tol=0.5
 
 X2=53.45    # col
 Y2=53.45    # col
@@ -204,8 +204,8 @@ set format y2 "%3.1f"
 
 set arrow 1 from 30, 17 to 10, 17 ls 1
 set arrow 2 from second 154, 49.9 to second 175, 49.9 ls 2
-set arrow 3 from second X1, Y1 to second X1, 53.2 ls 3
-set arrow 4 from second X2, Y2 to second X2, 50.0 ls 5
+set arrow 3 from second X1, Y1 to second X1, 53.2 ls 3 lw 2.0 dt 2
+set arrow 4 from second X2, Y2 to second X2, 50.0 ls 5 lw 2.0 dt 2
 
 set origin 0.0 , 2.0
 set size   1.0 , 1.0
