@@ -423,8 +423,8 @@ unset multiplot
 # col alpha~(78.3,78.3); perp alpha~(168.4,78.4)
 tol=0.2
 
-X2=78.35     # col
-Y2=78.35     # col
+X2=78.35    # col
+Y2=78.35    # col
 X1=168.4    # perp
 Y1=78.4     # perp
 
