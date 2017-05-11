@@ -317,14 +317,14 @@ number of layer.}
 \label{tab:up-unitcell}
 \end{table}
 
-We preset the results for $\mathcal{V}^{\mathrm{ab}}$ for the
-C$_{16}$H$_{8}$-alt and C$_{16}$H$_{8}$-up structures being both
-noncentrosymmetric semi-infinite carbon systems with 50\% hydrogenation in
-different arrangements. The \emph{alt} system has alternating hydrogen atoms on
-the upper and bottom sides of the carbon sheet, while the \emph{up} system has H
-only on the upper side. We take the hexagonal carbon lattice to be on the $xy$
-plane for both structures, and the carbon-hydrogen bonds on the perpendicular
-$xz$ plane, as depicted in Figs.
+We preset the results for $|\mathcal{V}^{\mathrm{a}}|(\omega)$ and
+$|\mathcal{V}_{\sigma^{\mathrm{b}}}|(\omega)$ for the C$_{16}$H$_{8}$-alt and
+C$_{16}$H$_{8}$-up structures being both noncentrosymmetric semi-infinite carbon
+systems with 50\% hydrogenation in different arrangements. The \emph{alt} system
+has alternating hydrogen atoms on the upper and bottom sides of the carbon
+sheet, while the \emph{up} system has H only on the upper side. We take the
+hexagonal carbon lattice to be on the $xy$ plane for both structures, and the
+carbon-hydrogen bonds on the perpendicular $xz$ plane, as depicted in Figs.
 \ref{fig:alt-struc} and \ref{fig:up-struc}.
 
 Using the ABINIT code \cite{gonzeCPC09} we calculated the self-consistent ground
@@ -333,13 +333,15 @@ density approximation (DFT-LDA) with a planewave basis. We used Hartwigsen-
 Goedecker-Hutter (HGH) relativistic separable dual-space Gaussian
 pseudopotentials \cite{hartwigsenPRB98} including the spin-orbit interaction
 needed to calculate $\mu^{\mathrm{abcd}}(\omega)$ (Eq.
-\eqref{eq:mu}) and $|\mathcal{V}^{\mathrm{a}}(\omega)|$ (Eq. \eqref{eq:vab}).
+\eqref{eq:mu}), $\mathcal{V}^{\mathrm{ab}}(\omega)$ (Eq. \eqref{eq:vab}),
+$|\mathcal{V}_{\sigma^{\mathrm{b}}}|(\omega)$ (Eq. \eqref{eq:vs-mag}) and
+$|\mathcal{V}^{\mathrm{a}}(\omega)|$ (Eq. \eqref{eq:vv-mag}).
 %
 It is known that using DFT-LDA to calculate the electronic structure of
 materials predict a different band gap than the obtained experimentally. A
-correction for the band gap energy value can be calculated by other \emph{ab-
-initio} methods such as the GW approximation \cite{onidaRMP02} but this is
-outside the scope of this paper.
+correction for the band gap energy value can be calculated by other 
+\emph{ab-initio} methods such as the GW approximation \cite{onidaRMP02} but this
+is outside the scope of this paper.
 % 
 The convergence parameters for the calculations of our results corresponding to
 the \emph{alt} and \emph{up} structures are cutoff energies of 65\,Ha and
@@ -397,10 +399,10 @@ polarization angle $\alpha$ and energy values.}
 
 In figure \ref{fig:vab-str-comp} we present a comparison of the most intense
 responses resulting from evaluate the Eq. \eqref{eq:vab} for the \emph{alt} and
-\emph{up} 2D structures vs. CdSe and GaAs bulk structures. As we can see from
+\emph{up} 2D structures vs. CdSe and GaAs bulk systems. As we can see from
 this figure the most intense response corresponds to the \emph{up} structure
 centered at 0.088\,eV corresponding to the THz radiation and reaching a
-spin velocity of 87.16\,Km/s.
+spin velocity of 87.2\,Km/s.
 % 
 In the other hand, for an energy range from 0.66\,eV to 3.0\,eV, corresponding
 to energies of the Thz and visible radiation, all the four structures have
@@ -415,8 +417,8 @@ and -32.9\,Km/s, respectively.
 Then, for the bulk structures we have that the CdSe has only one intense
 response centered at 0.91\,eV reaching a spin velocity of -26.9\,Km/s, and the
 GaAs structure has a large and almost planar zone where the response is held
-reaching the maximum for an incoming beam of energy of 2.31\,eV and reaching a
-spin velocity of -21.6\,Km/s.
+reaching the maximum for an incoming beam of energy of 2.31\,eV and resulting in
+a spin velocity of -21.6\,Km/s.
 % 
 In table \ref{tab:vab-str-comp} we present the comparison of this values for the
 2D and bulk structures.
@@ -477,25 +479,24 @@ In table \ref{tab:vab-str-comp} we present the comparison of this values for the
 % %%%%%%%%%%%%%%%%%
 \textbf{Up structure}
 
-We first present two energy ranges for the \emph{up} structure, the first for an
-incoming energy beam from 0.0\,eV to 0.2\,eV in the THz radiation range where
-the absolute maximum of the $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)$
-response is obtained and the second for an energy range from 1.80\,eV to 2.1\,eV
-where two local maxima are found.
+We first analyzed two energy ranges for the \emph{up} structure, the first for
+an incoming energy beam from 0.0\,eV to 0.2\,eV in the THz radiation range,
+where the absolute maximum of the $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)$
+response is obtained and the second for an energy range from 1.80\,eV to
+2.1\,eV, corresponding to the THz and visible radiation, where two local maxima
+are found.
 % 
 In Fig. \ref{fig:up-3d-vsz} we present the
 $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)$ spectra resulting from evaluate
-the Eq. \eqref{eq:vs-mag} using different polarization angles $\alpha$ in the
-Eq. \eqref{eq:vab} for the \emph{up} structure. In the figure we have that the
-onset of the response starts when the energy of the incoming beam is the same of
-the gap energy.
+Eq. \eqref{eq:vs-mag} using different polarization angles $\alpha$ in Eq.
+\eqref{eq:vab}. From the figure we have that the onset of the response starts
+when the energy of the incoming beam is the same of the gap energy.
 % 
-From this figure we obtained that the zone where the maximum response is held
-corresponds to a energy range of the incident beam from 0.084\,eV to 0.093\,eV,
-corresponding to the THz radiation, and polarization angles $\alpha$ between
-$30^{\circ}$ and $45^{\circ}$. Also two local maxima are held for same
-polarization angles but for an energy range of the incoming beam between
-1.90\,eV and 2.05\,eV corresponding to the THz and visible radiation.
+Making the analysis, we obtained that the zone where the maximum response is
+held corresponds to a energy range of the incident beam from 0.084\,eV to
+0.093\,eV and polarization angles $\alpha$ between $30^{\circ}$ and
+$45^{\circ}$. Also two local maxima are held for same polarization angles but
+for an energy range of the incoming beam between 1.90\,eV and 2.05\,eV.
 % %%%%%%%%%%%%%%%%%
 % %% 0.0 eV - 0.16 eV
 % %% Description of UP |V_{s^z}| & gamma  vs. alpha agle
@@ -511,14 +512,14 @@ evaluation of Eq. \eqref{eq:gamma-ang}, and in the bottom frames of those
 figures the corresponding components $\mathcal{V}^{\mathrm{xz}}(\omega)$ and
 $\mathcal{V}^{\mathrm{yz}}(\omega)$. Also we present two circled and square
 boxes indicating the values where the angles of the spin velocity are parallel
-and perpendicular and the the arrows are directed to the value of the response
+and perpendicular and the arrows are directed to the value of the response
 corresponding to those angles.
 % 
-From Figs. \ref{fig:up-vaz-rag-1} and \ref{fig:up-3d-vsz-1} we have that the
+From Figs. \ref{fig:up-3d-vsz-1} and \ref{fig:up-vaz-rag-1} we have that the
 absolute maximum response for the \emph{up} structure is obtained for an
 incoming beam with energy of 0.088\,eV and polarization angle
 $\alpha=40^{\circ}$ resulting in a value of
-$|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)=37.4$\,Km/s coming from the
+$|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)=95.8$\,Km/s coming from the
 contribution of the components $\mathcal{V}^{\mathrm{xz}}(\omega)=39.8$\,Km/s
 and $\mathcal{V}^{\mathrm{yz}}(\omega)=87.2$\,Km/s for the spin polarized in the
 $\mathrm{z}$ direction and having a velocity angle
@@ -526,7 +527,7 @@ $\gamma_{\mathrm{z}}(\omega)=65^{\circ}$ on the $xy$ plane.
 % 
 In the same figure the green circled box indicates the value for which the
 polarization angle $\alpha$ and the response direction angle
-$\gamma_{\mathrm{z}}(\omega)$ are collinear being this angle $65.5^{\circ}$
+$\gamma_{\mathrm{z}}(\omega)$ are collinear being both angle $65.5^{\circ}$ and
 resulting in a value of the response of
 $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)=82.3$\,Km/s indicated by the upward
 green arrow.
@@ -538,15 +539,18 @@ value of $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)=24.8$\,Km/s indicated by
 the blue downward arrow.
 % 
 The green and blue error bars are fixed for a value of $\pm0.5^{\circ}$ and
-then, for this variation in the $\gamma_{\mathrm{z}}(\omega)$ angle the complete
-range of $\alpha$ angle is included because this last is almost constant.
+then, for variations of this magnitude in $\gamma_{\mathrm{z}}(\omega)$ the
+complete range of $\alpha$ angle is included because this last is almost
+constant.
 % 
-Now from Figs. \ref{fig:up-vaz-rag-2} and \ref{fig:up-3d-vsz-2} we have that a
+Now from Figs. \ref{fig:up-3d-vsz-2} and \ref{fig:up-vaz-rag-2} we have that a
 local maxima of the response is obtained for an incoming beam with energy of
 0.912\,eV and same polarization angle $\alpha=40^{\circ}$ resulting in a value
-of $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)=30.3$\,Km/s directed in a
-velocity angle $\gamma_{\mathrm{z}}(\omega)=78^{\circ}$ on the $xy$ plane for
-the spin polarized in the $z$ direction.
+of $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)=30.3$\,Km/s. This comes from a
+major contribution of the $\mathcal{V}^{\mathrm{yz}}(\omega)$ component being
+directed in a velocity angle $\gamma_{\mathrm{z}}(\omega)=78^{\circ}$ on the
+first Cartesian Quadrant of the $xy$ plane, for the spin polarized in the $z$
+direction.
 % 
 Again the green circled box indicates the value for which the polarization angle
 $\alpha$ and the response direction angle $\gamma_{\mathrm{z}}(\omega)$ are
@@ -565,7 +569,18 @@ upward arrow. Again, for variations in the response angle of $\pm2^{\circ}$,
 indicated with the error bars, corresponds a range in the polarization angle of
 $155^{\circ} \leq \alpha \leq 180^{\circ}$ having again a large range for which
 the direction of the response is held.
-
+% 
+% 
+The most interesting case in which the spin is perpendicular to the surface of
+the structure and also for the \emph{up} structure the most intense was the
+presented before for which the spin is polarized in the $\mathrm{z}$ direction.
+We also made the analysis for the cases when the spin polarization is directed
+in the $\mathrm{x}$ and $\mathrm{y}$ direction but we do not present the
+corresponding plots. For those cases we have that the absolute maxima response
+is obtained for an energy of the incoming beam equal to 0.088\,eV and
+polarization angle $\alpha=40^{\circ}$ resulting in values of
+$|\mathcal{V}_{\sigma^{\mathrm{x}}}|(\omega)=37.4$\,Km/s and
+$|\mathcal{V}_{\sigma^{\mathrm{y}}}|(\omega)=24.8$\,Km/s.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Res: fixing spin Alt  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -601,19 +616,20 @@ the direction of the response is held.
 % %%%%%%%%%%%%%%%%%
 \textbf{Alt structure}
 
+For the \emph{alt} structure we analyzed the energy range for the incident beam from 0.6\,eV to 1.0\,eV, corresponding to the THz radiation, where the absolute maximum of $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)$ response is obtained.
+% 
 In Fig. \ref{fig:alt-3d-vsb} we present the
 $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)$ spectra resulting from evaluate
-again the Eq. \eqref{eq:vs-mag} vs. the photon energy of the incident beam vs.
-the polarization angle $\alpha$ in Eq. \eqref{eq:vab} for the \emph{alt}
-structure . In the figure we have that the onset of the response starts when the
-energy of the incoming beam is the same of the gap energy.
+again Eq. \eqref{eq:vs-mag} using different polarization angle $\alpha$ in Eq.
+\eqref{eq:vab} for the \emph{alt} structure. In the figure we have that the
+onset of the response starts when the energy of the incoming beam is the same of
+the gap energy.
 % 
 From this figure we found that the zone where the absolute maximum response is
-held corresponds to a energy range from 0.90\,eV to 0.93\,eV, corresponding to
-the THz raduation, and polarization angles $\alpha$ between $120^{\circ}$ and
-$150^{\circ}$. Also, a local maximum is obtained for the same polarization
-angles but for energies between 0.67\,eV and 0.75\,eV.
-% 
+held corresponds to a energy range from 0.90\,eV to 0.93\,eV and polarization
+angles $\alpha$ between $120^{\circ}$ and $150^{\circ}$. Also, a local maximum
+is obtained for the same polarization angles but for energies between 0.67\,eV
+and 0.75\,eV.
 % %%%%%%%%%%%%%%%%%
 % %% 0.0 eV - 0.16 eV
 % %% Description of ALT |V_{s^z}| & gamma  vs. alpha agle
@@ -622,8 +638,8 @@ In the top frame of Fig. \ref{fig:alt-vaz-rag} we present in solid line the
 result of evaluate $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)$, related to the
 left scale, fixing the energy of the incoming beam to 0.912\,eV for which value
 the response is maximized for the \emph{alt} structure. In the same figure and
-frame we present in dashed line, related to the right scale, the velocity angle
-$\gamma_{\mathrm{z}}(\omega)$ and in the bottom frame the corresponding
+frame we present with dashed line, related to the right scale, the velocity
+angle $\gamma_{\mathrm{z}}(\omega)$ and in the bottom frame the corresponding
 $\mathcal{V}^{\mathrm{xz}}(\omega)$ and $\mathcal{V}^{\mathrm{yz}}(\omega)$
 components. Again, the circled and square boxes indicate the values for which
 the polarization angle and the velocity angle are parallel and perpendicular and
@@ -634,20 +650,27 @@ maximum response for the \emph{alt} structure is obtained for an incoming beam
 with polarization angle $\alpha=145^{\circ}$ reaching a velocity of
 $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)=43.0$\,Km/s and for the spin
 polarized in the $\mathrm{z}$ direction and resulting in a velocity angle
-$\gamma_{\mathrm{z}}(\omega)=50^{\circ}$ on the $xy$ plane. The circled box for
-the collinear angle corresponds for angles $\alpha$ and
-$\gamma_{\mathrm{z}}(\omega)$ equal to $53.5^{\circ}$ with a value of
-$|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)=12.7$\,Km/s, and the blue square
+$\gamma_{\mathrm{z}}(\omega)=50^{\circ}$ on the first Cartesian Quadrant of the
+$xy$ plane. The circled box for the collinear angle corresponds for angles
+$\alpha$ and $\gamma_{\mathrm{z}}(\omega)$ equal to $53.5^{\circ}$ with a value
+of $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)=12.7$\,Km/s, and the blue square
 box indicates the perpendicular angles for values $\alpha=140^{\circ}$ and
 $\gamma_{\mathrm{z}}(\omega)=50^{\circ}$ with a value of
 $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)=43$\,Km/s. Finally we found that
 for variations of $\pm0.5^{\circ}$ of those collinear and perpendicular angles,
 presented with the error bars on the boxes, correspond ranges for the
 polarization angle $30^{\circ} \leq \alpha \leq 70^{\circ}$ and $95^{\circ} \leq
-\alpha \leq 175^{\circ}$ because the response angle
-$\gamma_{\mathrm{z}}(\omega)$ has small variations for the complete range of the
-polarization angle $\alpha$.
-
+\alpha \leq 175^{\circ}$ covering a wide range of angles because the response
+angle $\gamma_{\mathrm{z}}(\omega)$ has small variations for the complete range
+of the polarization angle $\alpha$.
+% 
+Again, for the cases in which the spin polarization is parallel to the surface
+of the \emph{alt} structure was calculated but the plots are not presented here.
+The absolute maxima for the case when the spin polarization is directed in the
+$\mathrm{x}$ and $\mathrm{y}$ direction are obtained for an energy of the
+incoming beam equal to 0.912\,eV and polarization angle $\alpha=145^{\circ}$
+resulting in values of $|\mathcal{V}_{\sigma^{\mathrm{x}}}|(\omega)=27.1$\,Km/s
+and $|\mathcal{V}_{\sigma^{\mathrm{y}}}|(\omega)=33.2$\,Km/s.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%% Results: Fixing velocity %%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -706,19 +729,16 @@ polarization angle $\alpha$.
 % %%%%%%%%%%%%%%%%%
 For the \emph{up} structure we first analyzed the energy range from 0.00\,eV to
 0.16\,eV, where we found the most intense response and the absolute maxima for
-$|\mathcal{V}^{\mathrm{x}}|(\omega)$ and $|\mathcal{V}^{\mathrm{y}}|(\omega)$.
-% 
-In Fig. \ref{fig:up-3d-vva-1} we present the
-$|\mathcal{V}^{\mathrm{a}}|(\omega)$ spectra resulting from evaluate the Eq.
-\eqref{eq:vv-mag} using different polarization angles $\alpha$ in the Eq.
+$|\mathcal{V}^{\mathrm{x}}|(\omega)$ and $|\mathcal{V}^{\mathrm{y}}|(\omega)$
+presented in Fig. \ref{fig:up-3d-vva-1} and resulting from evaluate Eq.
+\eqref{eq:vv-mag} using different polarization angles $\alpha$ in Eq.
 \eqref{eq:vab} for the \emph{up} structure. We can see that the onset of the
 response is when the energy of the incoming light is the same of the gap energy.
 %
 From this picture we can see that for the zone between the energy range of
-0.084\,eV-0.093\,eV,corresponding to the THz radiation, and polarization angles
-between $30^{\circ}$ and $45^{\circ}$ is the zone where the maximum response is
-held for both, $|\mathcal{V}^{\mathrm{x}}|(\omega)$ and
-$|\mathcal{V}^{\mathrm{y}}|(\omega)$.
+0.084\,eV-0.093\,eV and polarization angles between $30^{\circ}$ and
+$45^{\circ}$ is the zone where the maximum response is held for both,
+$|\mathcal{V}^{\mathrm{x}}|(\omega)$ and $|\mathcal{V}^{\mathrm{y}}|(\omega)$.
 % %%%%%%%%%%%%%%%%%
 % %% 1.8 eV - 2.0 eV
 % %% Description of UP |V^{a}|, components and RTP
@@ -729,7 +749,7 @@ In the top frames of  Figs. \ref{fig:up-vx-comp-rtp-1} and
 \ref{fig:up-vy-comp-rtp-1} we present in solid lines the results of
 $|\mathcal{V}^{\mathrm{x}}|(\omega)$ and $|\mathcal{V}^{\mathrm{y}}|(\omega)$,
 related to the left scale, fixing the polarization angle to $\alpha=40^{\circ}$
-for which the response is maximized for the \emph{up} structure. In the same
+for which the response is maximized. In the same
 figures and frames we present in dashed lines the corresponding polar
 $\theta_{a}(\omega)$ and azimuthal $\varphi_{a}(\omega)$ angles related to the
 right scale. Also, in the bottom frames of those figures we present the
