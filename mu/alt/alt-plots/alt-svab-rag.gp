@@ -39,13 +39,15 @@ set rmargin 2
 set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-alt' at graph 0.05 , 0.93
-set key at graph 0.98, 0.2
+set key at graph 0.97, 0.25
+set label 2 '@ 0.912\,eV' at graph 0.78, 0.10
+
 
 unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ @ 0.912\,eV [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}(\omega)|$ [Km/s]}'
 set yrange [6:28]
 set ytics 5, 3, 28
 
@@ -72,13 +74,15 @@ p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:($2*f) w l ax
 
 unset arrow 1
 unset label 1
-set key at graph 0.63, 0.50 center
+set key at graph 0.63, 0.60 center
+set label 2 '@ 0.912\,eV' at graph 0.78, 0.40
+
 
 set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
 set yrange [-30:12]
 set ytics nomirror
 set ytics  -30, 10, 10
@@ -112,13 +116,15 @@ set rmargin 2
 set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-alt' at graph 0.05 , 0.93
-set key at graph 0.55, 0.2
+set key at graph 0.55, 0.25
+set label 2 '@ 0.912\,eV' at graph 0.80, 0.15
+
 
 unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ @ 0.912\,eV [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}(\omega)|$ [Km/s]}'
 set yrange [8:35]
 set ytics 5, 5, 35
 
@@ -141,12 +147,14 @@ p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 3:($2*f) w l ax
 
 unset label 1
 set key at graph 0.65, 0.45 
+set label 2 '@ 0.912\,eV' at graph 0.80, 0.28
+
 
 set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
 set yrange [-32:0]
 set ytics nomirror
 set ytics  -32, 8, -4
@@ -187,13 +195,15 @@ set rmargin 2
 set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-alt' at graph 0.05 , 0.93
-set key at graph 0.55, 0.5
+set key at graph 0.55, 0.55
+set label 2 '@ 0.912\,eV' at graph 0.80, 0.45
+
 
 unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ @ 0.912\,eV [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega)|$ [Km/s]}'
 set yrange [9:45]
 set ytics 10, 5, 45
 
@@ -219,13 +229,15 @@ p   '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:($2*f) w l ax
     # '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
-set key at graph 0.65 , 0.65 
+set key at graph 0.65 , 0.75 
+set label 2 '@ 0.912\,eV' at graph 0.80, 0.55
+
 
 set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
 set yrange [-35:0]
 set ytics nomirror
 set ytics  -35, 5, -5

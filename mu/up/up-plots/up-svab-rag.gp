@@ -41,12 +41,13 @@ set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-up' at graph 0.05 , 0.93
 set key at graph 0.80, 0.95
+set label 2 '@ 0.088\,eV' at graph 0.61, 0.80
 
 unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}|(\omega)$ @ 0.088\,eV [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}(\omega)|$ [Km/s]}'
 set yrange [0:45]
 set ytics 0, 5, 45
 
@@ -73,13 +74,14 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-0.088eV' u 3:($2*f) w l axi
     # '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
-set key at graph 0.45, 0.20 center
+set key at graph 0.45, 0.40 center
+set label 2 '@ 0.088\,eV' at graph 0.60, 0.20
 
 set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ @ 0.088\,eV [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
 set yrange [-40:0]
 set ytics nomirror
 set ytics  -40, 10, -10
@@ -120,12 +122,13 @@ set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-up' at graph 0.05 , 0.10
 set key at graph 0.35, 0.9
+set label 2 '@ 0.088\,eV' at graph 0.60, 0.80
 
 unset xlabel
 set xtics nomirror  
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}|(\omega)$ @ 0.088\,eV [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}(\omega)|$ [Km/s]}'
 set yrange [4:25]
 set ytics 5, 5, 25
 
@@ -152,13 +155,14 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-0.088eV' u 3:($2*f) w l axi
     # '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
-set key at graph 0.45, 0.25 
+set key at graph 0.45, 0.30 
+set label 2 '@ 0.088\,eV' at graph 0.60, 0.12
 
 set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ @ 0.088\,eV [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
 set yrange [-30:15]
 set ytics nomirror
 set ytics  -30, 10, 15
@@ -199,12 +203,13 @@ set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-up' at graph 0.05 , 0.10
 set key at graph  0.55, 0.9
+set label 2 '@ 0.088\,eV' at graph 0.80, 0.80
 
 unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}|(\omega)$ @ 0.088\,eV [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega)|$ [Km/s]}'
 set yrange [18:100]
 set ytics 0, 10, 100
 
@@ -231,13 +236,14 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-0.088eV' u 3:($2*f) w l axi
     # '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
-set key at graph  0.65, 0.75 
+set key at graph  0.65, 0.80 
+set label 2 '@ 0.088\,eV' at graph 0.80, 0.60
 
 set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ @ 0.088\,eV [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
 set yrange [0:100]
 set ytics nomirror
 set ytics  0, 20, 90
@@ -282,12 +288,13 @@ set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-up' at graph 0.05 , 0.20
 set key at graph 0.25, 0.90
+set label 2 '@ 0.912\,eV' at graph 0.50, 0.80
 
 unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ @ 0.912\,eV [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}(\omega)|$ [Km/s]}'
 set yrange [0:28]
 set ytics 0, 4, 45
 
@@ -314,13 +321,14 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-1.972eV' u 3:($2*f) w l axi
     # '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
-set key at graph 0.35, 0.20 center
+set key at graph 0.35, 0.35 center
+set label 2 '@ 0.912\,eV' at graph 0.50, 0.15
 
 set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
 set yrange [-30:0]
 set ytics nomirror
 set ytics  -30, 10, 0
@@ -361,12 +369,13 @@ set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-up' at graph 0.05 , 0.20
 set key at graph 0.25, 0.9
+set label 2 '@ 0.912\,eV' at graph 0.50, 0.80
 
 unset xlabel
 set xtics nomirror  
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ @ 0.912\,eV [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}(\omega)|$ [Km/s]}'
 set yrange [0:30]
 set ytics 5, 5, 30
 
@@ -393,13 +402,14 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-1.972eV' u 3:($2*f) w l axi
     # '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
-set key at graph 0.35, 0.25 
+set key at graph 0.35, 0.35 
+set label 2 '@ 0.912\,eV' at graph 0.50, 0.15
 
 set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
 set yrange [-30:0]
 set ytics nomirror
 set ytics  -30, 10, 0
@@ -440,12 +450,13 @@ set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-up' at graph 0.05 , 0.20
 set key at graph  0.25, 0.9
+set label 2 '@ 0.912\,eV' at graph 0.50, 0.80
 
 unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ @ 0.912\,eV [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega)|$ [Km/s]}'
 set yrange [0:32]
 set ytics 0, 4, 32
 
@@ -472,13 +483,14 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-1.972eV' u 3:($2*f) w l axi
     # '../../aux-ang' u 1:4 w l axis x1y2 lw 3 dt 2 lt 6 t "" ,\
 
 unset label 1
-set key at graph  0.35, 0.25 
+set key at graph  0.35, 0.35 
+set label 2 '@ 0.912\,eV' at graph 0.50, 0.15
 
 set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}$ @ 0.912\,eV [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
 set yrange [-31:0]
 set ytics nomirror
 set ytics  -30, 10, 0
