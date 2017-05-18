@@ -68,6 +68,7 @@ set rmargin 2
 set multiplot
 
 set key at graph 0.24, 0.95
+set label 2 '@ $145^{\circ}$' at graph 0.10, 0.74
 
 unset xlabel
 unset xtics
@@ -76,11 +77,11 @@ set arrow 1 from 0.69, 9 to 0.63, 9 ls 1
 set arrow 2 from second 0.960, 100 to second 1.03, 100 ls 2
 set arrow 3 from second 0.960, 235 to second 1.03, 235 ls 3
 
-set ylabel '{\Large $|\mathcal{V}^{\mathrm{x}}|(\omega)$ @ 145$^{\circ}$ [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}^{\mathrm{x}}|(\omega,\alpha)$ [Km/s]}'
 set yrange [0:32]
 set ytics  4
 
-set y2label '{\Large $\theta_{\mathrm{x}}(\omega)$, $\gamma_{\mathrm{x}}(\omega)$ [deg.]}'
+set y2label '{\Large $\theta_{\mathrm{x}}(\omega,\alpha)$, $\gamma_{\mathrm{x}}(\omega,\alpha)$ [deg.]}'
 set y2range [0:360]
 set y2tics 45
 
@@ -99,12 +100,13 @@ unset arrow 1
 unset arrow 2
 unset arrow 3
 
-set key at graph -0.09, 0.2 center
+set key at graph -0.09, 0.45 center
+set label 2 '@ $145^{\circ}$' at graph 0.10, 0.20
 
 set xtics nomirror
 set xlabel '{\Large Photon Energy [eV]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ @ 145$^{\circ}$ [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ [Km/s]}'
 set yrange [-30:15]
 set ytics 10
 
@@ -131,7 +133,8 @@ set rmargin 2
 set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-alt' at graph 0.5 , 0.93
-set key at graph -0.10, 0.85
+set key at graph -0.12, 0.85
+set label 2 '@ $145^{\circ}$' at graph 0.08, 0.72
 
 unset xlabel
 unset xtics
@@ -140,11 +143,11 @@ set arrow 1 from 0.69, 9 to 0.63, 9 ls 1
 set arrow 2 from second 0.956, 100 to second 1.03, 100 ls 2
 set arrow 3 from second 0.985, 235 to second 1.03, 235 ls 3
 
-set ylabel '{\Large $|\mathcal{V}^{\mathrm{y}}|(\omega)$ @ 145$^{\circ}$ [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}^{\mathrm{y}}|(\omega,\alpha)$ [Km/s]}'
 set yrange [0:55]
 set ytics  5
 
-set y2label '{\Large $\theta_{\mathrm{y}}(\omega)$, $\gamma_{\mathrm{y}}(\omega)$ [deg.]}'
+set y2label '{\Large $\theta_{\mathrm{y}}(\omega,\alpha)$, $\gamma_{\mathrm{y}}(\omega,\alpha)$ [deg.]}'
 set y2range [0:360]
 set y2tics 45
 
@@ -163,11 +166,13 @@ unset arrow 1
 unset arrow 2
 unset arrow 3
 
-set key at graph -0.09, 0.20
+set key at graph -0.11, 0.45
+set label 2 '@ $145^{\circ}$' at graph 0.08, 0.20
+
 set xtics nomirror
 set xlabel '{\Large Photon Energy [eV]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ @ 145$^{\circ}$ [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ [Km/s]}'
 set yrange [-42:5]
 set ytics 10
 

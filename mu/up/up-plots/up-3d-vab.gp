@@ -38,7 +38,7 @@ set cbtics 0,10,60
 
 set ylabel '{\large Polarization angle $\alpha$ [deg.]}' rotate parallel offset 1.3,-1.0, 0.0
 set xlabel '{\large Photon Energy [eV]}'                 rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '{\large $|\cal{V}^{\mathrm{x}}(\omega)|$ [Km/s]}'    rotate parallel offset 1.0, 0.0, 0.0 
+set zlabel '{\large $|\cal{V}^{\mathrm{x}}(\omega,\alpha)|$ [Km/s]}'    rotate parallel offset 1.0, 0.0, 0.0 
 set output "up-3d-vxb-1.mp"
 sp  '../up-res-0-4-2001pts/magv.sm_0.03_xb_12802_40-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:3:($2*f) w l lw 1.0 lt 8
 
@@ -58,7 +58,7 @@ set cbtics 0,15,90
 
 set ylabel '{\large Polarization angle $\alpha$ [deg.]}' rotate parallel offset 1.3,-1.0, 0.0
 set xlabel '{\large Photon Energy [eV]}'                 rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '{\large $|\cal{V}^{\mathrm{y}}(\omega)|$ [Km/s]}'    rotate parallel offset 1.0, 0.0, 0.0 
+set zlabel '{\large $|\cal{V}^{\mathrm{y}}(\omega,\alpha)|$ [Km/s]}'    rotate parallel offset 1.0, 0.0, 0.0 
 set output "up-3d-vyb-1.mp"
 sp  '../up-res-0-4-2001pts/magv.sm_0.03_yb_12802_40-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:3:($2*f) w l lw 1.0 lt 8
 
@@ -86,7 +86,7 @@ set cbtics 0, 2, 10
 
 set ylabel '{\large Polarization angle $\alpha$ [deg.]}' rotate parallel offset 1.3,-1.0, 0.0
 set xlabel '{\large Photon Energy [eV]}'                 rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '{\large $|\cal{V}^{\mathrm{x}}(\omega)|$ [Km/s]}'    rotate parallel offset 1.0, 0.0, 0.0 
+set zlabel '{\large $|\cal{V}^{\mathrm{x}}(\omega,\alpha)|$ [Km/s]}'    rotate parallel offset 1.0, 0.0, 0.0 
 set output "up-3d-vxb-2.mp"
 sp  '../up-res-0-4-2001pts/magv.sm_0.03_xb_12802_40-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:3:($2*f) w l lw 0.7 lt 8
 
@@ -107,7 +107,7 @@ set cbtics 0, 10, 50
 
 set ylabel '{\large Polarization angle $\alpha$ [deg.]}' rotate parallel offset 1.3,-1.0, 0.0
 set xlabel '{\large Photon Energy [eV]}'                 rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '{\large $|\cal{V}^{\mathrm{y}}(\omega)|$ [Km/s]}'    rotate parallel offset 1.0, 0.0, 0.0 
+set zlabel '{\large $|\cal{V}^{\mathrm{y}}(\omega,\alpha)|$ [Km/s]}'    rotate parallel offset 1.0, 0.0, 0.0 
 set output "up-3d-vyb-2.mp"
 sp  '../up-res-0-4-2001pts/magv.sm_0.03_yb_12802_40-spin_scissor_0_Nc_32_incang_0-180-step5' u 1:3:($2*f) w l lw 0.7 lt 8
 

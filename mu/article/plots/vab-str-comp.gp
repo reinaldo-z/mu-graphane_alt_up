@@ -16,7 +16,7 @@ set yrange [-45:90]
 
 set key at graph 0.98, 0.95
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ [Km/s]}'
 set output "vab-str-comp.mp"
 
 p   '../../up/up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040'    u 1:($2*f)  w l lw 1.5 dt 1 t 'Up:   $\mathcal{V}^{\mathrm{yz}}$ @ \, 40$^{\circ}$' ,\

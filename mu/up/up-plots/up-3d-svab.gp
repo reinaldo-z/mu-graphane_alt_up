@@ -37,7 +37,7 @@ set cbtics 0, 8, 40
 
 set ylabel '{\large Polarization angle $\alpha$ [deg.]}'         rotate parallel offset 1.3,-1.0, 0.0
 set xlabel '{\large Photon Energy [eV]}'                         rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '{\large $|\cal{V}_{\sigma^{\mathrm{x}}}(\omega)|$ [Km/s]}'   rotate parallel offset 1.0, 0.0, 0.0 
+set zlabel '{\large $|\cal{V}_{\sigma^{\mathrm{x}}}(\omega,\alpha)|$ [Km/s]}'   rotate parallel offset 1.0, 0.0, 0.0 
 set output "up-3d-svax-1.mp"
 sp  '../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-spin_scissor_0_Nc_32_incang_000-360' u 1:3:($2*f) w l lw 1.0 lt 8
 
@@ -57,7 +57,7 @@ set cbtics 0, 5, 25
 
 set ylabel '{\large Polarization angle $\alpha$ [deg.]}'         rotate parallel offset 1.3,-1.0, 0.0
 set xlabel '{\large Photon Energy [eV]}'                         rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '{\large $|\cal{V}_{\sigma^{\mathrm{y}}}(\omega)|$ [Km/s]}'   rotate parallel offset 1.0, 0.0, 0.0 
+set zlabel '{\large $|\cal{V}_{\sigma^{\mathrm{y}}}(\omega,\alpha)|$ [Km/s]}'   rotate parallel offset 1.0, 0.0, 0.0 
 set output "up-3d-svay-1.mp"
 sp  '../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-spin_scissor_0_Nc_32_incang_000-360' u 1:3:($2*f) w l lw 1.0 lt 8
 
@@ -77,7 +77,7 @@ set cbtics 0, 20, 100
 
 set ylabel '{\large Polarization angle $\alpha$ [deg.]}'         rotate parallel offset 1.3,-1.0, 0.0
 set xlabel '{\large Photon Energy [eV]}'                         rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '{\large $|\cal{V}_{\sigma^{\mathrm{z}}}(\omega)|$ [Km/s]}'   rotate parallel offset 1.0, 0.0, 0.0 
+set zlabel '{\large $|\cal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)|$ [Km/s]}'   rotate parallel offset 1.0, 0.0, 0.0 
 set output "up-3d-svaz-1.mp"
 sp  '../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-spin_scissor_0_Nc_32_incang_000-360' u 1:3:($2*f) w l lw 1.0 lt 8
 
@@ -102,7 +102,7 @@ set cbtics 0, 4, 28
 
 set ylabel '{\large Polarization angle $\alpha$ [deg.]}'         rotate parallel offset 1.3,-1.0, 0.0
 set xlabel '{\large Photon Energy [eV]}'                         rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '{\large $|\cal{V}_{\sigma^{\mathrm{x}}}(\omega)|$ [Km/s]}'   rotate parallel offset 1.0, 0.0, 0.0 
+set zlabel '{\large $|\cal{V}_{\sigma^{\mathrm{x}}}(\omega,\alpha)|$ [Km/s]}'   rotate parallel offset 1.0, 0.0, 0.0 
 set output "up-3d-svax-2.mp"
 sp  '../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-spin_scissor_0_Nc_32_incang_000-360' u 1:3:($2*f) w l lw 0.7 lt 8
 
@@ -123,7 +123,7 @@ set cbtics 0,5,30
 
 set ylabel '{\large Polarization angle $\alpha$ [deg.]}'         rotate parallel offset 1.3,-1.0, 0.0
 set xlabel '{\large Photon Energy [eV]}'                         rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '{\large $|\cal{V}_{\sigma^{\mathrm{y}}}(\omega)|$ [Km/s]}'   rotate parallel offset 1.0, 0.0, 0.0 
+set zlabel '{\large $|\cal{V}_{\sigma^{\mathrm{y}}}(\omega,\alpha)|$ [Km/s]}'   rotate parallel offset 1.0, 0.0, 0.0 
 set output "up-3d-svay-2.mp"
 sp  '../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-spin_scissor_0_Nc_32_incang_000-360' u 1:3:($2*f) w l lw 0.7 lt 8
 
@@ -144,7 +144,7 @@ set cbtics 0,8,32
 
 set ylabel '{\large Polarization angle $\alpha$ [deg.]}'         rotate parallel offset 1.3,-1.0, 0.0
 set xlabel '{\large Photon Energy [eV]}'                         rotate parallel offset 0.0,-1.5, 0.0
-set zlabel '{\large $|\cal{V}_{\sigma^{\mathrm{z}}}(\omega)|$ [Km/s]}'   rotate parallel offset 1.0, 0.0, 0.0 
+set zlabel '{\large $|\cal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)|$ [Km/s]}'   rotate parallel offset 1.0, 0.0, 0.0 
 set output "up-3d-svaz-2.mp"
 sp  '../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-spin_scissor_0_Nc_32_incang_000-360' u 1:3:($2*f) w l lw 0.7 lt 8
 

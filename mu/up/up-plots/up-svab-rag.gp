@@ -47,11 +47,11 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}(\omega)|$ [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}(\omega,\alpha)|$ [Km/s]}'
 set yrange [0:45]
 set ytics 0, 5, 45
 
-set y2label '{\Large Vel. angle $\gamma$ [deg.]}'
+set y2label '{\Large Vel. angle $\gamma_{x}(\omega,\alpha)$ [deg.]}'
 set y2tics
 set y2range [9.0:14.0]
 set y2tics  9.0, 0.5, 14.0
@@ -81,7 +81,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ [Km/s]}'
 set yrange [-40:0]
 set ytics nomirror
 set ytics  -40, 10, -10
@@ -128,11 +128,11 @@ unset xlabel
 set xtics nomirror  
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}(\omega)|$ [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}(\omega,\alpha)|$ [Km/s]}'
 set yrange [4:25]
 set ytics 5, 5, 25
 
-set y2label '{\Large Vel. angle $\gamma$ [deg.]}'
+set y2label '{\Large Vel. angle $\gamma_{y}(\omega,\alpha)$ [deg.]}'
 set y2tics
 set y2range [154:164]
 set y2tics  150, 1.0, 164
@@ -162,7 +162,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ [Km/s]}'
 set yrange [-30:15]
 set ytics nomirror
 set ytics  -30, 10, 15
@@ -209,11 +209,11 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega)|$ [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)|$ [Km/s]}'
 set yrange [18:100]
 set ytics 0, 10, 100
 
-set y2label '{\Large Vel. angle $\gamma$ [deg.]}'
+set y2label '{\Large Vel. angle $\gamma_{z}(\omega,\alpha)$ [deg.]}'
 set y2tics
 set y2range [64.0:68.0]
 set y2tics  64.0, 0.5, 68.0
@@ -243,7 +243,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ [Km/s]}'
 set yrange [0:100]
 set ytics nomirror
 set ytics  0, 20, 90
@@ -294,11 +294,11 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}(\omega)|$ [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}(\omega,\alpha)|$ [Km/s]}'
 set yrange [0:28]
 set ytics 0, 4, 45
 
-set y2label '{\Large Vel. angle $\gamma$ [deg.]}'
+set y2label '{\Large Vel. angle $\gamma_{x}(\omega,\alpha)$ [deg.]}'
 set y2tics
 set y2range [79.0:85.0]
 set y2tics  79.0, 1.0, 85.0
@@ -328,7 +328,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ [Km/s]}'
 set yrange [-30:0]
 set ytics nomirror
 set ytics  -30, 10, 0
@@ -375,11 +375,11 @@ unset xlabel
 set xtics nomirror  
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}(\omega)|$ [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}(\omega,\alpha)|$ [Km/s]}'
 set yrange [0:30]
 set ytics 5, 5, 30
 
-set y2label '{\Large Vel. angle $\gamma$ [deg.]}'
+set y2label '{\Large Vel. angle $\gamma_{y}(\omega,\alpha)$ [deg.]}'
 set y2tics
 set y2range [78:85]
 set y2tics  78, 1.0, 85
@@ -409,7 +409,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ [Km/s]}'
 set yrange [-30:0]
 set ytics nomirror
 set ytics  -30, 10, 0
@@ -456,11 +456,11 @@ unset xlabel
 set xtics nomirror
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega)|$ [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)|$ [Km/s]}'
 set yrange [0:32]
 set ytics 0, 4, 32
 
-set y2label '{\Large Vel. angle $\gamma$ [deg.]}'
+set y2label '{\Large Vel. angle $\gamma_{z}(\omega,\alpha)$ [deg.]}'
 set y2tics
 set y2range [78.0:90.0]
 set y2tics  78.0, 1.0, 90.0
@@ -490,7 +490,7 @@ set xtics mirror
 set format x "%g"
 set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 
-set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega)$ [Km/s]}'
+set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ [Km/s]}'
 set yrange [-31:0]
 set ytics nomirror
 set ytics  -30, 10, 0
