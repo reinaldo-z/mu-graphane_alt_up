@@ -271,70 +271,37 @@ Rango THz:   0.00124eV - 0.01241eV
 
                                 F I G U R E S :
 
-\begin{figure}[t]
-    \centering
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vsx-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-svax-1}}
-    \\
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vsy-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-svay-1}}
-    \\
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vsz-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-svaz-1}}
-    
-    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$,
-    $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$, and
-    $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ responses for the \emph{up}
-    structure.}
-    \label{fig:up-3d-vsb-1}
-\end{figure}
+3D SPIN CAPTION EXAMPLE
+    \caption{$|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)|$ response
+    as a function of the photon energy and polarization angle $\alpha$ for the
+    \emph{up} structure for two energy ranges. The absolute maxima is located
+    for an energy range from 0.08\,eV to 0.10\,eV, in the Far Infrared radiation
+    range, and two local maxima from 1.90\,eV to 1.93\,eV and  1.96\,eV to
+    2.0\,eV, in the visible, all for polarization angles between $25^{\circ}$
+    and $50^{\circ}$.}
 
 
-\begin{figure}[t]
-    \centering
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vsx-2}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-svax-2}}
-    \\
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vsy-2}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-svay-2}}
-    \\
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vsz-2}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-svaz-2}}
-
-    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$,
-    $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$, and
-    $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ responses for the \emph{up}
-    structure.}
-    \label{fig:up-3d-vsb-2}
-\end{figure}
-
-################
-
-\begin{figure}[t]
-    \centering
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$ for \emph{alt} structure 
-    \label{fig:alt-3d-vsx}]
-    {\includegraphics[width=\linewidth]{altplots/alt-3d-svax}}
-    \\
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$ for \emph{alt} structure 
-    \label{fig:alt-3d-vsy}]
-    {\includegraphics[width=\linewidth]{altplots/alt-3d-svay}}
-    \\
-    \subfigure[\ $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ for \emph{alt} structure 
-    \label{fig:alt-3d-vsz}]
-    {\includegraphics[width=\linewidth]{altplots/alt-3d-svaz}}
 
 
-    \caption{\color{red} $|\mathcal{V}_{\sigma^{\mathrm{x}}}|$,
-    $|\mathcal{V}_{\sigma^{\mathrm{y}}}|$, and
-    $|\mathcal{V}_{\sigma^{\mathrm{z}}}|$ responses for \emph{alt} structure. }
-    \label{fig:alt-3d-vsb}
-\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
