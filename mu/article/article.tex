@@ -46,24 +46,20 @@ Oshawa, ON, L1H 7L7, Canada}
 \blindtext
 \begin{figure}[ht!]
     \centering
-    \subfigure[\ $xz$ plane view]
-    {\includegraphics[width=\linewidth]{figures/altstruc2}}
+    \includegraphics[width=\linewidth]{figures/altstruc2}
     \label{fig:alt-struc-xz}
     \\
-    \subfigure[\ $xy$ plane view]
-    {\includegraphics[width=\linewidth]{figures/altstruc1}}
+    \includegraphics[width=\linewidth]{figures/altstruc1}
     \label{fig:alt-struc-xy}
     \caption{Alt structure.}
     \label{fig:alt-struc}
 \end{figure}
 \begin{figure}[ht!]
     \centering
-    \subfigure[\ $xz$ plane view]
-    {\includegraphics[width=\linewidth]{figures/upstruc2}}
+    \includegraphics[width=\linewidth]{figures/upstruc2}
     \label{fig:up-struc-xz}
     \\
-    \subfigure[\ $xy$ plane view]
-    {\includegraphics[width=\linewidth]{figures/upstruc1}}
+    \includegraphics[width=\linewidth]{figures/upstruc1}
     \label{fig:up-struc-xy}
     \caption{Up structure}
     \label{fig:up-struc}
@@ -394,11 +390,17 @@ polarization angle $\alpha$ and energy values.}
     \label{fig:vab-str-comp}
 \end{figure}
 
-{\Large  We calculated the $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$} response In figure
-\ref{fig:vab-str-comp} we present a comparison of the most intense responses
-resulting from evaluate the Eq. \eqref{eq:vab} for the \emph{alt} and \emph{up}
-2D structures and CdSe and GaAs bulk systems. As we can see from this figure the
-most intense response corresponds to the \emph{up} structure centered at
+Using the Eq. \eqref{eq:vab}, we calculated the
+$\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ response for the \emph{alt} and
+\emph{up} 2D structures and for the CdSe and GaAs bulk systems and the results
+are presented in Fig. \ref{fig:vab-str-comp}. The angle $\alpha$ presented in
+the response of each structure is that for which the response is maximized in
+each case.
+% 
+From the figure we have that the onset of the response starts when the energy of
+the incoming beam is the same of the gap energy.
+% 
+The most intense response corresponds to the \emph{up} structure centered at
 0.088\,eV corresponding to the Far Infrared (FIR) radiation and reaching a spin
 velocity of 87.2\,Km/s.
 % 
@@ -441,28 +443,28 @@ intense than the corresponding to the \emph{up} one.
 
 \begin{figure}[t]
     \centering
-    \subfigure[\ \label{fig:up-3d-vsz-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-svaz-1}}
+    \includegraphics[width=\linewidth]{upplots/up-3d-svaz-1}
+    \label{fig:up-3d-vsz-1}
     \\
-    \subfigure[\ \label{fig:up-3d-vsz-2}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-svaz-2}}
+    \includegraphics[width=\linewidth]{upplots/up-3d-svaz-2}
+    \label{fig:up-3d-vsz-2}
 
     \caption{$|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)|$, response
     as a function of the photon energy and polarization angle $\alpha$ for the
     \emph{up} structure for two energy ranges. The absolute maxima is located
-    for an energy range from 0.08\,eV to 0.10\,eV and the local maximum from
-    1.95\,eV to 2.0\,eV and both for polarization angles between $25^{\circ}$
-    and $50^{\circ}$.}
+    for an energy range from 0.08\,eV to 0.10\,eV, in the Far Infrared, and the
+    local maximum from 1.95\,eV to 2.0\,eV, in the visible, both for
+    polarization angles between $25^{\circ}$ and $50^{\circ}$.}
     \label{fig:up-3d-vsz}   
 \end{figure}
 
 \begin{figure}[t]
     \centering
-    \subfigure[\, \label{fig:up-vaz-rag-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-vaz-rag-1}}
+    \includegraphics[width=\linewidth]{upplots/up-vaz-rag-1}
+     \label{fig:up-vaz-rag-1}
     \\
-    \subfigure[\, \label{fig:up-vaz-rag-2}]
-    {\includegraphics[width=\linewidth]{upplots/up-vaz-rag-2}}
+    \includegraphics[width=\linewidth]{upplots/up-vaz-rag-2}
+     \label{fig:up-vaz-rag-2}
 
     \caption{Most intense response of
     $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)|$ (top frames, right
@@ -500,8 +502,7 @@ visible radiation, where two local maxima are found.
 In Fig. \ref{fig:up-3d-vsz} we present the
 $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)|$ spectra resulting from
 evaluate Eq. \eqref{eq:vs-mag} using different polarization angles $\alpha$ in
-Eq. \eqref{eq:vab}. From the figure we have that the onset of the response
-starts when the energy of the incoming beam is the same of the gap energy.
+Eq. \eqref{eq:vab}.
 % 
 Making the analysis, we obtained that the zone where the maximum response is
 held corresponds to a energy range of the incident beam from 0.084\,eV to
@@ -712,15 +713,11 @@ directed.
 \textbf{Up structure.}
 \begin{figure}[t]
     \centering
-    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}(\omega,\alpha)|$ for \emph{up}
-    structure
-    \label{fig:up-3d-vvx-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-vxb-1}}
+    \includegraphics[width=\linewidth]{upplots/up-3d-vxb-1}
+    \label{fig:up-3d-vvx-1}
     \\
-    \subfigure[\ $|\mathcal{V}^{\mathrm{y}}(\omega,\alpha)|$ for \emph{up}
-    structure
-    \label{fig:up-3d-vvy-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-vyb-1}}
+    \includegraphics[width=\linewidth]{upplots/up-3d-vyb-1}
+    \label{fig:up-3d-vvy-1}
     
     \caption{$|\mathcal{V}^{\mathrm{a}}(\omega,\alpha)|$ response vs. photon
     energy vs. polarization angle for the \emph{up} structure. The absolute
@@ -732,13 +729,11 @@ directed.
 \end{figure}
 \begin{figure}[t]
     \centering
-    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}(\omega,\alpha)|$ 
-    \label{fig:up-vx-comp-rtp-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-vxb-rtp-m1}}
+    \includegraphics[width=\linewidth]{upplots/up-vxb-rtp-m1}
+    \label{fig:up-vx-comp-rtp-1}
     \\
-    \subfigure[\ $|\mathcal{V}^{\mathrm{y}}(\omega,\alpha)|$ 
-    \label{fig:up-vy-comp-rtp-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-vyb-rtp-m1}}
+    \includegraphics[width=\linewidth]{upplots/up-vyb-rtp-m1}
+    \label{fig:up-vy-comp-rtp-1}
     
     \caption{Most intense response of
     $|\mathcal{V}^{\mathrm{x}}(\omega,\alpha)|$ and
@@ -790,36 +785,34 @@ $\mathcal{V}^{\mathrm{yy}}(\omega,\alpha)$, $\mathcal{V}^{\mathrm{yz}}(\omega,\a
 components.
 \begin{figure}[t]
     \centering
-    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vvx-2}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-vxb-2}}
+    \includegraphics[width=\linewidth]{upplots/up-3d-vxb-2}
+    \label{fig:up-3d-vvx-2}
     \\
-    \subfigure[\ $|\mathcal{V}^{\mathrm{y}}|$ for \emph{up} structure 
-    \label{fig:up-3d-vvy-2}]
-    {\includegraphics[width=\linewidth]{upplots/up-3d-vyb-2}}
+    \includegraphics[width=\linewidth]{upplots/up-3d-vyb-2}
+    \label{fig:up-3d-vvy-2}
     
-    \caption{$|\mathcal{V}^{\mathrm{a}}(\omega,\alpha)|$ response vs. photon energy vs.
-    polarization angle for the \emph{up} structure. The local maxima of both
-    responses $|\mathcal{V}^{\mathrm{x}}(\omega,\alpha)|$ and
-    $|\mathcal{V}^{\mathrm{y}}(\omega,\alpha)|$ are localized in the energy range from
-    1.95\,eV to 2.00\,eV and for polarization angles from $25^{\circ}$ to
-    $50^{\circ}$.}
+    \caption{$|\mathcal{V}^{\mathrm{a}}(\omega,\alpha)|$ response vs. photon
+    energy vs. polarization angle for the \emph{up} structure. The local maxima
+    of both responses $|\mathcal{V}^{\mathrm{x}}(\omega,\alpha)|$ and
+    $|\mathcal{V}^{\mathrm{y}}(\omega,\alpha)|$ are localized in the energy
+    range from 1.95\,eV to 2.00\,eV and for polarization angles from
+    $25^{\circ}$ to $50^{\circ}$.}
     \label{fig:up-3d-vva-2}
 \end{figure}
 \begin{figure}[t]
     \centering
-    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ \label{fig:up-vx-comp-rtp-2}]
-    {\includegraphics[width=\linewidth]{upplots/up-vxb-rtp-m2}}
+    \includegraphics[width=\linewidth]{upplots/up-vxb-rtp-m2}
+    \label{fig:up-vx-comp-rtp-2}
     \\
-    \subfigure[\ $|\mathcal{V}^{\mathrm{y}}|$ \label{fig:up-vy-comp-rtp-2}]
-    {\includegraphics[width=\linewidth]{upplots/up-vyb-rtp-m2}}
+    \includegraphics[width=\linewidth]{upplots/up-vyb-rtp-m2}
+    \label{fig:up-vy-comp-rtp-2}
     
     \caption{Intense response of
     $|\mathcal{V}^{\mathrm{x}}(\omega,\alpha)|$ and
-    $|\mathcal{V}^{\mathrm{y}}(\omega,\alpha)|$ (top frames left scale of Figs. (a) and
-    (b)), the corresponding polar $\varphi$ and azimuthal $\theta$ angles (top
-    frames right scale), and the corresponding three components (bottom frames)
-    for the \emph{up} structure fixing the polarization angle to
+    $|\mathcal{V}^{\mathrm{y}}(\omega,\alpha)|$ (top frames left scale of Figs.
+    (a) and (b)), the corresponding polar $\varphi$ and azimuthal $\theta$
+    angles (top frames right scale), and the corresponding three components
+    (bottom frames) for the \emph{up} structure fixing the polarization angle to
     $\alpha=40^{\circ}$ to maximize the response.}
 
     \label{fig:up-vab-comp-rtp-2}
@@ -965,13 +958,11 @@ zero.
 \textbf{Alt structure.}
 \begin{figure}[tb]
     \centering
-    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ for \emph{alt} structure 
-    \label{fig:alt-3d-vvx}]
-    {\includegraphics[width=\linewidth]{altplots/alt-3d-vxb}}
+    \includegraphics[width=\linewidth]{altplots/alt-3d-vxb}
+    \label{fig:alt-3d-vvx}
     \\
-    \subfigure[\ $|\mathcal{V}^{\mathrm{y}}|$ for \emph{alt} structure 
-    \label{fig:alt-3d-vvy}]
-    {\includegraphics[width=\linewidth]{altplots/alt-3d-vyb}}
+    \includegraphics[width=\linewidth]{altplots/alt-3d-vyb}
+    \label{fig:alt-3d-vvy}
     
     \caption{$|\mathcal{V}^{\mathrm{a}}(\omega,\alpha)|$ response vs. photon
     energy vs. polarization angle for the \emph{alt} structure. The absolute
@@ -984,11 +975,11 @@ zero.
 
 \begin{figure}[tb]
     \centering
-    \subfigure[\ $|\mathcal{V}^{\mathrm{x}}|$ \label{fig:alt-vx-comp-rtp}]
-    {\includegraphics[width=\linewidth]{altplots/alt-vxb-rtp-m}}
+    \includegraphics[width=\linewidth]{altplots/alt-vxb-rtp-m}
+    \label{fig:alt-vx-comp-rtp}
     \\
-    \subfigure[\ $|\mathcal{V}^{\mathrm{y}}|$ \label{fig:alt-vy-comp-rtp}]
-    {\includegraphics[width=\linewidth]{altplots/alt-vyb-rtp-m}}
+    \includegraphics[width=\linewidth]{altplots/alt-vyb-rtp-m}
+    \label{fig:alt-vy-comp-rtp}
 
     \caption{Most intense response of
     $|\mathcal{V}^{\mathrm{x}}(\omega,\alpha)|$ and
@@ -1103,11 +1094,11 @@ layer divisions and atom positions for the unit cells are shown in Tables
 % %%%%%%%%%%%%%%%%
 \begin{figure}[t]
     \centering
-    \subfigure[\ \label{fig:up-vyz-lay-1}]
-    {\includegraphics[width=\linewidth]{upplots/up-vyz-layers-1}}
+    \includegraphics[width=\linewidth]{upplots/up-vyz-layers-1}
+    \label{fig:up-vyz-lay-1}
     \\
-    \subfigure[\ \label{fig:up-vyz-lay-2}]
-    {\includegraphics[width=\linewidth]{upplots/up-vyz-layers-2}}
+    \includegraphics[width=\linewidth]{upplots/up-vyz-layers-2}
+    \label{fig:up-vyz-lay-2}
     
     \caption{Layer-by-layer contribution of $\mathcal{V}^{\mathrm{yz}}$ for the
      \emph{up} structure.}
