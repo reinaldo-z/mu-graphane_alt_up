@@ -167,9 +167,9 @@ For an angle $\alpha = \frac{\pi}{4}$ this expression can be reduced to
 
 
 \subsection{Fixing spin}\label{sec:theory-fixspin}
-Considering that we have 2D structures we can fix the spin direction along the
-$x$, $y$, and $z$ Cartesian coordinates and then define the magnitude of the
-spin velocity $|\mathcal{V}_{\sigma^{\mathrm{b}}}(\omega,\alpha)|$ in a fixed angle $\gamma_{\mathrm{b}}(\omega,\alpha)$ as
+Considering that we have 2D structures, one of the options is fix the spin along
+the $x$, $y$, or $z$ Cartesian coordinates. We define the magnitude of the spin
+velocity with spin polarization along the $\mathrm{b}$ direction as 
 \begin{align}
 |\mathcal{V}_{\sigma^{\mathrm{b}}}(\omega,\alpha)| 
 &=
@@ -178,7 +178,9 @@ spin velocity $|\mathcal{V}_{\sigma^{\mathrm{b}}}(\omega,\alpha)|$ in a fixed an
 [\mathcal{V}^{\mathrm{ay}}(\omega,\alpha)]^{2}\ 
 }, 
 \label{eq:vs-mag}
-\\
+\end{align}
+and the angle at which the spin velocity is directed as
+\begin{align}
 \gamma_{\mathrm{b}} (\omega,\alpha)
 &=
 \tan^{-1} \left( \frac{\mathcal{V}^{\mathrm{ay}}(\omega,\alpha)}
@@ -186,7 +188,7 @@ spin velocity $|\mathcal{V}_{\sigma^{\mathrm{b}}}(\omega,\alpha)|$ in a fixed an
 \label{eq:gamma-ang}
 \end{align}
 where the angle is measured in the counter-clockwise direction from the positive
-$x$ axis.
+$x$ Cartesian coordinate.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -196,18 +198,20 @@ $x$ axis.
 
 \subsection{Fixing velocity.}\label{sec:theory-fixvel}
 
-In a similar way we can fix the velocity in the $xy$ plane
-along $x$ and $y$ directions and define $|\mathcal{V}^{\mathrm{a}}(\omega,\alpha)|$ as
+In a similar way we can fix the velocity on the $xy$ plane along $x$ or $y$
+Cartesian coordinate and then define the magnitude of the spin velocity directed
+along the $\mathrm{a}$ direction as
 \begin{align}
 |\mathcal{V}^{\mathrm{a}}&(\omega,\alpha)| = \nonumber \\
 &\sqrt { 
 [\mathcal{V}^{\mathrm{ax}}(\omega,\alpha)]^{2} +
 [\mathcal{V}^{\mathrm{ay}}(\omega,\alpha)]^{2} +
-[\mathcal{V}^{\mathrm{az}}(\omega,\alpha)]^{2} 
+[\mathcal{V}^{\mathrm{az}}(\omega,\alpha)]^{2} .
 },
 \label{eq:vv-mag}
 \end{align}
-and the corresponding polar and azimuthal angles $\theta$ and $\varphi$ as
+Then, the spin direction depends of the components of the previous equation and
+so we define the spin polar and azimuthal angles as
 \begin{align}
 \theta_{\mathrm{a}}  (\omega,\alpha)
 =& 
@@ -223,6 +227,10 @@ and the corresponding polar and azimuthal angles $\theta$ and $\varphi$ as
 & 0 \leq &\varphi \leq 2\pi.
 \label{eq:azimuthal-ang} 
 \end{align}
+where $\theta_{\mathrm{a}}(\omega,\alpha)$ is measured from the positive to the
+negative $z$ Cartesian coordinate and $\varphi_{\mathrm{a}}(\omega,\alpha)$ is
+measured on the $xy$ plane in the counter-clockwise direction from the positive
+$x$ Cartesian coordinate.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -330,19 +338,24 @@ pseudopotentials \cite{hartwigsenPRB98} including the spin-orbit interaction
 needed to calculate $\mu^{\mathrm{abcd}}(\omega,\alpha)$ presented in Eq.
 \eqref{eq:mu}.
 % 
-It is known that using DFT-LDA to calculate the electronic structure of
-materials predict a different band gap than the obtained experimentally. A
-correction for the band gap energy value can be calculated by other 
-\emph{ab-initio} methods such as the GW approximation \cite{onidaRMP02} but this
-is outside the scope of this paper.
-% 
 The convergence parameters for the calculations of our results corresponding to
 the \emph{alt} and \emph{up} structures are cutoff energies of 65\,Ha and
-40\,Ha, respectively. The energy eigenvalues and matrix elements were calculated
-using 14452 $\mathbf{k}$ points and 8452 $\mathbf{k}$ points in the irreducible
-Brillouin zone (IBZ) and present LDA energy band gaps of 0.72\,eV and 0.088\,eV,
-respectively for the \emph{alt} and \emph{up} structures. 
-
+40\,Ha, respectively. The energy eigenvalues and matrix elements for the
+\emph{up} ad \emph{alt} structures were calculated using 14452 $\mathbf{k}$
+points and 8452 $\mathbf{k}$ points in the irreducible Brillouin zone (IBZ)
+presenting LDA energy band gaps of 0.72\,eV and 0.088\,eV, respectively.
+% 
+We notice that within DFT, the LDA is only one of other possible methods that
+can be used to determine the electronic structure of materials. Recent
+investigations on graphene show some of the differences in calculated values
+from several of these methods\cite{karamanisJPCC15,botelloACR14}. We note that
+the LDA is as good as these other approaches. It is also known that the DFT
+calculations predict a band gap for the material that differs from experiment.
+This can be corrected using other \emph{ab initio} techniques, such as the GW
+approximation\cite{onidaRMP02}, but this calculation has a very high
+computational cost and is out of the scope in this paper. Even so, DFT still
+remains as an effective and useful tool for computing diverse properties derived
+from the electronic band structure.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Results: Spin velocity %%%%%%%%%%%%%%%%%%%%%%%%%%%
