@@ -76,7 +76,7 @@ Figs:
 
 
 Intro:
-    Comenzar comparando con bultos.
+    \Comenzar comparando con bultos.
     \Describir que abarcamos infrarrojo y visible
         \visible: 1.59 eV - 3.26 eV
     Centrosimetría
@@ -94,7 +94,7 @@ Res:
     \No ser repetitivo.
     \Rango de energías para los cuales los angs tp son ctes.
     \Ángulos sin decimales.
-    Revisar artículos de Sipe para significado de negativos -V^{ab}.
+    \Revisar artículos de Sipe para significado de negativos -V^{ab}.
     \No poner valor numérico de cada componente salvo la más importante;
         \sólo comparar y dar valor de |V^{ab}|.
 
@@ -106,11 +106,11 @@ Res:
 ########################
 
 Teoria:
-    Fixing spin and vel significado 
+    \Fixing spin and vel significado 
     \Dependiencia de omega dentro de ||
     \2D
     \Evitar subfiguras con a y b 
-    Explicar fisicamente angulos
+    \Explicar fisicamente angulos
 
 
 
