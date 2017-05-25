@@ -12,7 +12,6 @@ kp=12802
 ec=40
 nc=18
 
-
 # semaring
 sm=0.03
 

@@ -10,6 +10,8 @@ angles=( 000 005 010 015 020 025 030 035 040 045 050 055 060 065 070 075 080 085
 
 deg=180/3.141592
 
+layers=( 1 2 )
+
 calc () {
 echo -e "E              V_{s^a}          Pol   V^{xa}          V^{ya}          gamma" > $outputkk
 echo -e "E              V_{s^a}          Pol   V^{xa}          V^{ya}          gamma" > $outputsm
@@ -26,38 +28,44 @@ for i in ${angles[@]}; do
 done
 }
 
-############################## V_{s^x} #########################################
 
-outputkk=magsv.kk_ax_12802_40-spin_scissor_0_Nc_32_incang_${angles[0]}-${angles[${#angles[@]}-1]}
-outputsm=magsv.sm_0.03_ax_12802_40-spin_scissor_0_Nc_32_incang_${angles[0]}-${angles[${#angles[@]}-1]}
+for j in ${layers[@]}; do
 
-inputkk=( v.kk_xx_12802_40-spin_scissor_0_Nc_32_ang_  
-          v.kk_yx_12802_40-spin_scissor_0_Nc_32_ang_  )
-inputsm=( v.sm_0.03_xx_12802_40-spin_scissor_0_Nc_32_ang_  
-          v.sm_0.03_yx_12802_40-spin_scissor_0_Nc_32_ang_  )
+  ########################### Cal V_{s^x} ######################################
 
-calc
+  outputkk=magCalsv.kk_ax_12802_"$j"_40-spin_scissor_0_Nc_18_incang_${angles[0]}-${angles[${#angles[@]}-1]}
+  outputsm=magCalsv.sm_0.03_ax_12802_"$j"_40-spin_scissor_0_Nc_18_incang_${angles[0]}-${angles[${#angles[@]}-1]}
 
-############################## V_{s^y} #########################################
+  inputkk=( calv.kk_xx_12802_"$j"_40-spin_scissor_0_Nc_18_ang_  
+            calv.kk_yx_12802_"$j"_40-spin_scissor_0_Nc_18_ang_  )
+  inputsm=( calv.sm_0.03_xx_12802_"$j"_40-spin_scissor_0_Nc_18_ang_  
+            calv.sm_0.03_yx_12802_"$j"_40-spin_scissor_0_Nc_18_ang_  )
 
-outputkk=magsv.kk_ay_12802_40-spin_scissor_0_Nc_32_incang_${angles[0]}-${angles[${#angles[@]}-1]}
-outputsm=magsv.sm_0.03_ay_12802_40-spin_scissor_0_Nc_32_incang_${angles[0]}-${angles[${#angles[@]}-1]}
+  calc
 
-inputkk=( v.kk_xy_12802_40-spin_scissor_0_Nc_32_ang_  
-          v.kk_yy_12802_40-spin_scissor_0_Nc_32_ang_  )
-inputsm=( v.sm_0.03_xy_12802_40-spin_scissor_0_Nc_32_ang_  
-          v.sm_0.03_yy_12802_40-spin_scissor_0_Nc_32_ang_  )
+  ########################### Cal V_{s^y} ######################################
 
-calc
+  outputkk=magCalsv.kk_ay_12802_"$j"_40-spin_scissor_0_Nc_18_incang_${angles[0]}-${angles[${#angles[@]}-1]}
+  outputsm=magCalsv.sm_0.03_ay_12802_"$j"_40-spin_scissor_0_Nc_18_incang_${angles[0]}-${angles[${#angles[@]}-1]}
 
-############################## V_{s^z} #########################################
+  inputkk=( calv.kk_xy_12802_"$j"_40-spin_scissor_0_Nc_18_ang_  
+            calv.kk_yy_12802_"$j"_40-spin_scissor_0_Nc_18_ang_  )
+  inputsm=( calv.sm_0.03_xy_12802_"$j"_40-spin_scissor_0_Nc_18_ang_  
+            calv.sm_0.03_yy_12802_"$j"_40-spin_scissor_0_Nc_18_ang_  )
 
-outputkk=magsv.kk_az_12802_40-spin_scissor_0_Nc_32_incang_${angles[0]}-${angles[${#angles[@]}-1]}
-outputsm=magsv.sm_0.03_az_12802_40-spin_scissor_0_Nc_32_incang_${angles[0]}-${angles[${#angles[@]}-1]}
+  calc
 
-inputkk=( v.kk_xz_12802_40-spin_scissor_0_Nc_32_ang_  
-          v.kk_yz_12802_40-spin_scissor_0_Nc_32_ang_  )
-inputsm=( v.sm_0.03_xz_12802_40-spin_scissor_0_Nc_32_ang_  
-          v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_  )
+  ########################### Cal V_{s^z} ######################################
 
-calc
+  outputkk=magCalsv.kk_az_12802_"$j"_40-spin_scissor_0_Nc_18_incang_${angles[0]}-${angles[${#angles[@]}-1]}
+  outputsm=magCalsv.sm_0.03_az_12802_"$j"_40-spin_scissor_0_Nc_18_incang_${angles[0]}-${angles[${#angles[@]}-1]}
+
+  inputkk=( calv.kk_xz_12802_"$j"_40-spin_scissor_0_Nc_18_ang_  
+            calv.kk_yz_12802_"$j"_40-spin_scissor_0_Nc_18_ang_  )
+  inputsm=( calv.sm_0.03_xz_12802_"$j"_40-spin_scissor_0_Nc_18_ang_  
+            calv.sm_0.03_yz_12802_"$j"_40-spin_scissor_0_Nc_18_ang_  )
+
+  calc
+
+done
+
