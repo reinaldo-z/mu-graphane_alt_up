@@ -10,6 +10,12 @@ angles=( 000 005 010 015 020 025 030 035 040 045 050 055 060 065 070 075 080 085
 
 layers=( 1 2 3 4 5 6 )
 
+# FIXED ENERGY:
+en1="9.12000E-01"
+
+# OUTPUT FILE SUFIX:
+fs1="0.912eV"
+
 deg=180/3.141592
 
 calc () {
@@ -42,6 +48,9 @@ for j in ${layers[@]}; do
 
     calc
 
+    grep "$en1" "$outputkk" > magCalsv.kk_0.03_ax_14452_"$j"_65-"$fs1"
+    grep "$en1" "$outputsm" > magCalsv.sm_0.03_ax_14452_"$j"_65-"$fs1"
+
     ########################## Cal V_{s^y} #####################################
 
     outputkk=magCalsv.kk_ay_14452_"$j"_65-spin_scissor_0_Nc_32_incang_${angles[0]}-${angles[${#angles[@]}-1]}
@@ -54,6 +63,9 @@ for j in ${layers[@]}; do
 
     calc
 
+    grep "$en1" "$outputkk" > magCalsv.kk_0.03_ay_14452_"$j"_65-"$fs1"
+    grep "$en1" "$outputsm" > magCalsv.sm_0.03_ay_14452_"$j"_65-"$fs1"
+
     ########################## Cal V_{s^z} #####################################
 
     outputkk=magCalsv.kk_az_14452_"$j"_65-spin_scissor_0_Nc_32_incang_${angles[0]}-${angles[${#angles[@]}-1]}
@@ -65,6 +77,9 @@ for j in ${layers[@]}; do
               calv.sm_0.03_yz_14452_"$j"_65-spin_scissor_0_Nc_32_ang_  )
 
     calc
+
+    grep "$en1" "$outputkk" > magCalsv.kk_0.03_az_14452_"$j"_65-"$fs1"
+    grep "$en1" "$outputsm" > magCalsv.sm_0.03_az_14452_"$j"_65-"$fs1"
 
 done
 
