@@ -20,7 +20,7 @@ f=pf*sl
 ################################### 0.088 eV ###################################
 ################################################################################
 
-################################ V_{s^x} 0.912eV ###############################
+################################ V_{s^x} 0.088eV ###############################
 # col alpha~(13.2,13.2); perp alpha~(100.05,10.05)
 tol=0.2
 
@@ -264,10 +264,10 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-0.088eV' u 3:($4*f) w l lw 
 unset multiplot
 
 ################################################################################
-################################### 0.972 eV ###################################
+################################### 1.972 eV ###################################
 ################################################################################
 
-################################ V_{s^x} 0.912eV ###############################
+################################ V_{s^x} 1.972eV ###############################
 # col alpha~(79.4,79.4); perp alpha~(169.9,79.9)
 tol=0.2
 
@@ -288,7 +288,7 @@ set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-up' at graph 0.05 , 0.20
 set key at graph 0.25, 0.90
-set label 2 '@ 0.912\,eV' at graph 0.50, 0.80
+set label 2 '@ 1.972\,eV' at graph 0.50, 0.80
 
 unset xlabel
 set xtics nomirror
@@ -322,7 +322,7 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-1.972eV' u 3:($2*f) w l axi
 
 unset label 1
 set key at graph 0.35, 0.35 center
-set label 2 '@ 0.912\,eV' at graph 0.50, 0.15
+set label 2 '@ 1.972\,eV' at graph 0.50, 0.15
 
 set xtics mirror
 set format x "%g"
@@ -369,7 +369,7 @@ set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-up' at graph 0.05 , 0.20
 set key at graph 0.25, 0.9
-set label 2 '@ 0.912\,eV' at graph 0.50, 0.80
+set label 2 '@ 1.972\,eV' at graph 0.50, 0.80
 
 unset xlabel
 set xtics nomirror  
@@ -403,7 +403,7 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-1.972eV' u 3:($2*f) w l axi
 
 unset label 1
 set key at graph 0.35, 0.35 
-set label 2 '@ 0.912\,eV' at graph 0.50, 0.15
+set label 2 '@ 1.972\,eV' at graph 0.50, 0.15
 
 set xtics mirror
 set format x "%g"
@@ -450,7 +450,7 @@ set multiplot
 
 set label 1 'C$_{16}$H$_{8}$-up' at graph 0.05 , 0.20
 set key at graph  0.25, 0.9
-set label 2 '@ 0.912\,eV' at graph 0.50, 0.80
+set label 2 '@ 1.972\,eV' at graph 0.50, 0.80
 
 unset xlabel
 set xtics nomirror
@@ -484,7 +484,7 @@ p   '../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-1.972eV' u 3:($2*f) w l axi
 
 unset label 1
 set key at graph  0.35, 0.35 
-set label 2 '@ 0.912\,eV' at graph 0.50, 0.15
+set label 2 '@ 1.972\,eV' at graph 0.50, 0.15
 
 set xtics mirror
 set format x "%g"
