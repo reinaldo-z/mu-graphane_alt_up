@@ -46,13 +46,15 @@ unset xlabel
 set xtics nomirror  
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}(\omega,\alpha)|$ [Km/s]}'
-set yrange [4:25]
-set ytics 5, 5, 25
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}(\omega,\alpha)|$, $|\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)|$ [Km/s]}'
+set yrange [0:25]
+set ytics 0, 5, 25
 
 set origin 0.0 , 3.0
 set size   1.0 , 1.0
 p   '../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-0.088eV' u 3:($2*f) w l axis x1y1 lw 1.5 dt 1 lt 1 t '$|\mathcal{V}_{\sigma^{\mathrm{y}}}|$' ,\
+    '../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-0.088eV' u 3:(sqrt($4**2)*f) w l  lw 1.5 dt 1 lt 3 t '$|\mathcal{V}^{\mathrm{xy}}|$' ,\
+    '../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-0.088eV' u 3:(sqrt($5**2)*f) w l  lw 1.5 dt 1 lt 4 t '$|\mathcal{V}^{\mathrm{yy}}|$' ,\
 
 unset label 1
 set label 2 '@ 0.088\,eV' at graph 0.60, 0.12

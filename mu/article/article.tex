@@ -85,18 +85,17 @@ Oshawa, ON, L1H 7L7, Canada}
 \subsection{Pure spin velocity} % (fold)
 \label{sec:theory-pure_spin_current}
 
-The spin density injection current $\dot{K}^{\mathrm{ab}}$ can be written in
-terms of a material response pseudotensor $\mu^{\mathrm{abcd}}(\omega)$ as
-% with speed along direction $\mathrm{a}$ and spin
-% polarization along $\mathrm{b}$ is defined as
+The spin density injection current $\dot{K}^{\mathrm{ab}}(\omega)$, where the
+roman superscripts denote Cartesian components corresponding $\mathrm{a}$ to the
+spin velocity direction and $\mathrm{b}$ to the spin polarization direction, can
+be written in terms of a material response pseudotensor
+$\mu^{\mathrm{abcd}}(\omega)$ as
 \begin{equation*}
 \dot{K}^{\mathrm{ab}}(\omega) = \mu^{\mathrm{abcd}}(\omega)
 E^{\mathrm{c}}(\omega) E^{\mathrm{d*}}(\omega)
 \label{eq:dotk}
 \end{equation*}
-where the roman superscripts denote Cartesian components corresponding
-$\mathrm{a}$ to the spin velocity direction and $\mathrm{b}$ to the spin
-polarization direction and the pseudotensor can be written as
+where the pseudotensor is given by\cite{bhatPRL05}
 \begin{widetext}
 \begin{align}
 \mu^{\mathrm{abcd}} (\omega) 
@@ -113,25 +112,20 @@ r^{\mathrm{d}}_{cv } +
 \right]
 \delta(\omega-\omega_{cv})
 \label{eq:mu}
-% \\
-% K^{\mathrm{ab}}_{mn}
-% &=
-% \sum_{\ell}v^{\mathrm{a}}_{nl} S^{\mathrm{b}}_{lm}
-% \label{eq:velspi-matelem}
 \end{align}
 \end{widetext}
 where $K^{\mathrm{ab}}_{mn}(\mathbf{k}) =
 \sum_{\ell}v^{\mathrm{a}}_{nl}(\mathbf{k}) S^{\mathrm{b}}_{lm}(\mathbf{k})$ are
-the spin current matrix elements that, using time reversal invariance,
-$K^{\mathrm{ab}}_{nm}(\mathbf{-k}) = K^{\mathrm{ab*}}(\mathbf{k}) $. The $'$ in
-the sum means that $c$ and $c'$ are quasi degenerate states and the sum only
-covers these states and since $mu$ is real we have that
+the spin current matrix elements that, using time reversal invariance, satisfy
+the relation $K^{\mathrm{ab}}_{nm}(\mathbf{-k}) = K^{\mathrm{ab*}}(\mathbf{k})
+$. The $'$ in the sum means that $c$ and $c'$ are quasi degenerate states and
+the sum only covers these states and since $\mu$ is real we have that
 $\mu^{\mathrm{abcd}}(\omega) = \mu^{\mathrm{abdc}}(\omega)$.
 
 Now we define the spin velocity, $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ as
 the speed at which the spin polarized in the $\mathrm{b}$   direction moves
 along the $\mathrm{a}$ direction when a normal incident beam reaches the $xy$
-plane with a polarization angle $\alpha$. Then,
+plane with a polarization angle $\alpha$ as
 \begin{widetext}
 \begin{align}
 \mathcal{V}^{\mathrm{ab}}(\omega,\alpha)
@@ -160,25 +154,25 @@ where $\xi^{\mathrm{aa}}(\omega)$ are the carrier generation rate tensor
 components\cite{arzatePRB14}.
 % 
 For an angle $\alpha = \frac{\pi}{4}$ this expression can be reduced to 
-\begin{align}
+\begin{equation*}\label{eq:vab-90deg}
 \mathcal{V}^{\mathrm{ab}} (\omega)
-&= \frac{2}{\hbar}
+= \frac{2}{\hbar}
 \frac{\mu^{\mathrm{abxx}}(\omega) + \mu^{\mathrm{abyy}}(\omega) + 
 2\mu^{\mathrm{abxy}}(\omega)}
 {\xi^{\mathrm{xx}}(\omega) + \xi^{\mathrm{yy}}(\omega)}.
-\label{eq:vab-90deg}
-\end{align}
+\end{equation*}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Fixing spin %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \subsection{Fixing spin}\label{sec:theory-fixspin}
-Considering that we have 2D structures, one of the options is fix the spin along
-the $x$, $y$, or $z$ Cartesian coordinates. We define the magnitude of the spin
-velocity with spin polarization along the $\mathrm{b}$ direction as 
+
+Considering that we have 2D structures, one of the options to analyze the spin
+velocity (Eq. \eqref{eq:vab}) is fixing the spin along the $x$, $y$, or $z$
+Cartesian coordinates. We define the magnitude of the spin velocity with spin
+polarization along the $\mathrm{b}$ direction as
 \begin{align}
 |\mathcal{V}_{\sigma^{\mathrm{b}}}(\omega,\alpha)| 
 &=
@@ -200,10 +194,10 @@ where the angle is measured in the counter-clockwise direction from the positive
 $x$ Cartesian coordinate. We also define two special angles
 \begin{align}
 \gamma_{\mathrm{b \parallel}}(\omega,\alpha) &= \alpha, 
-\label{eq:gammapar} 
+\label{eq:gamma-par} 
 \\
 \gamma_{\mathrm{b \perp}}(\omega,\alpha) &= \alpha \pm 90^{\circ}.
-\label{eq:gammaperp}
+\label{eq:gamma-perp}
 \end{align}
 The first corresponds to the case when the spin velocity is directed, on the
 $xy$ plane in the same direction of the polarization angle of the incoming beam;
@@ -218,9 +212,10 @@ perpendicularly respect to the polarization angle of the incoming beam.
 
 \subsection{Fixing velocity.}\label{sec:theory-fixvel}
 
-In a similar way we can fix the velocity on the $xy$ plane along $x$ or $y$
-Cartesian coordinate and then define the magnitude of the spin velocity directed
-along the $\mathrm{a}$ direction as
+Another possibility to analyze the spin velocity (Eq. \eqref{eq:vab}) is fixing
+the velocity on the $xy$ plane along $x$ or $y$ Cartesian coordinate and then
+define the magnitude of the spin velocity directed along the $\mathrm{a}$
+direction as
 \begin{align}
 |\mathcal{V}^{\mathrm{a}}&(\omega,\alpha)| = \nonumber \\
 &\sqrt { 
@@ -516,21 +511,23 @@ intense than the corresponding to the \emph{up} one.
 % %%%%%%%%%%%%%%%%%
 
 Using the Eq. \eqref{eq:vs-mag}, we calculated the
-$|\mathcal{V}_{\sigma^{\mathrm{b}}}|(\omega,\alpha)$ response and made the
+$|\mathcal{V}_{\sigma^{\mathrm{b}}}(\omega,\alpha)|$ response and made the
 analysis for the case when the spin is fixed in the $z$ direction, directed
-perpendicularly to the surface of the \emph{alt} and \emph{up} structures. Also,
+perpendicularly to the surface of the \emph{up} and \emph{alt} structures. Also,
 using the Eq. \eqref{eq:gamma-ang}, we determined the angle
 $\gamma_{\mathrm{b}}(\omega,\alpha)$ where the spin-velocity is directed on the
 surface of the each structure.
+% 
+For both cases, the most interesting case is that for which the spin is
+perpendicular to the surface corresponding to $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)|$.
+
 
 \textbf{Up structure}
 
-The most interesting case is that for which the spin is perpendicular to the
-surface corresponding to $\mathcal{V}^{\mathrm{xz}}(\omega,\alpha)$.
 % 
-For this case we first analyzed two energy ranges for the \emph{up} structure,
-the first for an incoming energy beam from 0.0\,eV to 0.2\,eV which include the
-THz and the Mid Infrared (MIR) range, where the absolute maximum of the
+We first analyzed two energy ranges for the \emph{up} structure, the first for
+an incoming energy beam from 0.0\,eV to 0.2\,eV which include the THz and the
+Mid Infrared (MIR) radiation, where the absolute maximum of the
 $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)|$ response is obtained and
 the second for an energy range from 1.80\,eV to 2.1\,eV, corresponding to
 visible radiation, where two local maxima are found.
@@ -552,16 +549,15 @@ In the top frames of top and bottom panels of Fig. \ref{fig:up-vaz-rag} we
 present in solid lines the result of evaluate
 $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)|$, related to the left scale,
 fixing the energy of the incoming beam to 0.088\,eV and 0.912\,eV, respectively,
-for which value the response is maximized for the \emph{up} structure. In the
+values for which the response is maximized for the \emph{up} structure. In the
 same panels and frames we present in dashed lines, related to the right scale,
 the corresponding velocity angle $\gamma_{\mathrm{z}}(\omega,\alpha)$ obtained
-from evaluate Eq. \eqref{eq:gamma-ang}, and in the bottom frames the
-panels we present the corresponding components
-$\mathcal{V}^{\mathrm{xz}}(\omega,\alpha)$ and
-$\mathcal{V}^{\mathrm{yz}}(\omega,\alpha)$. Also we present two circled and
+from evaluate Eq. \eqref{eq:gamma-ang}, and in the bottom frames the panels we
+present the corresponding components $\mathcal{V}^{\mathrm{xz}}(\omega,\alpha)$
+and $\mathcal{V}^{\mathrm{yz}}(\omega,\alpha)$. Also we present two circled and
 square boxes indicating the values where the angles of the spin velocity are
-parallel (Eq. \ref{eq:gammapar}) and perpendicular (Eq. \ref{eq:gammaperp}) and
-the arrows are directed to the value of the response corresponding to those
+parallel (Eq. \ref{eq:gamma-par}) and perpendicular (Eq. \ref{eq:gamma-perp})
+and the arrows are directed to the value of the response corresponding to those
 angles.
 % 
 From top panels of Figs. \ref{fig:up-3d-vsz} and \ref{fig:up-vaz-rag} we have
@@ -579,7 +575,7 @@ From the top panel of Fig. \ref{fig:up-vaz-rag} we have that the velocity angle
 is almost constant for all the polarization angle range having values of
 $\gamma_{\mathrm{z}}(\omega,\alpha) = 65.5^{\circ} \pm 0.5^{\circ}$. In this
 panel the green circled box indicates the value for which the polarization angle
-and the response direction angle are collinear (Eq. \ref{eq:gammapar}) being
+and the response direction angle are collinear corresponding to
 $\gamma_{\mathrm{z}\parallel}(\omega,\alpha) = 65.5^{\circ}$ and resulting in a
 value of the response of $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)| =
 82.3$\,Km/s indicated by the upward green arrow.
@@ -691,7 +687,7 @@ variations of $\pm 2^{\circ}$ for the polarization angle range $0^{\circ} \leq
 \alpha \leq 180^{\circ}$.
 % 
 Again the circled box indicates the collinear angle (Eq.
-\eqref{eq:gammapar}) corresponding to
+\eqref{eq:gamma-par}) corresponding to
 $\gamma_{\mathrm{z}\parallel}(\omega,\alpha) = 53.5^{\circ}$ corresponding a
 value of $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)| = 12.7$\,Km/s; the
 blue square box indicates the perpendicular angles corresponding values
