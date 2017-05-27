@@ -17,16 +17,20 @@ sm=0.03
 
 pi=`echo "4*a(1)" | bc -l`
 
-for i in ${an[@]}; do
+pi=`echo "4*a(1)" | bc -l`
 
-    rad=`echo "$an*($pi/180)" | bc -l`
-    cos=`echo "c($rad)" | bc -l`
-    coscuad=`echo "$cos*$cos" | bc -l`
-    sin=`echo "s($rad)" | bc -l`
-    sincuad=`echo "$sin*$sin" | bc -l`
-    cossin=`echo "$cos*$sin" | bc -l`
+for j in ${layers[@]}; do
 
-    for j in ${layers[@]}; do
+    for i in ${an[@]}; do
+
+        rad=`echo "$i*($pi/180)" | bc -l`
+        cos=`echo "c($rad)" | bc -l`
+        coscuad=`echo "$cos*$cos" | bc -l`
+        sin=`echo "s($rad)" | bc -l`
+        sincuad=`echo "$sin*$sin" | bc -l`
+        cossin=`echo "$cos*$sin" | bc -l`
+
+        
         paste calmu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_"$kp"_"$j"_"$ec"-spin_scissor_0_Nc_"$nc"  chi1.kk_xx_yy_zz_"$kp"_"$ec"-spin_scissor_0_Nc_32 | awk '{ print $1, (($2*'"$coscuad"'+$6*'"$sincuad"'+2*$3*'"$cossin"')/($13*'"$coscuad"'+$15*'"$sincuad"'+0.00001)) }' >  calv.kk_xx_"$kp"_"$j"_"$ec"-spin_scissor_0_Nc_"$nc"_ang_"$i"
         # ~/tiniba/smear/rsmear2  1   calv.kk_xx_"$kp"_"$j"_"$ec"-spin_scissor_0_Nc_"$nc"_ang_"$i"  calv.sm_"$sm"_xx_"$kp"_"$j"_"$ec"-spin_scissor_0_Nc_"$nc"_ang_"$i"  "$sm"
         rsmear2  1   calv.kk_xx_"$kp"_"$j"_"$ec"-spin_scissor_0_Nc_"$nc"_ang_"$i"  calv.sm_"$sm"_xx_"$kp"_"$j"_"$ec"-spin_scissor_0_Nc_"$nc"_ang_"$i"  "$sm"
