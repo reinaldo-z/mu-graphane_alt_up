@@ -439,13 +439,13 @@ set multiplot
 
 set key top right
 set label 1 'C$_{16}$H$_{8}$-up' at graph 0.05 , 0.40
-set label 2 '@ 0.088\,eV' at graph 0.79, 0.77
+set label 2 '@ 1.972\,eV' at graph 0.79, 0.77
 
 unset xlabel
 set xtics mirror
 set format x " "
 
-set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)|$, $|\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)|$ [Km/s]}'
+set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)|$ [Km/s]}'
 set yrange [0:35]
 set ytics 0, 5, 35
 
