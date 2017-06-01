@@ -1,0 +1,131 @@
+bhatPRL04
+
+Pure Spin Current from One-Photon Absorption of Linearly Polarized Light in
+Noncentrosymmetric Semiconductors
+
+R. D. R Bhat, F. Nastos, Ali Najmaie, and J. E. Sipe
+
+DOI: 10.1103/PhysRevLett.94.096603
+
+We show that one-photon absorption of linearly polarized light should produce
+pure spin currents in noncentrosymmetric semiconductors, including even bulk
+GaAs. We present 14 14 k p model calculations of the effect in GaAs, including
+strain, and pseudopotential calculations of the effect in wurtzite CdSe.
+
+################################################################################
+
+[1]  S. A. Wolf et al., Science 294, 1488 (2001); Awschalom and J.M. Kikkawa,
+Phys. Today 52, No. 6, 33 (1999); I. Zˇ utic ́ , J. Fabian, and S. Das Sarma,
+Rev. Mod. Phys. 76, 323 (2004), and references therein.
+
+    This review describes a new paradigm of electronics based on the spin degree
+    of freedom of the electron. Either adding the spin degree of freedom to
+    conventional charge-based electronic devices or using the spin alone has the
+    potential advantages of nonvolatility, increased data processing speed,
+    decreased electric power consumption, and increased integration densities
+    compared with conventional semiconductor devices. To successfully
+    incorporate spins into existing semiconductor technology, one has to resolve
+    technical issues such as efficient injection, transport, control and
+    manipulation, and detection of spin polarization as well as spin-polarized
+    currents. Recent advances in new materials engineering hold the promise of
+    realizing spintronic devices in the near future. We review the current state
+    of the spin-based devices, efforts in new materials fabrication, issues in
+    spin transport, and optical spin manipulation.
+
+[2]  Semiconductor Spintronics and Quantum Computation, edited by D.D.
+Awschalom,
+D. Loss, and N. Samarth (Springer-Verlag, Berlin, 2002).
+
+[3]  M. I. Dyakonov and V. I. Perel, in Optical Orientation, edited by F. Meier
+and B.P. Zakharchenya, Modern Problems in Condensed Matter Sciences Vol. 8
+(North- Holland, Amsterdam, 1984), Chap. 2.
+
+[4]  S. Datta and B. Das, Appl. Phys. Lett. 56, 665 (1990); S. Das Sarma et al.,
+Solid State Commun. 119, 207 (2001), and references therein; J. Rudolph et al.,
+Appl. Phys. Lett. 82, 4516 (2003).
+
+[5]  J. E. Hirsch, Phys. Rev. Lett. 83, 1834 (1999); E. R. Mucciolo, C. Chamon,
+and C.M. Marcus, ibid. 89, 146802 (2002); Q.F. Sun, H. Guo, and J. Wang, ibid.
+90, 258301 (2003); W. Long et al., Appl. Phys. Lett. 83, 1397 (2003); T. Aono,
+Phys. Rev. B 67, 155303 (2003); S. Murakami, N. Nagaosa, and S.-C. Zhang,
+Science 301, 1348 (2003); P. Sharma and P.W. Brouwer, Phys. Rev. Lett. 91,
+166801 (2003); M. Governale, F. Taddei, and R. Fazio, Phys. Rev. B 68, 155324
+(2003); R. Benjamin and C. Benjamin, ibid. 69, 085318 (2004); J. Sinova et al.,
+Phys. Rev. Lett. 92, 126603 (2004).
+
+[6]  A. G. Mal’shukov, C. S. Tang, C. S. Chu, and K. A. Chao, Phys. Rev. B 68,
+233307 (2003).
+
+[7]  R. D. R. Bhat and J. E. Sipe, Phys. Rev. Lett. 85, 5432 (2000).
+
+[8]  A. Najmaie, R. D. R. Bhat, and J. E. Sipe, Phys. Rev. B 68, 165348 (2003).
+
+[9]  M. J. Stevens et al., Phys. Rev. Lett. 90, 136603 (2003). [10] J. Hu ̈bner
+et al., Phys. Rev. Lett. 90, 216601 (2003). [11] S. K. Watson, R. M. Potok, C.
+M. Marcus, and V. Uman-sky, Phys. Rev. Lett. 91, 258301 (2003); Y. K. Kato, R.
+C. Myers, A. C. Gossard, and D. D. Awschalom, Science 306, 1910 (2004); J.
+Wunderlich, B. Kaestner, J. Sinova, and T. Jungwirth, Phys. Rev. Lett. 94,
+047204 (2005).
+
+[12] P.Y. Yu and M. Cardona, Fundamentals of Semi- conductors (Springer-Verlag,
+Berlin, 1996), Chap. 6.
+
+[13] H. Haug and S. W. Koch, Quantum Theory of the Optical and Electronic
+Properties of Semiconductors (World Scientific, Singapore, 1993); U. Ro ̈ssler,
+Phys. Status Solidi B 234, 385 (2002).
+
+[14] Linear photogalvanic effects, due to asymmetric scattering or a shift in
+charge density upon excitation can occur [15], but not within these
+approximations.
+
+[15] B. I. Sturman and V. M. Fridkin, The Photovoltaic and Photorefractive
+Effects in Noncentrosymmetric Materials (Gordon and Breach, Philadelphia, 1992).
+
+[16] This was exploited by Alvarado et al., who detected a spin polarization in
+electrons photoemitted from (110) GaAs; S. F. Alvarado, H. Riechert, and N. E.
+Christensen, Phys. Rev. Lett. 55, 2716 (1985).
+
+[17] The phases of states and partitioning of degenerate sub- spaces can always
+be chosen so that this is true; see M. Lax, Symmetry Principles in Solid State
+and Molecular Physics (Dover, Mineola, NY, 2001).
+
+[18] D. J. Hilton and C. L. Tang, Phys. Rev. Lett. 89, 146601 (2002).
+
+[19] G. Dresselhaus, Phys. Rev. 100, 580 (1955); M. Cardona, N.E. Christensen,
+and G. Fasol, Phys. Rev. B 38, 1806 (1988).
+
+[20] P. Pfeffer and W. Zawadzki, Phys. Rev. B 53, 12813 (1996); Of the two
+parameter sets discussed by Pfeffer and Zawadzki, we use the one corresponding
+to 0:085 that they find gives better results.
+
+[21] G. E. Pikus and G. L. Bir, Sov. Phys. Solid State 1, 1502 (1959); G. L. Bir
+and G. E. Pikus, Symmetry and Strain- Induced Effects in Semiconductors (Wiley,
+New York, 1974).
+
+[22] I. Vurgaftman, J. R. Meyer, and L. R. Ram-Mohan, J. Appl. Phys. 89, 5815
+(2001).
+
+[23] B. Koopmans, P. V. Santos, and M. Cardona, Phys. Status Solidi B 205, 419
+(1998).
+
+[24] D. Bertho, J.-M. Jancu, and C. Jouanin, Phys. Rev. B 50, 16 956 (1994).
+
+[25] A. Blacha, H. Presting, and M. Cardona, Phys. Status Solidi B 126, 11
+(1984).
+
+[26] P. Etchegoin and M. Cardona, Solid State Commun. 82, 655 (1992).
+
+[27] C. Hartwigsen, S. Goedecker, and J. Hutter, Phys. Rev. B 58, 3641 (1998);
+X. Gonze et al., Comput. Mater. Sci. 25, 478 (2002).
+
+[28] E. I. Rashba, Phys. Rev. B 68, 241315 (2003).
+
+[29] T. E. Ostromek, Phys. Rev. B 54, 14 467 (1996).
+
+[30] S. D. Ganichev and W. Prettl, J. Phys. Condens. Matter 15, R935 (2003);
+V.V. Bel’kov et al., Solid State Commun. 128, 283 (2003).
+
+[31] N. Laman et al., Appl. Phys. Lett. 75, 2581 (1999).
+
+[32] Yu. B. Lyanda-Geller and G. E. Pikus, Sov. Phys. Solid State 31, 2068
+(1989).

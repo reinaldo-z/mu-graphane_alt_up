@@ -8,6 +8,12 @@ angles=( 000 005 010 015 020 025 030 035 040 045 050 055 060 065 070 075 080 085
              185 190 195 200 205 210 215 220 225 230 235 240 245 250 255 260 265 270 
              275 280 285 290 295 300 305 310 315 320 325 330 335 340 345 350 355 360 )
 
+# FIXED ENERGY:
+en1="9.12000E-01"
+
+# OUTPUT FILE SUFIX:
+fs1="0.912eV"
+
 deg=180/3.141592
 
 calc () {
@@ -38,6 +44,9 @@ inputsm=( v.sm_0.03_xx_14452_65-spin_scissor_0_Nc_32_ang_
 
 calc
 
+grep "$en1" "$outputkk" > magsv.kk_0.03_ax_14452_65-"$fs1"
+grep "$en1" "$outputsm" > magsv.sm_0.03_ax_14452_65-"$fs1"
+
 ############################## V_{s^y} #########################################
 
 outputkk=magsv.kk_ay_14452_65-spin_scissor_0_Nc_32_incang_${angles[0]}-${angles[${#angles[@]}-1]}
@@ -50,6 +59,9 @@ inputsm=( v.sm_0.03_xy_14452_65-spin_scissor_0_Nc_32_ang_
 
 calc
 
+grep "$en1" "$outputkk" > magsv.kk_0.03_ay_14452_65-"$fs1"
+grep "$en1" "$outputsm" > magsv.sm_0.03_ay_14452_65-"$fs1"
+
 ############################## V_{s^z} #########################################
 
 outputkk=magsv.kk_az_14452_65-spin_scissor_0_Nc_32_incang_${angles[0]}-${angles[${#angles[@]}-1]}
@@ -61,6 +73,9 @@ inputsm=( v.sm_0.03_xz_14452_65-spin_scissor_0_Nc_32_ang_
             v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_  )
 
 calc
+
+grep "$en1" "$outputkk" > magsv.kk_0.03_az_14452_65-"$fs1"
+grep "$en1" "$outputsm" > magsv.sm_0.03_az_14452_65-"$fs1"
 
 
 rm .temp1 .temp2 .deg1 .deg2
