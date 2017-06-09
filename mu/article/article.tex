@@ -62,37 +62,83 @@ Oshawa, ON, L1H 7L7, Canada}
 \end{figure}
 
 
-Since its discovery, graphene has attracted a great interest in materials
-science and condensed matter physics being a new class of materials that are
-only one atom thick\cite{geimNM07}. This allotrope of carbon with hexagonal
-lattice structure is almost transparent and presents properties like fractional
-quantum Hall effect at room temperature, excellent thermal transport
-properties, high conductivity and strength \cite{geimNM07, reinaNL08,
-novoselov2S07, balandinNL08} and is a perfect platform to be used in two-
-dimensions electronic systems; however most electronic applications are
-disabled by the absence of a semiconducting gap. Recent studies demonstrate
-that the band gap of graphene can be opened by applying an electric
-field\cite{zhangN09}, reducing the surface area\cite{hanPRL07} or applying
-uniaxial strain\cite{niACSN08}. Another option to open the gap is by doping;
-this has been successfully achieved using boron and nitrogen\cite{guoIJ11} and
-hydrogen\cite{eliasS09, guisingerNL09, samarakoonACSN10}.
+{
+\color{blue}
+Spintronics is an emerging research field of electronics in which the
+manipulation and transport of spin of electrons in a solid state 
+media plays the determining role adding a new degree of freedom to the
+conventional charge manipulation.\cite{wolfSC04,fabianAPS07}
+% 
+At present there is an increasing interest in attain the same level of control
+over the transport of spin at micro or nano scales as has been done for the flow
+of charge in typical electronic devices.\cite{awschalomNP2007} Some
+semiconductor spintronics devices have been proposed \cite{majumdarAPL06,
+dattaAPL90} and some of them require spin polarized electrical current
+\cite{awschalomSSBM13} or pure spin currents (PSC). In PSCs there is no net
+motion of charge; spin-up electrons move in a given direction while spin-down
+electrons travel in the opposite one. This phenomena can result from spin
+injection,\cite{malPRB03} Hall Effects,\cite{sinovaPRB04} interference of two
+optical beams,\cite{bhatPRL00, najmaiePRB03} or one photon absorption of
+linearly polarized light\cite{bhatPRL05} and has been observed in
+gallium arsenide (GaAs),\cite{zhaoPRL2006, stevensPRL03} aluminum-gallium
+arsenide (AlGaAs),\cite{stevensPRL03} and Co$_2$FeSi.\cite{kimuraNGPAM12}
 
-Hydrogenated graphene can result in different structures depending of the
-percentage of hydrogenation and the position at which they are bonded in the
-hexagonal lattice. In this paper we present a study made on two 50\%
-hydrogenated graphene structures, \emph{up} and \emph{alt} , both showing a
-opening of the gap. As shown in Figs. \ref{fig:up-struc} and 
-\ref{fig:alt-struc} the \emph{up} structure has hydrogen atoms bonded to the
-carbon layer only in the upper side of the structure while the \emph{alt}
-structure has hydrogen alternating in the upper and bottom sides of the carbon
-slab.
+% Since its discovery, graphene has attracted a great interest in materials
+% science and condensed matter physics being a new class of materials that are
+% only one atom thick\cite{geimNM07}. 
+% 
+Graphene, an allotrope of carbon with hexagonal 2D lattice structure presents
+properties like fractional quantum Hall effect at room temperature, excellent
+thermal transport properties, high conductivity and strength \cite{geimNM07,
+reinaNL08, novoselov2S07, balandinNL08} being then a perfect platform to be used
+in two-dimensions electronic systems; however most electronic applications are
+disabled by the absence of a semiconducting gap. Recent studies demonstrate that
+the band gap of graphene can be opened by applying an electric
+field,\cite{zhangN09} reducing the surface area,\cite{hanPRL07} or applying
+uniaxial strain.\cite{niACSN08} Another possibility to open the gap is by
+doping; this has been successfully achieved using nitrogen,\cite{weiNL2009}
+boron-nitrogen,\cite{guoIJ11} silicon,\cite{colettiPRB10} noble-metals, and
+hydrogen.\cite{eliasS09, guisingerNL09, samarakoonACSN10}
+% 
+Depending on the percentage of hydrogenation and spatial configurations of
+hydrogen-carbon bonds, hydrogenated graphene can result in different spatial
+configurations.
+% 
+In this paper we present two 50\% hydrogenated graphene non centrosymmetric
+structures both presenting a discernible band gap: the \emph{up} structure,
+shown in Fig. \ref{fig:up-struc}, has hydrogen atoms bonded to the carbon layer
+only in the upper side of the structure while the \emph{alt} structure, shown in
+Fig. \ref{fig:alt-struc}, has hydrogen alternating in the upper and bottom sides
+of the carbon slab.\cite{zapataPSB2016}
 
-We conduct a theoretical study of the spin velocity injection, being this a
-nonlinear response, in both structures. We analyze particularly the cases when
-the spin is polarized along a Cartesian direction or when the velocity is
-directed along the $x$ or $y$ directions on the $xy$ plane of the structures.
+Using those structures we address a theoretical study of the spin velocity
+injection (SVI) by one-photon absorption of linearly polarized light making
+emphasis for the particular cases when the spin of electrons is directed along
+the the $z$ Cartesian coordinate, perpendicular to the $xy$ plane of the
+structure, or for the case when the velocity is directed along the $x$ and $y$
+Cartesian direction on the $xy$ plane of the structures.
+% 
+The SVI ($\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$) is a nonlinear optical
+effect that quantifies the velocity at which a PSC moves along the Cartesian
+direction $\mathrm{b}$ with the spin of electron polarized along the Cartesian
+direction $\mathrm{a}$. One photon absorption of linearly polarized light can
+promote a distribution of electrons in $\mathbf{k}$ space regardless the
+symmetry of the material resulting in a not net electrical
+current. Then, the electrons excited to the conduction bands at
+opposite $\mathbf{k}$ points will result in opposite spin polarizations 
+producing no net spin injection.\cite{bhatPRL05} If the crystalline structure of
+the material is not centrosymmetric the spin polarization injected at a given k
+point could not vanish\cite{alvaradoPRL85, schmiedeskampPRL88} and then a PSC
+will be produced since the velocities of electrons at opposite $\mathbf{k}$
+points are opposite.
+
+This paper is organized as follows. In Section \ref{sec:theory} we present the
+theory and formulas that describe PSC and SVI. In Section \ref{sec:results} we
+describe the details of calculations and the corresponding SVI spectra for the 
+\emph{up} and \emph{alt} structures. Finally, in Section 
 
 
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1180,6 +1226,23 @@ $\mathcal{V}^{\mathrm{xz}}(\omega,\alpha)$ and
 $\mathcal{V}^{\mathrm{yz}}(\omega,\alpha)$ components resulting in a total
 response $\mathcal{V}^{\mathrm{xz}}(\omega,\alpha) = 43$\,Km/s.
 }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%                          %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%   C O N C L U S I O N S  %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%                          %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Conclusions} % (fold)
+\label{sec:conclusions}
+
 
 \bibliography{article.bib}
 

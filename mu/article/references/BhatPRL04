@@ -1,4 +1,4 @@
-bhatPRL04
+bhatPRL05
 
 Pure Spin Current from One-Photon Absorption of Linearly Polarized Light in
 Noncentrosymmetric Semiconductors
@@ -18,6 +18,8 @@ strain, and pseudopotential calculations of the effect in wurtzite CdSe.
 Phys. Today 52, No. 6, 33 (1999); I. Zˇ utic ́ , J. Fabian, and S. Das Sarma,
 Rev. Mod. Phys. 76, 323 (2004), and references therein.
 
+wolfSC04
+
     This review describes a new paradigm of electronics based on the spin
     degree of freedom of the electron. Either adding the spin degree of freedom
     to conventional charge-based electronic devices or using the spin alone has
@@ -33,8 +35,7 @@ Rev. Mod. Phys. 76, 323 (2004), and references therein.
     fabrication, issues in spin transport, and optical spin manipulation.
 
 [2]  Semiconductor Spintronics and Quantum Computation, edited by D.D.
-Awschalom,
-D. Loss, and N. Samarth (Springer-Verlag, Berlin, 2002).
+Awschalom, D. Loss, and N. Samarth (Springer-Verlag, Berlin, 2002).
 
 [3]  M. I. Dyakonov and V. I. Perel, in Optical Orientation, edited by F. Meier
 and B.P. Zakharchenya, Modern Problems in Condensed Matter Sciences Vol. 8
@@ -43,6 +44,13 @@ and B.P. Zakharchenya, Modern Problems in Condensed Matter Sciences Vol. 8
 [4]  S. Datta and B. Das, Appl. Phys. Lett. 56, 665 (1990); S. Das Sarma et
 al., Solid State Commun. 119, 207 (2001), and references therein; J. Rudolph et
 al., Appl. Phys. Lett. 82, 4516 (2003).
+    
+    We propose an electron wave analog of the electro‐optic light modulator. The
+    current modulation in the proposed structure arises from spin precession due
+    to the spin‐orbit coupling in narrow‐gap semiconductors, while magnetized
+    contacts are used to preferentially inject and detect specific spin
+    orientations. This structure may exhibit significant current modulation
+    despite multiple modes, elevated temperatures, or a large applied bias.
 
 [5]  J. E. Hirsch, Phys. Rev. Lett. 83, 1834 (1999); E. R. Mucciolo, C. Chamon,
 and C.M. Marcus, ibid. 89, 146802 (2002); Q.F. Sun, H. Guo, and J. Wang, ibid.
@@ -60,12 +68,37 @@ Phys. Rev. Lett. 92, 126603 (2004).
 
 [8]  A. Najmaie, R. D. R. Bhat, and J. E. Sipe, Phys. Rev. B 68, 165348 (2003).
 
-[9]  M. J. Stevens et al., Phys. Rev. Lett. 90, 136603 (2003). [10] J. Hu ̈bner
-et al., Phys. Rev. Lett. 90, 216601 (2003). [11] S. K. Watson, R. M. Potok, C.
-M. Marcus, and V. Uman-sky, Phys. Rev. Lett. 91, 258301 (2003); Y. K. Kato, R.
-C. Myers, A. C. Gossard, and D. D. Awschalom, Science 306, 1910 (2004); J.
-Wunderlich, B. Kaestner, J. Sinova, and T. Jungwirth, Phys. Rev. Lett. 94,
-047204 (2005).
+[9]  M. J. Stevens et al., Phys. Rev. Lett. 90, 136603 (2003). 
+
+stevensPRL03
+
+    We demonstrate all-optical quantum interference injection and control of a
+    ballistic pure spin current (without an accompanying charge current) in
+    GaAs/AlGaAsquantum wells, consisting of spin-up electrons traveling in one
+    direction and spin-down electrons traveling in the opposite direction. This
+    current is generated through quantum interference of one- and two-photon
+    absorption of ~ 100 fs phase-locked pulses that have orthogonal linear
+    polarizations. We use a spatially resolved pump-probe technique to measure
+    carrier movement of ~ 10 nm. Results agree with recent theoretical
+    predictions.
+
+[10] J. Hübneret al., Phys. Rev. Lett. 90, 216601 (2003).
+
+zhaoPRL2006
+
+     Using two-color optical coherence control techniques in intrinsic GaAs at
+     80 K with orthogonally polarized 70 fs, 1430 and 715 nm pulses, we generate
+     a pure spin source current that yields a transverse Hall pure charge
+     current; or alternatively, with parallel polarized pulses, we generate a
+     pure charge source current that yields a pure spin current. By varying the
+     relative phase or polarization of the incident pulses, one can effectively
+     tune the type, magnitude and direction of both the source and transverse
+     currents without application of electric or magnetic fields.
+
+[11] S. K. Watson, R. M. Potok, C.M. Marcus, and V. Uman-sky, Phys. Rev. Lett.
+91, 258301 (2003); Y. K. Kato, R. C. Myers, A. C. Gossard, and D. D. Awschalom,
+Science 306, 1910 (2004); J. Wunderlich, B. Kaestner, J. Sinova, and T.
+Jungwirth, Phys. Rev. Lett. 94, 047204 (2005).
 
 [12] P.Y. Yu and M. Cardona, Fundamentals of Semi- conductors (Springer-Verlag,
 Berlin, 1996), Chap. 6.
