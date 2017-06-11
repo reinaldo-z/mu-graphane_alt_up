@@ -1,0 +1,15 @@
+                            N O T E S
+
+Note 1:
+    
+    The electric field inside the semiconductor is $\mathbf{E}(t) =
+    \mathbf{E}(\omega) e^{-i \omega t} + c.c.$, where $\mathbf{E}(\omega)$ is a
+    slowly varying envelope function. The coupling between the light and
+    electrons is treated in the long-wavelength limit, and we ignore
+    interactions among the electrons. This is a common start- ing point for
+    calculations of interband absorption in semi- conductors [12], and we adopt
+    it to show that PSCs can be generated even within this relatively simple
+    model.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

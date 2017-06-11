@@ -86,14 +86,14 @@ stevensPRL03
 
 zhaoPRL2006
 
-     Using two-color optical coherence control techniques in intrinsic GaAs at
-     80 K with orthogonally polarized 70 fs, 1430 and 715 nm pulses, we generate
-     a pure spin source current that yields a transverse Hall pure charge
-     current; or alternatively, with parallel polarized pulses, we generate a
-     pure charge source current that yields a pure spin current. By varying the
-     relative phase or polarization of the incident pulses, one can effectively
-     tune the type, magnitude and direction of both the source and transverse
-     currents without application of electric or magnetic fields.
+    Using two-color optical coherence control techniques in intrinsic GaAs at 80
+    K with orthogonally polarized 70 fs, 1430 and 715 nm pulses, we generate a
+    pure spin source current that yields a transverse Hall pure charge current;
+    or alternatively, with parallel polarized pulses, we generate a pure charge
+    source current that yields a pure spin current. By varying the relative
+    phase or polarization of the incident pulses, one can effectively tune the
+    type, magnitude and direction of both the source and transverse currents
+    without application of electric or magnetic fields.
 
 [11] S. K. Watson, R. M. Potok, C.M. Marcus, and V. Uman-sky, Phys. Rev. Lett.
 91, 258301 (2003); Y. K. Kato, R. C. Myers, A. C. Gossard, and D. D. Awschalom,
@@ -117,6 +117,18 @@ Effects in Noncentrosymmetric Materials (Gordon and Breach, Philadelphia, 1992).
 [16] This was exploited by Alvarado et al., who detected a spin polarization in
 electrons photoemitted from (110) GaAs; S. F. Alvarado, H. Riechert, and N. E.
 Christensen, Phys. Rev. Lett. 55, 2716 (1985).
+
+alvaradoPRL85
+
+    We observe a spontaneous electron-spin polarization in GaAs(110) in
+    photoemission experiments using excitation with linearly polarized light.
+    This effect is a consequence of the noncentrosymmetric crystal structure of
+    GaAs and suggests that the polarization of each spin-split conduction band
+    can be almost as high as ± 100%. A net nonzero polarization after summation
+    over spin states arises from (a) differences in spin-up and -down
+    conduction-band hybridization with valence p states, and (b) surface-
+    transmission effects.
+
 
 [17] The phases of states and partitioning of degenerate sub- spaces can always
 be chosen so that this is true; see M. Lax, Symmetry Principles in Solid State

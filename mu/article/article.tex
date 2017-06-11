@@ -10,7 +10,7 @@
 \usepackage{blindtext}  % fill text
 \usepackage[dvipsnames]{xcolor}
 \usepackage{multirow}
-% \usepackage{showframe}
+\usepackage{showframe}
 \usepackage[inline]{showlabels}
 
 \raggedbottom           % don't add extra vertical space
@@ -43,6 +43,8 @@ Oshawa, ON, L1H 7L7, Canada}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Introduction}
+\label{sec:introduction}
+
 
 \begin{figure}[ht!]
     \centering
@@ -156,59 +158,91 @@ describe the details of calculations and the corresponding SVI spectra for the
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\subsection{Pure spin velocity} % (fold)
+In this section, we report a summary of the theory that involves the PSC
+phenomena from which rises the SVI treated in this paper. The full description 
+of it was presented by Bhat and Sipe et. al.\cite{bhatPRL05}
+ 
+As mentioned before in Section \ref{sec:introduction}, In PSCs there is no net
+motion of charge and spin-up electrons move in a given direction while spin-
+down electrons travel in the opposite one. This effect can result from one
+photon absorption of linearly polarized light by a semiconductor, with filled
+valence bands and empty conduction bands, illuminated by light with photon
+energy larger than the energy gap.
+% note 1
+Using i.e. a single weak continuous linearly polarized laser beam, is possible
+to promote electrons in $\mathbf{k}$ space regardless the symmetry of the system
+resulting in a net current equal to zero. Then, if the system presents inversion
+of symmetry, electrons promoted to the conduction bands at opposite $\mathbf{k}$
+points will have opposite spin polarization resulting in a total spin injection
+equal to zero. If the phenomena is produced in a noncentrosymmetric
+semiconducting media the spin polarization injected at a given $\mathbf{k}$
+point can be held\cite{alvaradoPRL85}, resulting in a PSC because the velocity
+of electrons at opposite $\mathbf{k}$ points are in opposite directions.
+
+\subsection{Spin velocity injection} % (fold)
 \label{sec:theory-pure_spin_current}
 
-
-The spin density injection current $\dot{K}^{\mathrm{ab}}(\omega)$, 
+We define the SVI as the velocity at which the spin, polarized along the
+direction $\mathrm{a}$, propagates along the direction $\mathrm{b}$ as
+\begin{equation}\label{eq:vab-w}
+\mathcal{V}^{\mathrm{ab}}(\omega) \equiv
+\frac{\dot{K}^{\mathrm{ab}}(\omega)}{(\hbar/2) \dot{n}(\omega)},
+\end{equation}  
+where the pure spin density injection current, $\dot{K}^{\mathrm{ab}} (\omega)$,
+and the carrier injection rate, $\dot{n}(\omega)$, are given by
 % 
-{
-\color{red}
-where the roman superscripts denote Cartesian components corresponding
-$\mathrm{a}$ to the spin velocity direction and $\mathrm{b}$ to the spin
-polarization direction, can be written in terms of a material response
-pseudotensor $\mu^{\mathrm{abcd}}(\omega)$ as }
-\begin{equation*}
-\dot{K}^{\mathrm{ab}}(\omega) = \mu^{\mathrm{abcd}}(\omega)
-E^{\mathrm{c}}(\omega) E^{\mathrm{d*}}(\omega)
-\label{eq:dotk}
-\end{equation*}
-where the pseudotensor is given by\cite{bhatPRL05}
-\begin{widetext}
-\begin{align}
-\mu^{\mathrm{abcd}} (\omega) 
+\begin{equation}\label{eq:dot-kn}
+\begin{aligned}
+\dot{K}^{\mathrm{ab}}(\omega) 
 &=
+\mu^{\mathrm{abcd}}(\omega)
+E^{\mathrm{c}}(\omega) E^{\mathrm{d*}}(\omega),
+% \label{eq:dotk} 
+\\
+\dot{n}(\omega)
+&=
+\xi^{\mathrm{ab}}(\omega) E^{c }(\omega) E^{d*}(\omega),
+% \label{eq:dotn}
+\end{aligned}
+\end{equation}
+where the roman superscripts denote Cartesian directions, and if repeated, they
+are to be summed over, the $\xi^{\mathrm{ab}}(\omega)$ are the carrier
+generation rate tensor components and $\mu^{\mathrm{abcd}}(\omega)$ are the pure
+spin-current pseudotensor components given by\cite{bhatPRL05}
+\begin{equation*}\label{eq:mu}
+\begin{aligned}
+\mu^{\mathrm{abcd}}  (\omega) &
+=
 \frac{\pi e^{2}}{\hbar^{2}} \int 
-\frac{d^{3}K}{8 \pi^{3}}
+\frac{d^{3}K}{8 \pi^{3}} \times \\
 \sum_{vcc'}^{'}
-\mathrm{Re} \left[ K^{\mathrm{ab}}_{cc'} 
+\mathrm{Re} & \left[ K^{\mathrm{ab}}_{cc'} 
 \left( 
 r^{\mathrm{c}}_{vc'} 
 r^{\mathrm{d}}_{cv } +
 (c \leftrightarrow d)
 \right) 
-\right]
-\delta(\omega-\omega_{cv})
-\label{eq:mu}
-\end{align}
-\end{widetext}
-{\color{red}
+\right] \delta(\omega-\omega_{cv}),
+\end{aligned}
+\end{equation*}
 where $K^{\mathrm{ab}}_{mn}(\mathbf{k}) =
 \sum_{\ell}v^{\mathrm{a}}_{nl}(\mathbf{k}) S^{\mathrm{b}}_{lm}(\mathbf{k})$ are
 the spin current matrix elements that, using time reversal invariance, satisfy
 the relation $K^{\mathrm{ab}}_{nm}(\mathbf{-k}) = K^{\mathrm{ab*}}(\mathbf{k})
 $. 
-}% 
-The $'$ in the sum means that $c$ and $c'$ are quasi degenerate states and
-the sum only covers these states and 
-{\color{red}
-since $\mu$ is real we have that
-$\mu^{\mathrm{abcd}}(\omega) = \mu^{\mathrm{abdc}}(\omega)$.
-}
-Now we define the spin velocity, $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ as
-the speed at which the spin polarized in the $\mathrm{b}$   direction moves
-along the $\mathrm{a}$ direction when a normal incident beam reaches the $xy$
-plane with a polarization angle $\alpha$ as
+% 
+The $'$ in the sum means that $c$ and $c'$ are quasi degenerate states and the
+sum only covers these states and since $\mu^{\mathrm{abcd}}(\omega)$ is real we
+have that $\mu^{\mathrm{abcd}}(\omega) = \mu^{\mathrm{abdc}}(\omega)$.
+% 
+Since we have 2D structures we use an incoming electric field parallel to the
+surface, $\mathbf{E}^{a}(\omega) = E^{\mathrm{a}} e^{i(\alpha + \omega t)}$,
+where the angle $\alpha$ corresponds to the linear polarization angle measured
+positively in the counter-clockwise from the $x$ direction on the
+surface of the structures.
+% 
+Then from Eq. \eqref{eq:dot-kn} we can rewrite the Eq. \eqref{eq:vab-w} and 
+including the polarization angle dependence we have
 \begin{widetext}
 \begin{align}
 \mathcal{V}^{\mathrm{ab}}(\omega,\alpha)
@@ -230,15 +264,12 @@ E^{2}(\omega)\sin^{2}(\alpha)},
 \mu^{\mathrm{abxy}}(\omega)\sin(2\alpha)}
 {\xi^{\mathrm{xx}}(\omega)\cos^{2}(\alpha) + 
 \xi^{\mathrm{yy}}(\omega)\sin^{2}(\alpha)},
-\label{eq:vab}
+\label{eq:vab-aw}
 \end{align}
 \end{widetext}
-{\color{red}
-where $\xi^{\mathrm{aa}}(\omega)$ are the carrier generation rate tensor
-components\cite{arzatePRB14}.
-}
 % 
-For an angle $\alpha = \frac{\pi}{4}$ this expression can be reduced to 
+If the polarization angle is fixed to $\alpha = \frac{\pi}{4}$ the previous
+expression can be reduced to 
 \begin{equation*}\label{eq:vab-90deg}
 \mathcal{V}^{\mathrm{ab}} (\omega)
 = \frac{2}{\hbar}
@@ -246,7 +277,11 @@ For an angle $\alpha = \frac{\pi}{4}$ this expression can be reduced to
 2\mu^{\mathrm{abxy}}(\omega)}
 {\xi^{\mathrm{xx}}(\omega) + \xi^{\mathrm{yy}}(\omega)}.
 \end{equation*}
-
+Two interesting possibilities to analyze the SVI are fixing the spin along any
+of the three Cartesian coordinates and, for our cases, particularly for the spin
+directed along $z$ directed perpendicularly to the surface of the structure; or
+fixing the velocity along the $x$ or $y$ Cartesian coordinates on the $xy$ plane
+of the structures. In following subsections we present these cases.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Theory: Fixing spin %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -254,28 +289,28 @@ For an angle $\alpha = \frac{\pi}{4}$ this expression can be reduced to
 
 \subsection{Fixing spin}\label{sec:theory-fixspin}
 
-{\color{red} Considering that we have 2D structures, one of the options to
-analyze the spin velocity (Eq. \eqref{eq:vab}) is fixing the spin parallel to
-the surface of the structure in the $x$ or $y$ directions or perpendicularly to
-it in the $z$ direction. We define the magnitude of the spin velocity with spin
-polarization along the $\mathrm{b}$ Cartesian coordinate as}
-\begin{align}
+Because we have 2D structures, one of the options to analyze the spin velocity
+(Eq. \eqref{eq:vab-aw}) is fixing the spin parallel to the surface of the
+structure in the $x$ or $y$ directions or perpendicularly to it in the $z$
+direction. We define the magnitude of the spin velocity with spin polarization
+along the $\mathrm{b}$ Cartesian coordinate as
+\begin{equation}
 |\mathcal{V}_{\sigma^{\mathrm{b}}}(\omega,\alpha)| 
-&=
+=
 \sqrt{
 [\mathcal{V}^{\mathrm{ax}}(\omega,\alpha)]^{2}\ +
 [\mathcal{V}^{\mathrm{ay}}(\omega,\alpha)]^{2}\ 
 }, 
 \label{eq:vs-mag}
-\end{align}
+\end{equation}
 and the angle at which the spin velocity is directed on the $xy$ plane as
-\begin{align}
+\begin{equation}
 \gamma_{\mathrm{b}} (\omega,\alpha)
-&=
+=
 \tan^{-1} \left( \frac{\mathcal{V}^{\mathrm{ay}}(\omega,\alpha)}
 {\mathcal{V}^{\mathrm{ax}}(\omega,\alpha)} \right),
 \label{eq:gamma-ang}
-\end{align}
+\end{equation}
 where the angle is measured in the counter-clockwise direction from the
 positive $x$ Cartesian coordinate. {\color{red} We also define two special
 angles
@@ -298,7 +333,7 @@ perpendicularly respect to the polarization angle of the incoming beam. }
 
 \subsection{Fixing velocity.}\label{sec:theory-fixvel}
 
-{\color{red} Another possibility to analyze the Eq. \eqref{eq:vab} is fixing
+{\color{red} Another possibility to analyze the Eq. \eqref{eq:vab-aw} is fixing
 the velocity on the $xy$ plane along $x$ or $y$ Cartesian coordinate and then
 define the magnitude of the spin velocity directed along the $\mathrm{a}$
 direction as}
@@ -486,7 +521,7 @@ derived from the electronic band structure.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Results: Spin velocity %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Spin velocity} % (fold)
+\subsection{Spin velocity injection} % (fold)
 \label{sec:res-spin_velocity}
 
 \begin{table}[b]
@@ -528,7 +563,7 @@ polarization angle $\alpha$ and energy values.}
     \label{fig:vab-str-comp}
 \end{figure}
 
-{\color{red}Using the Eq. \eqref{eq:vab}, we calculated the
+{\color{red}Using the Eq. \eqref{eq:vab-aw}, we calculated the
 $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ response for the \emph{up} and
 \emph{alt} 2D structures and for the CdSe and GaAs bulk systems; the results
 are presented in Fig. \ref{fig:vab-str-comp}. The angle $\alpha$ presented in
