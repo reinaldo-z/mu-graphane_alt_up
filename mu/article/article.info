@@ -43,7 +43,7 @@ RES: V_{s^z} @ 0.088 eV
 files:  ../../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-0.088eV
         up-plots/up-svab-rag.gp
 
-LINE    Energy          r               a       V^{xx}          V^{yx}          g_{z}
+LINE    Energy          V_{s^x}         ang       V^{xx}          V^{yx}          g_{z}
 MAX
 9       8.80000E-02     4.156394E-06    040     -4.061730E-06   -8.820230E-07   012.251788
                         37.3567460987
@@ -54,7 +54,7 @@ RES: V_{s^z} @ 0.088 eV
 files:  ../../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-0.088eV
         up-plots/up-svab-rag.gp
 
-LINE    Energy          r               a       V^{xy}          V^{yy}          g_{z}
+LINE    Energy          V_{s^y}         ang       V^{xy}          V^{yy}          g_{z}
 MAX     8.80000E-02     2.756506E-06    040     -2.585430E-06   9.559700E-07    159.708008
                         24.7748636827
 
@@ -64,7 +64,7 @@ RES: V_{s^z} @ 0.088 eV
 files:  ../../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-0.088eV
         up-plots/up-svab-rag.gp
 
-LINE    Energy          r               a       V^{xz}          V^{yz}          g_{z}
+LINE    Energy          V_{s^z}         ang       V^{xz}          V^{yz}          g_{z}
 MAX
 9       8.80000E-02     1.065864E-05    040     4.422850E-06    9.697680E-06    065.483589
                         95.797488938            39.751593444    87.160593896
@@ -85,7 +85,7 @@ RES: V_{s^z} @ 0.088 eV
 files:  ../../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-1.972eV
         up-plots/up-svab-rag.gp
 
-LINE    Energy          r               a       V^{xx}          V^{yx}          g_{z}
+LINE    Energy          V_{s^x}        ang       V^{xx}          V^{yx}          g_{z}
 MAX
 9       1.97200E+00     3.037302E-06    040     -5.578120E-07   -2.985640E-06   079.417295
                         27.2985957633
@@ -96,7 +96,7 @@ RES: V_{s^z} @ 0.088 eV
 files:  ../../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-1.972eV
         up-plots/up-svab-rag.gp
 
-LINE    Energy          r               a       V^{xy}          V^{yy}          g_{z}
+LINE    Energy          V_{s^y}        ang       V^{xy}          V^{yy}          g_{z}
 MAX
 9       1.97200E+00     3.281043E-06   040      -6.456000E-07   -3.216900E-06   078.652053
                         29.4892857342
@@ -107,10 +107,11 @@ RES: V_{s^z} @ 0.912 eV
 files:  ../../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-1.972eV
         up-plots/up-svab-rag.gp
 
-LINE    Energy          r               a       V^{xz}          V^{yz}          g_{z}
+LINE    Energy          V_{s^z}        ang       V^{xz}          V^{yz}          g_{z}
 MAX
 9       1.97200E+00     3.375932E-06    040     -6.926090E-07   -3.304120E-06   078.161085
                         30.3421269904           -7.9274268186   -29.6966966846
+
 COL     78.4        --> 18.8
 16      1.97200E+00     2.234706E-06    075     -4.518410E-07   -2.188550E-06   078.334749
                         20.085041179            -4.06104655     -19.6702013
@@ -132,7 +133,7 @@ RES: V_{s^z} @ 0.088 eV
 files:  ../../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV
         up-plots/up-svab-rag.gp
 
-LINE    Energy          r               a       V^{xx}          V^{yx}          g_{z}
+LINE    Energy          V_{s^x}         ang       V^{xx}          V^{yx}          g_{z}
 MAX
 30      9.12000E-01     3.017371E-06    145     5.313360E-07    -2.970220E-06   100.142215
                         27.1194603621
@@ -143,7 +144,7 @@ RES: V_{s^z} @ 0.088 eV
 files:  ../../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV
         up-plots/up-svab-rag.gp
 
-LINE    Energy          r               a       V^{xy}          V^{yy}          g_{z}
+LINE    Energy          V_{s^y}         ang       V^{xy}          V^{yy}          g_{z}
 MAX
 30      9.12000E-01     3.693356E-06    145     -1.425340E-06   -3.407240E-06   067.299121
                         33.1950633997
@@ -154,7 +155,7 @@ RES: V_{s^z}
 files:  ../../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV
         alt-plots/alt-svab-rag.gp
 
-LINE    Energy          r               a       V^{xz}          V^{yz}          g_{z}
+LINE    Energy          V_{s^z}        ang       V^{xz}          V^{yz}          g_{z}
 MAX
 30      9.12000E-01     4.786784E-06   145      -3.085220E-06   -3.659880E-06   049.869627
                         43.022551403            -27.7292721     -32.89418855
@@ -362,8 +363,60 @@ Rango THz:   0.00124eV - 0.01241eV
     and $50^{\circ}$.}
 
 
+################################################################################
 
 
+Hola. Estoy enterado de lo escrito. Nos vemos el lunes en la oficina.
+
+OK
+
+Antes de ello quisiera saber si nos podeos contactar por Skype para ponernos de
+acuerdo acerca de las ecuaciones que mencionaste:  
+  Ec. (3): | V_{\sigma^{b}} |
+  Ec. (4): \gamma_{b}
+
+Checa que los indices sean los correctos, segun yo solo estan mal escritos.
+
+y de las ecuaciones de los ángulos paralelo y perpendicular (Eqns. 5 y 6). A mi
+parecer son correctas pero aún así quisiera discutirlo contigo.
+
+cerciorate que los indices corresponden a lo que dices que son
+
+El capa por capa casi lo tengo descrito salvo la parte de centrosimetría con la
+que voy a necesitar un poco de ayuda.
+
+\mu^{abcd}=0 para un sistema centrosimetrico, asi que la idea es que mientras mas
+no centrosimetrico sea la estructura, uno deberia de esperar una mayor respuesta
+en mu. El analisis capa-x-capa muestra claramente que alt cancela paricialmente
+las contribuciones de mu que vienen de un lado y del otro lado de la estructura,
+esto es,
+
+\mu(r)\sim -\mu(-r)
+
+donde el origen esta en el centro de inversion de la estructura (z=0). Para up,
+
+\mu(r)\neq -\mu(-r)
+
+dado que no hay H de un lado de la estructura, y por ende no hay cancelacion, y
+entonces mu(up)>>mu(alt)
+
+Referente a la introducción y varias referencias, las estoy terminando y es
+posible que el lunes 5 las tenga completas junto con el resumen.
+
+Es muy importante que cheques bien que no te faltan referencias sobre el tema,
+para estar seguros que es la primera vez que se realiza un estudio como el
+nuestro.
+
+De las conclusiones voy a escribirlas y me gustaría que, posterior a la difusión
+de las ecuaciones, nos contactáramos nuevamente para discutirlas.
+
+El lunes las vemos, sin embargo, si ya tienes algo sustancial que mostrarme,
+mandamelo para irlo leyendo.
+
+saludos
+
+p.s. por la diferencia de horario esta dificil la junta por skype, pero no creo
+que haya necesidad de tenerla, con las respuestas que di arriba.
 
 
 

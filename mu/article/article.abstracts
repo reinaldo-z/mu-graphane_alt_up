@@ -22,20 +22,21 @@ abstract:
 
     We present a theoretical study of the optical generation of one-photon spin
     and current injection onto In-adsorbed Si(111) surfaces with 4×2 and 8×2
-    reconstructions. The spin injection, under incidence of circularly polarized
-    light into nonmagnetic semiconductors, creates spin-polarized electrons in
-    the conduction bands. The current injection is a nonlinear second-order
-    effect that is allowed in materials without inversion symmetry. In bulk
-    centrosymmetric crystals, the optical injection of current can only be
-    observed at the surface wherein the inversion of symmetry might be broken.
-    We report calculations for the degree of spin polarization and current-
-    injection spectra which are calculated in a full electronic band structure
-    scheme at the level of GW scissor-energy correction. Our results show an
-    anisotropic behavior of the spin- and current-injection optical response. We
-    obtain maximum percentages of the degree of spin polarization of 30% and 35%
-    for the 4×2 and 8×2 surface reconstructions, respectively. It is also
-    possible to optically generate injection current coming mainly from the
-    first two top layers on both In-adsorbed surface reconstructions.
+    reconstructions. The spin injection, under incidence of circularly
+    polarized light into nonmagnetic semiconductors, creates spin-polarized
+    electrons in the conduction bands. The current injection is a nonlinear
+    second-order effect that is allowed in materials without inversion
+    symmetry. In bulk centrosymmetric crystals, the optical injection of
+    current can only be observed at the surface wherein the inversion of
+    symmetry might be broken. We report calculations for the degree of spin
+    polarization and current- injection spectra which are calculated in a full
+    electronic band structure scheme at the level of GW scissor-energy
+    correction. Our results show an anisotropic behavior of the spin- and
+    current-injection optical response. We obtain maximum percentages of the
+    degree of spin polarization of 30% and 35% for the 4×2 and 8×2 surface
+    reconstructions, respectively. It is also possible to optically generate
+    injection current coming mainly from the first two top layers on both In-
+    adsorbed surface reconstructions.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -43,20 +44,20 @@ awschalomNP2007
 title: Challenges for semiconductor spintronics.
 abstract:
     
-    High-volume information-processing and communications devices are at present
-    based on semiconductor devices, whereas information-storage devices rely on
-    multilayers of magnetic metals and insulators. Switching within information-
-    processing devices is performed by the controlled motion of small pools of
-    charge, whereas in the magnetic storage devices information storage and
-    retrieval is performed by reorienting magnetic domains (although charge
-    motion is often used for the final stage of readout). Semiconductor
-    spintronics offers a possible direction towards the development of hybrid
-    devices that could perform all three of these operations, logic,
-    communications and storage, within the same materials technology. By taking
-    advantage of spin coherence it also may sidestep some limitations on
-    information manipulation previously thought to be fundamental. This article
-    focuses on advances towards these goals in the past decade, during which
-    experimental progress has been extraordinary.
+    High-volume information-processing and communications devices are at
+    present based on semiconductor devices, whereas information-storage devices
+    rely on multilayers of magnetic metals and insulators. Switching within
+    information-processing devices is performed by the controlled motion of
+    small pools of charge, whereas in the magnetic storage devices information
+    storage and retrieval is performed by reorienting magnetic domains
+    (although charge motion is often used for the final stage of readout).
+    Semiconductor spintronics offers a possible direction towards the
+    development of hybrid devices that could perform all three of these
+    operations, logic, communications and storage, within the same materials
+    technology. By taking advantage of spin coherence it also may sidestep some
+    limitations on information manipulation previously thought to be
+    fundamental. This article focuses on advances towards these goals in the
+    past decade, during which experimental progress has been extraordinary.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -64,16 +65,16 @@ balandinNL08
 title: Superior thermal conductivity of single-layer graphene.
 abstract:
     
-    We report the measurement of the thermal conductivity of a suspended single-
-    layer graphene. The room temperature values of the thermal conductivity in
-    the range ∼(4.84 ± 0.44) × 103 to (5.30 ± 0.48) × 103 W/mK were extracted
-    for a single-layer graphene from the dependence of the Raman G peak
-    frequency on the excitation laser power and independently measured G peak
-    temperature coefficient. The extremely high value of the thermal
+    We report the measurement of the thermal conductivity of a suspended
+    single- layer graphene. The room temperature values of the thermal
+    conductivity in the range ∼(4.84 ± 0.44) × 103 to (5.30 ± 0.48) × 103 W/mK
+    were extracted for a single-layer graphene from the dependence of the Raman
+    G peak frequency on the excitation laser power and independently measured G
+    peak temperature coefficient. The extremely high value of the thermal
     conductivity suggests that graphene can outperform carbon nanotubes in heat
-    conduction. The superb thermal conduction property of graphene is beneficial
-    for the proposed electronic applications and establishes graphene as an
-    excellent material for thermal management.
+    conduction. The superb thermal conduction property of graphene is
+    beneficial for the proposed electronic applications and establishes
+    graphene as an excellent material for thermal management.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -92,8 +93,7 @@ abstract:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 bhatPRL05
-title: Pure spin current from one-photon absorption of linearly polarized light
-in noncentrosymmetric semiconductors.
+title: Pure spin current from one-photon absorption of linearly polarized lightin noncentrosymmetric semiconductors.
 
 abstract:
     
@@ -114,20 +114,20 @@ abstract:
     Graphene-related nanostructures stand out as exceptional materials due to
     both their wide range of properties and their expanse of interest in both
     applied and fundamental research. They are good examples of nanoscale
-    materials for which the properties do not necessarily replicate those of the
-    bulk. For the description and the understanding of their properties, it is
-    clear that a general quantum-mechanical approach is mandatory. The
+    materials for which the properties do not necessarily replicate those of
+    the bulk. For the description and the understanding of their properties, it
+    is clear that a general quantum-mechanical approach is mandatory. The
     remarkable result of density functional theory (DFT) is that the quantum-
     mechanical description of materials at the ground state is made amenable to
     simulations at a relatively low computational cost.
 
-    The knowledge of materials has undergone a revolution after the introduction
-    of DFT as an unrivaled instrument for the investigation of materials
-    properties through computer experiments. Their deeper understanding comes
-    from a variety of tools developed from concepts intrinsically present in
-    DFT, notably the total energy and the charge density. Such tools allow the
-    prediction of a diverse set of physicochemical properties relevant for
-    material scientists.
+    The knowledge of materials has undergone a revolution after the
+    introduction of DFT as an unrivaled instrument for the investigation of
+    materials properties through computer experiments. Their deeper
+    understanding comes from a variety of tools developed from concepts
+    intrinsically present in DFT, notably the total energy and the charge
+    density. Such tools allow the prediction of a diverse set of
+    physicochemical properties relevant for material scientists.
 
     This Account lays out an example-driven tour through the achievements of
     ground-state DFT applied to the description of graphene-related
@@ -142,8 +142,8 @@ abstract:
     mechanical properties. In addition, a close examination of the charge
     density gives information about charge transfer mechanisms, which can be
     linked to chemical reactivity. The ground state density and Hamiltonian
-    finally connect to the concepts behind transport phenomena, which drive much
-    of the application-oriented research on graphene and graphene-related
+    finally connect to the concepts behind transport phenomena, which drive
+    much of the application-oriented research on graphene and graphene-related
     nanostructures. In each section, a selection of cases that are of current
     importance are used to illustrate the use and relevance of DFT-based
     techniques. In summary, this Account presents an introductory landscape of
@@ -160,23 +160,24 @@ molecular doping.
     
 abstract:
 
-    Epitaxial graphene on SiC(0001) suffers from strong intrinsic n-type doping.
-    We demonstrate that the excess negative charge can be fully compensated by
-    noncovalently functionalizing graphene with the strong electron-acceptor
-    tetrafluorotetracyanoquinodimethane (F4-TCNQ). Charge neutrality can be
-    reached in monolayer graphene as shown in electron-dispersion spectra from
-    angular-resolved photoemission spectroscopy. In bilayer graphene the band-
-    gap that originates from the SiC/graphene interface dipole increases with
-    increasing F4-TCNQ deposition and, as a consequence of the molecular doping,
-    the Fermi level is shifted into the band-gap. The reduction in the charge-
-    carrier density upon molecular deposition is quantified using electronic
-    Fermi surfaces and Raman spectroscopy. The structural and electronic
-    characteristics of the graphene/F4-TCNQ charge-transfer complex are
-    investigated by x-ray photoelectron spectroscopy and ultraviolet
-    photoelectron spectroscopy. The doping effect on graphene is preserved in
-    air and is temperature resistant up to 200°C. Furthermore, graphene
-    noncovalent functionalization with F4-TCNQ can be implemented not only via
-    evaporation in ultrahigh vacuum but also by wet chemistry.
+    Epitaxial graphene on SiC(0001) suffers from strong intrinsic n-type
+    doping. We demonstrate that the excess negative charge can be fully
+    compensated by noncovalently functionalizing graphene with the strong
+    electron-acceptor tetrafluorotetracyanoquinodimethane (F4-TCNQ). Charge
+    neutrality can be reached in monolayer graphene as shown in electron-
+    dispersion spectra from angular-resolved photoemission spectroscopy. In
+    bilayer graphene the band- gap that originates from the SiC/graphene
+    interface dipole increases with increasing F4-TCNQ deposition and, as a
+    consequence of the molecular doping, the Fermi level is shifted into the
+    band-gap. The reduction in the charge- carrier density upon molecular
+    deposition is quantified using electronic Fermi surfaces and Raman
+    spectroscopy. The structural and electronic characteristics of the
+    graphene/F4-TCNQ charge-transfer complex are investigated by x-ray
+    photoelectron spectroscopy and ultraviolet photoelectron spectroscopy. The
+    doping effect on graphene is preserved in air and is temperature resistant
+    up to 200°C. Furthermore, graphene noncovalent functionalization with
+    F4-TCNQ can be implemented not only via evaporation in ultrahigh vacuum but
+    also by wet chemistry.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -184,12 +185,13 @@ dattaAPL90
 title: Electronic analog of the electro-optic modulator.
 abstract:
     
-    We propose an electron wave analog of the electro‐optic light modulator. The
-    current modulation in the proposed structure arises from spin precession due
-    to the spin‐orbit coupling in narrow‐gap semiconductors, while magnetized
-    contacts are used to preferentially inject and detect specific spin
-    orientations. This structure may exhibit significant current modulation
-    despite multiple modes, elevated temperatures, or a large applied bias.
+    We propose an electron wave analog of the electro‐optic light modulator.
+    The current modulation in the proposed structure arises from spin
+    precession due to the spin‐orbit coupling in narrow‐gap semiconductors,
+    while magnetized contacts are used to preferentially inject and detect
+    specific spin orientations. This structure may exhibit significant current
+    modulation despite multiple modes, elevated temperatures, or a large
+    applied bias.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -205,13 +207,13 @@ abstract:
         conductive zero-overlap semimetal into an insulator. Transmission
         electron microscopy reveals that the obtained graphene derivative
         (graphane) is crystalline and retains the hexagonal lattice, but its
-        period becomes markedly shorter than that of graphene. The reaction with
-        hydrogen is reversible, so that the original metallic state, the lattice
-        spacing, and even the quantum Hall effect can be restored by annealing.
-        Our work illustrates the concept of graphene as a robust atomic-scale
-        scaffold on the basis of which new two-dimensional crystals with
-        designed electronic and other properties can be created by attaching
-        other atoms and molecules.
+        period becomes markedly shorter than that of graphene. The reaction
+        with hydrogen is reversible, so that the original metallic state, the
+        lattice spacing, and even the quantum Hall effect can be restored by
+        annealing. Our work illustrates the concept of graphene as a robust
+        atomic-scale scaffold on the basis of which new two-dimensional
+        crystals with designed electronic and other properties can be created
+        by attaching other atoms and molecules.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -219,17 +221,17 @@ fabianAPS07
 title: Semiconductor spintronics.
 abstract:
     
-    Spintronics refers commonly to phenomena in which the spin of electrons in a
-    solid state environment plays the determining role. In a more narrow sense
-    spintronics is an emerging research field of electronics: spintronics
+    Spintronics refers commonly to phenomena in which the spin of electrons in
+    a solid state environment plays the determining role. In a more narrow
+    sense spintronics is an emerging research field of electronics: spintronics
     devices are based on a spin control of electronics, or on an electrical and
     optical control of spin or magnetism. This review presents selected themes
     of semiconductor spintronics, introducing important concepts in spin
     transport, spin injection, Silsbee-Johnson spin-charge coupling, and
     spindependent tunneling, as well as spin relaxation and spin dynamics. The
     most fundamental spin-dependent nteraction in nonmagnetic semiconductors is
-    spin-orbit coupling. Depending on the crystal symmetries of the material, as
-    well as on the structural properties of semiconductor based
+    spin-orbit coupling. Depending on the crystal symmetries of the material,
+    as well as on the structural properties of semiconductor based
     heterostructures, the spin-orbit coupling takes on different functional
     forms, giving a nice playground of effective spin-orbit Hamiltonians. The
     effective Hamiltonians for the most relevant classes of materials and
@@ -283,11 +285,12 @@ abstract:
 
     The present paper provides an exhaustive account of the capabilities of
     ABINIT. It should be helpful to scientists that are not familiarized with
-    ABINIT, as well as to already regular users. First, we give a broad overview
-    of ABINIT, including the list of the capabilities and how to access them.
-    Then, we present in more details the recent, advanced, developments of
-    ABINIT, with adequate references to the underlying theory, as well as the
-    relevant input variables, tests and, if available, ABINIT tutorials.
+    ABINIT, as well as to already regular users. First, we give a broad
+    overview of ABINIT, including the list of the capabilities and how to
+    access them. Then, we present in more details the recent, advanced,
+    developments of ABINIT, with adequate references to the underlying theory,
+    as well as the relevant input variables, tests and, if available, ABINIT
+    tutorials.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -295,14 +298,14 @@ guisingerNL09
 title: Exposure of epitaxial graphene on SiC (0001) to atomic hydrogen.
 abstract:
     
-    Graphene films on SiC exhibit coherent transport properties that suggest the
-    potential for novel carbon-based nanoelectronics applications. Recent
-    studies suggest that the role of the interface between single layer graphene
-    and silicon-terminated SiC can strongly influence the electronic properties
-    of the graphene overlayer. In this study, we have exposed the graphitized
-    SiC to atomic hydrogen in an effort to passivate dangling bonds at the
-    interface, while investigating the results utilizing room temperature
-    scanning tunneling microscopy.
+    Graphene films on SiC exhibit coherent transport properties that suggest
+    the potential for novel carbon-based nanoelectronics applications. Recent
+    studies suggest that the role of the interface between single layer
+    graphene and silicon-terminated SiC can strongly influence the electronic
+    properties of the graphene overlayer. In this study, we have exposed the
+    graphitized SiC to atomic hydrogen in an effort to passivate dangling bonds
+    at the interface, while investigating the results utilizing room
+    temperature scanning tunneling microscopy.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -319,10 +322,10 @@ abstract:
     methods. Herein, a brief review is given on the recent research progress of
     graphene doping, which is roughly divided into three categories: First, the
     hetero atom doping, including arc discharge, chemical vapor deposition,
-    electrothermal reaction and ion-irradiation approaches; Second, the chemical
-    modification strategy; Third, the method of electrostatic field tuning. In
-    addition, the various potential applications of the above doping methods are
-    also introduced.
+    electrothermal reaction and ion-irradiation approaches; Second, the
+    chemical modification strategy; Third, the method of electrostatic field
+    tuning. In addition, the various potential applications of the above doping
+    methods are also introduced.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -355,10 +358,10 @@ abstract:
     table of pseudopotential parameters for all the elements from H to Rn. The
     relativistic version of this pseudopotential retains all the advantages of
     its nonrelativistic version. It is separable by construction, it is optimal
-    for integration on a real-space grid, it is highly accurate, and, due to its
-    analytic form, it can be specified by a very small number of parameters. The
-    accuracy of the pseudopotential is illustrated by an extensive series of
-    molecular calculations.
+    for integration on a real-space grid, it is highly accurate, and, due to
+    its analytic form, it can be specified by a very small number of
+    parameters. The accuracy of the pseudopotential is illustrated by an
+    extensive series of molecular calculations.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -377,22 +380,22 @@ abstract:
     polarizabilities and first hyperpolarizabilities of purposely chosen
     h-BN/graphene nanosized molecular hybrids comprising h-BN segments of
     increasing size. Quantum chemical computations reveal that size
-    modifications of a h-BN segment confined in a given graphene host may induce
-    dramatic electric property variations which vary in a rather surprising
-    manner as a function of the graphene host. For instance, it is shown how a
-    given h-BN fragment may induce precisely the reverse effect on band gap
-    related properties when embedded in graphene hosts of apparently similar
-    features; alternatively, it is demonstrated how this segment may cause
-    precisely the same effect on graphene hosts which, at first glance, seem
-    different. The strongest property oscillations we observed stem mainly from
-    band gap fluctuations; however, this is only one aspect of the specific
-    effect. By means of property partitioning within the fragmented-orbital
-    Hirshfeld iterative (FOHI) scheme, and in particular, by introducing
-    density-like polarizability representations, the influential importance of
-    electron delocalization in rings of the graphene section is fully exposed.
-    In addition to the above structure–property relationships, this work offers
-    some thought-provoking preliminary evidence concerning the liaison between
-    Clar’s theory of sextets and polarizability.
+    modifications of a h-BN segment confined in a given graphene host may
+    induce dramatic electric property variations which vary in a rather
+    surprising manner as a function of the graphene host. For instance, it is
+    shown how a given h-BN fragment may induce precisely the reverse effect on
+    band gap related properties when embedded in graphene hosts of apparently
+    similar features; alternatively, it is demonstrated how this segment may
+    cause precisely the same effect on graphene hosts which, at first glance,
+    seem different. The strongest property oscillations we observed stem mainly
+    from band gap fluctuations; however, this is only one aspect of the
+    specific effect. By means of property partitioning within the fragmented-
+    orbital Hirshfeld iterative (FOHI) scheme, and in particular, by
+    introducing density-like polarizability representations, the influential
+    importance of electron delocalization in rings of the graphene section is
+    fully exposed. In addition to the above structure–property relationships,
+    this work offers some thought-provoking preliminary evidence concerning the
+    liaison between Clar’s theory of sextets and polarizability.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -401,22 +404,23 @@ title: Room-temperature generation of giant pure spin currents using epitaxial
 Co2FeSi spin injectors.
 abstract:
     
-    The generation, manipulation and detection of a pure spin current (i.e., the
-    flow of spin angular momentum without a charge current) are prospective
+    The generation, manipulation and detection of a pure spin current (i.e.,
+    the flow of spin angular momentum without a charge current) are prospective
     approaches for realizing next-generation spintronic devices with ultra-low
-    electric power consumption. Conventional ferromagnetic electrodes such as Co
-    and NiFe have been utilized as spin injectors to generate pure spin currents
-    in nonmagnetic channels. However, the generation efficiency of pure spin
-    currents is extremely low at room temperature, giving rise to a serious
-    obstacle for device applications. Here we demonstrate the generation of
-    giant pure spin currents at room temperature in lateral spin valve devices
-    with a highly ordered Heusler-compound Co2FeSi (CFS) spin injector. The
-    generation efficiency of pure spin currents from the CFS spin injectors is
-    10 times greater than that of the NiFe injectors, indicating that Heusler
-    compound spin injectors with high spin polarization enable us to materialize
-    a high-performance lateral spin device. The present study is a technological
-    jump in spintronics, and indicates the great potential of ferromagnetic
-    Heusler compounds with half metallicity for generating pure spin currents.
+    electric power consumption. Conventional ferromagnetic electrodes such as
+    Co and NiFe have been utilized as spin injectors to generate pure spin
+    currents in nonmagnetic channels. However, the generation efficiency of
+    pure spin currents is extremely low at room temperature, giving rise to a
+    serious obstacle for device applications. Here we demonstrate the
+    generation of giant pure spin currents at room temperature in lateral spin
+    valve devices with a highly ordered Heusler-compound Co2FeSi (CFS) spin
+    injector. The generation efficiency of pure spin currents from the CFS spin
+    injectors is 10 times greater than that of the NiFe injectors, indicating
+    that Heusler compound spin injectors with high spin polarization enable us
+    to materialize a high-performance lateral spin device. The present study is
+    a technological jump in spintronics, and indicates the great potential of
+    ferromagnetic Heusler compounds with half metallicity for generating pure
+    spin currents.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -434,11 +438,11 @@ abstract:
     (∼100nm) is much thicker than the tunneling limit. They attribute this
     behavior to the formation of a thin spin-selective tunneling interface
     between LSMO and RRP3HT caused by RRP3HT, chemically attaching to LSMO as
-    observed by x-ray photoelectron spectroscopy measurement. This gives rise to
-    ∼80% magnetoresistance (MR) at 5K 5K and ∼1.5% MR at room temperature. They
-    found that by introducing monolayer of different organic insulators between
-    LSMO and RRP3HT the spin-selective interface is destroyed and the spin
-    injection is reduced. Their results show that organic materials are
+    observed by x-ray photoelectron spectroscopy measurement. This gives rise
+    to ∼80% magnetoresistance (MR) at 5K 5K and ∼1.5% MR at room temperature.
+    They found that by introducing monolayer of different organic insulators
+    between LSMO and RRP3HT the spin-selective interface is destroyed and the
+    spin injection is reduced. Their results show that organic materials are
     promising candidates for spintronic applications.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -449,12 +453,12 @@ abstract:
     
     We predict that in a narrow gap III-V semiconductor quantum well or quantum
     wire, an observable electron spin current can be generated with a time-
-    dependent gate to modify the Rashba spin-orbit coupling constant. Methods to
-    rectify the so generated ac current are discussed. An all-electric method of
-    spin-current detection is suggested, which measures the voltage on the gate
-    in the vicinity of a two-dimensional electron gas carrying a time-dependent
-    spin current. Both the generation and detection do not involve any optical
-    or magnetic mediator.
+    dependent gate to modify the Rashba spin-orbit coupling constant. Methods
+    to rectify the so generated ac current are discussed. An all-electric
+    method of spin-current detection is suggested, which measures the voltage
+    on the gate in the vicinity of a two-dimensional electron gas carrying a
+    time-dependent spin current. Both the generation and detection do not
+    involve any optical or magnetic mediator.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -463,17 +467,18 @@ title: All-optical injection and control of spin and electrical currents in
 quantum wells.
 abstract:
     
-    We show that quantum interference between one- and two-photon absorption can
-    be used to inject spin currents, with or without an accompanying electrical
-    current, in unbiased semiconductor quantum well structures. The directions
-    in which the electrical and spin currents are injected can be coherently
-    controlled, with a relative phase parameter of the optical fields as the
-    control parameter. We characterize the currents for an unstrained quantum
-    well and a quantum well under biaxial compressive strain using the
-    Luttinger-Kohn model; we work out particular examples. If compressive strain
-    is used to appropriately rearrange the subbands, then a degree of spin
-    polarization of the spin currents higher than possible in bulk GaAs can be
-    achieved and maintained even for photon energies well above the band gap.
+    We show that quantum interference between one- and two-photon absorption
+    can be used to inject spin currents, with or without an accompanying
+    electrical current, in unbiased semiconductor quantum well structures. The
+    directions in which the electrical and spin currents are injected can be
+    coherently controlled, with a relative phase parameter of the optical
+    fields as the control parameter. We characterize the currents for an
+    unstrained quantum well and a quantum well under biaxial compressive strain
+    using the Luttinger-Kohn model; we work out particular examples. If
+    compressive strain is used to appropriately rearrange the subbands, then a
+    degree of spin polarization of the spin currents higher than possible in
+    bulk GaAs can be achieved and maintained even for photon energies well
+    above the band gap.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -491,12 +496,12 @@ abstract:
     applying uniaxial strain on graphene, tunable band gap at K point can be
     realized. First-principle calculations predicted a band-gap opening of ∼300
     meV for graphene under 1% uniaxial tensile strain. The strained graphene
-    provides an alternative way to experimentally tune the band gap of graphene,
-    which would be more efficient and more controllable than other methods that
-    are used to open the band gap in graphene. Moreover, our results suggest
-    that the flexible substrate is ready for such a strain process, and Raman
-    spectroscopy can be used as an ultrasensitive method to determine the
-    strain.
+    provides an alternative way to experimentally tune the band gap of
+    graphene, which would be more efficient and more controllable than other
+    methods that are used to open the band gap in graphene. Moreover, our
+    results suggest that the flexible substrate is ready for such a strain
+    process, and Raman spectroscopy can be used as an ultrasensitive method to
+    determine the strain.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -508,10 +513,10 @@ abstract:
     occurs on a truly macroscopic scale, has attracted intense interest since
     its discovery in 1980 and has helped elucidate many important aspects of
     quantum physics. It has also led to the establishment of a new metrological
-    standard, the resistance quantum. Disappointingly, however, the QHE has been
-    observed only at liquid-helium temperatures. We show that in graphene, in a
-    single atomic layer of carbon, the QHE can be measured reliably even at room
-    temperature, which makes possible QHE resistance standards becoming
+    standard, the resistance quantum. Disappointingly, however, the QHE has
+    been observed only at liquid-helium temperatures. We show that in graphene,
+    in a single atomic layer of carbon, the QHE can be measured reliably even
+    at room temperature, which makes possible QHE resistance standards becoming
     available to a broader community, outside a few national institutions.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -524,35 +529,36 @@ abstract:
     Electronic excitations lie at the origin of most of the commonly measured
     spectra. However, the first-principles computation of excited states
     requires a larger effort than ground-state calculations, which can be very
-    efficiently carried out within density-functional theory. On the other hand,
-    two theoretical and computational tools have come to prominence for the
-    description of electronic excitations. One of them, many-body perturbation
-    theory, is based on a set of Green's-function equations, starting with a
-    one-electron propagator and considering the electron-hole Green's function
-    for the response. Key ingredients are the electron's self-energy Σ and the
-    electron-hole interaction. A good approximation for Σ is obtained with
-    Hedin's  GW approach, using density-functional theory as a zero-order
-    solution.
+    efficiently carried out within density-functional theory. On the other
+    hand, two theoretical and computational tools have come to prominence for
+    the description of electronic excitations. One of them, many-body
+    perturbation theory, is based on a set of Green's-function equations,
+    starting with a one-electron propagator and considering the electron-hole
+    Green's function for the response. Key ingredients are the electron's self-
+    energy Σ and the electron-hole interaction. A good approximation for Σ is
+    obtained with Hedin's  GW approach, using density-functional theory as a
+    zero-order solution.
     
     First-principles GW calculations for real systems have been successfully
     carried out since the 1980s. Similarly, the electron-hole interaction is
     well described by the Bethe-Salpeter equation, via a functional derivative
     of Σ. An alternative approach to calculating electronic excitations is the
-    time-dependent density-functional theory (TDDFT), which offers the important
-    practical advantage of a dependence on density rather than on multivariable
-    Green's functions. This approach leads to a screening equation similar to
-    the Bethe-Salpeter one, but with a two-point, rather than a four-point,
-    interaction kernel. At present, the simple adiabatic local-density
-    approximation has given promising results for finite systems, but has
-    significant deficiencies in the description of absorption spectra in solids,
-    leading to wrong excitation energies, the absence of bound excitonic states,
-    and appreciable distortions of the spectral line shapes. The search for
-    improved TDDFT potentials and kernels is hence a subject of increasing
-    interest. It can be addressed within the framework of many-body perturbation
-    theory: in fact, both the Green's functions and the TDDFT approaches profit
-    from mutual insight. This review compares the theoretical and practical
-    aspects of the two approaches and their specific numerical implementations,
-    and presents an overview of accomplishments and work in progress.
+    time-dependent density-functional theory (TDDFT), which offers the
+    important practical advantage of a dependence on density rather than on
+    multivariable Green's functions. This approach leads to a screening
+    equation similar to the Bethe-Salpeter one, but with a two-point, rather
+    than a four-point, interaction kernel. At present, the simple adiabatic
+    local-density approximation has given promising results for finite systems,
+    but has significant deficiencies in the description of absorption spectra
+    in solids, leading to wrong excitation energies, the absence of bound
+    excitonic states, and appreciable distortions of the spectral line shapes.
+    The search for improved TDDFT potentials and kernels is hence a subject of
+    increasing interest. It can be addressed within the framework of many-body
+    perturbation theory: in fact, both the Green's functions and the TDDFT
+    approaches profit from mutual insight. This review compares the theoretical
+    and practical aspects of the two approaches and their specific numerical
+    implementations, and presents an overview of accomplishments and work in
+    progress.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -564,13 +570,13 @@ abstract:
     In this work we present a low cost and scalable technique, via ambient
     pressure chemical vapor deposition (CVD) on polycrystalline Ni films, to
     fabricate large area (∼cm2) films of single- to few-layer graphene and to
-    transfer the films to nonspecific substrates. These films consist of regions
-    of 1 to ∼12 graphene layers. Single- or bilayer regions can be up to 20 μm
-    in lateral size. The films are continuous over the entire area and can be
-    patterned lithographically or by prepatterning the underlying Ni film. The
-    transparency, conductivity, and ambipolar transfer characteristics of the
-    films suggest their potential as another materials candidate for electronics
-    and opto-electronic applications.
+    transfer the films to nonspecific substrates. These films consist of
+    regions of 1 to ∼12 graphene layers. Single- or bilayer regions can be up
+    to 20 μm in lateral size. The films are continuous over the entire area and
+    can be patterned lithographically or by prepatterning the underlying Ni
+    film. The transparency, conductivity, and ambipolar transfer
+    characteristics of the films suggest their potential as another materials
+    candidate for electronics and opto-electronic applications.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -598,12 +604,13 @@ abstract:
     
     A theoretical prediction of a new spin effect by Tamura, Piepke, and Feder
     has been experimentally verified: Photoelectrons can be polarized even if
-    the photoemission is performed with linearly polarized radiation and even if
-    it is studied in the highly symmetrical setup of normal incidence and normal
-    emission. Radiation with energies between 21 and 22.4 eV ejects
-    photoelectrons from Pt(111) polarized with a degree between 10% and 40%. The
-    spin direction coincides with a plane parallel to the surface and changes
-    its sign when the crystal is rotated by 60° about the surface normal.
+    the photoemission is performed with linearly polarized radiation and even
+    if it is studied in the highly symmetrical setup of normal incidence and
+    normal emission. Radiation with energies between 21 and 22.4 eV ejects
+    photoelectrons from Pt(111) polarized with a degree between 10% and 40%.
+    The spin direction coincides with a plane parallel to the surface and
+    changes its sign when the crystal is rotated by 60° about the surface
+    normal.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -612,8 +619,8 @@ title: Universal intrinsic spin Hall effect.
 abstract:
     
     We describe a new effect in semiconductor spintronics that leads to
-    dissipationless spin currents in paramagnetic spin-orbit coupled systems. We
-    argue that in a high-mobility two-dimensional electron system with
+    dissipationless spin currents in paramagnetic spin-orbit coupled systems.
+    We argue that in a high-mobility two-dimensional electron system with
     substantial Rashba spin-orbit coupling, a spin current that flows
     perpendicular to the charge current is intrinsic. In the usual case where
     both spin-orbit split bands are occupied, the intrinsic spin-Hall
@@ -648,8 +655,8 @@ abstract:
     resolution angle-resolved photoemission and noble-metal intercalation to
     show that, instead, substantial band gaps open in proportion to the doping
     effect. Graphene on Au, however, remains gapless even during heavy electron
-    doping by adsorbed Gd. A key role is assigned to quantum interference at the
-    almost incommensurate graphene/Au interface.
+    doping by adsorbed Gd. A key role is assigned to quantum interference at
+    the almost incommensurate graphene/Au interface.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -669,11 +676,11 @@ abstract:
     although single-layer graphene can be occasionally detected. As doping
     accompanies with the recombination of carbon atoms into graphene in the CVD
     process, N atoms can be substitutionally doped into the graphene lattice,
-    which is hard to realize by other synthetic methods. Electrical measurements
-    show that the N-doped graphene exhibits an n-type behavior, indicating
-    substitutional doping can effectively modulate the electrical properties of
-    graphene. Our finding provides a new experimental instance of graphene and
-    would promote the research and applications of graphene.
+    which is hard to realize by other synthetic methods. Electrical
+    measurements show that the N-doped graphene exhibits an n-type behavior,
+    indicating substitutional doping can effectively modulate the electrical
+    properties of graphene. Our finding provides a new experimental instance of
+    graphene and would promote the research and applications of graphene.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -681,19 +688,19 @@ wolfSC04,
 title: Spintronics: a spin-based electronics vision for the future.
 abstract:
     
-    This review describes a new paradigm of electronics based on the spin degree
-    of freedom of the electron. Either adding the spin degree of freedom to
-    conventional charge-based electronic devices or using the spin alone has the
-    potential advantages of nonvolatility, increased data processing speed,
+    This review describes a new paradigm of electronics based on the spin
+    degree of freedom of the electron. Either adding the spin degree of freedom
+    to conventional charge-based electronic devices or using the spin alone has
+    the potential advantages of nonvolatility, increased data processing speed,
     decreased electric power consumption, and increased integration densities
     compared with conventional semiconductor devices. To successfully
-    incorporate spins into existing semiconductor technology, one has to resolve
-    technical issues such as efficient injection, transport, control and
-    manipulation, and detection of spin polarization as well as spin-polarized
-    currents. Recent advances in new materials engineering hold the promise of
-    realizing spintronic devices in the near future. We review the current state
-    of the spin-based devices, efforts in new materials fabrication, issues in
-    spin transport, and optical spin manipulation.
+    incorporate spins into existing semiconductor technology, one has to
+    resolve technical issues such as efficient injection, transport, control
+    and manipulation, and detection of spin polarization as well as spin-
+    polarized currents. Recent advances in new materials engineering hold the
+    promise of realizing spintronic devices in the near future. We review the
+    current state of the spin-based devices, efforts in new materials
+    fabrication, issues in spin transport, and optical spin manipulation.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -705,18 +712,19 @@ abstract:
     injection, optical current injection, and second harmonic generation of two
     50% hydrogenated graphene structures: Cmath formulaHmath formula-alt and
     Cmath formulaHmath formula-up. Optical spin injection, under the incidence
-    of circularly polarized light onto nonmagnetic semiconductors, creates spin-
-    polarized electrons in the conduction bands. Optical current injection and
-    second-harmonic generation are nonlinear second-order effects that are
-    allowed in materials without inversion symmetry. The results are calculated
-    in a full electronic band structure scheme within DFT in the LDA
+    of circularly polarized light onto nonmagnetic semiconductors, creates
+    spin- polarized electrons in the conduction bands. Optical current
+    injection and second-harmonic generation are nonlinear second-order effects
+    that are allowed in materials without inversion symmetry. The results are
+    calculated in a full electronic band structure scheme within DFT in the LDA
     approximation. Our results show an anisotropic behavior in the optical
     responses of the spin, the current injection, and second harmonic
     generation. We obtained maximum absolute magnitudes of the degree of spin
     polarization of 61 and 64% for the alt and up structures, respectively, and
-    it is also possible to optically generate an injection current coming mainly
-    from the carbon layer on both alt and up systems. Besides, we found that
-    both structures are excellent candidates for second harmonic generation.
+    it is also possible to optically generate an injection current coming
+    mainly from the carbon layer on both alt and up systems. Besides, we found
+    that both structures are excellent candidates for second harmonic
+    generation.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -730,19 +738,20 @@ abstract:
     governs the operation of semiconductor devices such as p–n junctions,
     transistors, photodiodes and lasers1. A tunable bandgap would be highly
     desirable because it would allow great flexibility in design and
-    optimization of such devices, in particular if it could be tuned by applying
-    a variable external electric field. However, in conventional materials, the
-    bandgap is fixed by their crystalline structure, preventing such bandgap
-    control. Here we demonstrate the realization of a widely tunable electronic
-    bandgap in electrically gated bilayer graphene. Using a dual-gate bilayer
-    graphene field-effect transistor (FET)2 and infrared microspectroscopy3, 4,
-    5, we demonstrate a gate-controlled, continuously tunable bandgap of up to
-    250 meV. Our technique avoids uncontrolled chemical doping6, 7, 8 and
-    provides direct evidence of a widely tunable bandgap—spanning a spectral
-    range from zero to mid-infrared—that has eluded previous attempts2, 9.
-    Combined with the remarkable electrical transport properties of such
-    systems, this electrostatic bandgap control suggests novel nanoelectronic
-    and nanophotonic device applications based on graphene.
+    optimization of such devices, in particular if it could be tuned by
+    applying a variable external electric field. However, in conventional
+    materials, the bandgap is fixed by their crystalline structure, preventing
+    such bandgap control. Here we demonstrate the realization of a widely
+    tunable electronic bandgap in electrically gated bilayer graphene. Using a
+    dual-gate bilayer graphene field-effect transistor (FET)2 and infrared
+    microspectroscopy3, 4, 5, we demonstrate a gate-controlled, continuously
+    tunable bandgap of up to 250 meV. Our technique avoids uncontrolled
+    chemical doping6, 7, 8 and provides direct evidence of a widely tunable
+    bandgap—spanning a spectral range from zero to mid-infrared—that has eluded
+    previous attempts2, 9. Combined with the remarkable electrical transport
+    properties of such systems, this electrostatic bandgap control suggests
+    novel nanoelectronic and nanophotonic device applications based on
+    graphene.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -750,12 +759,12 @@ zhaoPRL2006
 title: Coherence control of Hall charge and spin currents.
 abstract:
     
-    Using two-color optical coherence control techniques in intrinsic GaAs at 80
-    K with orthogonally polarized 70 fs, 1430 and 715 nm pulses, we generate a
-    pure spin source current that yields a transverse Hall pure charge current;
-    or alternatively, with parallel polarized pulses, we generate a pure charge
-    source current that yields a pure spin current. By varying the relative
-    phase or polarization of the incident pulses, one can effectively tune the
-    type, magnitude and direction of both the source and transverse currents
-    without application of electric or magnetic fields.
+    Using two-color optical coherence control techniques in intrinsic GaAs at
+    80 K with orthogonally polarized 70 fs, 1430 and 715 nm pulses, we generate
+    a pure spin source current that yields a transverse Hall pure charge
+    current; or alternatively, with parallel polarized pulses, we generate a
+    pure charge source current that yields a pure spin current. By varying the
+    relative phase or polarization of the incident pulses, one can effectively
+    tune the type, magnitude and direction of both the source and transverse
+    currents without application of electric or magnetic fields.
 
