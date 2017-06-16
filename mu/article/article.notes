@@ -1,5 +1,4 @@
                             N O T E S
-
 Note 1:
     
     The electric field inside the semiconductor is $\mathbf{E}(t) =
@@ -10,6 +9,63 @@ Note 1:
     calculations of interband absorption in semi- conductors [12], and we adopt
     it to show that PSCs can be generated even within this relatively simple
     model.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Hola. Estoy enterado de lo escrito. Nos vemos el lunes en la oficina.
+
+OK
+
+>> Antes de ello quisiera saber si nos podeos contactar por Skype para ponernos
+>> de acuerdo acerca de las ecuaciones que mencionaste:
+>> 
+>>     Ec. (3): | V_{\sigma^{b}} |
+>>     Ec. (4): \gamma_{b}
+
+Checa que los indices sean los correctos, segun yo solo estan mal escritos.
+
+>> y de las ecuaciones de los ángulos paralelo y perpendicular (Eqns. 5 y 6). A
+>> mi parecer son correctas pero aún así quisiera discutirlo contigo.
+
+cerciorate que los indices corresponden a lo que dices que son
+
+>> El capa por capa casi lo tengo descrito salvo la parte de centrosimetría con
+>> la que voy a necesitar un poco de ayuda.
+
+\mu^{abcd}=0 para un sistema centrosimetrico, asi que la idea es que mientras
+mas no centrosimetrico sea la estructura, uno deberia de esperar una mayor
+respuesta en mu. El analisis capa-x-capa muestra claramente que alt cancela
+paricialmente las contribuciones de mu que vienen de un lado y del otro lado de
+la estructura, esto es,
+
+\mu(r)\sim -\mu(-r)
+
+donde el origen esta en el centro de inversion de la estructura (z=0). Para up,
+
+\mu(r)\neq -\mu(-r)
+
+dado que no hay H de un lado de la estructura, y por ende no hay cancelacion, y
+entonces mu(up)>>mu(alt)
+
+>> Referente a la introducción y varias referencias, las estoy terminando y es
+>> posible que el lunes 5 las tenga completas junto con el resumen.
+
+Es muy importante que cheques bien que no te faltan referencias sobre el tema,
+para estar seguros que es la primera vez que se realiza un estudio como el
+nuestro.
+
+>> De las conclusiones voy a escribirlas y me gustaría que, posterior a la
+>> difusión de las ecuaciones, nos contactáramos nuevamente para discutirlas.
+
+El lunes las vemos, sin embargo, si ya tienes algo sustancial que mostrarme,
+mandamelo para irlo leyendo.
+
+saludos
+
+p.s. por la diferencia de horario esta dificil la junta por skype, pero no creo
+que haya necesidad de tenerla, con las respuestas que di arriba.
+
+>> Saludos.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

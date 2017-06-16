@@ -308,6 +308,41 @@ layer 2:
 #########################          L A Y E R S        ##########################
 ################################################################################
 
+Energy: 0.720 eV
+Files: 
+../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.720eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_1_65-0.720eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_2_65-0.720eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_3_65-0.720eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_4_65-0.720eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_5_65-0.720eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_6_65-0.720eV
+
+LINE    Energy          r               a       V^{xz}          V^{yz}          g_{z}
+total:
+30      7.20000E-01    4.720481E-06    145    1.504610E-06    -4.474270E-06    108.586755
+                       42.4 Km/s
+layer 1:
+30      
+                       
+layer 2:
+30      
+                       
+layer 3:
+30      
+                       
+layer 4:
+30      
+                       
+layer 5:
+30      
+                       
+layer 6:
+30      
+                       
+
+################
+
 Energy: 0.912 eV
 Files: 
 ../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV
