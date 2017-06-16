@@ -198,22 +198,36 @@ abstract:
 eliasS09
 title: Control of graphene's properties by reversible hydrogenation: evidence
 for graphane.
-
 abstract:
 
-        Although graphite is known as one of the most chemically inert
-        materials, we have found that graphene, a single atomic plane of
-        graphite, can react with atomic hydrogen, which transforms this highly
-        conductive zero-overlap semimetal into an insulator. Transmission
-        electron microscopy reveals that the obtained graphene derivative
-        (graphane) is crystalline and retains the hexagonal lattice, but its
-        period becomes markedly shorter than that of graphene. The reaction
-        with hydrogen is reversible, so that the original metallic state, the
-        lattice spacing, and even the quantum Hall effect can be restored by
-        annealing. Our work illustrates the concept of graphene as a robust
-        atomic-scale scaffold on the basis of which new two-dimensional
-        crystals with designed electronic and other properties can be created
-        by attaching other atoms and molecules.
+    Although graphite is known as one of the most chemically inert materials,
+    we have found that graphene, a single atomic plane of graphite, can react
+    with atomic hydrogen, which transforms this highly conductive zero-overlap
+    semimetal into an insulator. Transmission electron microscopy reveals that
+    the obtained graphene derivative (graphane) is crystalline and retains the
+    hexagonal lattice, but its period becomes markedly shorter than that of
+    graphene. The reaction with hydrogen is reversible, so that the original
+    metallic state, the lattice spacing, and even the quantum Hall effect can
+    be restored by annealing. Our work illustrates the concept of graphene as a
+    robust atomic-scale scaffold on the basis of which new two-dimensional
+    crystals with designed electronic and other properties can be created by
+    attaching other atoms and molecules.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ertlerPRB09
+title:Electron spin relaxation in graphene: The role of the substrate.
+abstract:
+
+    Theory of the electron-spin relaxation in graphene on the SiO2 substrate is
+    developed. Charged impurities and polar-optical surface phonons in the
+    substrate induce an effective random Bychkov-Rashba-like spin-orbit
+    coupling field, which leads to spin relaxation by the D’yakonov-Perel’
+    mechanism. Analytical estimates and Monte Carlo simulations show that the
+    corresponding spin relaxation times are between micro- to milliseconds,
+    being only weakly temperature dependent. It is also argued that the
+    presence of adatoms on graphene can lead to spin lifetimes shorter than
+    nanoseconds.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -272,7 +286,8 @@ abstract:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 gonzeCPC09
-title: ABINIT: First-principles approach to material and nanosystems properties.
+title: ABINIT: First-principles approach to material and nanosystems
+properties.
 abstract:
     
     ABINIT [http://www.abinit.org] allows one to study, from first-principles,
@@ -291,6 +306,69 @@ abstract:
     developments of ABINIT, with adequate references to the underlying theory,
     as well as the relevant input variables, tests and, if available, ABINIT
     tutorials.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+gotteNat16 
+title: Pure spin current devices based on ferromagnetic topological insulators.
+abstract:
+
+    In contrast to charge based electronic devices, spintronic devices are
+    supposed to include or solely use the spin degree of freedom of charge
+    carriers1,2. This requires materials and methods that allow the creation
+    and control of pure spin currents in solid-state systems. Currently there
+    exist a few methods capable of creating pure spin currents, like spin Hall
+    effect3,4, spin pumping5,6,7 and spin Seebeck effect7,8,9. The detection of
+    spin currents usually exploits the inverse spin Hall effect5,6,7,8,9.
+    However, the efficiency of these methods is low regarding the power needed
+    to create a sizeable spin current7.
+
+    Topological insulators (TIs) are materials, which are insulating in the
+    bulk but possess conducting states at the surface or, in the two-
+    dimensional (2D) limit, at the edges10,11. The spin of these edge states is
+    locked with the propagation direction along the edge, i.e. electrons with
+    opposite spin orientation move in opposite direction12,13,14,15. In
+    addition, the surface states are topologically protected which precludes
+    backscattering and conserves the spin-momentum locking of the edge
+    states16. These properties make TIs promising candidates for spintronic
+    devices17,18.
+
+    Recent experimental progress has resulted in creation of ferromagnetic
+    topological insulators. Ferromagnetism is either induced by doping with
+    transition metal atoms19,20,21,22,23,24 or by the proximity
+    effect25,26,27,28,29,30. When the ferromagnetic exchange field (FEF) is
+    directed perpendicular to the 2D TI sheet the edge state dispersion remains
+    robust31,32 and does not acquire a gap. As has been pointed out by Liu et
+    al.33, a transition into a quantum anomalous Hall state (QAH) occurs when
+    the FEF exceeds a critical strength. Then, one pair of edge states is
+    pushed into the bulk and disappears. In the QAH state only a single spin
+    direction can propagate along the edge in a single direction, similar as in
+    the quantum Hall state33,34. The QAH state has been demonstrated
+    experimentally in several ferromagnetic topological insulators21,22,23,24.
+    Such ferromagnetic TIs thus allow to switch and selectively turn off
+    certain edge state channels by changing the magnetization direction.
+    Because of a large bulk gap in some TI materials35, e.g. about 0.3 eV in
+    Bi2Se336,37 and even larger gaps in newly predicted 2D materials38,39,
+    devices based on these materials could even operate at room temperature28.
+
+    Previous experiments and proposals for TI spintronic devices mainly focus
+    on the injection of spin or spin polarized electrons into the surface
+    states of TIs40,41,42,43 or on the manipulation of spin polarized
+    currents44,45,46,47. It is only very recently that pure spin current
+    devices have been considered48.
+
+    In the present work, we demonstrate by numerical transport calculations
+    that heterostructures combining topological insulators and ferromagnetic
+    topological insulators can steer spin currents with high fidelity in a
+    controlled way. We present devices that allow the creation, switching and
+    detection of pure spin currents, all using the same type of
+    heterostructures. An electrical voltage is directly converted into a pure
+    spin current, which allows a higher conversion efficiency than the above
+    mentioned known methods for spin current generation and detection. Our
+    proposals are supported by numerical time evolution of wave packets on
+    finite 2D lattices. We are using a model and parameters suitable for Bi2Se3
+    thin films (see methods section), however our proposals can be applied to
+    other materials as well.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -768,6 +846,27 @@ abstract:
     promise of realizing spintronic devices in the near future. We review the
     current state of the spin-based devices, efforts in new materials
     fabrication, issues in spin transport, and optical spin manipulation.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+wojtaszekPRB13
+title: Enhancement of spin relaxation time in hydrogenated graphene spin-valve
+devices
+abstract:
+
+    Hydrogen adsorbates in graphene are interesting as they are not only strong
+    Coulomb scatterers, but they also induce a change in orbital hybridization
+    of the carbon network from sp2 into sp3. This change increases the spin-
+    orbit coupling and is expected to largely modify spin relaxation. In this
+    work, we report the change in spin transport properties of graphene due to
+    plasma hydrogenation. We observe an up to threefold increase of spin
+    relaxation time τS after moderate hydrogen exposure. This increase of τS is
+    accompanied by the decrease of charge and spin diffusion coefficients,
+    resulting in a minor change in spin relaxation length λS. At high carrier
+    density, we obtain λS of 7 μm, which allows for spin detection over a
+    distance of 11 μm. After hydrogenation, a value of τS as high as 2.7 ns is
+    measured at room temperature.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
