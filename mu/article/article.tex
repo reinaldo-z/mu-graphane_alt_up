@@ -12,7 +12,7 @@
 \usepackage{multirow}
 \usepackage[capitalize]{cleveref}
 % \usepackage{showframe}
-\usepackage[inline]{showlabels}
+% \usepackage[inline]{showlabels}
 
 \raggedbottom           % don't add extra vertical space
 
@@ -124,7 +124,8 @@ injection (SVI) by one-photon absorption of linearly polarized light.
 % to the $xy$ plane of the structure, or for the case when the velocity is
 % directed along the $x$ and $y$ Cartesian direction on the $xy$ plane of the
 % structures.
-{\color{red}
+{
+% \color{red}
 % 
 Because we have 2D structures we made the analysis for tow cases. The first is
 fixing the spin of the electrons along the $z$ Cartesian direction with the
@@ -143,7 +144,8 @@ injection.\cite{bhatPRL05} If the crystalline structure of the material is
 noncentrosymmetric the spin polarization injected at a given $\mathbf{k}$ point
 could not vanish\cite{alvaradoPRL85, schmiedeskampPRL88} 
 % 
-{\color{red}
+{
+% \color{red}
 % 
 and then, since the velocities of electrons at opposite $\mathbf{k}$ points are
 opposite, a pure spin current will be produced. Since the structures presented
@@ -1293,8 +1295,12 @@ This work has been supported by \emph{Consejo Nacional de Ciencia y
 Tecnolog\'ia} (CONACyT), M\'exico, Grant No. 153930.
 
 \appendix
-\section{Math derivation}
+\section{Math derivation of $\dot{K}$}
 \label[appendix]{sec:mathder}
+
+We give explicit expressions for the quantities used in the evaluation of Eq.
+\eqref{eq:dotk}; when appropriate, some intermediate steps are given for their
+derivation.
 
 From Eq. \eqref{eq:dotO} and Eq. \eqref{eq:k-timerev}, using
 $\mathbf{r}_{nm}(-\mathbf{k}) = \mathbf{r}_{mn}(\mathbf{k})$ and taking
