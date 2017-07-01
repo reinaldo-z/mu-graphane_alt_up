@@ -18,10 +18,9 @@ pf=29.98       # prefactor
 sl=299792.458  # speed of light [Km/s]
 f=pf*sl
 
-
 ################################ V_{s^x} 0.912eV ###############################
 # perp alpha~(9.13,99.13); col alpha~(100.28,100.28)
-tol=0.5
+tol=0.0
 
 X1=9.13     # perp
 Y1=99.13    # perp
@@ -43,9 +42,10 @@ set key at graph 0.97, 0.25
 set label 2 '@ 0.912\,eV' at graph 0.78, 0.10
 
 
-unset xlabel
+# unset xlabel
+# set format x " "
+set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 set xtics nomirror
-set format x " "
 
 set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{x}}}(\omega,\alpha)|$ [Km/s]}'
 set yrange [6:28]
@@ -95,10 +95,10 @@ unset arrow 2
 unset arrow 3
 unset arrow 4
 
-set origin 0.0 , 1.5
-set size   1.0 , 0.5
-p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:($4*f) w l lw 2.5 dt 3 lt 3 t '$\mathcal{V}^{\mathrm{xx}}$' ,\
-    '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:($5*f) w l lw 2.5 dt 4 lt 4 t '$\mathcal{V}^{\mathrm{yx}}$' ,\
+# set origin 0.0 , 1.5
+# set size   1.0 , 0.5
+# p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:($4*f) w l lw 2.5 dt 3 lt 3 t '$\mathcal{V}^{\mathrm{xx}}$' ,\
+#     '../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV' u 3:($5*f) w l lw 2.5 dt 4 lt 4 t '$\mathcal{V}^{\mathrm{yx}}$' ,\
 
 unset multiplot
 
@@ -120,9 +120,10 @@ set key at graph 0.55, 0.25
 set label 2 '@ 0.912\,eV' at graph 0.80, 0.15
 
 
-unset xlabel
+# unset xlabel
+# set format x " "
+set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 set xtics nomirror
-set format x " "
 
 set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{y}}}(\omega,\alpha)|$ [Km/s]}'
 set yrange [8:35]
@@ -167,16 +168,16 @@ unset arrow 2
 unset arrow 3
 unset arrow 4
 
-set origin 0.0 , 1.5
-set size   1.0 , 0.5
-p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 3:($4*f) w l lw 2.5 dt 3 lt 3 t '$\mathcal{V}^{\mathrm{xy}}$' ,\
-    '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 3:($5*f) w l lw 2.5 dt 4 lt 4 t '$\mathcal{V}^{\mathrm{yy}}$' ,\
+# set origin 0.0 , 1.5
+# set size   1.0 , 0.5
+# p   '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 3:($4*f) w l lw 2.5 dt 3 lt 3 t '$\mathcal{V}^{\mathrm{xy}}$' ,\
+#     '../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV' u 3:($5*f) w l lw 2.5 dt 4 lt 4 t '$\mathcal{V}^{\mathrm{yy}}$' ,\
 
 unset multiplot
 
 ################################ V_{s^z} 0.912eV ###############################
 # col alpha~(53.45,53.45); perp alpha~(139.85,49.85)
-tol=0.5
+tol=0.0
 
 X2=53.45    # col
 Y2=53.45    # col
@@ -199,9 +200,10 @@ set key at graph 0.55, 0.55
 set label 2 '@ 0.912\,eV' at graph 0.80, 0.45
 
 
-unset xlabel
+# unset xlabel
+# set format x " "
+set xlabel '{\Large Polarization angle $\alpha$ [deg.]}'
 set xtics nomirror
-set format x " "
 
 set ylabel '{\Large $|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)|$ [Km/s]}'
 set yrange [9:45]
@@ -250,10 +252,10 @@ unset arrow 2
 unset arrow 3
 unset arrow 4
 
-set origin 0.0 , 1.5
-set size   1.0 , 0.5
-p   '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:($4*f) w l lw 2.5 dt 3 lt 3 t '$\mathcal{V}^{\mathrm{xz}}$' ,\
-    '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:($5*f) w l lw 2.5 dt 4 lt 4 t '$\mathcal{V}^{\mathrm{yz}}$' ,\
+# set origin 0.0 , 1.5
+# set size   1.0 , 0.5
+# p   '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:($4*f) w l lw 2.5 dt 3 lt 3 t '$\mathcal{V}^{\mathrm{xz}}$' ,\
+#     '../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV' u 3:($5*f) w l lw 2.5 dt 4 lt 4 t '$\mathcal{V}^{\mathrm{yz}}$' ,\
 
 unset multiplot
 

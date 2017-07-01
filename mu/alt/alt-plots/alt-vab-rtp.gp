@@ -70,8 +70,8 @@ set multiplot
 set key at graph 0.24, 0.95
 set label 2 '@ $145^{\circ}$' at graph 0.10, 0.74
 
-unset xlabel
-unset xtics
+# unset xlabel
+# unset xtics
 
 set arrow 1 from 0.69, 9 to 0.63, 9 ls 1
 set arrow 2 from second 0.960, 100 to second 1.03, 100 ls 2
@@ -110,11 +110,11 @@ set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ [Km/s]}'
 set yrange [-30:15]
 set ytics 10
 
-set origin 0.0 , 1.5
-set size   1.0 , 0.5
-p   '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5  dt 1 t '$\mathcal{V}^{\mathrm{xx}}$' ,\
-    '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($3*f) w l lw 2.5  dt 2 t '$\mathcal{V}^{\mathrm{xy}}$' ,\
-    '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($4*f) w l lw 2.5  dt 2 t '$\mathcal{V}^{\mathrm{xz}}$' ,\
+# set origin 0.0 , 1.5
+# set size   1.0 , 0.5
+# p   '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5  dt 1 t '$\mathcal{V}^{\mathrm{xx}}$' ,\
+#     '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($3*f) w l lw 2.5  dt 2 t '$\mathcal{V}^{\mathrm{xy}}$' ,\
+#     '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($4*f) w l lw 2.5  dt 2 t '$\mathcal{V}^{\mathrm{xz}}$' ,\
 
 
 unset multiplot
@@ -136,8 +136,8 @@ set label 1 'C$_{16}$H$_{8}$-alt' at graph 0.5 , 0.93
 set key at graph -0.12, 0.85
 set label 2 '@ $145^{\circ}$' at graph 0.08, 0.72
 
-unset xlabel
-unset xtics
+# unset xlabel
+# unset xtics
 
 set arrow 1 from 0.69, 9 to 0.63, 9 ls 1
 set arrow 2 from second 0.956, 100 to second 1.03, 100 ls 2
@@ -176,11 +176,11 @@ set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ [Km/s]}'
 set yrange [-42:5]
 set ytics 10
 
-set origin 0.0 , 1.5
-set size   1.0 , 0.5
-p   '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5  dt 1 t '$\mathcal{V}^{\mathrm{yx}}$' ,\
-    '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($3*f) w l lw 2.5  dt 2 t '$\mathcal{V}^{\mathrm{yy}}$' ,\
-    '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($4*f) w l lw 2.5  dt 2 t '$\mathcal{V}^{\mathrm{yz}}$' ,\
+# set origin 0.0 , 1.5
+# set size   1.0 , 0.5
+# p   '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f) w l lw 1.5  dt 1 t '$\mathcal{V}^{\mathrm{yx}}$' ,\
+#     '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($3*f) w l lw 2.5  dt 2 t '$\mathcal{V}^{\mathrm{yy}}$' ,\
+#     '../alt-res-0-4-2001pts/vab-rtp.sm_0.03_y_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($4*f) w l lw 2.5  dt 2 t '$\mathcal{V}^{\mathrm{yz}}$' ,\
 
 unset multiplot
 
