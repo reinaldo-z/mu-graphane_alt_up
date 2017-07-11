@@ -1,0 +1,68 @@
+\documentclass{article}
+\begin{document}
+
+\gdef\mpxshipout{\shipout\hbox\bgroup
+  \setbox0=\hbox\bgroup}
+\gdef\stopmpxshipout{\egroup  \dimen0=\ht0 \advance\dimen0\dp0
+  \dimen1=\ht0 \dimen2=\dp0
+  \setbox0=\hbox\bgroup
+    \box0
+    \ifnum\dimen0>0 \vrule width1sp height\dimen1 depth\dimen2 
+    \else \vrule width1sp height1sp depth0sp\relax
+    \fi\egroup
+  \ht0=0pt \dp0=0pt \box0 \egroup}
+\mpxshipout% line 125 ./cdse-xxyyzz.mp
+-25%
+\stopmpxshipout
+\mpxshipout% line 128 ./cdse-xxyyzz.mp
+-20%
+\stopmpxshipout
+\mpxshipout% line 131 ./cdse-xxyyzz.mp
+-15%
+\stopmpxshipout
+\mpxshipout% line 134 ./cdse-xxyyzz.mp
+-10%
+\stopmpxshipout
+\mpxshipout% line 137 ./cdse-xxyyzz.mp
+-5%
+\stopmpxshipout
+\mpxshipout% line 140 ./cdse-xxyyzz.mp
+0%
+\stopmpxshipout
+\mpxshipout% line 144 ./cdse-xxyyzz.mp
+0.5%
+\stopmpxshipout
+\mpxshipout% line 148 ./cdse-xxyyzz.mp
+1%
+\stopmpxshipout
+\mpxshipout% line 152 ./cdse-xxyyzz.mp
+1.5%
+\stopmpxshipout
+\mpxshipout% line 156 ./cdse-xxyyzz.mp
+2%
+\stopmpxshipout
+\mpxshipout% line 160 ./cdse-xxyyzz.mp
+2.5%
+\stopmpxshipout
+\mpxshipout% line 164 ./cdse-xxyyzz.mp
+3%
+\stopmpxshipout
+\mpxshipout% line 168 ./cdse-xxyyzz.mp
+3.5%
+\stopmpxshipout
+\mpxshipout% line 172 ./cdse-xxyyzz.mp
+4%
+\stopmpxshipout
+\mpxshipout% line 177 ./cdse-xxyyzz.mp
+$\cal{V}^{\mathrm{zz}}$ [Km/s]%
+\stopmpxshipout
+\mpxshipout% line 179 ./cdse-xxyyzz.mp
+{\Large Photon Energy (eV)}%
+\stopmpxshipout
+\mpxshipout% line 183 ./cdse-xxyyzz.mp
+\mathrm{xx} @ 90%
+\stopmpxshipout
+% line 545 ./cdse-xxyyzz.mp
+ \end{document}
+
+\end{document}

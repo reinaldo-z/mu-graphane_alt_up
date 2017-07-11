@@ -40,3 +40,15 @@ p   '../cdse-res-0-4-2001pts/v.sm_0.03_zz_3234_15-spin_scissor_0_Nc_16_ang_00' u
     '../cdse-res-0-4-2001pts/v.sm_0.03_zz_3234_15-spin_scissor_0_Nc_16_ang_60' u 1:($2*pf*sl) w l lw 2 t "60" ,\
     '../cdse-res-0-4-2001pts/v.sm_0.03_zz_3234_15-spin_scissor_0_Nc_16_ang_90' u 1:($2*pf*sl) w l lw 2 t "90" 
 
+
+#####
+
+##################### xx yy zz
+set ylabel "$\\cal{V}^{\\mathrm{zz}}$ [Km/s]" 
+set output "cdse-vxxyyzz.mp"
+p   '../cdse-res-0-4-2001pts/v.sm_0.03_xx_3234_15-spin_scissor_0_Nc_16_ang_45' u 1:($2*pf*sl) w l lw 2 t 'xx @ 45$^{\circ}$' ,\
+    '../cdse-res-0-4-2001pts/v.sm_0.03_yy_3234_15-spin_scissor_0_Nc_16_ang_45' u 1:($2*pf*sl) w l lw 2 t 'yy @ 45$^{\circ}$' ,\
+    '../cdse-res-0-4-2001pts/v.sm_0.03_zz_3234_15-spin_scissor_0_Nc_16_ang_45' u 1:($2*pf*sl) w l lw 2 t 'zz @ 45$^{\circ}$' 
+
+
+
