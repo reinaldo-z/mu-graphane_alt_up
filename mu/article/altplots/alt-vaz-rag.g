@@ -1,5 +1,8 @@
 set terminal mp color dashed latex 11
 
+set out 'fig.mp'
+# set output "alt-vaz-rag.mp"
+
 # set colors classic
 
 set zeroaxis lw 1.5 dt 10
@@ -28,8 +31,6 @@ Y2=53.45    # col
 X1=139.84   # perp
 Y1=49.84    # perp
 
-
-set output "alt-vaz-rag.mp"
 
 set size 1.0,1.5
 set tmargin 0
