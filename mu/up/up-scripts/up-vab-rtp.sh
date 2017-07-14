@@ -1,5 +1,7 @@
 #/bin/bash
 
+angles=( 000 005 010 015 020 025 030 035 040 045 050 055 060 065 070 075 080 085 090 095 100 105 110 115 120 125 130 135 140 145 150 155 160 165 170 175 180 )
+
 an=040
 kp=12802
 ec=40
@@ -20,20 +22,36 @@ paste .temp1 .deg1 | awk '{printf("%1.6E    %1.6E    %1.6E    %1.6E    %1.6E    
 
 ################################ |V^{x}|, rtp ##################################
 
-ax=v.sm_"$sm"_xx_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an" 
-ay=v.sm_"$sm"_xy_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an" 
-az=v.sm_"$sm"_xz_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an" 
-out=vab-rtp.sm_"$sm"_x_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an" 
+ax=v.sm_"$sm"_xx_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
+ay=v.sm_"$sm"_xy_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
+az=v.sm_"$sm"_xz_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
+out=vab-rtp.sm_"$sm"_x_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
+
+calc
+
+ax=v.kk_xx_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
+ay=v.kk_xy_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
+az=v.kk_xz_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
+out=vab-rtp.kk_x_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
 
 calc
 
 ################################ |V^{y}|, rtp ##################################
 
-ax=v.sm_"$sm"_yx_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an" 
-ay=v.sm_"$sm"_yy_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an" 
-az=v.sm_"$sm"_yz_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an" 
-out=vab-rtp.sm_"$sm"_y_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an" 
+ax=v.sm_"$sm"_yx_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
+ay=v.sm_"$sm"_yy_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
+az=v.sm_"$sm"_yz_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
+out=vab-rtp.sm_"$sm"_y_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
 
 calc
+
+ax=v.kk_yx_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
+ay=v.kk_yy_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
+az=v.kk_yz_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
+out=vab-rtp.kk_y_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"-0.0001 
+
+calc
+
+################################
 
 rm .temp1 .temp2 .deg1

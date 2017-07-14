@@ -1,0 +1,51 @@
+
+            FAST PLOTS KK VS SM
+
+
+
+d=360/(2*pi)    # factor fron radiangs to degrees
+pf=29.98        # prefactor
+sl=299792.458   # speed of light
+f=pf*sl
+
+set xrange [0.0:0.16]
+
+set xrange [1.9:2.0]
+
+set xrange [0.0:2.0]
+
+
+#### kk sm 12802 X 0.00001
+
+p './vab-rtp.kk_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($5*f) axis x1y1 w l lw 2 t 'x kk 12802'
+rep './vab-rtp.kk_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($6)   axis x1y2 w l lw 2
+rep './vab-rtp.kk_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($7)   axis x1y2 w l lw 2
+
+rep './vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($5*f) axis x1y1 w l lw 2 t 'x sm 12802'
+rep './vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($6)   axis x1y2 w l lw 2
+rep './vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($7)   axis x1y2 w l lw 2
+
+
+
+#### kk sm 11252 X 0.00001
+
+rep './vab-rtp.kk_x_11252_40-spin_scissor_0_Nc_32_ang_040' u 1:($5*f) axis x1y1 w l lw 2 t 'x kk 11252'
+rep './vab-rtp.kk_x_11252_40-spin_scissor_0_Nc_32_ang_040' u 1:($6)   axis x1y2 w l lw 2
+rep './vab-rtp.kk_x_11252_40-spin_scissor_0_Nc_32_ang_040' u 1:($7)   axis x1y2 w l lw 2
+
+rep './vab-rtp.sm_0.03_x_11252_40-spin_scissor_0_Nc_32_ang_040' u 1:($5*f) axis x1y1 w l lw 2 t 'x sm 11252'
+rep './vab-rtp.sm_0.03_x_11252_40-spin_scissor_0_Nc_32_ang_040' u 1:($6)   axis x1y2 w l lw 2
+rep './vab-rtp.sm_0.03_x_11252_40-spin_scissor_0_Nc_32_ang_040' u 1:($7)   axis x1y2 w l lw 2
+
+
+#### kk sm 12802 X 0.0001
+
+rep './vab-rtp.kk_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($5*f) axis x1y1 w l lw 2 t 'x kk 12802 + 0.0001'
+rep './vab-rtp.kk_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($6)   axis x1y2 w l lw 2
+rep './vab-rtp.kk_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($7)   axis x1y2 w l lw 2
+
+rep './vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($5*f) axis x1y1 w l lw 2 t 'x sm 12802 + 0.0001'
+rep './vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($6)   axis x1y2 w l lw 2
+rep './vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($7)   axis x1y2 w l lw 2
+
+
