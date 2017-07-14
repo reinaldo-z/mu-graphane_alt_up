@@ -1,7 +1,7 @@
 set terminal mp color dashed latex 11
 
 set output "fig.mp"
-set output "up-vaz-rag-1.mp"
+# set output "up-vaz-rag-1.mp"
 # set colors classic
 
 set zeroaxis lw 1.5 dt 10

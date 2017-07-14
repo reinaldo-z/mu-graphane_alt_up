@@ -1,9 +1,9 @@
 set terminal mp color dashed latex 11
 
-set output "fig.mp"
+# set output "fig.mp"
 set output "up-vyb-rtp-m2.mp"
+set colors classic
 
-# set colors classic
 set zeroaxis lw 1.5
 
 set xlabel '{\Large Photon Energy [eV]}'

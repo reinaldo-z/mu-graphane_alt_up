@@ -1,8 +1,8 @@
 set terminal mp color dashed latex 11
 
-# set colors classic
-set output "fig.mp"
+# set output "fig.mp"
 set output "up-vaz-rag-2.mp"
+set colors classic
 
 set zeroaxis lw 1.5 dt 10
 set xtics nomirror
@@ -106,4 +106,5 @@ unset arrow 4
 
 unset multiplot
 
+pwd
 

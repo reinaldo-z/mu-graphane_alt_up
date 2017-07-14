@@ -1,9 +1,9 @@
 set terminal mp color dashed latex 11
 
-set out 'fig.mp'
-# set output "alt-svaz-lay-2.mp"
+# set out 'fig.mp'
+set output "alt-svaz-lay-2.mp"
+set colors classic
 
-# set colors classic
 
 set zeroaxis lw 1.5 dt 10
 set xtics nomirror

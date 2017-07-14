@@ -1,10 +1,7 @@
-set terminal mp color dashed latex 11
+set terminal mp color solid latex 11
+set out 'fig.mp'
+set multiplot
 
-set output "fig.mp"
-# set output "up-vxb-rtp-m1.mp"
-
-
-# set colors classic
 set zeroaxis lw 1.5
 
 set xlabel '{\Large Photon Energy [eV]}'
@@ -13,20 +10,12 @@ set xtics nomirror
 set y2tics 45
 set my2tics 3
 
-
-
 d=360/(2*pi)    # factor fron radiangs to degrees
 pf=29.98        # prefactor
 sl=299792.458   # speed of light
 f=pf*sl
 
-
 set y2label '{\Large Angle [deg.]}'
-
-
-##############################################################################
-######################### MULTIPLOT [0.0:16] #################################
-##############################################################################
 
 unset y2tics
 unset y2label
@@ -41,8 +30,6 @@ set tmargin 0
 set bmargin 0
 set lmargin 10
 set rmargin 2
-
-set multiplot
 
 set key at graph -0.1, 0.75 center
 set label 2 '@ $40^{\circ}$' at graph 0.10, 0.63
@@ -87,11 +74,11 @@ set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ [Km/s]}'
 set yrange [-40:48]
 set ytics  20
 
-# set origin 0.0 , 1.5
-# set size   1.0 , 0.5
-# p   './vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($2*f) w l lw 1.5 dt 1 t '$\mathcal{V}^{\mathrm{xx}}$' ,\
-#     './vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($3*f) w l lw 2.5 dt 2 t '$\mathcal{V}^{\mathrm{xy}}$' ,\
-#     './vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($4*f) w l lw 2.5 dt 2 t '$\mathcal{V}^{\mathrm{xz}}$' ,\
+set origin 0.0 , 1.5
+set size   1.0 , 0.5
+p   './vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($2*f) w l lw 1.5 dt 1 t '$\mathcal{V}^{\mathrm{xx}}$' ,\
+    './vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($3*f) w l lw 2.5 dt 2 t '$\mathcal{V}^{\mathrm{xy}}$' ,\
+    './vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040' u 1:($4*f) w l lw 2.5 dt 2 t '$\mathcal{V}^{\mathrm{xz}}$' ,\
 
 
 unset multiplot

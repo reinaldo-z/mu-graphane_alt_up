@@ -1,9 +1,9 @@
 set terminal mp color dashed latex 11
 
-set out 'fig.mp'
-# set output "alt-vyb-rtp-m.mp"
+# set out 'fig.mp'
+set output "alt-vyb-rtp-m.mp"
+set colors classic
 
-# set colors classic
 set zeroaxis lw 1.5
 
 set label 1 'C$_{16}$H$_{8}$-alt' at graph 0.07 , 0.93
