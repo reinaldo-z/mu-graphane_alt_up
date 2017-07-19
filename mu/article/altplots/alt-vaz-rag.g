@@ -77,7 +77,7 @@ p   './magsv.sm_0.03_az_14452_65-0.912eV' u 3:($2*f) w l axis x1y1 lw 1.5 dt 1 l
 
 unset label 1
 set key at graph 0.65 , 0.75 
-set label 2 '@ 0.912\,eV' at graph 0.80, 0.55
+set label 2 '@ 0.720\,eV' at graph 0.80, 0.55
 
 
 set xtics mirror

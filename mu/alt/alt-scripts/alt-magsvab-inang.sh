@@ -46,7 +46,7 @@ inputsm=( v.sm_0.03_xx_14452_65-spin_scissor_0_Nc_32_ang_
 
 calc
 
-grep "$en1" "$outputkk" > magsv.kk_0.03_ax_14452_65-"$fs1"
+grep "$en1" "$outputkk" > magsv.kk_ax_14452_65-"$fs1"
 grep "$en1" "$outputsm" > magsv.sm_0.03_ax_14452_65-"$fs1"
 
 ############################## V_{s^y} #########################################
@@ -61,7 +61,7 @@ inputsm=( v.sm_0.03_xy_14452_65-spin_scissor_0_Nc_32_ang_
 
 calc
 
-grep "$en1" "$outputkk" > magsv.kk_0.03_ay_14452_65-"$fs1"
+grep "$en1" "$outputkk" > magsv.kk_ay_14452_65-"$fs1"
 grep "$en1" "$outputsm" > magsv.sm_0.03_ay_14452_65-"$fs1"
 
 ############################## V_{s^z} #########################################
@@ -76,7 +76,7 @@ inputsm=( v.sm_0.03_xz_14452_65-spin_scissor_0_Nc_32_ang_
 
 calc
 
-grep "$en1" "$outputkk" > magsv.kk_0.03_az_14452_65-"$fs1"
+grep "$en1" "$outputkk" > magsv.kk_az_14452_65-"$fs1"
 grep "$en1" "$outputsm" > magsv.sm_0.03_az_14452_65-"$fs1"
 
 

@@ -1,4 +1,4 @@
-set terminal mp color dashed latex 11
+set terminal mp color solid latex 11
 
 set out 'fig.mp'
 # set output "vab-str-comp.mp"
@@ -15,13 +15,13 @@ sl=299792.458   # speed of light
 f=pf*sl
 
 set xrange [0.0:3.0]
-set yrange [-45:90]
+# set yrange [-45:90]
 
 set key at graph 0.98, 0.95
 
 set ylabel '{\Large $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ [Km/s]}'
 
-p   './v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040'  u 1:($2*f)  w l lw 1.5 dt 1 t 'Up:   $\mathcal{V}^{\mathrm{yz}}$ @ \, 40$^{\circ}$' ,\
-    './v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f)  w l lw 2.5 dt 2 t 'Alt:  $\mathcal{V}^{\mathrm{yz}}$ @   145$^{\circ}$' ,\
-    './v.sm_0.03_zz_3234_15-spin_scissor_0_Nc_16_ang_90'   u 1:($2*f)  w l lw 2.5 dt 3 t 'CdSe: $\mathcal{V}^{\mathrm{zz}}$ @ \, 90$^{\circ}$' ,\
-    './v.sm_0.03_xx_5216_15-spin_scissor_0_Nc_24_ang_90'   u 1:($2*f)  w l lw 2.5 dt 4 t 'GaAs: $\mathcal{V}^{\mathrm{xx}}$ @ \, 90$^{\circ}$'
+p   './v.kk_yz_12802_40-spin_scissor_0_Nc_32_ang_040'  u 1:($2*f)  w l lw 1.5 dt 1 t 'Up:   $\mathcal{V}^{\mathrm{yz}}$ @ \, 40$^{\circ}$' ,\
+    './v.kk_yz_14452_65-spin_scissor_0_Nc_32_ang_145' u 1:($2*f)  w l lw 2.5 dt 2 t 'Alt:  $\mathcal{V}^{\mathrm{yz}}$ @   145$^{\circ}$' ,\
+    './v.kk_zz_3234_15-spin_scissor_0_Nc_16_ang_90'   u 1:($2*f)  w l lw 2.5 dt 3 t 'CdSe: $\mathcal{V}^{\mathrm{zz}}$ @ \, 90$^{\circ}$' ,\
+    './v.kk_xx_5216_15-spin_scissor_0_Nc_24_ang_90'   u 1:($2*f)  w l lw 2.5 dt 4 t 'GaAs: $\mathcal{V}^{\mathrm{xx}}$ @ \, 90$^{\circ}$'
