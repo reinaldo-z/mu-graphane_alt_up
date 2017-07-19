@@ -27,14 +27,14 @@ set xtics 0.05
 set yrange [0:180]
 set ytics 30
 
-set zrange [0:725]
-set ztics 0, 145, 725
+set zrange [0:800]
+set ztics 0, 200, 800
+
+set cbrange [-30:800]
+set cbtics 0, 200, 800
 
 set pm3d scansbackward interpolate 0,0
 set pm3d implicit at s
-
-set cbrange [-30:725]
-set cbtics 0, 145, 725
 
 set ylabel '{\large  $\alpha$ (deg.)}'   rotate parallel offset 1.3,-1.0, 0.0
 set xlabel '{\large $\hbar\omega$ (eV)}' rotate parallel offset 0.0,-1.5, 0.0
@@ -68,14 +68,14 @@ Y1=65.5     # perp
 
 set key spacing 1.5 
 set key at graph 0.27, 0.95
-set label 2 '\large $\hbar\omega=0.088$\,eV' at graph 0.06, 0.67
+set label 2 '\large $\hbar\omega=0.72$\,eV' at graph 0.06, 0.67
 
 set xlabel '{\Large  $\alpha$ (deg.)}'
 set xtics nomirror
 
 set ylabel '{\Large $\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)$ (Km/s)}'
-set yrange [0:725]
-set ytics 0, 145, 725
+set yrange [0:800]
+set ytics 0, 160, 800
 
 set y2label '{\Large $\gamma_{z}(\omega,\alpha)$ (deg.)}'
 set y2tics
@@ -83,8 +83,8 @@ set y2range [105:115]
 set y2tics  105, 2, 115
 set format y2 "%3.0f"
 
-# set arrow 1 from 20, 725 to 5, 725 ls 1 lw 2
-# set arrow 2 from second 145, 64.475 to second 175, 64.475 ls 2 lw 2
+set arrow 1 from 77, 330 to 55, 330 ls 1 lw 2
+set arrow 2 from second 145, 108.5 to second 175, 108.5 ls 2 lw 2
 # set arrow 3 from second X1, Y1 to second X1, 64.4 ls 3 lw 2.0 
 # set arrow 4 from second X2, Y2 to second X2, 67.0 ls 5 lw 2.0 
 

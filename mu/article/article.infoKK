@@ -1,0 +1,515 @@
+8987777.8908 * 
+
+pf= 29.98           # prefactor
+sl= 299792.458      # speed of light
+f = 8987777.8908    # factor = pf*sl
+
+###############################################################################
+##########################   U P    A L T   G A P   ###########################
+###############################################################################
+
+Up:  0.0843421 ev
+Alt: 0.7183195 eV
+
+###############################################################################
+#########################  4  S T R U C T U R E S   ###########################
+######################### S P I N   V E L   C O M P ###########################
+###############################################################################
+
+Struc: Up
+../../up/up-res-0-4-2001pts/v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_040
+LINE    Energy      V^{yz}@40       Km/s    Polang
+45      0.08800     0.969768E-05    87.16   40
+970     1.93800     0.247193E-05    22.22   40
+987     1.97200    -0.330412E-05   -29.70   40
+
+Struc: Alt
+../../alt/alt-res-0-4-2001pts/v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_145
+LINE    Energy      V^{yz}@145      Km/s    Polang
+361     0.72000    -0.447427E-05   -40.21   145
+457     0.91200    -0.365988E-05   -32.89   145
+
+Struc: CdSe
+../../cdse/cdse-res-0-4-2001pts/v.sm_0.03_zz_3234_15-spin_scissor_0_Nc_16_ang_90
+LINE    Energy      V^{zz}@90       Km/s    Polang
+454     0.90600    -0.299005E-05   -26.87   90
+
+Struc: GaAs
+../../gaas/gaas-res-0-4-2001pts/v.sm_0.03_xx_5216_15-spin_scissor_0_Nc_24_ang_90
+LINE    Energy      V^{xx}@90       Km/s    Polang
+1157    2.31200    -0.240543E-05   -21.62   90
+
+
+###############################################################################
+########################## U P    S T R U C T U R E ###########################
+##########################     F I X   S P I N      ###########################
+###############################################################################
+
+################################ ABSOLUTE MAX
+
+RES: V_{s^z} @ 0.088 eV
+files:  ../../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-0.088eV
+        up-plots/up-svab-rag.gp
+
+LINE    Energy          V_{s^x}         ang       V^{xx}          V^{yx}          g_{x}
+MAX
+9       8.80000E-02     4.156394E-06    040     -4.061730E-06   -8.820230E-07   012.251788
+                        37.3567460987           -36.5059270924  -7.9274268186
+
+################
+
+RES: V_{s^z} @ 0.088 eV
+files:  ../../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-0.088eV
+        up-plots/up-svab-rag.gp
+
+LINE    Energy          V_{s^y}         ang       V^{xy}          V^{yy}          g_{y}
+MAX     8.80000E-02     2.756506E-06    040     -2.585430E-06   9.559700E-07    159.708008
+                        24.7748636827           -23.2372705922  8.5920460303
+
+################
+
+RES: V_{s^z} @ 0.088 eV
+files:  ../../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-0.088eV
+        up-plots/up-svab-rag.gp
+
+LINE    Energy          V_{s^z}         ang       V^{xz}          V^{yz}          g_{z}
+MAX
+9       8.80000E-02     1.065864E-05    040     4.422850E-06    9.697680E-06    065.483589
+                        95.797488938            39.751593444    87.160593896
+
+PAR:    65.37       --> 82.3
+14      8.80000E-02     9.159982E-06    065     3.817330E-06    8.326660E-06    065.371060
+                        82.3278837              34.309314176    74.838170652
+
+PERP:   155.5, 65.5 --> 24.8
+32      8.80000E-02     2.712790E-06    155     1.125620E-06    2.468240E-06    065.485079
+                        24.381953984            10.116822549    22.183992901
+33      8.80000E-02     3.169365E-06    160     1.310620E-06    2.885680E-06    065.573372
+                        28.485548675            11.779561459    25.935850904
+
+################################ LOCAL MAX
+
+RES: V_{s^z} @ 0.088 eV
+files:  ../../up-res-0-4-2001pts/magsv.sm_0.03_ax_12802_40-1.972eV
+        up-plots/up-svab-rag.gp
+
+LINE    Energy          V_{s^x}        ang       V^{xx}          V^{yx}          g_{z}
+MAX
+9       1.97200E+00     3.037302E-06    040     -5.578120E-07   -2.985640E-06   079.417295
+                        27.2985957633
+
+################
+
+RES: V_{s^z} @ 0.088 eV
+files:  ../../up-res-0-4-2001pts/magsv.sm_0.03_ay_12802_40-1.972eV
+        up-plots/up-svab-rag.gp
+
+LINE    Energy          V_{s^y}        ang       V^{xy}          V^{yy}          g_{z}
+MAX
+9       1.97200E+00     3.281043E-06   040      -6.456000E-07   -3.216900E-06   078.652053
+                        29.4892857342
+
+################
+
+RES: V_{s^z} @ 0.912 eV
+files:  ../../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-1.972eV
+        up-plots/up-svab-rag.gp
+
+LINE    Energy          V_{s^z}        ang       V^{xz}          V^{yz}          g_{z}
+MAX
+9       1.97200E+00     3.375932E-06    040     -6.926090E-07   -3.304120E-06   078.161085
+                        30.3421269904           -7.9274268186   -29.6966966846
+
+PAR     78.4        --> 18.8
+16      1.97200E+00     2.234706E-06    075     -4.518410E-07   -2.188550E-06   078.334749
+                        20.085041179            -4.06104655     -19.6702013
+17      1.97200E+00     2.016869E-06    080     -4.063000E-07   -1.975520E-06   078.378179
+                        18.127170607            -3.651734157    -17.75553498
+
+PERP    168.4, 78.5 --> 9.0
+34      1.97200E+00     7.950925E-07    165     -1.579290E-07   -7.792500E-07   078.543134
+                        7.1461147926            -1.419430775    -7.003725921
+35      1.97200E+00     1.128190E-06    170     -2.278110E-07   -1.104950E-06   078.350391
+                        10.139921139            -2.047514669    -9.93104518
+
+###############################################################################
+######################### A L T   S T R U C T U R E ###########################
+#########################     F I X   S P I N       ###########################
+###############################################################################
+
+################################ ABS MAX
+
+
+RES: V_{s^x} @ 0.912 eV
+files:  ../../alt-res-0-4-2001pts/magsv.sm_0.03_ax_14452_65-0.912eV
+        up-plots/up-svab-rag.gp
+
+LINE    Energy          V_{s^x}         ang       V^{xx}          V^{yx}          g_{x}
+MAX
+30      9.12000E-01     3.017371E-06    145     5.313360E-07    -2.970220E-06   100.142215
+                        27.1194603621
+
+################
+
+RES: V_{s^y} @ 0.912 eV
+files:  ../../alt-res-0-4-2001pts/magsv.sm_0.03_ay_14452_65-0.912eV
+        up-plots/up-svab-rag.gp
+
+LINE    Energy          V_{s^y}         ang       V^{xy}          V^{yy}          g_{y}
+MAX
+30      9.12000E-01     3.693356E-06    145     -1.425340E-06   -3.407240E-06   067.299121
+                        33.1950633997
+
+################
+
+RES: V_{s^z}
+files:  ../../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV
+        alt-plots/alt-svab-rag.gp
+
+LINE    Energy          V_{s^z}        ang       V^{xz}          V^{yz}          g_{z}
+MAX
+30      9.12000E-01     4.786784E-06   145      -3.085220E-06   -3.659880E-06   049.869627
+                        43.022551403            -27.7292721     -32.89418855
+
+PAR     53.5        --> 12.7
+11      9.12000E-01     1.428500E-06   050      -8.498120E-07   -1.148230E-06   053.494617
+                        12.839040717            -7.637921505    -10.32003621    
+12      9.12000E-01     1.404259E-06   055      -8.364640E-07   -1.127950E-06   053.440128
+                        12.621167993            -7.517952646    -10.13776407
+
+PERP    140, 50     --> 43.0
+29      9.12000E-01     4.787176E-06   140      -3.087700E-06   -3.658300E-06   049.834733
+                        43.026074612            -27.75156179    -32.87998786
+
+################################ LOCAL MAX
+
+RES: V_{s^z}
+files:  ../../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.720eV
+LINE    Energy          V_{s^z}        ang       V^{xz}          V^{yz}          g_{z}
+MAX
+30      7.20000E-01     4.720481E-06    145     1.504610E-06    -4.474270E-06    108.586755
+
+
+###############################################################################
+########################## U P    S T R U C T U R E ###########################
+##########################      F I X   V E L       ###########################
+###############################################################################
+
+RES: V^x
+files:  ../../vab-rtp.sm_0.03_x_12802_40-spin_scissor_0_Nc_32_ang_040
+        up-plots/up-vab-rtp.gp
+
+LINE     Energy          V^{xx}           V^{xy}            V^{xz}          V^x             polar       azimuth 
+46       8.800000E-02    -4.061730E-06    -2.585430E-06     4.422850E-06    6.537867E-06    47.42947    212.4781
+                         -36.50592709    -23.23727059      39.751593444    58.760896476
+15       2.600000E-02    -2.521650E-11    -1.474530E-11    2.979590E-11     4.172639E-11    44.43231    210.3169
+57       1.100000E-01    -8.789920E-07    -6.728670E-07    7.404690E-07    1.331793E-06     56.22080    217.4340
+
+
+969     1.934000E+00      2.571650E-07     4.228680E-07     5.492200E-07    7.393198E-07    42.02336    58.69432
+                          2.311342         3.800644         4.936267        6.644842
+
+
+988     1.972000E+00     -5.578120E-07    -6.456000E-07    -6.926090E-07    1.098936E-06    129.0689    229.1723
+                         -5.013490        -5.802509        -6.225016        9.876993
+
+################
+
+RES: V^y
+files:  ../../vab-rtp.sm_0.03_y_12802_40-spin_scissor_0_Nc_32_ang_040
+        up-plots/up-vab-rtp.gp
+
+LINE     Energy          V^{yx}           V^{yy}            V^{yz}          V^y               polar       azimuth 
+46       8.800000E-02    -8.820230E-07    9.559700E-07      9.697680E-06    9.784520E-06    7.639231      132.6961
+                         -7.927426819     8.5920460303     87.160593896    87.941092528
+15       2.600000E-02    -1.805690E-12    1.098940E-11    6.472440E-11      6.567553E-11    9.762956      99.33102
+57       1.100000E-01    -3.472300E-07    -1.005010E-07    1.479250E-06    1.522777E-06     13.73216      196.1423
+
+
+969      1.932000E+00     1.275950E-06    1.896480E-06      2.272480E-06    3.223174E-06    45.16690    56.06738
+                         11.467955       17.045141         20.424546       28.969172
+
+
+988      1.972000E+00    -2.985640E-06    -3.216900E-06    -3.304120E-06    5.493605E-06    126.9737    227.1352
+                         -26.834269       -28.912783       -29.696697        49.375302 
+
+###############################################################################
+######################### A L T   S T R U C T U R E ###########################
+#########################       F I X   V E L       ###########################
+###############################################################################
+
+RES: V^x
+files:  ../../vab-rtp.sm_0.03_x_14452_65-spin_scissor_0_Nc_32_ang_145
+        alt-plots/alt-vab-rtp.gp
+
+LINE     Energy          V^{ax}           V^{ay}            V^{az}          r               polar       azimuth
+362      7.200000E-01    1.172820E-06     1.007690E-06      1.504610E-06    2.157498E-06    45.78231    40.66926
+                        10.541045666      9.056893902      13.523100492    19.391112824
+
+
+458      9.120000E-01    5.313360E-07    -1.425340E-06     -3.085220E-06    3.439839E-06    153.7546    290.4443
+                         4.7755299      -12.8106393       -27.7292721      30.9165089
+################
+
+RES: V^y
+files:  ../../vab-rtp.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_145ssor_0_Nc_32_ang_145
+        alt-plots/alt-vab-rtp.gp
+
+LINE     Energy          V^{ax}           V^{ay}            V^{az}          r               polar       azimuth
+362      7.200000E-01    -2.735980E-06    -2.426070E-06    -4.474270E-06    5.778451E-06    140.7419    221.5643
+                        -24.59038055     -21.80497831     -40.21374498     51.935434141
+
+
+458      9.120000E-01    -2.970220E-06    -3.407240E-06    -3.659880E-06    5.816031E-06    128.9967    228.9201
+                        -26.69567765     -30.62351634     -32.89418855     52.273194834
+################
+
+Comparison of most intense responses:
+|V^y| / V^x = 52.273194834 / 30.916508912 = 1.6907858188
+
+################
+
+RES: Layer V^{yz}
+files:  v.sm_0.03_yz_14452_65-spin_scissor_0_Nc_32_ang_145
+        calv.sm_0.03_yz_14452_1_65-spin_scissor_0_Nc_32_ang_145:361
+        calv.sm_0.03_yz_14452_2_65-spin_scissor_0_Nc_32_ang_145:361
+        calv.sm_0.03_yz_14452_3_65-spin_scissor_0_Nc_32_ang_145:361
+        calv.sm_0.03_yz_14452_4_65-spin_scissor_0_Nc_32_ang_145:361
+        calv.sm_0.03_yz_14452_5_65-spin_scissor_0_Nc_32_ang_145:361
+        calv.sm_0.03_yz_14452_6_65-spin_scissor_0_Nc_32_ang_145:361
+        alt-plots/alt-vab-layers.gp
+
+LAYER   LINE    Energy      V^{yz}          V^{yz}*f
+Total   361     0.72000     -0.447427E-05   -40.21  
+1       361     0.72000     -0.353144E-06    -3.17  
+2       361     0.72000     -0.184498E-05   -16.58  
+3       361     0.72000     -0.203600E-05   -18.29  
+4       361     0.72000     -0.147154E-05   -13.22  
+5       361     0.72000      0.637430E-06     5.72  
+6       361     0.72000      0.593967E-06     5.33  
+
+LAYER   LINE    Energy      V^{yz}          V^{yz}*f
+Total   457     0.91200     -0.365988E-05  -32.89
+1       457     0.91200     -0.761193E-06   -6.84
+2       457     0.91200     -0.602702E-06   -5.41
+3       457     0.91200     -0.551748E-06   -4.95
+4       457     0.91200     -0.513669E-06   -4.61
+5       457     0.91200     -0.715989E-06   -6.43
+6       457     0.91200     -0.514584E-06   -4.62
+
+###############################################################################
+#########################  U P   S T R U C T U R E  ###########################
+#########################         L A Y E R S       ###########################
+###############################################################################
+
+RES: V_{s^z}
+
+Energy: 0.088 eV
+Files:
+../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-0.088eV
+../up-res-0-4-2001pts/magCalsv.sm_0.03_az_12802_1_40-0.088eV
+../up-res-0-4-2001pts/magCalsv.sm_0.03_az_12802_2_40-0.088eV
+
+
+LINE    Energy          r               a       V^{xz}          V^{yz}          g_{z}
+total:
+9       8.80000E-02    1.065864E-05    040    4.422850E-06    9.697680E-06    065.483589
+                       95.8 Km/s
+layer 1:
+9       8.80000E-02    2.230280E-07    040    -2.204730E-07    -3.366190E-08    008.680885
+                       2.00 Km/s
+layer 2:
+9       8.80000E-02    1.078237E-05    040    4.643330E-06    9.731340E-06    064.491742
+                       96.9 Km/s
+################
+
+Energy: 1.972 eV
+Files:
+../up-res-0-4-2001pts/magsv.sm_0.03_az_12802_40-1.972eV
+../up-res-0-4-2001pts/magCalsv.sm_0.03_az_12802_1_40-1.972eV
+../up-res-0-4-2001pts/magCalsv.sm_0.03_az_12802_2_40-1.972eV
+
+
+LINE    Energy          r               a       V^{xz}          V^{yz}          g_{z}
+total:
+9       1.97200E+00    3.375932E-06    040    -6.926090E-07    -3.304120E-06    078.161085
+                       30.3 Km/s
+layer 1:
+9       1.97200E+00    4.151649E-07    040    1.912530E-07    -3.684890E-07    117.430188
+                       3.7 Km/s
+layer 2: 
+9       1.97200E+00    3.065811E-06    040    -8.838620E-07    -2.935640E-06    073.244018
+                       27.6 Km/s
+
+###############################################################################
+########################  A L T   S T R U C T U R E  ##########################
+########################          L A Y E R S        ##########################
+###############################################################################
+
+Energy: 0.720 eV
+Files: 
+../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.720eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_1_65-0.720eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_2_65-0.720eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_3_65-0.720eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_4_65-0.720eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_5_65-0.720eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_6_65-0.720eV
+
+LINE    Energy          r               a       V^{xz}          V^{yz}          g_{z}
+total:
+30      7.20000E-01    4.720481E-06    145    1.504610E-06    -4.474270E-06    108.586755
+                       42.4 Km/s
+layer 1:
+30      
+                       
+layer 2:
+30      
+                       
+layer 3:
+30      
+                       
+layer 4:
+30      
+                       
+layer 5:
+30      
+                       
+layer 6:
+30      
+                       
+
+################
+
+Energy: 0.912 eV
+Files: 
+../alt-res-0-4-2001pts/magsv.sm_0.03_az_14452_65-0.912eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_1_65-0.912eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_2_65-0.912eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_3_65-0.912eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_4_65-0.912eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_5_65-0.912eV
+../alt-res-0-4-2001pts/magCalsv.sm_0.03_az_14452_6_65-0.912eV
+
+LINE    Energy          r               a       V^{xz}          V^{yz}          g_{z}
+total:
+30      9.12000E-01    4.786784E-06    145    -3.085220E-06    -3.659880E-06    049.869627
+                       43.0 Km/s              -27.7 Km/s       -32.9 Km/s
+layer 1:
+30      9.12000E-01    1.138409E-06    145    -8.464990E-07    -7.611930E-07    041.962636
+                       10.2 Km/s              -7.6 Km/s        -6.8 Km/s
+layer 2:
+30      9.12000E-01    8.593697E-07    145    -6.125900E-07    -6.027020E-07    044.533784
+                       7.7 Km/s               -5.5 Km/s        -5.4 Km/s
+layer 3:
+30      9.12000E-01    7.795198E-07    145    -5.506590E-07    -5.517480E-07    045.056551
+                       7.0 Km/s               -4.9 Km/s        -5.0 Km/s
+layer 4:
+30      9.12000E-01    6.397391E-07    145    -3.813270E-07    -5.136690E-07    053.411309
+                       5.7 Km/s               -3.4 Km/s        -4.6 Km/s
+layer 5:
+30      9.12000E-01    7.750547E-07    145    -2.967650E-07    -7.159890E-07    067.486822
+                       7.0 Km/s               -2.7 Km/s        -6.4 Km/s
+layer 6:
+30      9.12000E-01    6.501627E-07    145    -3.973850E-07    -5.145840E-07    052.323032
+                       5.8 Km/s               -3.6 Km/s        -4.6 Km/s
+
+
+###############################################################################
+################################# N O T E S ###################################
+###############################################################################
+
+http://halas.rice.edu/conversions
+Rango visible: 1.59 eV - 3.26 eV
+Rango THz:   0.00124eV - 0.01241eV
+
+
+                                F I G U R E S :
+
+3D SPIN CAPTION EXAMPLE
+    \caption{$|\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)|$ response
+    as a function of the photon energy and polarization angle $\alpha$ for the
+    \emph{up} structure for two energy ranges. The absolute maxima is located
+    for an energy range from 0.08\,eV to 0.10\,eV, in the Far Infrared radiation
+    range, and two local maxima from 1.90\,eV to 1.93\,eV and  1.96\,eV to
+    2.0\,eV, in the visible, all for polarization angles between $25^{\circ}$
+    and $50^{\circ}$.}
+
+
+################################################################################
+
+
+Hola. Estoy enterado de lo escrito. Nos vemos el lunes en la oficina.
+
+OK
+
+Antes de ello quisiera saber si nos podeos contactar por Skype para ponernos de
+acuerdo acerca de las ecuaciones que mencionaste:  
+  Ec. (3): | V_{\sigma^{b}} |
+  Ec. (4): \gamma_{b}
+
+Checa que los indices sean los correctos, segun yo solo estan mal escritos.
+
+y de las ecuaciones de los ángulos paralelo y perpendicular (Eqns. 5 y 6). A mi
+parecer son correctas pero aún así quisiera discutirlo contigo.
+
+cerciorate que los indices corresponden a lo que dices que son
+
+El capa por capa casi lo tengo descrito salvo la parte de centrosimetría con la
+que voy a necesitar un poco de ayuda.
+
+\mu^{abcd}=0 para un sistema centrosimetrico, asi que la idea es que mientras mas
+no centrosimetrico sea la estructura, uno deberia de esperar una mayor respuesta
+en mu. El analisis capa-x-capa muestra claramente que alt cancela paricialmente
+las contribuciones de mu que vienen de un lado y del otro lado de la estructura,
+esto es,
+
+\mu(r)\sim -\mu(-r)
+
+donde el origen esta en el centro de inversion de la estructura (z=0). Para up,
+
+\mu(r)\neq -\mu(-r)
+
+dado que no hay H de un lado de la estructura, y por ende no hay cancelacion, y
+entonces mu(up)>>mu(alt)
+
+Referente a la introducción y varias referencias, las estoy terminando y es
+posible que el lunes 5 las tenga completas junto con el resumen.
+
+Es muy importante que cheques bien que no te faltan referencias sobre el tema,
+para estar seguros que es la primera vez que se realiza un estudio como el
+nuestro.
+
+De las conclusiones voy a escribirlas y me gustaría que, posterior a la difusión
+de las ecuaciones, nos contactáramos nuevamente para discutirlas.
+
+El lunes las vemos, sin embargo, si ya tienes algo sustancial que mostrarme,
+mandamelo para irlo leyendo.
+
+saludos
+
+p.s. por la diferencia de horario esta dificil la junta por skype, pero no creo
+que haya necesidad de tenerla, con las respuestas que di arriba.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
