@@ -30,7 +30,7 @@ set size   1.0 , 1.0
 set key spacing 1.5 
 set key at graph 0.22 , 0.95
 
-set label 1 '\Large \emph{Alt} @ $\alpha=145^{\circ}$' at graph 0.65 , 0.95 
+set label 1 '\Large \emph{Alt} @ $\alpha=150^{\circ}$' at graph 0.65 , 0.95 
 
 unset xlabel
 

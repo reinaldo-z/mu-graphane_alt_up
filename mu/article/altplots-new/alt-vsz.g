@@ -33,7 +33,8 @@ set ztics 0, 200, 800
 set cbrange [-30:800]
 set cbtics 0, 200, 800
 
-set pm3d scansbackward interpolate 0,0
+set pm3d scansbackward 
+# set pm3d scansbackward interpolate 0,0
 set pm3d implicit at s
 
 set ylabel '{\large  $\alpha$ (deg.)}'   rotate parallel offset 1.3,-1.0, 0.0
@@ -60,10 +61,10 @@ f=pf*sl
 
 tol=0.0
 
-X2=65.37    # col
-Y2=65.37    # col
-X1=155.5    # perp
-Y1=65.5     # perp
+X2=108.75    # par
+Y2=108.75    # par
+X1=19.8      # perp
+Y1=109.8     # perp
 
 
 set key spacing 1.5 
@@ -85,8 +86,8 @@ set format y2 "%3.0f"
 
 set arrow 1 from 77, 330 to 55, 330 ls 1 lw 2
 set arrow 2 from second 145, 108.5 to second 175, 108.5 ls 2 lw 2
-# set arrow 3 from second X1, Y1 to second X1, 64.4 ls 3 lw 2.0 
-# set arrow 4 from second X2, Y2 to second X2, 67.0 ls 5 lw 2.0 
+set arrow 3 from second X1, Y1 to second X1, 106.0 ls 3 lw 2.0 
+set arrow 4 from second X2, Y2 to second X2, 111.5 ls 5 lw 2.0 
 
 p   'alt-vsz.data2' u 3:($2*f) w l axis x1y1 lw 2  t '\Large $\mathcal{V}_{\sigma^{\mathrm{z}}}$' ,\
     'alt-vsz.data2' u 3:6      w l axis x1y2 lw 2  t '\Large $\gamma_{z}$' ,\

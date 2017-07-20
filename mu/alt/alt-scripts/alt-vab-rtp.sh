@@ -1,6 +1,6 @@
 #/bin/bash
 
-an=145
+an=150
 kp=14452
 ec=65
 sc=0

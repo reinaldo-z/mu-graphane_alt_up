@@ -59,10 +59,10 @@ f=pf*sl
 
 tol=0.0
 
-X2=78.35    # col
-Y2=78.35    # col
-X1=168.4    # perp
-Y1=78.4    # perp
+X2=78.01    # par
+Y2=78.01    # par
+X1=167.99   # perp
+Y1=77.99    # perp
 
 
 set key at graph 0.7,.93 spacing 1.5 
@@ -86,8 +86,8 @@ set format y2 "%3.1f"
 set format y2 "%3.1f"
 set arrow 1 from 20, 285 to 5, 285 ls 1 lw 2
 set arrow 2 from second 158, 77.85 to second 175, 77.85 ls 2 lw 2
-# set arrow 3 from second X1, Y1 to second X1, 81.0 ls 3 lw 2.0 
-# set arrow 4 from second X2, Y2 to second X2, 84.8 ls 5 lw 2.0 
+set arrow 3 from second X1, Y1 to second X1, 77.50 ls 3 lw 2.0 
+set arrow 4 from second X2, Y2 to second X2, 77.90 ls 5 lw 2.0 
 
 p   'up-vsz-w2.data2' u 3:($2*f) w l axis x1y1 lw 2  t '\Large $\mathcal{V}_{\sigma^{\mathrm{z}}}$' ,\
     'up-vsz-w2.data2' u 3:6      w l axis x1y2 lw 2  t '\Large $\gamma_{z}$' ,\

@@ -18,8 +18,8 @@ f=pf*sl
 
 set label '\Large {\it Up}' at graph 0.1, 0.0, 0.95 
 
-set xrange [0.08:0.1]
-set xtics 0.005
+set xrange [0.08:0.094]
+set xtics 0.003
 
 set view 44,45
 set hidden3d
@@ -60,14 +60,14 @@ f=pf*sl
 
 tol=0.0
 
-X2=65.37    # col
-Y2=65.37    # col
-X1=155.5    # perp
-Y1=65.5     # perp
+X2=64.4768    # par
+Y2=64.4768    # par
+X1=154.4795   # perp
+Y1=64.4795    # perp
 
 
 set key spacing 1.5
-set label 2 '\large $\hbar\omega=0.088$\,eV' at graph 0.15, 0.15
+set label 2 '\large $\hbar\omega=0.084$\,eV' at graph 0.15, 0.15
 
 set xlabel '{\Large  $\alpha$ (deg.)}'
 set xtics nomirror
@@ -84,8 +84,8 @@ set format y2 "%3.2f"
 
 set arrow 1 from 20, 725 to 5, 725 ls 1 lw 2
 set arrow 2 from second 145, 64.475 to second 175, 64.475 ls 2 lw 2
-# set arrow 3 from second X1, Y1 to second X1, 64.4 ls 3 lw 2.0 
-# set arrow 4 from second X2, Y2 to second X2, 67.0 ls 5 lw 2.0 
+set arrow 3 from second X1, Y1 to second X1, 64.460 ls 3 lw 2.0 
+set arrow 4 from second X2, Y2 to second X2, 64.488 ls 5 lw 2.0 
 
 p   'up-vsz-w1.data2' u 3:($2*f) w l axis x1y1 lw 2  t '\Large $\mathcal{V}_{\sigma^{\mathrm{z}}}$' ,\
     'up-vsz-w1.data2' u 3:6      w l axis x1y2 lw 2  t '\Large $\gamma_{z}$' ,\
