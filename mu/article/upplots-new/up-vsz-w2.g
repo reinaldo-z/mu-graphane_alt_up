@@ -67,7 +67,7 @@ Y1=77.99    # perp
 
 set key at graph 0.7,.93 spacing 1.5 
 
-set label 2 '\large $\hbar\omega=1.972$\,eV' at graph 0.1, 0.15
+set label 2 '\large $\hbar\omega=1.954$\,eV' at graph 0.1, 0.15
 
 set xlabel '{\Large  $\alpha$ (deg.)}'
 set xtics nomirror

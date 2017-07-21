@@ -18,8 +18,9 @@ f=pf*sl
 
 set label '\Large {\it Up}' at graph 0.1, 0.0, 0.95 
 
-set xrange [0.08:0.094]
+set xrange [0.08:0.096]
 set xtics 0.003
+set format x "%3.3f"
 
 set view 44,45
 set hidden3d
@@ -71,6 +72,7 @@ set label 2 '\large $\hbar\omega=0.084$\,eV' at graph 0.15, 0.15
 
 set xlabel '{\Large  $\alpha$ (deg.)}'
 set xtics nomirror
+set format x "%3.0f"
 
 set ylabel '{\Large $\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)$ (Km/s)}'
 set yrange [80:800]
@@ -78,14 +80,14 @@ set ytics 0, 100, 800
 
 set y2label '{\Large $\gamma_{z}(\omega,\alpha)$ (deg.)}'
 set y2tics
-set y2range [64.45:64.50]
-set y2tics  64.45, 0.01, 64.50
+set y2range [64.40:64.60]
+set y2tics  64.40, 0.04, 64.60
 set format y2 "%3.2f"
 
 set arrow 1 from 20, 725 to 5, 725 ls 1 lw 2
-set arrow 2 from second 145, 64.475 to second 175, 64.475 ls 2 lw 2
-set arrow 3 from second X1, Y1 to second X1, 64.460 ls 3 lw 2.0 
-set arrow 4 from second X2, Y2 to second X2, 64.488 ls 5 lw 2.0 
+set arrow 2 from second 145, 64.47 to second 175, 64.47 ls 2 lw 2
+set arrow 3 from second X1, Y1 to X1, 205 ls 3 lw 2.0 
+set arrow 4 from second X2, Y2 to X2, 630 ls 5 lw 2.0 
 
 p   'up-vsz-w1.data2' u 3:($2*f) w l axis x1y1 lw 2  t '\Large $\mathcal{V}_{\sigma^{\mathrm{z}}}$' ,\
     'up-vsz-w1.data2' u 3:6      w l axis x1y2 lw 2  t '\Large $\gamma_{z}$' ,\
