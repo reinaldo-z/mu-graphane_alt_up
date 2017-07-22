@@ -16,7 +16,7 @@ pf=29.98        # prefactor
 sl=299792.458   # speed of light
 f=pf*sl
 
-set label '\Large {\it Up}' at graph 0.1, 0.0, 0.95 
+set label '\Large Up' at graph 0.1, 0.0, 0.95 
 
 set xrange [0.08:0.096]
 set xtics 0.003
