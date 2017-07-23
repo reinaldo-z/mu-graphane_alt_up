@@ -1,25 +1,10 @@
         G E N E R A L   R U N N I N G   I N F O 
 
-responses.sh & all_responses.sh; energy ranges and git logs:
 
-git reset --hard 97c721aeb797641d63d2bfab5fb38b20ea67be43 # ==>
-eminw=0
-emaxw=2
-stepsw=501
-commit 97c721aeb797641d63d2bfab5fb38b20ea67be43
-Author: reychino-medusa <reychino@gmail.com>
-Date:   Sun Oct 9 21:15:14 2016 -0500
-    Responses changed to 0-2 eV.
+Broadening:
 
-
-git reset --hard 8dca5e18813a528c081dd877455d56b39aa39f48 # ==>
-eminw=0
-emaxw=20
-stepsw=2001
-commit 28f02bfb2213fa41c7a8c4964b4f22a2293d5278
-Author: reychino-medusa <reychino@gmail.com>
-Date:   Wed Oct 12 10:08:24 2016 -0500
-    Responses changed to 0-20 eV.
+    printf "0\n0\n.0002\n0\n" | /opt/science/bin/dp-5.2.99-r1883-intel13.1.117/bin/broad perro2
+    produces perro2.brd
 
 ################################################################################
 
