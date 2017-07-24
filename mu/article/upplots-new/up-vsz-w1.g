@@ -6,9 +6,8 @@ set multiplot
 
 set origin 0,2
 
-set ticslevel 0
 
-set ytics nomirror
+set ticslevel 0
 
 unset key
 
@@ -18,21 +17,22 @@ f=pf*sl
 
 set label '\Large Up' at graph 0.1, 0.0, 0.95 
 
+set view 44,45
+set hidden3d
+
+# set pm3d scansbackward
+set pm3d scansbackward interpolate 0.99, 0.99
+set pm3d implicit at s
+
 set xrange [0.08:0.096]
 set xtics 0.003
 set format x "%3.3f"
 
-set view 44,45
-set hidden3d
-
 set yrange [0:180]
-set ytics 30
+set ytics 30 nomirror
 
 set zrange [0:800]
 set ztics 0, 200, 800
-
-set pm3d scansbackward
-set pm3d implicit at s
 
 set cbrange [-30:800]
 set cbtics 0, 200, 800
@@ -85,7 +85,7 @@ set y2tics  64.40, 0.04, 64.60
 set format y2 "%3.2f"
 
 set arrow 1 from 20, 725 to 5, 725 ls 1 lw 2
-set arrow 2 from second 145, 64.47 to second 175, 64.47 ls 2 lw 2
+set arrow 2 from second 145, 64.51 to second 175, 64.51 ls 2 lw 2
 set arrow 3 from second X1, Y1 to X1, 205 ls 3 lw 2.0 
 set arrow 4 from second X2, Y2 to X2, 630 ls 5 lw 2.0 
 

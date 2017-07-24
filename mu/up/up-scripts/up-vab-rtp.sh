@@ -1,13 +1,12 @@
 #/bin/bash
 
-angles=( 000 005 010 015 020 025 030 035 040 045 050 055 060 065 070 075 080 085 090 095 100 105 110 115 120 125 130 135 140 145 150 155 160 165 170 175 180 )
-
 an=035
 kp=12802
 ec=40
 sc=0
 nc=32
 sm=0.03
+br=0.0002
 
 deg=180/3.141592
 
@@ -22,13 +21,6 @@ paste .temp1 .deg1 | awk '{printf("%1.6E    %1.6E    %1.6E    %1.6E    %1.6E    
 
 ################################ |V^{x}|, rtp ##################################
 
-ax=v.sm_"$sm"_xx_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
-ay=v.sm_"$sm"_xy_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
-az=v.sm_"$sm"_xz_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
-out=vab-rtp.sm_"$sm"_x_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
-
-calc
-
 ax=v.kk_xx_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
 ay=v.kk_xy_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
 az=v.kk_xz_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
@@ -36,7 +28,28 @@ out=vab-rtp.kk_x_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
 
 calc
 
+ax=v.sm_"$sm"_xx_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+ay=v.sm_"$sm"_xy_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+az=v.sm_"$sm"_xz_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+out=vab-rtp.sm_"$sm"_x_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+
+calc
+
+ax=v.br_"$br"_xx_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+ay=v.br_"$br"_xy_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+az=v.br_"$br"_xz_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+out=vab-rtp.br_"$br"_x_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+
+calc
+
 ################################ |V^{y}|, rtp ##################################
+
+ax=v.kk_yx_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+ay=v.kk_yy_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+az=v.kk_yz_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+out=vab-rtp.kk_y_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+
+calc
 
 ax=v.sm_"$sm"_yx_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
 ay=v.sm_"$sm"_yy_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
@@ -45,10 +58,10 @@ out=vab-rtp.sm_"$sm"_y_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
 
 calc
 
-ax=v.kk_yx_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
-ay=v.kk_yy_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
-az=v.kk_yz_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
-out=vab-rtp.kk_y_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+ax=v.br_"$br"_yx_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+ay=v.br_"$br"_yy_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+az=v.br_"$br"_yz_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
+out=vab-rtp.br_"$br"_y_"$kp"_"$ec"-spin_scissor_"$sc"_Nc_"$nc"_ang_"$an"
 
 calc
 

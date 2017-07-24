@@ -38,7 +38,7 @@ set label 1 '\Large \emph{Up} @ $\alpha=35^{\circ}$' at graph 0.5 , 0.95
 
 unset xlabel
 
-set arrow 1 from 0.083, 267 to 0.081, 267 ls 1 lw 2
+set arrow 1 from 0.083, 225 to 0.081, 225 ls 1 lw 2
 set arrow 2 from second 0.0965, 70 to second 0.0990, 70 ls 2 lw 2
 set arrow 3 from second 0.0965, 215 to second 0.0990, 215 ls 3 lw 2
 

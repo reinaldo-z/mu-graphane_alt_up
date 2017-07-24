@@ -25,15 +25,15 @@ set format x "%3.3f"
 set yrange [0:180]
 set ytics 30
 
-set zrange [0:301]
-set ztics 0, 60, 300
+set zrange [0:200]
+set ztics 0, 40, 200
 
-set pm3d scansbackward interpolate 0,0
 # set pm3d scansbackward
+set pm3d scansbackward interpolate 0.99, 0.99
 set pm3d implicit at s
 
-set cbrange [0:300]
-set cbtics 0, 60, 300
+set cbrange [0:200]
+set cbtics 0, 40, 200
 
 set ylabel '{\large  $\alpha$ (deg.)}'   rotate parallel offset 1.3,-1.0, 0.0
 set xlabel '{\large $\hbar\omega$ (eV)}' rotate parallel offset 0.0,-1.5, 0.0
@@ -48,7 +48,6 @@ unset label
 unset xlabel
         
 set xtics 0,20,180 nomirror
-#set ytics nomirror
 set ytics nomirror 0,4,32
 
 set xrange [0:180]
@@ -74,18 +73,18 @@ set xtics nomirror
 set format x "%3.0f"
 
 set ylabel '{\Large $\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)$ (Km/s)}'
-set yrange [0:301]
-set ytics 0, 60,300
+set yrange [0:180]
+set ytics 0, 30,180
 
 set y2label '{\Large $\gamma_{z}(\omega,\alpha)$ (deg.)}'
 set y2tics
-set y2range [77:78.4]
-set y2tics  77,0.2,78.4
+set y2range [76.0:80.0]
+set y2tics  76.0, 0.5, 80.0
 set format y2 "%3.1f"
 
 set format y2 "%3.1f"
-set arrow 1 from 20, 285 to 5, 285 ls 1 lw 2
-set arrow 2 from second 158, 77.85 to second 175, 77.85 ls 2 lw 2
+set arrow 1 from 20, 165 to 5, 165 ls 1 lw 2
+set arrow 2 from second 148, 78.8 to second 175, 78.8 ls 2 lw 2
 set arrow 3 from second X1, Y1 to second X1, 77.50 ls 3 lw 2.0 
 set arrow 4 from second X2, Y2 to second X2, 77.90 ls 5 lw 2.0 
 

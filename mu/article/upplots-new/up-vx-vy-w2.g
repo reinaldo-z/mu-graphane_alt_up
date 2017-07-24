@@ -38,12 +38,12 @@ set label 1 '\Large \emph{Up} @ $\alpha=35^{\circ}$' at graph 0.03 , 0.65
 unset xlabel
 
 set arrow 1 from 1.951, 33 to 1.947, 33 ls 1 lw 2
-set arrow 2 from second 1.9625, 140 to second 1.964, 140 ls 2 lw 2
+set arrow 2 from second 1.9610, 140 to second 1.964, 140 ls 2 lw 2
 set arrow 3 from second 1.9610, 240 to second 1.964, 240 ls 3 lw 2
 
 set ylabel '{\Large $\cal{V}^{\mathrm{x}}(\omega,\alpha)$ (Km/s)}'
-set yrange [0:100]
-set ytics  0, 10, 100
+set yrange [0:70]
+set ytics  0, 10, 70
 
 set y2label '{\Large $\theta_{\mathrm{x}}(\omega,\alpha)$, \ $\varphi_{\mathrm{x}}(\omega,\alpha)$ (deg.)}'
 set y2range [0:360]
@@ -67,12 +67,12 @@ set xtics 0.005
 set format x '%3.3f'
 
 set arrow 1 from 1.951, 155 to 1.947, 155 ls 1 lw 2
-set arrow 2 from second 1.9625, 140 to second 1.964, 140 ls 2 lw 2
+set arrow 2 from second 1.9610, 140 to second 1.964, 140 ls 2 lw 2
 set arrow 3 from second 1.9610, 240 to second 1.964, 240 ls 3 lw 2
 
 set ylabel '{\Large $\cal{V}^{\mathrm{y}}(\omega,\alpha)$ (Km/s)}'
-set yrange [0:500]
-set ytics  0, 50, 500
+set yrange [0:350]
+set ytics  0, 50, 350
 
 
 set y2label '{\Large $\theta_{\mathrm{y}}(\omega,\alpha)$, \ $\varphi_{\mathrm{y}}(\omega,\alpha)$ (deg.)}'

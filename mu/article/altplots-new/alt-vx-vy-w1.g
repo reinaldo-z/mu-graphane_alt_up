@@ -13,8 +13,8 @@ set xtics nomirror
 set y2tics 45
 set my2tics 3
 
-set xrange [0.717:0.723]
-set xtics 0.717, 0.001, 0.723
+set xrange [0.716:0.722]
+set xtics 0.715, 0.001, 0.724
 set format x ''
 
 set tmargin 0
@@ -30,17 +30,18 @@ set size   1.0 , 1.0
 set key spacing 1.5 
 set key at graph 0.22 , 0.95
 
-set label 1 '\Large \emph{Alt} @ $\alpha=150^{\circ}$' at graph 0.65 , 0.95 
+set label 1 '\Large \emph{Alt} @' at graph 0.05 , 0.57 
+set label 2 '\Large $\alpha=150^{\circ}$' at graph 0.05 , 0.49
 
 unset xlabel
 
-set arrow 1 from 0.7207, 160 to 0.71907, 160 ls 1 lw 2
-set arrow 2 from second 0.7220, 95 to second 0.7228, 95 ls 2 lw 2
-set arrow 3 from second 0.7213, 190 to second 0.7220, 190 ls 3 lw 2
+set arrow 1 from 0.7180, 120 to 0.717, 120 ls 1 lw 2
+set arrow 2 from second 0.7205, 35 to second 0.7218, 35 ls 2 lw 2
+set arrow 3 from second 0.7197, 190 to second 0.7212, 190 ls 3 lw 2
 
 set ylabel '{\Large $\cal{V}^{\mathrm{x}}(\omega,\alpha)$ (Km/s)}'
-set yrange [0:360]
-set ytics  0, 60, 360
+set yrange [0:350]
+set ytics  0, 50, 350
 
 set y2label '{\Large $\theta_{\mathrm{x}}(\omega,\alpha)$, \ $\varphi_{\mathrm{x}}(\omega,\alpha)$ (deg.)}'
 set y2range [0:360]
@@ -51,6 +52,7 @@ p   'alt-vx-vy-w1.data1' u 1:($5*f) axis x1y1 w l lw 2 t '\Large $\mathcal{V}^{\
 
 
 unset label 1
+unset label 2
 
 unset arrow 1
 unset arrow 2
@@ -62,13 +64,13 @@ set size   1.0 , 1.0
 set xlabel '\Large $\hbar\omega$ (eV)'
 set format x '%3.3f'
 
-set arrow 1 from 0.71801, 250 to 0.71720, 250 ls 1 lw 2
-set arrow 2 from second 0.7220, 95 to second 0.7228, 95 ls 2 lw 2
-set arrow 3 from second 0.7213, 190 to second 0.7220, 190 ls 3 lw 2
+set arrow 1 from 0.7180, 250 to 0.717, 250 ls 1 lw 2
+set arrow 2 from second 0.7205, 155 to second 0.7217, 155 ls 2 lw 2
+set arrow 3 from second 0.7205, 250 to second 0.7217, 250 ls 3 lw 2
 
 set ylabel '{\Large $\cal{V}^{\mathrm{y}}(\omega,\alpha)$ (Km/s)}'
-set yrange [0:1200]
-set ytics  0, 200, 1200
+set yrange [0:1000]
+set ytics  0, 200, 1000
 
 set y2label '{\Large $\theta_{\mathrm{y}}(\omega,\alpha)$, \ $\varphi_{\mathrm{y}}(\omega,\alpha)$ (deg.)}'
 set y2range [0:360]

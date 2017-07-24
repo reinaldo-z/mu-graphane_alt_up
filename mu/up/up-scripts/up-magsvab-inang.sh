@@ -35,6 +35,7 @@ if [ $1 == 1 ]; then
     calc () {
     echo -e "E              V_{s^a}          Pol   V^{xa}          V^{ya}          gamma" > $outputkk
     echo -e "E              V_{s^a}          Pol   V^{xa}          V^{ya}          gamma" > $outputsm
+    echo -e "E              V_{s^a}          Pol   V^{xa}          V^{ya}          gamma" > $outputbr
     for i in ${angles[@]}; do
         paste "${inputkk[0]}""$i"  "${inputkk[1]}""$i" | awk '{if($4 != 0) {printf("%1.6E\n", atan2($4,$2)) ;} else if($4==0) {printf("%1.6E\n"), 0,0 } }' > .temp1
         paste .temp1 | awk '{if($1 < 0) {printf("%010.6f\n", ($1*'"$deg"')+180) ;} else {printf("%010.6f\n"), $1*'"$deg"' } }' > .deg1
@@ -102,8 +103,8 @@ if [ $1 == 1 ]; then
               v.kk_yz_12802_40-spin_scissor_0_Nc_32_ang_  )
     inputsm=( v.sm_0.03_xz_12802_40-spin_scissor_0_Nc_32_ang_  
               v.sm_0.03_yz_12802_40-spin_scissor_0_Nc_32_ang_  )
-    inputbr=( v.br_0.0002_xy_12802_40-spin_scissor_0_Nc_32_ang_  
-              v.br_0.0002_yy_12802_40-spin_scissor_0_Nc_32_ang_  )
+    inputbr=( v.br_0.0002_xz_12802_40-spin_scissor_0_Nc_32_ang_  
+              v.br_0.0002_yz_12802_40-spin_scissor_0_Nc_32_ang_  )
 
     calc
 
@@ -127,9 +128,9 @@ elif [ $1 == 2 ]; then
     grep "$en" "$outputbr" > magsv.br_0.0002_ax_12802_40-"$fs"
 
     echo -e "\t You have created:"
-    echo -e "\t\t $outputkk"
-    echo -e "\t\t $outputsm"
-    echo -e "\t\t $outputbr"
+    echo -e "\t\t magsv.kk_ax_12802_40-$fs"
+    echo -e "\t\t magsv.sm_0.03_ax_12802_40-$fs"
+    echo -e "\t\t magsv.br_0.0002_ax_12802_40-$fs"
 
     outputkk=magsv.kk_ay_12802_40-spin_scissor_0_Nc_32_incang_${angles[0]}-${angles[${#angles[@]}-1]}
     outputsm=magsv.sm_0.03_ay_12802_40-spin_scissor_0_Nc_32_incang_${angles[0]}-${angles[${#angles[@]}-1]}
@@ -139,9 +140,9 @@ elif [ $1 == 2 ]; then
     grep "$en" "$outputsm" > magsv.sm_0.03_ay_12802_40-"$fs"
     grep "$en" "$outputbr" > magsv.br_0.0002_ay_12802_40-"$fs"
 
-    echo -e "\t\t $outputkk"
-    echo -e "\t\t $outputsm"
-    echo -e "\t\t $outputbr"
+    echo -e "\t\t magsv.kk_ay_12802_40-$fs"
+    echo -e "\t\t magsv.sm_0.03_ay_12802_40-$fs"
+    echo -e "\t\t magsv.br_0.0002_ay_12802_40-$fs"
 
     outputkk=magsv.kk_az_12802_40-spin_scissor_0_Nc_32_incang_${angles[0]}-${angles[${#angles[@]}-1]}
     outputsm=magsv.sm_0.03_az_12802_40-spin_scissor_0_Nc_32_incang_${angles[0]}-${angles[${#angles[@]}-1]}
@@ -151,9 +152,9 @@ elif [ $1 == 2 ]; then
     grep "$en" "$outputsm" > magsv.sm_0.03_az_12802_40-"$fs"
     grep "$en" "$outputbr" > magsv.br_0.0002_az_12802_40-"$fs"
 
-    echo -e "\t\t $outputkk"
-    echo -e "\t\t $outputsm"
-    echo -e "\t\t $outputbr"
+    echo -e "\t\t magsv.kk_az_12802_40-$fs"
+    echo -e "\t\t magsv.sm_0.03_az_12802_40-$fs"
+    echo -e "\t\t magsv.br_0.0002_az_12802_40-$fs"
 
 else
     echo -e "\t Error"
