@@ -61,10 +61,10 @@ f=pf*sl
 
 tol=0.0
 
-X2=64.4768    # par
-Y2=64.4768    # par
-X1=154.4795   # perp
-Y1=64.4795    # perp
+X1=154.56   # perp
+Y1=64.56    # perp
+X2=64.56    # par
+Y2=64.56    # par
 
 
 set key spacing 1.5
@@ -80,14 +80,14 @@ set ytics 0, 100, 800
 
 set y2label '{\Large $\gamma_{z}(\omega,\alpha)$ (deg.)}'
 set y2tics
-set y2range [64.40:64.60]
-set y2tics  64.40, 0.04, 64.60
+set y2range [64.40:64.70]
+set y2tics  64.40, 0.05, 64.70
 set format y2 "%3.2f"
 
 set arrow 1 from 20, 725 to 5, 725 ls 1 lw 2
-set arrow 2 from second 145, 64.51 to second 175, 64.51 ls 2 lw 2
+set arrow 2 from second 145, 64.54 to second 175, 64.54 ls 2 lw 2
 set arrow 3 from second X1, Y1 to X1, 205 ls 3 lw 2.0 
-set arrow 4 from second X2, Y2 to X2, 630 ls 5 lw 2.0 
+set arrow 4 from second X2, Y2 to X2, 620 ls 5 lw 2.0 
 
 p   'up-vsz-w1.data2' u 3:($2*f) w l axis x1y1 lw 2  t '\Large $\mathcal{V}_{\sigma^{\mathrm{z}}}$' ,\
     'up-vsz-w1.data2' u 3:6      w l axis x1y2 lw 2  t '\Large $\gamma_{z}$' ,\

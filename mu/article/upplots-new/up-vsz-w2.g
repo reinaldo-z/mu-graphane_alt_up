@@ -58,35 +58,35 @@ f=pf*sl
 
 tol=0.0
 
-X2=78.01    # par
-Y2=78.01    # par
-X1=167.99   # perp
-Y1=77.99    # perp
+X1=167.8   # perp
+Y1=77.8    # perp
+X2=77.80    # par
+Y2=77.80    # par
 
 
-set key at graph 0.7,.93 spacing 1.5 
+set key at graph 0.85,.95 spacing 1.5 
 
-set label 2 '\large $\hbar\omega=1.954$\,eV' at graph 0.1, 0.15
+set label 2 '\large $\hbar\omega=1.954$\,eV' at graph 0.05, 0.15
 
 set xlabel '{\Large  $\alpha$ (deg.)}'
 set xtics nomirror
 set format x "%3.0f"
 
 set ylabel '{\Large $\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha)$ (Km/s)}'
-set yrange [0:180]
-set ytics 0, 30,180
+set yrange [0:200]
+set ytics 0, 25, 200
 
 set y2label '{\Large $\gamma_{z}(\omega,\alpha)$ (deg.)}'
 set y2tics
-set y2range [76.0:80.0]
-set y2tics  76.0, 0.5, 80.0
+set y2range [75.0:78.5]
+set y2tics  75.0, 0.5, 78.5
 set format y2 "%3.1f"
 
 set format y2 "%3.1f"
-set arrow 1 from 20, 165 to 5, 165 ls 1 lw 2
-set arrow 2 from second 148, 78.8 to second 175, 78.8 ls 2 lw 2
-set arrow 3 from second X1, Y1 to second X1, 77.50 ls 3 lw 2.0 
-set arrow 4 from second X2, Y2 to second X2, 77.90 ls 5 lw 2.0 
+set arrow 1 from 20, 185 to 5, 185 ls 1 lw 2
+set arrow 2 from second 145, 75.7 to second 175, 75.7 ls 2 lw 2
+set arrow 3 from second X1, Y1 to X1, 65.6 ls 3 lw 2.0 
+set arrow 4 from second X2, Y2 to X2, 124 ls 5 lw 2.0 
 
 p   'up-vsz-w2.data2' u 3:($2*f) w l axis x1y1 lw 2  t '\Large $\mathcal{V}_{\sigma^{\mathrm{z}}}$' ,\
     'up-vsz-w2.data2' u 3:6      w l axis x1y2 lw 2  t '\Large $\gamma_{z}$' ,\

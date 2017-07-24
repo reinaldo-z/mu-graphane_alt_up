@@ -63,10 +63,10 @@ f=pf*sl
 
 tol=0.0
 
-X2=108.75    # par
-Y2=108.75    # par
-X1=19.8      # perp
-Y1=109.8     # perp
+X2=108.8     # par
+Y2=108.8     # par
+X1=20.0      # perp
+Y1=110.0     # perp
 
 
 set key spacing 1.5 
@@ -88,8 +88,8 @@ set format y2 "%3.0f"
 
 set arrow 1 from 85, 330 to 55, 330 ls 1 lw 2
 set arrow 2 from second 145, 108.5 to second 175, 108.5 ls 2 lw 2
-set arrow 3 from second X1, Y1 to second X1, 106.0 ls 3 lw 2.0 
-set arrow 4 from second X2, Y2 to second X2, 111.5 ls 5 lw 2.0 
+set arrow 3 from second X1, Y1 to X1, 70 ls 3 lw 2.0 
+set arrow 4 from second X2, Y2 to X2, 448 ls 5 lw 2.0 
 
 p   'alt-vsz.data2' u 3:($2*f) w l axis x1y1 lw 2  t '\Large $\mathcal{V}_{\sigma^{\mathrm{z}}}$' ,\
     'alt-vsz.data2' u 3:6      w l axis x1y2 lw 2  t '\Large $\gamma_{z}$' ,\

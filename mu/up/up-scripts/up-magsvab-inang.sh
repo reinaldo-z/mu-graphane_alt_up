@@ -2,7 +2,7 @@
 
 
 #### ENERGY TO FIND & FILE SUFIX TO USE:
-en="8.44422E-02"    ;  fs="0.084eV"
+en="8.45423E-02"    ;  fs="0.084eV"
 # en="1.95415E+00"    ;  fs="1.954eV"
 # en="1.95765E+00"    ;  fs="1.957eV"
 
