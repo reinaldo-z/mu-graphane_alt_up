@@ -245,8 +245,117 @@ rep 'gaas-res-0-4-2001pts/v.sm_0.03_zy_5216_15-spin_scissor_0_Nc_24_ang_00' u 1:
 rep 'gaas-res-0-4-2001pts/v.sm_0.03_zz_5216_15-spin_scissor_0_Nc_24_ang_00' u 1:($2*29.98) w l lw 2 t "zz" 
 
 
+########################################################################################################################
+
+                GAAS MU ANALYSIS
+
+p   'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:2  w l t 'xxxx = yyyy = zzzz'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:3  w l t 'xxxy = xxyx = 0'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:4  w l t 'xxxz = xxzx = 0 '
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:5  w l t 'xxyx = xxxy = 0'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:6  w l t 'xxyy = xxzz'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:7  w l t 'xxyz = xxzy = 0'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:8  w l t 'xxzx = xxxz = 0'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:9  w l t 'xxzy = xxyx = 0'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l t 'xxzz = xxyy'
+
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:2  w l t 'xyxx = 0'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:3  w l t 'xyxy = xyyx'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:4  w l t 'xyxz = 0'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:5  w l t 'xyyx = xyxy'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:6  w l t 'xyyy = 0'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:7  w l t 'xyyz = 0'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:8  w l t 'xyzx = 0'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:9  w l t 'xyzy = 0'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l t 'xyzz = 0'
+
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:2  w l t 'xzxx = 0'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:3  w l t 'xzxy = 0'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:4  w l t 'xzxz = xzzx'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:5  w l t 'xzyx = 0'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:6  w l t 'xzyy = 0'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:7  w l t 'xzyz = 0'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:8  w l t 'xzzx = xzxz'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:9  w l t 'xzzy = 0'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l t 'xzzz = 0'
+
+####
+
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:2  w l t 'yxxx = 0'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:3  w l t 'yxxy = yxyx'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:4  w l t 'yxxz'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:5  w l t 'yxyx = yxxy'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:6  w l t 'yxyy = 0'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:7  w l t 'yxyz = 0'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:8  w l t 'yxzx = 0'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:9  w l t 'yxzy = 0'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l t 'yxzz = 0'
+
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l t  'yyxx = yyzz'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:3 w l t  'yyxy = 0'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:4 w l t  'yyxz = 0'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:5 w l t  'yyyx = 0'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:6 w l t  'yyyy'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:7 w l t  'yyyz = 0'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:8 w l t  'yyzx = 0'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:9 w l t  'yyzy = 0'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l t 'yyzz = yyxx'
+
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:2  w l t 'yzxx = 0'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:3  w l t 'yzxy = 0'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:4  w l t 'yzxz = 0'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:5  w l t 'yzyx = 0'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:6  w l t 'yzyy = 0'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:7  w l t 'yzyz = yzyz'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:8  w l t 'yzzx = 0'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:9  w l t 'yzzy = yzyz'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l t 'yzzz = 0'
+
+####
+
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:2  w l t 'zxxx = 0'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:3  w l t 'zxxy = 0'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:4  w l t 'zxxz = zxzx'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:5  w l t 'zxyx = 0'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:6  w l t 'zxyy = 0'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:7  w l t 'zxyz = 0'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:8  w l t 'zxzx = zxxz'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:9  w l t 'zxzy = 0'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l t 'zxzz = 0'
+
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l t  'zyxx = 0'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:3 w l t  'zyxy = 0'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:4 w l t  'zyxz = 0'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:5 w l t  'zyyx = 0'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:6 w l t  'zyyy = 0'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:7 w l t  'zyyz = zyzy'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:8 w l t  'zyzx'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:9 w l t  'zyzy = zyyz'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l t 'zyzz'
+
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:2  w l t 'zzxx = zzyy'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:3  w l t 'zzxy = 0'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:4  w l t 'zzxz = 0'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:5  w l t 'zzyx = 0'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:6  w l t 'zzyy = zzxx'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:7  w l t 'zzyz = 0'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:8  w l t 'zzzx = 0'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:9  w l t 'zzzy = 0'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_5216_15-spin_scissor_0_Nc_24' u 1:10 w l t 'zzzz = xxxx = yyyy'
+
+#####################################
+
+p   'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:2  w l t 'xxxx = yyyy = zzzz'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_5216_15-spin_scissor_0_Nc_24' u 1:6  w l t 'xxyy = xxzz = xxzz = xxyy'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_5216_15-spin_scissor_0_Nc_24' u 1:3  w l t 'xyxy = xyyx = xyyx = xyxy = xzxz = xzzx = xzzx = xzxz = yxxy = yxyx = yxyx = yxxy = yzyz = yzyz = yzzy = yzyz = yxyx = yxxy = zxxz = zxzx = zxzx = zxxz = zyyz = zyzy 0 zyzy = zyyz'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_5216_15-spin_scissor_0_Nc_24' u 1:2 w l t  'yyxx = yyzz = yyzz = yyxx = zzxx = zzyy = zzyy = zzxx'
 
 
+
+iijj todos iguales 
+iiii todos iguales
+ijij todos iguales
+iiij = iiji = 0
 
 
 

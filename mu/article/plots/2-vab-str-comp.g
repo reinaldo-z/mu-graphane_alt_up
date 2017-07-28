@@ -42,7 +42,7 @@ p   'up-w2.data.brd'  u 1:($2*f)  w l lw 2 t 'Up:   $\mathcal{V}^{\mathrm{yz}}\,
 
 set origin 0,3.35
 set label 1 'Alt' at graph .4,.94
-set ylabel '{$\mathcal{V}^{\mathrm{yz}}(\omega,\alpha=150^\circ)$ (Km/s)}' offset 1.5,.2
+set ylabel '{$\mathcal{V}^{\mathrm{yz}}(\omega,\alpha=150^\circ)$ (Km/s)}' offset 1.5,.1
 set xrange [0.716:0.723]
 set yrange [-800:100]
 set ytics -800,200,100
@@ -66,12 +66,12 @@ unset label 1
 set size 1,0.7
 set auto
 set xtics .5
-set ylabel '{$\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ (Km/s)}' offset .7,1
-set ytics -30,10,20
-set yrange [-35:20]
-set key at 2.2,19        
+set ylabel '{$\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ (Km/s)}' offset .7,.5
+set ytics -70,20,10
+set yrange [-70:10]
+set key at graph .9,.35
 set xlabel '{\Large $\hbar\omega$ (eV)}'        
-p    './v.kk_zz_3234_15-spin_scissor_0_Nc_16_ang_90.brd'   u 1:($2*f)  w l lw 2 t 'CdSe: $\mathcal{V}^{\mathrm{zz}}\,@\,\alpha=90^{\circ}$' ,\
-    './v.kk_xx_5216_15-spin_scissor_0_Nc_24_ang_90.brd'   u 1:($2*f)  w l lw 2 t 'GaAs: $\mathcal{V}^{\mathrm{xx}}\,@\,\alpha=90^{\circ}$'
+p    './v.kk_zz_3234_15-spin_scissor_0_Nc_16_ang_90.brd'   u 1:($2*f)  w l lw 2 t 'CdSe: $\mathcal{V}^{\mathrm{zz}}$',\
+     './v.kk_xx_5216_15-spin_scissor_0_Nc_24_ang_90.brd'   u 1:($2*f)  w l lw 2 t 'GaAs: $\mathcal{V}^{\mathrm{xx}}$'
 
 

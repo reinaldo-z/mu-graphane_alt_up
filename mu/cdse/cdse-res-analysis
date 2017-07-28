@@ -143,7 +143,115 @@ rep 'cdse-res-0-4-2001pts/v.sm_0.03_zy_3234_15-spin_scissor_0_Nc_16_ang_00' u 1:
 rep 'cdse-res-0-4-2001pts/v.sm_0.03_zz_3234_15-spin_scissor_0_Nc_16_ang_00' u 1:($2*29.98) w l lw 2 t "zz" # intense
 
 
+###############################################################################
 
+                    UP MU ANALYSIS
+
+p   'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_3234_15-spin_scissor_0_Nc_16' u 1:2  w l t 'xxxx = yyyy'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_3234_15-spin_scissor_0_Nc_16' u 1:3  w l t 'xxxy = xxyx ==> 0'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_3234_15-spin_scissor_0_Nc_16' u 1:4  w l t 'xxxz = 0'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_3234_15-spin_scissor_0_Nc_16' u 1:5  w l t 'xxyx = xxxy ==> 0'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_3234_15-spin_scissor_0_Nc_16' u 1:6  w l t 'xxyy = yyxx'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_3234_15-spin_scissor_0_Nc_16' u 1:7  w l t 'xxyz ==> 0 '
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_3234_15-spin_scissor_0_Nc_16' u 1:8  w l t 'xxzx = 0'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_3234_15-spin_scissor_0_Nc_16' u 1:9  w l t 'xxzy = xxyz ==> 0'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_3234_15-spin_scissor_0_Nc_16' u 1:10 w l t 'xxzz'
+
+p   'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_3234_15-spin_scissor_0_Nc_16' u 1:2  w l t 'xyxx ==> 0'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_3234_15-spin_scissor_0_Nc_16' u 1:3  w l t 'xyxy = xyyx'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_3234_15-spin_scissor_0_Nc_16' u 1:4  w l t 'xyxz = xyzx ==> 0'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_3234_15-spin_scissor_0_Nc_16' u 1:5  w l t 'xyyx = xyxy'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_3234_15-spin_scissor_0_Nc_16' u 1:6  w l t 'xyyy ==> 0'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_3234_15-spin_scissor_0_Nc_16' u 1:7  w l t 'xyyz = xyzy = 0'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_3234_15-spin_scissor_0_Nc_16' u 1:8  w l t 'xyzx = xyxz ==> 0'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_3234_15-spin_scissor_0_Nc_16' u 1:9  w l t 'xyzy = xyyz = 0'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_3234_15-spin_scissor_0_Nc_16' u 1:10 w l t 'xyzz ==> 0'
+
+p   'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_3234_15-spin_scissor_0_Nc_16' u 1:2  w l t 'xzxx = 0'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_3234_15-spin_scissor_0_Nc_16' u 1:3  w l t 'xzxy = xzyx ==> 0'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_3234_15-spin_scissor_0_Nc_16' u 1:4  w l t 'xzxz = xzzx'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_3234_15-spin_scissor_0_Nc_16' u 1:5  w l t 'xzyx = xzxy ==> 0'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_3234_15-spin_scissor_0_Nc_16' u 1:6  w l t 'xzyy = 0'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_3234_15-spin_scissor_0_Nc_16' u 1:7  w l t 'xzyz = xzzy ==> 0'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_3234_15-spin_scissor_0_Nc_16' u 1:8  w l t 'xzzx = xzxz'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_3234_15-spin_scissor_0_Nc_16' u 1:9  w l t 'xzzy = xzyz ==> 0'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_3234_15-spin_scissor_0_Nc_16' u 1:10 w l t 'xzzz = 0 '
+
+####
+
+p   'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_3234_15-spin_scissor_0_Nc_16' u 1:2  w l t 'yxxx ==> 0'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_3234_15-spin_scissor_0_Nc_16' u 1:3  w l t 'yxxy = yxyx'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_3234_15-spin_scissor_0_Nc_16' u 1:4  w l t 'yxxz = yxzx ==> 0'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_3234_15-spin_scissor_0_Nc_16' u 1:5  w l t 'yxyx = yxxy'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_3234_15-spin_scissor_0_Nc_16' u 1:6  w l t 'yxyy ==> 0'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_3234_15-spin_scissor_0_Nc_16' u 1:7  w l t 'yxyz = yxzy = 0'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_3234_15-spin_scissor_0_Nc_16' u 1:8  w l t 'yxzx = yxxz ==> 0'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_3234_15-spin_scissor_0_Nc_16' u 1:9  w l t 'yxzy = yxyz = 0'
+rep 'mu.kk_yxxx_yxxy_yxxz_yxyx_yxyy_yxyz_yxzx_yxzy_yxzz_3234_15-spin_scissor_0_Nc_16' u 1:10 w l t 'yxzz ==> 0'
+
+p   'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_3234_15-spin_scissor_0_Nc_16' u 1:2 w l t  'yyxx = xxyy'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_3234_15-spin_scissor_0_Nc_16' u 1:3 w l t  'yyxy = yyyx ==> 0'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_3234_15-spin_scissor_0_Nc_16' u 1:4 w l t  'yyxz= yyzx = 0'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_3234_15-spin_scissor_0_Nc_16' u 1:5 w l t  'yyyx = yyxy ==> 0'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_3234_15-spin_scissor_0_Nc_16' u 1:6 w l t  'yyyy = xxxx'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_3234_15-spin_scissor_0_Nc_16' u 1:7 w l t  'yyyz = yyzy ==> 0'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_3234_15-spin_scissor_0_Nc_16' u 1:8 w l t  'yyzx = yyxz = 0'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_3234_15-spin_scissor_0_Nc_16' u 1:9 w l t  'yyzy = yyyz ==> 0'
+rep 'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_3234_15-spin_scissor_0_Nc_16' u 1:10 w l t 'yyzz'
+
+p   'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_3234_15-spin_scissor_0_Nc_16' u 1:2  w l t 'yzxx ==> 0'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_3234_15-spin_scissor_0_Nc_16' u 1:3  w l t 'yzxy = yzyx = 0'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_3234_15-spin_scissor_0_Nc_16' u 1:4  w l t 'yzxz = yzzx ==> 0'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_3234_15-spin_scissor_0_Nc_16' u 1:5  w l t 'yzyx = yzxy = 0'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_3234_15-spin_scissor_0_Nc_16' u 1:6  w l t 'yzyy ==> 0'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_3234_15-spin_scissor_0_Nc_16' u 1:7  w l t 'yzyz = yzzy'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_3234_15-spin_scissor_0_Nc_16' u 1:8  w l t 'yzzx = yzxz ==> 0'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_3234_15-spin_scissor_0_Nc_16' u 1:9  w l t 'yzzy = yzyz'
+rep 'mu.kk_yzxx_yzxy_yzxz_yzyx_yzyy_yzyz_yzzx_yzzy_yzzz_3234_15-spin_scissor_0_Nc_16' u 1:10 w l t 'yzzz = 0'
+
+####
+
+p   'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_3234_15-spin_scissor_0_Nc_16' u 1:2  w l t 'zxxx = 0'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_3234_15-spin_scissor_0_Nc_16' u 1:3  w l t 'zxxy = zxyx ==> 0'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_3234_15-spin_scissor_0_Nc_16' u 1:4  w l t 'zxxz = zxzx'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_3234_15-spin_scissor_0_Nc_16' u 1:5  w l t 'zxyx = zxxy ==> 0'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_3234_15-spin_scissor_0_Nc_16' u 1:6  w l t 'zxyy = 0'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_3234_15-spin_scissor_0_Nc_16' u 1:7  w l t 'zxyz = zxzy ==> 0'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_3234_15-spin_scissor_0_Nc_16' u 1:8  w l t 'zxzx = zxxz'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_3234_15-spin_scissor_0_Nc_16' u 1:9  w l t 'zxzy = zxyz ==> 0'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_3234_15-spin_scissor_0_Nc_16' u 1:10 w l t 'zxzz = 0'
+
+p   'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_3234_15-spin_scissor_0_Nc_16' u 1:2 w l t  'zyxx ==> 0'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_3234_15-spin_scissor_0_Nc_16' u 1:3 w l t  'zyxy = zyyx = 0'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_3234_15-spin_scissor_0_Nc_16' u 1:4 w l t  'zyxz = zyzx ==> 0'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_3234_15-spin_scissor_0_Nc_16' u 1:5 w l t  'zyyx = zyxy = 0'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_3234_15-spin_scissor_0_Nc_16' u 1:6 w l t  'zyyy ==> 0'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_3234_15-spin_scissor_0_Nc_16' u 1:7 w l t  'zyyz = zyzy'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_3234_15-spin_scissor_0_Nc_16' u 1:8 w l t  'zyzx = zyxz ==> 0'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_3234_15-spin_scissor_0_Nc_16' u 1:9 w l t  'zyzy = zyyz'
+rep 'mu.kk_zyxx_zyxy_zyxz_zyyx_zyyy_zyyz_zyzx_zyzy_zyzz_3234_15-spin_scissor_0_Nc_16' u 1:10 w l t 'zyzz ==> 0'
+
+p   'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_3234_15-spin_scissor_0_Nc_16' u 1:2  w l t 'zzxx'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_3234_15-spin_scissor_0_Nc_16' u 1:3  w l t 'zzxy = zzyx ==> 0'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_3234_15-spin_scissor_0_Nc_16' u 1:4  w l t 'zzxz = zzzx = 0'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_3234_15-spin_scissor_0_Nc_16' u 1:5  w l t 'zzyx = zzxy ==> 0'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_3234_15-spin_scissor_0_Nc_16' u 1:6  w l t 'zzyy = zzzy ==> 0'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_3234_15-spin_scissor_0_Nc_16' u 1:7  w l t 'zzyz ==> 0'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_3234_15-spin_scissor_0_Nc_16' u 1:8  w l t 'zzzx = zzxz = 0'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_3234_15-spin_scissor_0_Nc_16' u 1:9  w l t 'zzzy = zzyz ==> 0'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_3234_15-spin_scissor_0_Nc_16' u 1:10 w l t 'zzzz'
+
+######################################
+
+
+p   'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_3234_15-spin_scissor_0_Nc_16' u 1:2  w l t 'xxxx = yyyy'
+rep 'mu.kk_xxxx_xxxy_xxxz_xxyx_xxyy_xxyz_xxzx_xxzy_xxzz_3234_15-spin_scissor_0_Nc_16' u 1:10 w l t 'xxzz = yyzz = yyzz'
+rep 'mu.kk_xyxx_xyxy_xyxz_xyyx_xyyy_xyyz_xyzx_xyzy_xyzz_3234_15-spin_scissor_0_Nc_16' u 1:3  w l t 'xyxy = xyyx = yxxy = yxyx'
+rep 'mu.kk_xzxx_xzxy_xzxz_xzyx_xzyy_xzyz_xzzx_xzzy_xzzz_3234_15-spin_scissor_0_Nc_16' u 1:4  w l t 'xzxz = xzzx = yzyz = yzzy'
+rep   'mu.kk_yyxx_yyxy_yyxz_yyyx_yyyy_yyyz_yyzx_yyzy_yyzz_3234_15-spin_scissor_0_Nc_16' u 1:2 w l t  'yyxx = xxyy'
+rep 'mu.kk_zxxx_zxxy_zxxz_zxyx_zxyy_zxyz_zxzx_zxzy_zxzz_3234_15-spin_scissor_0_Nc_16' u 1:4  w l t 'zxxz = zxzx = zyyz = zyzy'
+rep   'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_3234_15-spin_scissor_0_Nc_16' u 1:2  w l t 'zzxx'
+rep 'mu.kk_zzxx_zzxy_zzxz_zzyx_zzyy_zzyz_zzzx_zzzy_zzzz_3234_15-spin_scissor_0_Nc_16' u 1:10 w l t 'zzzz'
 
 
 
