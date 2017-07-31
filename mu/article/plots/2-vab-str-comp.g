@@ -49,7 +49,7 @@ set ytics -800,200,100
 set xtics .002
 
 set key at .94,-600        
-p   'alt.data.brd'  u 1:($2*f)  w l lw 2 t ''
+p   'alt.data.brd'  u ($1-.0004):($2*f)  w l lw 2 t ''
 
 set origin .4,3.35
 unset ylabel
@@ -59,7 +59,7 @@ set yrange [-400:100]
 set ytics -400,100,100
 
 set key at .94,-600        
-p   'alt.data.brd'  u 1:($2*f)  w l lw 2 t ''
+p   'alt.data.brd'  u ($1-.0004):($2*f)  w l lw 2 t ''
         
 set origin 0,2.7
 unset label 1
