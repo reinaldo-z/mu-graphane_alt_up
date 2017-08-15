@@ -1,0 +1,41 @@
+\documentclass[a2paper]{article}
+
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{geometry}
+% \usepackage{showframe}
+
+\geometry{a2paper,margin=0.5in}
+\pagestyle{empty}
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{figure}[h!]
+\begin{tikzpicture}
+\node[anchor=south west,inner sep=0] at (0.2,-5.0) 
+{\includegraphics[width=0.30\textwidth]{arrows1}};
+\node[anchor=south west,inner sep=0] at (0.2,-0.3) 
+{\includegraphics[width=\textwidth]{alt1}};
+\draw [line width=2.00mm, red ] (-0.30,05.00) -- (-0.30,10.80) node [right] {};
+\draw [line width=2.00mm, red ] (-0.30,10.70) -- (11.20,10.70) node [right] {};
+\draw [line width=2.00mm, red ] (11.15,10.76) -- (14.43,04.95) node [right] {};
+\draw [line width=2.00mm, red ] (14.37,05.00) -- (21.50,05.00) node [right] {};
+\draw [line width=2.00mm, red ] (21.40,05.10) -- (21.40,-0.60) node [right] {};
+\draw [line width=2.00mm, red ] (11.00,-0.50) -- (21.50,-0.50) node [right] {};
+\draw [line width=2.00mm, red ] (07.71,05.15) -- (11.08,-0.55) node [right] {};
+\draw [line width=2.00mm, red ] (-0.30,5.10) -- (07.78,5.10) node [right] {};
+\node[anchor=south west,inner sep=0] at (0.2,-34.0) 
+{\includegraphics[width=0.30\textwidth]{arrows2}};
+\node[anchor=south west,inner sep=0] at (0.2,-24.6) 
+{\includegraphics[width=\textwidth]{alt2}};
+\draw [line width=2.00mm, red ](-0.30,-25.20) -- (-0.30,-07.90) node [right]{};
+\draw [line width=2.00mm, red ](-0.30,-08.00) -- (21.40,-08.00) node [right]{};
+\draw [line width=2.00mm, red ](21.30,-25.20) -- (21.30,-07.90) node [right]{};
+\draw [line width=2.00mm, red ](-0.30,-25.10) -- (21.40,-25.10) node [right]{};
+\end{tikzpicture}
+\end{figure}
+
+\end{document}
+/Users/reinaldo/Desktop/structures/fig1.tex

@@ -1,5 +1,6 @@
 #/bin/bash
 
+
 an=150
 kp=14452
 ec=65
