@@ -1,55 +1,62 @@
 %\documentclass[prb,11pt,tightenlines,twocolumn,aps]{revtex4-1}
 \documentclass[floatfix,prb,aps,superscriptaddress,showpacs,11pt,preprint,letterpaper]{revtex4}
-\usepackage{amsmath}
-\usepackage{graphicx}
-\usepackage{verbatim}
-\usepackage{color}
-\usepackage{subfigure}
-\usepackage{hyperref}
+\usepackage{amsmath}    % need for subequations 
+\usepackage{graphicx}   % need for figures 
+\usepackage{verbatim}   % useful for program listings 
+\usepackage{color}      % use if color is used in text 
+\usepackage{subfigure}  % use for side-by-side figures 
+\usepackage{hyperref}   % use for hypertext links, including those to external 
+                        % documents and URLs 
 \usepackage[dvipsnames]{xcolor}
 \usepackage{multirow}
+\usepackage{soul}
+%\usepackage[inline]{showlabels}
 % \input{/Users/bms/util/definitions}
 %\input{/Users/reinaldo/Documents/tex_files/bmsdefinitions.tex}
 \def\tama{10cm}
-\raggedbottom
+\raggedbottom           % don't add extra vertical space
 
 \begin{document}
 
 \title{Pure Spin Current Injection in Hydrogenated Graphene Structures}
 \author{Reinaldo Zapata-Pe\~na}
-\affiliation{Centro de Investigaciones en \'Optica, Le\'on, Guanajuato 37150,
-M\'exico}
+\affiliation{Centro de Investigaciones en \'Optica, Le\'on,
+Guanajuato 37150, M\'exico}
 \author{Bernardo S. Mendoza}
-\affiliation{Centro de Investigaciones en \'Optica, Le\'on, Guanajuato 37150,
-M\'exico}
+\affiliation{Centro de Investigaciones en \'Optica, Le\'on,
+Guanajuato 37150, M\'exico}
 \author{Anatoli I. Shkrebtii}
-\affiliation{University of Ontario, Institute of Technology, Oshawa, ON, L1H
-7L7, Canada}
+\affiliation{University of Ontario, Institute of Technology,
+Oshawa, ON, L1H 7L7, Canada}
 
 \date{\today}
 
 \begin{abstract}
-We present a theoretical study of spin-velocity injection of a pure spin current
-induced by  a linearly polarized beam of light that impinges normally on the
-surface of  two 50\% hydrogenated noncentrosymmetric 2D graphene structures,
-labeled Up and Alt. The hydrogenation opens an energy gap in both structures. We
-analyze two possibilities: one in which by fixing the spin along a chosen
-direction, the resulting spin-velocity is calculated, and another where we
-choose the spin-velocity direction on the surface plane, and calculate its speed
-and spin orientation. We do so by changing the energy $\hbar\omega$ and
-polarization angle $\alpha$  of the incoming  beam. The results are calculated
-within a full electronic band structure scheme within the DFT in the LDA
-approximation. The maxima of the spin-velocity speed are obtained when
-$\hbar\omega = 0.084$\,eV and $\alpha=35^\circ$ for Up, and $\hbar\omega =
-0.720$\,eV and $\alpha=150^\circ$ for Alt. We find a speed of 668\,Km/s and
-645\,Km/s for Up and Alt, respectively, when the spin points perpendicularly to
-the surface. Also, the response is maximized by fixing the spin-velocity
-direction along a high symmetry Cartesian axis, obtaining a speed of 688\,Km/s
-with the spin  pointing at 13$^\circ$ from the surface normal, for Up, and
-906\,Km/s and the spin pointing at 60$^\circ$ from the surface normal, for Alt.
-These speed values are larger than those of bulk semiconductors, like CdSe and
-GaAs, thus making the hydrogenated graphene structures excellent candidates for
-spintronics applications.
+We present a theoretical study of spin-velocity injection (SVI) of a pure spin
+current (PSC) induced by  a linearly polarized light that impinges normally on
+the surface of  two 50\% hydrogenated noncentrosymmetric two-dimensional 2D
+graphene structures. The first structure, hydrogenated at only one side,
+labeled $Up$, also known as graphone, and the second, one labelled $Alt$, is
+25\% hydrogenated at both sides. The hydrogenation opens an energy gap in both
+structures. We analyze two possibilities: the first one  is by fixing the spin
+along a chosen direction, and the resulting spin-velocity is calculated.
+Secondly, we choose the spin-velocity direction within {\color{red}(OR along?)}
+the surface plane, and calculate {\color{red}(which one?)} the spin-velocity
+injection and spin orientation. This is done by changing the energy
+$\hbar\omega$ and polarization angle $\alpha$  of the incoming  light. The
+results are calculated within a full electronic band structure scheme using the
+Density Functional Theory (DFT) in the Local Density Approximation (LDA). The
+maxima of the spin-velocities are reached when $\hbar\omega=0.084$\,eV and
+$\alpha=35^\circ$ for the Up structure, and $\hbar\omega=0.720$\,eV and
+$\alpha=150^\circ$ for the Alt geometry. We find a speed of 668\,Km/s and
+645\,Km/s for Up and Alt structures, respectively, when the spin points
+perpendicularly to the surface. Also, the symmetry Cartesian axis, reaching a
+speed of 688\,Km/s with the spin  pointing response is maximized by fixing the
+spin-velocity direction along a high at 13$^\circ$ from the surface normal, the
+for Up, and 906\,Km/s and the spin pointing at 60$^\circ$ from the surface
+normal, for the Alt. These speed values are significantly larger than those of
+bulk semiconductors, such as CdSe and GaAs, thus making the hydrogenated
+graphene structures excellent candidates for spintronics applications.
 \end{abstract}
 
 \maketitle
@@ -57,61 +64,64 @@ spintronics applications.
 \section{Introduction}
 \label{sec:introduction}
 
-
 Spintronics is an emerging research field of electronics in which the
-manipulation and transport of spin of electrons in a solid state media plays the
-determining role, adding a new degree of freedom to conventional charge
-manipulation.\cite{wolfSC04,fabianAPS07} 
-At present, there is an increasing interest in attaining the same level of
-control over the transport of spin at micro or nano scales, as it has been done
-for the flow of charge in typical electronic devices.\cite{awschalomNP2007} Some
-semiconductor spintronics devices have been proposed \cite{majumdarAPL06,
+manipulation and transport of spin of electrons in a solid state materials  is
+central, adding a new degree of freedom to conventional charge
+manipulation.\cite{wolfSC04,fabianAPS07} At present, there is an increasing
+interest in attaining the same level of control over the transport of spin at
+micro- or nano-scales, as it has been done for the flow of charge in typical
+3D-bulk based electronic devices.\cite{awschalomNP2007} Several semiconductor
+spintronics devices have been proposed \cite{majumdarAPL06,
 dattaAPL90,gotteNat16,pershinPRB08}, and some of them require spin polarized
-electrical current \cite{awschalomSSBM13} or pure spin current (PSC).
-One of the difficulties to achieve the development of spin current and PSC
-semiconductor devices is the fact that the spin relaxation time in a
-semiconducting media is short, disabling the spin transport, and then resulting
-in a non-observable spin current.\cite{murakamiSc03}
-In PSCs, there is no net motion of charge; spin-up electrons move in a given
-direction, while spin-down electrons travel in the opposite one. This effect can
-result from one photon absorption of linearly polarized light by a
-semiconductor, with filled valence bands and empty conduction bands, illuminated
-by light with photon energy larger than the energy gap. This phenomenon can
-result from spin injection,\cite{malPRB03} Hall Effects,\cite{sinovaPRB04}
-interference of two optical beams,\cite{bhatPRL00, najmaiePRB03} or one photon
-absorption of linearly polarized light\cite{bhatPRL05} and has been observed in
-gallium arsenide (GaAs),\cite{zhaoPRL2006, stevensPRL03} aluminum-gallium
-arsenide (AlGaAs),\cite{stevensPRL03} and Co$_2$FeSi.\cite{kimuraNGPAM12}
+electrical current \cite{awschalomSSBM13} or pure spin current (PSC). One of
+the difficulties in {\color{red}\st{achieving}} {\color{blue}creating} measurable  the of spin current and
+development of PSC based semiconductor devices is the fact that the spin
+relaxation time in conventional semiconducting materials is short to enable the
+spin transport, thus resulting in a non-observable spin
+current.\cite{murakamiSc03} For PSC there is no net motion of charge; spin-up
+electrons move in a given direction, while spin-down electrons travel in the
+opposite one. This effect can be due to one-photon absorption of linearly
+polarized light by a semiconductor, with filled valence bands and empty
+conduction bands, illuminated by light with photon energy larger than the
+energy gap. This phenomenon can be due to spin injection,\cite{malPRB03} Hall
+Effects,\cite{sinovaPRB04} interference of two optical beams,\cite{bhatPRL00,
+najmaiePRB03} or one photon absorption of linearly polarized
+light\cite{bhatPRL05}. The last effect has been observed in gallium arsenide
+(GaAs),\cite{zhaoPRL2006, stevensPRL03} aluminum-gallium arsenide
+(AlGaAs),\cite{stevensPRL03} and Co$_2$FeSi.\cite{kimuraNGPAM12}
 
-Graphene, an allotrope of carbon with hexagonal 2D lattice structure, presents
-properties like fractional quantum Hall effect at room temperature, excellent
-thermal transport properties, excellent conductivity\cite{heerscheNat07} and
-strength \cite{geimNM07, reinaNL08, novoselov2S07, balandinNL08}, being then a
-perfect platform to be used in two-dimension electronic systems; however, most
-electronic applications are disabled by the absence of a semiconducting gap.
-Recent studies demonstrate that the band gap of graphene can be opened by
-applying an electric field,\cite{zhangN09} reducing the surface
-area,\cite{hanPRL07} or applying uniaxial strain.\cite{niACSN08} Another
-possibility to open the gap is by doping; this has been successfully achieved
-using nitrogen,\cite{weiNL2009} boron-nitrogen,\cite{guoIJ11}
-silicon,\cite{colettiPRB10} noble-metals,\cite{varykhalovPRB10} and
-hydrogen.\cite{eliasS09, guisingerNL09, samarakoonACSN10}
-Depending on the percentage of hydrogenation and spatial configurations of
-hydrogen-carbon bonds, hydrogenated graphene can result in different spatial
-configurations.
-In this paper, we present two 50\% hydrogenated graphene noncentrosymmetric
-structures, both presenting a discernible band gap: the Up structure, shown in
-Fig. \ref{fig:up-struc}, has hydrogen atoms bonded to the carbon layer only on
-the upper side of the structure, while the Alt structure, shown in Fig. 
+Graphene, an allotrope of carbon with hexagonal 2D lattice structure,
+demonstrates properties such as fractional quantum Hall effect at room
+temperature, excellent thermal transport properties, excellent
+conductivity\cite{heerscheNat07} and strength \cite{geimNM07, reinaNL08,
+novoselov2S07, balandinNL08}, being a perfect platform  for two-dimension (2D)
+electronic systems; however, most electronic applications are disabled by the
+absence of a semiconducting gap. Recent studies demonstrate that a narrow band
+gap  can be opened in graphene by applying an electric field,\cite{zhangN09}
+reducing the surface area,\cite{hanPRL07} or applying uniaxial
+strain.\cite{niACSN08} Another possibility to open the gap is by doping; this
+has been successfully achieved using nitrogen,\cite{weiNL2009} boron-
+nitrogen,\cite{guoIJ11} silicon,\cite{colettiPRB10} noble-
+metals,\cite{varykhalovPRB10} and hydrogen.\cite{eliasS09, guisingerNL09,
+samarakoonACSN10} Depending on the percentage of hydrogenation and spatial
+arrangements of the hydrogen-carbon bonds, hydrogenated graphene demonstrates
+different structural configurations and a tunable electron gap, as it has been
+proven in [1]. In this paper, we present two 50\% hydrogenated graphene
+noncentrosymmetric structures, both presenting a discernible band gap. The
+first one, labelled as the Up structure, also known as
+graphone,\cite{gmitraPRL13} shown in Fig. \ref{fig:up-struc}. Graphone has
+hydrogen atoms bonded to the carbon layer only on the upper side of the
+structure, we consider here the magnetic isomer of graphone, with the so-called
+“chair” structure. In contrast,  the Alt structure, shown in Fig. 
 \ref{fig:alt-struc}, has hydrogen alternating on the upper and bottom sides of 
-the carbon slab.\cite{zapataPSB2016}
+the carbonsheet.\cite{zapataPSB2016}
 
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=\tama]{figures/fig1}
     \caption{Side (top panel) and top (bottom panel) views of the Up
+      Cartesian $xyz$ directions. The dark (light) spheres are the C (H) atoms. The primitive hexagonal unit cell is also shown.
       structure along with the 
-      Cartesian $xyz$ directions. The dark (light) spheres are the C (H) atoms. 
 }
     \label{fig:up-struc}
 \end{figure}
@@ -119,46 +129,47 @@ the carbon slab.\cite{zapataPSB2016}
     \centering
     \includegraphics[width=\tama]{figures/fig2}
     \caption{Side (top panel) and top (bottom panel) views of the Alt
-      structure along with the 
-      Cartesian $xyz$ directions. The dark (light) spheres are the C (H) atoms.
-}
+      structure along with the $xyz$ directions. The dark (light) spheres are
+      the C (H) atoms. The primitive rectangular unit cell is also displayed.}
     \label{fig:alt-struc}
 \end{figure}
 
-Using those structures, we address a theoretical study of the spin velocity
-injection (SVI) by one-photon absorption of linearly polarized light. Since we
-have 2D structures, we do the analysis for two cases. The first is by fixing the
-spin of the electrons along the $z$ Cartesian direction, with the velocity
-directed onto the surface of the structure on the $xy$ plane. The second is by
-fixing the spin velocity in the $x$ or $y$ direction and the spin directed to
-$xyz$. The SVI is an optical effect that quantifies the velocity at which a PSC
-moves along the Cartesian direction, $\mathrm{a}$, with the spin of electron
-polarized along the Cartesian direction $\mathrm{b}$. One photon absorption of
-linearly polarized light can promote an even distribution of electrons in
-$\mathbf{k}$ space, regardless of the symmetry of the material, resulting in a
-null electrical current.\cite{bhatPRL05} Then, the electrons excited to the
+Using those structures, we address theoretically the spin velocity injection
+(SVI) by one-photon absorption of linearly polarized light. Since wehave 2D
+structures, we do the analysis for two cases {\color{red}(not clear to me this
+sentence)}. The first case is by fixing the spin of the electrons along
+vertical to the surface direction {\color{red}(?)}$z$, , with the velocity
+directed onto {\color{red}(is this parallel or not?)} the surface of the
+structure in the $xy$ plane. In the second case we fix the spin velocity in the
+$x$ or $y$ direction and the resulting spin is then directed outward of the
+$xy$ plane. The SVI is an optical effect that quantifies the velocity, at which
+a PSC moves along the direction $\bf{a}$ with the $\bf{a}$ components to be
+determined, with the spin of electron polarized along the direction $\bf{b}$.
+polarized light produce an even distribution of electrons in $\mathbf{k}$
+space, regardless of the symmetry of the material, resulting in a null
+electrical current.\cite{bhatPRL05} Then, the electrons excited to the
 conduction bands at opposite $\mathbf{k}$ points will result in opposite spin
-polarizations producing no net spin injection.\cite{bhatPRL05} If the
-crystalline structure of the material is noncentrosymmetric, the spin
-polarization injected at a given $\mathbf{k}$ point not necessarily
-vanishes,\cite{alvaradoPRL85, schmiedeskampPRL88} and then, since the velocities
-of electrons at opposite $\mathbf{k}$ points are opposite, a PSC will be
-produced. Since the structures presented here are noncentrosymmetric, they are
-good candidates in which this effect can be induced.
+polarizations producing no net spin injection in centrosymmetric materials
+{\color{red}(?)}.\cite{bhatPRL05} If the crystalline structure of the material
+is noncentrosymmetric, the spin polarization injected at a given $\mathbf{k}$
+point not necessarily vanishes,\cite{alvaradoPRL85, schmiedeskampPRL88}.
+Therefore, since the velocities of electrons at opposite $\mathbf{k}$ points
+are opposite, a PSC will be produced. Since both the structures presented here
+are noncentrosymmetric, they are good candidates in which this effect can be
+induced.
 
 This paper is organized as follows. In Section \ref{sec:theory} we present the
-theory and formulas that describe PSC and SVI. In Section \ref{sec:results} we
-describe the details of calculations and the corresponding SVI spectra for the
-Up and Alt structures. Finally, we present our conclusions in
-Section \ref{sec:conclusions}.
+formalism and the main expressions  that describe PSC and SVI. In Section
+\ref{sec:results} we describe the numerical details  and  discuss the
+corresponding SVI spectra for the Up and Alt structures. Finally, we summarize
+our finding in Section \ref{sec:conclusions}.
 
-\section{Theory} % (fold)
+\section{Theory}
 \label{sec:theory}
 
-In this section, we report a summary of the theory  involved in the
-calculation of the spin velocity
-injection (SVI) resulting from the
-pure spin current (PSC).
+In this section, we  summarize the theoretical approach, involved in
+calculation of the spin velocity injection (SVI) resulting from the pure spin
+current (PSC).
  
 The operator that describes the electronic SVI is written as
 \begin{align}\label{z.1}
@@ -167,16 +178,20 @@ The operator that describes the electronic SVI is written as
 +\hat  S^\mathrm{b} \hat v^\mathrm{a}\right) 
 ,
 \end{align} 
-where $\hat{\mathbf v}=[\hat{\mathbf r},\hat H_0]/i\hbar$ is the velocity
-operator, with $\hat {\mathbf r}$ being the position operator and $\hat H_0$ the
-unperturbed ground state Hamiltonian; the Roman superscripts  indicate Cartesian
-coordinates. To obtain the expectation value of $\hat K^{\mathrm{a}\mathrm{b}}$,
-we use the length gauge for the perturbing Hamiltonian, written as
+where $\hat{\mathbf v}=[\hat{\mathbf r},\hat H_0]/i\hbar$ 
+is the velocity operator, with
+$\hat {\mathbf r}$ 
+being the position operator and $\hat H_0$ the unperturbed
+the Roman superscripts  indicate Cartesian coordinates. 
+ground state Hamiltonian;
+To obtain the expectation value of 
+$\hat K^{\mathrm{a}\mathrm{b}}$, we use the length gauge for the perturbing
+Hamiltonian, written as
 \begin{align}\label{z.2}
 \hat H_{\text{p}}=-e\hat{\mathbf r}\cdot{\mathbf E}(t)
 ,
 \end{align}   
-where the electric field of the applied laser is given by
+where the applied electric field of the laser is given by
 \begin{align}\label{z.3}
 {\mathbf E}(t) = 
 {\mathbf E}(\omega)e^{-i\omega t} + {\mathbf E}^*(\omega)e^{i\omega t}
@@ -184,28 +199,31 @@ where the electric field of the applied laser is given by
 \end{align}
 In order to calculate the response of the system to ${\mathbf E}(t)$, one needs
 to take into account the excited coherent superposition of the spin-split
-conduction bands inherent to the noncentrosymmetric semiconductors considered in
-this work.
+conduction bands inherent to the noncentrosymmetric semiconductors considered
+in this work.
 %Although, this splitting is small [15,16], is required to obtain the correct
 %results\cite{nastosPRB07}. The conduction bands in the noncentrosymmetric
 %semiconductors are spin split by a small amount,[15,16] typically smaller than
 %the energy width of the laser pulse, and so the pulse excites a coherent
 %superposition of the two conduction bands. Even for very long pulses with
 %narrow energy widths, dephasing effects lead to an energy width of the bands
-%large enough that spin-split states can become quasidegenerate.
-To include the coherences, we follow Ref.~\onlinecite{nastosPRB05} and use a
-multiple scale approach that solves the equation of motion for the single
+%large enough that spin-split states can become quasi-degenerate.
+To include the coherence, we follow Ref.~\onlinecite{nastosPRB05} and
+use a multiple
+scale approach that solves the equation of motion for the single
 particle density matrix ${\rho}_{mn}({\mathbf k};t)$, leading to
 \begin{align}\label{z.4}
 &\frac{\partial \rho_{cc'}({\mathbf k})}{\partial t} =
-\frac{e^{2}E^{\mathrm{a}}(\omega)E^{\mathrm{b*}}(\omega)}{i \hbar^{2}}
+\frac{e^{2}E^{\mathrm{a}}(\omega)E^{\mathrm{b*}}(\omega)}
+{i \hbar^{2}}
 \sum_{v}r^{\mathrm{a}}_{cv}({\mathbf k}) r^{\mathrm{b}}_{vc'}({\mathbf k})
-\left( \frac{1}{\omega - \omega_{c'v}({\mathbf k}) - i \epsilon} - 
+\left( \frac{1}{\omega - \omega_{c'v}({\mathbf k}) - i \epsilon} 
+- 
 \frac{1}{\omega - \omega_{cv}({\mathbf k}) + i \epsilon} \right)
 ,
 \end{align}
-where we assumed that the conduction bands $c$ and $c'$ are quasidegenerate
-states, and we take $\epsilon\to 0$ at the end of the calculation.  The spin-
+where we assumed that the conduction bands $c$ and $c'$ are quasi-degenerate
+states, and we take $\epsilon\to 0$ at the end of the calculation. The spin-
 splitting of the valence ($v$) bands is very small, and is neglected throughout
 this work.\cite{nastosPRB07} The matrix elements of any operator ${\cal O}$ are
 given by ${\cal O}_{nm}({\mathbf k})=\langle n{\mathbf k}|\hat{\cal O}|
@@ -228,8 +246,8 @@ k})=\rho_{nv}({\mathbf k})=0$ for $n=c,c'$. Therefore, using  Eqs. \eqref{z.4}
 and \eqref{z.5}, the rate of change of $\mathcal{O}$, $\dot{\mathcal{O}} =
 \mathrm{Tr} \left( \dot{\hat\rho} \hat{\cal O} \right)$, is given by
 \begin{align}
-\dot{\mathcal{O}} &=
-\frac{e^{2}}{i\hbar^{2}} \int \frac{d^{3}k}{8\pi^{3}} 
+\dot{\mathcal{O}} 
+&=\frac{e^{2}}{i\hbar^{2}} \int \frac{d^{3}k}{8\pi^{3}} 
 \sum'_{cc'} \mathcal{O}_{c'c}({\mathbf k}) 
 r^{\mathrm{a}}_{cv}({\mathbf k})  r^{\mathrm{b}}_{vc'}({\mathbf k})  
 \left( \frac{1}{\omega - \omega_{c'v}({\mathbf k})  - i\epsilon} - 
@@ -238,10 +256,12 @@ E^{\mathrm{a}}(\omega) E^{\mathrm{b*}}(\omega)
 \label{eq:dotO}
 .
 \end{align}
-Replacing $\hat{\cal O} \rightarrow \hat{K}^{\mathrm{ab}}$, in the above
-expression, one can show that
+The prime symbol $'$ in the sum means that $c$ and $c'$ are quasi-degenerate
+states, and the sum only covers these states. Replacing  $\hat{\cal O}
+\rightarrow \hat{K}^{\mathrm{ab}}$, in the above expression, one can show that
 \begin{equation}
-\dot{K}^{\mathrm{ab}}(\omega) = \mu^{\mathrm{abcd}}(\omega)
+\dot{K}^{\mathrm{ab}}(\omega) =
+\mu^{\mathrm{abcd}}(\omega)
 E^{\mathrm{c}}(\omega) E^{\mathrm{d*}}(\omega),
 \label{eq:dotk}
 \end{equation}
@@ -263,33 +283,31 @@ r^{\mathrm{d}}_{cv }({\mathbf k})  +
 \end{aligned}
 \end{equation} 
 is the pseudotensor that describes the rate of change of the  PSC process in
-semiconductors. To derive what we presented above we used
-$K^{\mathrm{ab}}_{nm}({\mathbf -k}) = K^{\mathrm{ab*}}_{nm}({\mathbf k})$ which
-follows from time-reversal invariance. The prime symbol $'$ in the sum means
-that $c$ and $c'$ are quasi degenerate states, and the sum only covers these
-states. Since $\mu^{\mathrm{abcd}}(\omega)$ is real, we have that
-$\mu^{\mathrm{abcd}}(\omega) = \mu^{\mathrm{abdc}}(\omega)$. We remark that
-Eq.~\eqref{eq:mu} is the same as Eq. (3) of Bhat et al.\cite{bhatPRL05},
-obtained by using the semiconductor optical Bloch equations. Using the closure
-relation,
+semiconductors. To derive what we presented above we used $
+K^{\mathrm{ab}}_{nm}({\mathbf -k}) = K^{\mathrm{ab*}}_{nm}({\mathbf k})$ which
+follows from time-reversal invariance. Since $\mu^{\mathrm{abcd}}(\omega)$ is
+real, we have that $\mu^{\mathrm{abcd}}(\omega) =
+\mu^{\mathrm{abdc}} (\omega)$. We point out that Eq.~\eqref{eq:mu} is
+–identical to Eq. (3) of Bhat et al.\cite{bhatPRL05}, derived using the
+semiconductor optical Bloch equations. Using the closure relation,
 \begin{equation}
-K^{\mathrm{ab}}_{cc'}({\mathbf k}) = 
-\frac{1}{2} \sum_{l=v,c}
+K^{\mathrm{ab}}_{cc'}({\mathbf k}) = \frac{1}{2}
+\sum_{l=v,c}
 \left(v^{\mathrm{a}}_{cl}({\mathbf k})S^{\mathrm{b}}_{lc'}({\mathbf k})
 +S^{\mathrm{b}}_{cl}({\mathbf k}) v^{\mathrm{a}}_{lc'}({\mathbf k})
 \right)
-.
+,
 \label{eq:velspimatelem}
 \end{equation}
 
-Now, we define the spin velocity injection (SVI) as
+We define the spin velocity injection (SVI) as
 \begin{equation}\label{eq:vab-w}
 \mathcal{V}^{\mathrm{ab}}(\omega) \equiv
 \frac{\dot{K}^{\mathrm{ab}}(\omega)}{(\hbar/2) \dot{n}(\omega)},
 \end{equation}  
-which gives the velocity, along direction $\mathrm{a}$, at which the spin moves
-in a polarized state along direction $\mathrm{b}$. The carrier injection rate
-$\dot n(\omega)$ is written as,\cite{nastosPRB05}
+which gives the velocity, along direction $a$, at which the spin moves in a
+polarized state along direction $b$. The carrier injection rate $\dot
+n(\omega)$ is written as\cite{nastosPRB05}
 \begin{equation}
 \dot{n}(\omega) =
 \xi^{\mathrm{ab}}(\omega) E^{c }(\omega) E^{d*}(\omega)
@@ -297,51 +315,58 @@ $\dot n(\omega)$ is written as,\cite{nastosPRB05}
 \end{equation}
 where the tensor 
 \begin{equation}\label{eq:xi}
-\xi^{\mathrm{ab}}(\omega) =
+\begin{aligned}
+\xi^{\mathrm{ab}}(\omega)
+&
+=
 \frac{2\pi e^{2}}{\hbar^{2}} \int 
-\frac{d^{3}k}{8 \pi^{3}} \sum_{vc}
+\frac{d^{3}k}{8 \pi^{3}}
+ \sum_{vc}
 r^{\mathrm{a}}_{vc'}({\mathbf k})  
 r^{\mathrm{b}}_{cv }({\mathbf k})  
-\delta(\omega-\omega_{cv}({\mathbf k}) 
-, 
+\delta(\omega-\omega_{cv}({\mathbf k})), 
+\end{aligned}
 \end{equation}
 is related to the imaginary part of the linear optical response tensor by
 $\mathrm{Im} [\epsilon^{\mathrm{a}\mathrm{b}}(\omega)] =
 2\pi\epsilon_0\hbar\xi^{\mathrm{a}\mathrm{b}}(\omega)$.
 
-The function ${\cal V}^{\mathrm{a}\mathrm{b}}(\omega)$ allows us to quantify two
-very important aspects of PSC. On one hand, we can fix the spin direction along
-$\mathrm{b}$ and calculate the resulting electron velocity. On the other hand,
-we can fix the velocity of the electron along $\mathrm{b}$ and study the
-resulting direction along which the spin is polarized. To this end, the added
-advantage of  2D structures, besides choosing them as noncentrosymmetric, is
-that we can use an incoming linearly polarized beam of light at normal
-incidence, and use the  direction of the polarized  electric field to control
-${\cal V}^{\mathrm{a}\mathrm{b}}(\omega)$. Indeed, writing ${\mathbf E}(\omega)
-= E_0(\omega)(\cos\alpha\,\hat{\mathbf x}+\sin\alpha\,\hat{\mathbf y})$, where
+The function ${\cal V}^{\mathrm{a}\mathrm{b}}(\omega)$ allows us to quantify
+two very important aspects of PSC. On one hand, we can fix the spin direction
+along $\mathrm{b}$ and calculate the resulting electron velocity. On the other
+hand, we can fix the velocity of the electron along $\mathrm{b}$ and study the
+resulting direction along which the spin is polarized. To this end, the
+additional advantage of  2D structures, besides being noncentrosymmetric, is
+that we can use an incoming linearly polarized  light at normal incidence, and
+use the  direction of the polarized  electric field to control ${\cal
+V}^{\mathrm{a}\mathrm{b}}(\omega)$. Indeed, writing ${\mathbf E}(\omega) =
+E_0(\omega)(\cos\alpha\,\hat{\mathbf x}+\sin\alpha\,\hat{\mathbf y})$, where
 $\alpha$ is the polarization angle, we obtain from Eq. \eqref{eq:vab-w} that
 \begin{widetext}
-\begin{equation}
-\mathcal{V}^{\mathrm{ab}}(\omega,\alpha) = 
+\begin{align}
+\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)
+&= 
 \frac{2}{\hbar\xi(\omega)}
 \left(\mu^{\mathrm{abxx}}(\omega)\cos^{2}\alpha + 
 \mu^{\mathrm{abyy}}(\omega)\sin^{2}\alpha + 
 \mu^{\mathrm{abxy}}(\omega)\sin 2\alpha\right)
 ,
 \label{eq:vab-aw}
-\end{equation}
+\end{align}
 \end{widetext}
-for the structures chosen in this article, $\xi^{\mathrm{xx}}(\omega) =
-\xi^{\mathrm{yy}}(\omega)\equiv\xi(\omega)$, and $\xi^{\mathrm{xy}}(\omega)=0$.
-Now, we formalize our two options for ${\cal V}^{\mathrm{a}\mathrm{b}}(\omega)$.
+for the structures chosen in this article,
+$\xi^{\mathrm{xx}}(\omega)=\xi^{\mathrm{yy}}(\omega)\equiv\xi(\omega)$, and
+$\xi^{\mathrm{xy}}(\omega)=0$. Next, we identify two options for ${\cal
+V}^{\mathrm{a}\mathrm{b}}(\omega)$.
 
-\subsection{Fixing spin}\label{sec:theory-fixspin}
+\subsection{Fixing the spin polarization}\label{sec:theory-fixspin}
 
-Analyzing the SVI, Eq. \eqref{eq:vab-aw}, we define the magnitude of the
-electron velocity on the plane of the structure, with the spin polarized along
-the $\mathrm{b}$ direction as
+Analyzing the SVI, Eq. \eqref{eq:vab-aw}, we define {\color{red}(calculate?)} the magnitude
+of the electron velocity along the plane of the structure, with the spin
+polarized along $\mathrm{b}$ direction as
 \begin{equation}
-\mathcal{V}_{\sigma^{\mathrm{b}}}(\omega,\alpha) \equiv
+\mathcal{V}_{\sigma^{\mathrm{b}}}(\omega,\alpha)
+\equiv
 \sqrt{
 [\mathcal{V}^{\mathrm{xb}}(\omega,\alpha)]^{2}\ +
 [\mathcal{V}^{\mathrm{yb}}(\omega,\alpha)]^{2}\ 
@@ -350,7 +375,8 @@ the $\mathrm{b}$ direction as
 \end{equation}
 and define the angle at which the velocity is directed on the $xy$ plane as
 \begin{equation}
-\gamma_{\sigma^\mathrm{b}} (\omega,\alpha) =
+\gamma_{\sigma^\mathrm{b}} (\omega,\alpha)
+=
 \tan^{-1} \left( \frac{\mathcal{V}^{\mathrm{yb}}(\omega,\alpha)}
 {\mathcal{V}^{\mathrm{xb}}(\omega,\alpha)} \right)
 .
@@ -367,13 +393,13 @@ and
 \label{eq:gamma-perp}
 \end{equation}
 corresponding to the electron velocity being parallel or perpendicular to the
-incoming polarization, respectively. The subscript $\sigma^\mathrm{b}$ denotes
-the spin along $\mathrm{b}$.
+incoming light polarization, respectively. The subscript $\sigma^\mathrm{b}$
+denotes the spin along $\mathrm{b}$.
 
-\subsection{Fixing velocity.}\label{sec:theory-fixvel}
+\subsection{Fixing the electron velocity.}\label{sec:theory-fixvel}
 
-Fixing the calculated velocity along $\mathrm{a}=x$ or $\mathrm{a}=y$,
-we define its corresponding magnitude as
+Fixing the calculated velocity along $\mathrm{a}=x$ or $\mathrm{a}=y$, we
+define its corresponding magnitude as
 \begin{align}
 \mathcal{V}_{\mathrm{a}}(\omega,\alpha) \equiv 
 \sqrt { 
@@ -384,7 +410,7 @@ we define its corresponding magnitude as
 \label{eq:vv-mag}
 \end{align}
 from where we see that the spin would be oriented in the $xyz$ system's
-coordinates according to a polar angle
+coordinates defined with a polar angle
 \begin{equation}
 \theta_{\mathrm{a}}  (\omega,\alpha) = 
 \cos^{-1} \left( \frac{\mathcal{V}^{\mathrm{az}}(\omega,\alpha)}
@@ -401,7 +427,7 @@ and an azimuthal angle
 \label{eq:azimuthal-ang} 
 \end{equation} 
 
-\section{Results} % (fold)
+\section{Results}
 \label{sec:results}
 
 \begin{table}[t]
@@ -417,10 +443,12 @@ H &  0.61518 &  0.35514 &  0.73175 \\
 C & -0.61516 & -1.77264 & -0.49138 \\
 C & -0.61516 & -0.35600 & -0.72316 \\
 C &  0.61516 &  0.35763 & -0.49087 \\
+C &  0.61518 &  1.77416 & -0.73196 \\
 \hline
 \end{tabular}
-\caption{Atomic positions in the unit cell of Up structure. 
-}
+\caption{Atomic positions in the unit cell of Up structure as the structural
+input for our calculations. {\color{blue}The primitive hexagonal unit cell
+contains two C and one H atoms as shown in Fig. \ref{fig:up-struc})}. }
 \label{tab:up-unitcell}
 \end{table}
 \begin{table}[t]
@@ -439,167 +467,175 @@ C &  -0.61516 &  -0.37396 &  -0.39632 \\
 H &  -0.61516 &  -0.68566 &  -1.47237 \\
 \hline
 \end{tabular}
-\caption{Atomic positions in the unit cell of Alt structure. 
-}
+\caption{Atomic positions in the unit cell of Alt structure, which coincides
+with its primitive cell. }
 \label{tab:alt-unitcell}
 \end{table}
 
-We present the results of $\mathcal{V}_{\sigma^{\mathrm{b}}}(\omega,\alpha)$ and
-$\mathcal{V}_{\mathrm{a}}(\omega,\alpha)$ for the C$_{16}$H$_{8}$-up  and
-C$_{16}$H$_{8}$-alt structures, being both noncentrosymmetric semi-infinite 2D
-carbon systems with 50\% hydrogenation in different arrangements. We recall that
+We present the calculated results of
+$\mathcal{V}_{\sigma^{\mathrm{b}}}(\omega,\alpha)$ and
+$\mathcal{V}_{\mathrm{a}}(\omega,\alpha)$ for the C$_{16}$H$_{8}$-Up  and
+C$_{16}$H$_{8}$-Alt structures, both noncentrosymmetric 2D carbon systems with
+50\% hydrogenation, which are differently structurally arranged. We remind that
 the Up structure has hydrogen atoms only on the upper side of the carbon sheet,
 while the Alt structure has alternating hydrogen atoms on the upper and bottom
-sides. Also, we take the hexagonal carbon lattice to be on the $xy$ plane for
-both structures, and the carbon-hydrogen bonds on the perpendicular $xz$ plane,
-as depicted in Figs. \ref{fig:up-struc} and \ref{fig:alt-struc}. The coordinates
-for the Up and Alt unit cells of the structures are presented in Tables 
-\ref{tab:up-unitcell} and \ref{tab:alt-unitcell}.
+sides. We take the carbon lattice to be along the $xy$ plane for both
+structures, and the carbon-hydrogen bonds are outward the plane, they are
+perpendicular to  $xz$ plane for the Up structure, as depicted in Figs.
+\ref{fig:up-struc}, and off the normal for the Alt structure 
+\ref{fig:alt-struc}. The coordinates for the Up and Alt unit cells of the
+structures are presented in Tables \ref{tab:up-unitcell} and 
+\ref{tab:alt-unitcell}.
 
-We calculated the self-consistent ground state and the Kohn-Sham states using
+We calculated the self-consistent ground state and the Kohn-Sham states within
 density functional theory in the local density approximation (DFT-LDA), with a
 planewave basis using the ABINIT code \cite{gonzeCPC09}. We used Hartwigsen-
 Goedecker-Hutter (HGH) relativistic separable dual-space Gaussian
 pseudopotentials \cite{hartwigsenPRB98}, including the spin-orbit interaction
 needed to calculate $\mu^{\mathrm{abcd}}(\omega,\alpha)$ presented in Eq.
-\eqref{eq:mu}. The convergence parameters for the calculations of our results
-corresponding to the Up and Alt structures are cutoff energies of 40\,Ha and
-65\,Ha, resulting in LDA energy band gaps of 0.084\,eV and 0.718\,eV,
-respectively. The energy eigenvalues and matrix elements for the Up and Alt
-structures were calculated using 12802 ${\mathbf k}$ points and 14452 ${\mathbf
-k}$ points in the IBZ to integrate $\mu^{\mathrm{abcd}}(\omega)$ and
-$\xi^{\mathrm{a}\mathrm{b}}(\omega)$ using the linearized analytic tetrahedron
-method (LATM).\cite{nastosPRB07} We neglect the anomalous velocity term
+\eqref{eq:mu}.
+The convergence parameters for the calculations,  corresponding to the Up and
+Alt structures are cutoff energies of 40\,Ha and 65\,Ha, resulting in LDA
+energy band gaps of 0.084\,eV and 0.718\,eV, respectively. The energy
+eigenvalues and matrix elements for the Up and Alt structures were calculated
+using 12802 ${\mathbf k}$ points and 14452 ${\mathbf k}$ points in the IBZ; to
+integrate $\mu^{\mathrm{abcd}}(\omega)$ and
+$\xi^{\mathrm{a}\mathrm{b}}(\omega)$ the linearized analytic tetrahedron method
+(LATM) has been used.\cite{nastosPRB07} We neglect the anomalous velocity term
 $\hbar(\boldsymbol{\sigma}\times\nabla V)/4m^2c^2$, where $V$ is the crystal
 potential, in $\hat{\mathbf v}$ of Eq.~\eqref{z.1}, as this term is known to
 give small contribution to PSC.\cite{bhatPRL05} Therefore, $[\hat{\mathbf
 v},\hat{\mathbf S}]=0$, and Eq.~\eqref{z.1} reduces to $\hat
 K^{\mathrm{a}\mathrm{b}}=\hat v^\mathrm{a} \hat S^\mathrm{b}=\hat S^\mathrm{b}
 \hat v^\mathrm{a}$. Finally, the prime in the sum of Eq.~\eqref{eq:mu} is
-restricted to quasidegenerated conduction bands $c$ and $c'$ that are closer
-than 30 meV, where this value is both a typical laser- pulse energy width and
-the room-temperature energy.\cite{nastosPRB07}
+restricted to quasi-degenerated conduction bands $c$ and $c'$ that are closer
+than 30 meV, which  is both typical laser- pulse energy width and the thermal
+room-temperature energy level broadening.\cite{nastosPRB07}
 
-
-\subsection{SVI: Spin velocity injection} % (fold)
+\subsection{SVI: Spin velocity injection}
 \label{sec:res-spin_velocity}
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\tama]{figures/fig3}
 \caption{$\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ 
-  vs. $\hbar\omega$, for the values of $\alpha$ that maximize the signal. The
-  low energy regions for the Alt and Up structures start at the energy gap of
-  each structure, while in the high energy regions, the values of
-  $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ are also very large. The bottom
-  panel corresponds to CdSe and GaAs. }
+  vs. $\hbar\omega$, for the angles $\alpha$ that maximize the signal. The
+  largest velocity are at the low energy regions of the spectra for the Alt and
+  Up structures, starting {\color{red}(going up?)} at the energy gap of each
+  structure. In the high energy regions, the values of
+  $\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ are also very large compared to
+  the 3D case of CdSe and GaAsThe, shown at the bottom panel . }
 \label{fig:vab-str-comp}
 \end{figure}
 
 In Fig. \ref{fig:vab-str-comp}, we show $\mathcal{V}^{\mathrm{ab}}
-(\omega,\alpha)$ vs. $\hbar\omega$ for the directions $\mathrm{a}\mathrm{b}$,
-and for the angle $\alpha$ that maximizes the signal, for the Up  and Alt
-structures and for CdSe and GaAs, which are bulk systems shown for comparison.
-As expected from the delta function of Eq.~\eqref{eq:mu}, ${\cal
-V}^{\mathrm{a}\mathrm{b}}(\omega,\alpha)$ rises right at the corresponding
-energy gap of each system. For the 2D structures, the spectrum covers two narrow
-energy regions with large values of response, while for bulk systems, the
-spectra covers a rather wide energy range, but with a much smaller response. For
-the Up structure, $\mathrm{a}\mathrm{b}=yz$ and $\alpha=35^\circ$ maximize the
-response, which means that an incoming beam of light with its electric field
-polarized at 35$^\circ$ from the $x$ direction will induce electrons to move
-along $y$ (parallel to the surface), with their spin polarized along $z$
-(perpendicular to the surface), with the following speeds. Right at the energy
-onset, ${\cal V}^{yz}(\omega,\alpha)=668$\,Km/s, a speed that remains almost
-constant for 65 meV, and then goes to zero. A second region is found above 1.946
-eV, where there are two extreme values of the speed, ${\cal
+(\omega,\alpha)$ vs. $\hbar\omega$ for the {\color{blue}velocity and spin
+directions} $\mathrm{a}$ and $\mathrm{b}$, and for the angle $\alpha$, at which
+the signal is maximized , for the Up  and Alt structures, and for CdSe and GaAs
+bulk systems, shown for comparison. As expected from Eq.~\eqref{eq:mu}, ${\cal
+V}^{\mathrm{a}\mathrm{b}}(\omega,\alpha)$ rises from zero right at the
+corresponding energy gap of each system. For the 2D structures considered, the
+spectrum contains two narrow energy regions with strong response, while for the
+bulk systems, the spectra covers a rather wide energy range, but with a much
+weaker response. For the Up structure, at $\mathrm{a}\mathrm{b}=yz$ and
+$\alpha=35^\circ$ the response is maximized, which means that an incoming light
+with its electric field polarized at 35$^\circ$ from the $x$ direction will
+induce electrons to move along $y$, parallel to the surface, with their spin
+polarized along $z$, perpendicular to the surface. The corresponding speeds
+are the following: Right at the energy onset, ${\cal
+V}^{yz}(\omega,\alpha)=668$\,Km/s, remains almost constant for 65 meV, and then
+decreases to zero. A second region with high velocity is above 1.946 eV with
+two, opposite in sign, maxima of the speed: ${\cal
 V}^{yz}(\omega,\alpha)=266.3$ Km/s at $\hbar\omega=1.954$\,eV, and ${\cal
 V}^{\mathrm{a}\mathrm{b}}(\omega,\alpha)=-241.4$ Km/s at
 $\hbar\omega=1.958$\,eV; a positive (negative) ${\cal
-V}^{\mathrm{a}\mathrm{b}}(\omega,\alpha)$ means that the electrons move parallel
-(antiparallel) to the electric field. Likewise, for the Alt structure, we find
-that also $\mathrm{a}\mathrm{b}=yz$ and $\alpha=150^\circ$ maximizes the
-response, where two extreme values of ${\cal V}^{\mathrm{y}\mathrm{z}}$ are
+V}^{\mathrm{a}\mathrm{b}}(\omega,\alpha)$ means that the electrons move
+parallel (antiparallel) to the electric field. Likewise, for the Alt structure,
+we also find that $\mathrm{a}\mathrm{b}=yz$ and $\alpha=150^\circ$ maximizes
+the response, where two extreme values of ${\cal V}^{\mathrm{y}\mathrm{z}}$ are
 found, one at  $\hbar\omega=0.720$\,eV of ${\cal
-V}^{\mathrm{y}\mathrm{z}}=-711.9$ Km/s, and the other at $\hbar\omega=0.911$\,eV
-of ${\cal V}^{\mathrm{y}\mathrm{z}}=-330.6$ Km/s.
+V}^{\mathrm{y}\mathrm{z}}=-711.9$ Km/s, and the other at
+$\hbar\omega=0.911$\,eV of ${\cal V}^{\mathrm{y}\mathrm{z}}=-330.6$ Km/s.
  
 For the bulk structures, we calculate ${\cal V}^{\mathrm{a}\mathrm{b}}(\omega)$
-from Eq.~\eqref{eq:vab-w} by simply using $\boldsymbol{\mu}_{\mathrm{max}}$. For
-CdSe, we find that for $\hbar\omega=0.844$\,eV,
+from Eq.~\eqref{eq:vab-w} by simply using $\boldsymbol{\mu}_{\mathrm{max}}$.
+For CdSe, we find that for $\hbar\omega=0.844$\,eV,
 $\boldsymbol{\mu}_{\mathrm{max}}\to \mu^{zzzz}$, and ${\cal
 V}^{\mathrm{z}\mathrm{z}}(\omega)=-59.0$ Km/s, and for GaAs at
-$\hbar\omega=2.324$\,eV, $\boldsymbol{\mu}_{\mathrm{max}}\to\mu^{\mathrm{aaaa}}$
-and ${\cal V}^{\mathrm{a}\mathrm{a}}(\omega,\alpha)=-28.7$\,Km/s, with
-$\mathrm{a}=x,y,z$. For these bulk semiconductors, the $x$, $y$, and $z$ axis
-are taken along the standard cubic unit cell directions, [100], [010], and
-[001], respectively. In Table \ref{tab:vab-str-comp}, we present the comparison
-of ${\cal V}^{\mathrm{a}\mathrm{b}}(\omega,\alpha)$ for the 2D structures and
-bulk crystals. We remark that, as shown in the figure, the 2D structures have
-maxima in ${\cal V}^{\mathrm{a}\mathrm{b}}(\omega;\alpha)$ that are bigger than
-for the bulk crystals; in particular, the Alt structure gives a ${\cal
-V}^{\mathrm{a}\mathrm{b}}(\omega;\alpha)$ $\sim$12 times larger than that of
-CdSe and GaAs.
+$\hbar\omega=2.324$\,eV,
+$\boldsymbol{\mu}_{\mathrm{max}}\to\mu^{\mathrm{aaaa}}$ and ${\cal
+V}^{\mathrm{a}\mathrm{a}}(\omega,\alpha)=-28.7$\,Km/s, with $\mathrm{a}=x,y,z$.
+For these bulk semiconductors, the $x$, $y$, and $z$ axis are taken along the
+standard cubic unit cell directions, [100], [010], and [001], respectively. In
+Table \ref{tab:vab-str-comp}, we compare ${\cal
+V}^{\mathrm{a}\mathrm{b}}(\omega,\alpha)$ for the 2D structures considered and
+bulk crystals. We stress that, as shown in the figure, for the 2D structures
+have maxima in ${\cal V}^{\mathrm{a}\mathrm{b}}(\omega;\alpha)$ are higher than
+for the bulk crystals. In particular, the Alt structure demonstrates a ${\cal
+V}^{\mathrm{a}\mathrm{b}}(\omega;\alpha)$ more than ten times larger than that
+of CdSe and GaAs.
 \begin{table}%[b]
 \begin{tabular}{cccccc}
 \hline
 \multirow{2}{*}{Structure \quad} & 
-Kind of \quad & 
+System \quad & 
 Pol. &
 Energy & 
 \multicolumn{2}{c}{$\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$}\\
 \cline{5-6}
-& system & Ang. & [eV] & $\mathrm{ab}$ \quad & [Km/s]\\
+& type & Ang. & [eV] & $\mathrm{ab}$ \quad & [Km/s]\\
 \hline
-Up    & 2D   & 35    & 0.084  & $\mathrm{yz}$ &  660.5 \\
+$Up$  & 2D   & 35    & 0.084  & $\mathrm{yz}$ &  660.5 \\
       &      &       & 1.954  & $\mathrm{yz}$ &  266.3 \\
       &      &       & 1.958  & $\mathrm{yz}$ & -241.4 \\
-Alt   & 2D   & 150   & 0.720  & $\mathrm{yz}$ & -711.9 \\
+$Alt$ & 2D   & 150   & 0.720  & $\mathrm{yz}$ & -711.9 \\
       &      &       & 0.911  & $\mathrm{yz}$ & -330.6 \\
 CdSe  & bulk & --    & 0.844  & $\mathrm{zz}$ &  -59.0 \\
 GaAs  & bulk & --    & 2.324  & $\mathrm{xx}$ &  -28.7 \\
 \hline
 \end{tabular}
-\caption{Comparison of the reported maximum values of $\mathcal{V}^{\mathrm{ab}}
-(\omega,\alpha)$ for the different structures and their corresponding
-polarization angle $\alpha$ and $\hbar\omega$ energy values. }
+\caption{Comparison of the reported maximum values of
+$\mathcal{V}^{\mathrm{ab}}(\omega,\alpha)$ for the different structures and
+their corresponding polarization angle $\alpha$ and energy $\hbar\omega$ . }
 \label{tab:vab-str-comp}
 \end{table}
 
-\subsection{Fixing spin} % (fold)
+\subsection{Fixing spin}
 \label{sec:res-fixspin}
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\tama]{figures/fig4}
-\caption{For the Up structure, the top panel shows ${\cal V}_{\sigma^\mathrm{z}}
-(\omega,\alpha)$ vs. $\hbar\omega$ and $\alpha$, and the bottom panel shows
-$\gamma_{\sigma^\mathrm{z}}(\omega,\alpha)$ (right scale, red line), and ${\cal
-V}_{\sigma^\mathrm{z}}(\omega,\alpha)$ (left scale, black line), vs. $\alpha$,
-for $\hbar\omega=0.084$\,eV, i.e. along the ridge shown in the 3D plot. }
+\caption{Color online. For the Up structure, the top panel shows ${\cal
+V}_{\sigma^\mathrm{z}}(\omega,\alpha)$ SvsS. $\hbar\omega$ and $\alpha$, and
+the bottom panel shows $\gamma_{\sigma^\mathrm{z}}(\omega,\alpha)$ (right
+scale, red line, {\color{red}long dashes?}), and ${\cal
+V}_{\sigma^\mathrm{z}}(\omega,\alpha)$ (left scale, black solid
+line{\color{red}?}), $vs$. $\alpha$, for $\hbar\omega=0.084$\,eV, i.e. along
+the ridge shown in the 3D plot. }
 \label{fig:up-vsz-w1}
 \end{figure}
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\tama]{figures/fig5}
-\caption{For the Up structure, the top panel shows ${\cal V}_{\sigma^\mathrm{z}}
-(\omega,\alpha)$ vs. $\hbar\omega$ and $\alpha$, and the bottom panel shows
-$\gamma_{\sigma^\mathrm{z}} (\omega,\alpha)$ (right scale, red line), and ${\cal
-V}_{\sigma^\mathrm{z}} (\omega,\alpha)$ (left scale, black line), vs. $\alpha$,
-for $\hbar\omega=1.954$\,eV, i.e. along the highest ridge shown in the 3D plot.
-}
+\caption{For the Up structure, the top panel shows ${\cal
+V}_{\sigma^\mathrm{z}} (\omega,\alpha)$ vs. $\hbar\omega$ and $\alpha$, and the
+bottom panel shows $\gamma_{\sigma^\mathrm{z}} (\omega,\alpha)$ (right scale,
+red line, long dashes), and ${\cal V}_{\sigma^\mathrm{z}} (\omega,\alpha)$
+(left scale, black solid line), vs. $\alpha$, for $\hbar\omega=1.954$\,eV, i.e.
+along the highest ridge shown in the 3D plot. }
 \label{fig:up-vsz-w2}
 \end{figure}
 
 In this subsection, we calculate ${\cal V}_{\sigma^\mathrm{z}}(\omega,\alpha)$,
-Eq. \eqref{eq:vs-mag}, for the case where the spin is fixed along $z$, i.e.
+Eq. \eqref{eq:vs-mag}, for the case with the spin fixed along $z$, i.e.,
 directed perpendicularly to the surface of the Up and Alt structures. Also, we
-calculate $\gamma_{\sigma^\mathrm{z}}(\omega,\alpha)$, Eq. \eqref{eq:gamma-ang},
-which determines the direction along which the injected electrons move along the
-surface of  each structure. We mention that we have also made the analysis for
-the cases when the spin  is directed along $\mathrm{x}$ or $\mathrm{y}$, finding
-similar qualitative results to those presented below.
+calculate $\gamma_{\sigma^\mathrm{z}}(\omega,\alpha)$ from Eq. 
+\eqref{eq:gamma-ang}, which determines the direction  of the injected 
+electrons movement along the surface of  each structure. We mention that we
+have also  analyzed the cases when the spin  is directed along $\mathrm{x}$ or
+$\mathrm{y}$, finding similar qualitative results to those presented below.
 
 \subsubsection{Up structure}\label{up:fs}
 
@@ -607,39 +643,40 @@ In the top panel of Fig. \ref{fig:up-vsz-w1}, we plot
 $\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha)$ vs.
 0.080\,eV$\leq\hbar\omega\leq$0.096\,eV (similar energy range for the Up
 structure shown in the left panel of Fig.~\ref{fig:vab-str-comp}) and
-$0^\circ\leq\alpha\leq 180^\circ$. We see a broad peak that maximizes at
-$\alpha=35^{\circ}$ and $\hbar\omega= 0.084$\,eV, with a value of
-$\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha) = 739.7$\,Km/s, and that the
-variation of $\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha)$ as a function
-of $\alpha$, which comes from the interplay of the $\boldsymbol{\mu}$ tensor
-components as multiplied by the  trigonometric functions of 
-Eq.~\eqref{eq:vab-aw}, gives a sizable set of values between 739.7\,Km/s and 
-165.4\,Km/s, for 0.084\,eV$\leq\hbar\omega\leq$0.090\,eV. In the bottom panel,
-we show $\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha)$ vs. $\alpha$ (left
-scale, black line), at $\hbar\omega= 0.084$\,eV, thus following the ridge shown
-in the 3D plot of the top panel. Also, we plot the corresponding velocity angle
-$\gamma_{\sigma^\mathrm{z}}(\omega,\alpha)$ (right scale, red line), where it is
-very interesting to see that $\gamma_{\sigma^z}(\omega,\alpha)$ is centered at
-64.55$^\circ$ with a rather small deviation of only $\pm 0.03^\circ$, for the
-whole range of $\alpha$. This results means that for $\hbar\omega=0.084$ eV and
-for all values of $\alpha$, the electrons, with the chosen spin pointing along
-$z$, will move at an angle of $\gamma_{\sigma^\mathrm{z}}(\omega,\alpha) \sim
-64.5^{\circ}$ with respect to the $x$ direction, with the range of  high speeds
-$\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha)$ shown in the figure. Also,
-from Eq. \eqref{eq:gamma-par} we find that $\gamma^\parallel_{\sigma^\mathrm{z}}
-(\omega,\alpha)=\alpha = 64.56^\circ$, with $\mathcal{V}_{\sigma^{\mathrm{z}}}
-(\omega,\alpha) = 631.1$\,Km/s (see green arrow), and that from Eq.
-\eqref{eq:gamma-perp}, $\gamma^\perp_{\sigma^\mathrm{z}} (\omega,\alpha) =
-\alpha-90^\circ=64.50^\circ$, gives $\alpha=154.50^\circ$, with
-$\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha) = 191.5$ Km/s (see blue
-arrow); thus, at $\hbar\omega=0.084$ eV, an incident field polarized at $\alpha
-\sim 65.5^\circ$ or $\sim 154.5^\circ$, injects electrons with their spin
-polarized along $z$, which move parallel or perpendicular to the incident
+$0^\circ\leq\alpha\leq 180^\circ$. We see a broad peak that reaches the maximum
+of $\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha) = 739.7$\,Km/s at
+$\alpha=35^{\circ}$ and $\hbar\omega= 0.084$\,eV,  The variation of
+$\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha)$ as a function of $\alpha$,
+which comes from the interplay of the $\boldsymbol{\mu}$ tensor components as
+multiplied by the  trigonometric functions of Eq.~\eqref{eq:vab-aw}, gives a
+sizable set of values between 739.7\,Km/s and 165.4\,Km/s, for
+0.084\,eV$\leq\hbar\omega\leq$0.090\,eV. In the bottom panel, we show
+$\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha)$ $vs.$ $\alpha$ (left scale,
+black line), at $\hbar\omega= 0.084$\,eV, thus following the ridge in the 3D
+plot of the top panel. Also, we plot the corresponding velocity angle
+$\gamma_{\sigma^\mathrm{z}}(\omega,\alpha)$ (right scale, red line), where it
+is very interesting to see that $\gamma_{\sigma^z}(\omega,\alpha)$ is centered
+at 64.55$^\circ$ with a rather small deviation of only $\pm 0.03^\circ$, for
+the whole range of $\alpha$. This result means that for $\hbar\omega=0.084$ eV
+and for all values of $\alpha$, the electrons, with the chosen spin pointing
+along $z$, will move at the angle of $\gamma_{\sigma^\mathrm{z}}(\omega,\alpha)
+\sim 64.5^{\circ}$ with respect to the $x$ direction, with the range of  high
+speeds $\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha)$ shown in the figure.
+Also, from Eq. \eqref{eq:gamma-par} we find that
+$\gamma^\parallel_{\sigma^\mathrm{z}} (\omega,\alpha)=\alpha = 64.56^\circ$,
+with $\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha) = 631.1$\,Km/s (see
+green arrow), and that from Eq. \eqref{eq:gamma-perp},
+$\gamma^\perp_{\sigma^\mathrm{z}}(\omega,\alpha)=\alpha-90^\circ=64.50^\circ$,
+gives $\alpha=154.50^\circ$, with
+$\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha) = 191.5$ Km/s (see blue
+arrow). Thus, at $\hbar\omega=0.084$ eV, an incident field, polarized at
+$\alpha \sim 65.5^\circ$ or $\sim 154.5^\circ$, injects electrons with their
+spin polarized along $z$, which move parallel or perpendicular to the incident
 electric field,  with a speed of 631.14\,Km/s or 191.5\,Km/s, respectively.
 
 Now, we analyze the results for the second energy range of the Up structure
-shown in the top right panel of Fig.~\ref{fig:vab-str-comp}. In the top panel of
-Fig. \ref{fig:up-vsz-w2}, we plot $\mathcal{V}_{\sigma^{\mathrm{z}}}
+shown in the top right panel of Fig.~\ref{fig:vab-str-comp}. In the top panel
+of Fig. \ref{fig:up-vsz-w2}, we plot $\mathcal{V}_{\sigma^{\mathrm{z}}}
 (\omega,\alpha)$ vs. 1.950\,eV$\leq\hbar\omega\leq$1.960\,eV and
 $0^\circ\leq\alpha\leq 180^\circ$. We see two broad peaks that maximize at
 $\alpha=35^{\circ}$ and $\hbar\omega= 1.954$\,eV, with a value of
@@ -648,38 +685,40 @@ $\alpha=35^{\circ}$ and $\hbar\omega= 1.957$\,eV, with a value of
 $\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha) = 170.6$\,Km/s. We only
 analyze the highest  maximum in the bottom panel, where we  show
 $\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha)$ vs. $\alpha$ (left scale,
-black line), at $\hbar\omega= 1.954$\,eV, thus following the highest ridge shown
-in the 3D plot of the top panel. Also, we plot the corresponding velocity angle
-$\gamma_{\sigma^\mathrm{z}}(\omega,\alpha)$ (right scale, red line), where in
-this case we see that the values of $\gamma_{\sigma^z}(\omega,\alpha)$ have more
-dispersion, as a function of $\alpha$, than for the lower energy range shown in
-the bottom panel of Fig.~\ref{fig:up-vsz-w1}. However,
-$\gamma_{\sigma^z}(\omega,\alpha)\sim 77.8^\circ$ is constant from
-$\alpha=0^\circ$ and up to $\alpha\sim 85^\circ$. In this case, we find that
+black line), at $\hbar\omega= 1.954$\,eV, thus following the highest ridge
+shown in the 3D plot of the top panel. Also, we plot the corresponding velocity
+angle $\gamma_{\sigma^\mathrm{z}}(\omega,\alpha)$ (right scale, red line),
+where in this case we see that the values of $\gamma_{\sigma^z}(\omega,\alpha)$
+have more dispersion, as a function of $\alpha$, than for the lower energy
+range shown in the bottom panel of Fig.~\ref{fig:up-vsz-w1}. However,
+$\gamma_{\sigma^z}(\omega,\alpha)\sim 77.8^\circ$ is nearly constant from
+$\alpha=0^\circ$ up to $\alpha\sim 85^\circ$. In this case, we find that
 $\gamma^\parallel_{\sigma^\mathrm{z}}(\omega,\alpha)=\alpha=78.0^\circ$, with
-$\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha) = 115.0$\,Km/s (see green
-arrow), and that from Eq. \eqref{eq:gamma-perp},
+$\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha) = 115.0$\,Km/s (as indicated
+by green arrow), and that from Eq. \eqref{eq:gamma-perp},
 $\gamma^\perp_{\sigma^\mathrm{z}}(\omega,\alpha)=\alpha-90^\circ=167.8^\circ$,
 gives $\alpha=77.8^\circ$, with
 $\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha) = 65.6$\,Km/s (see blue
 arrow). Thus, through the correct choice of $\hbar\omega$ and $\alpha$ we could
 inject electrons, in this case with their spin polarized along $z$, which move
-parallel or perpendicular to the incident electric field, with finite speeds.
-% The maxima for $\hbar\omega=0.084$ eV and $\alpha=35^{\circ}$, with
+parallel or perpendicular to the incident electric field, with finite speeds
+{\color{red}(what does “finite” mean?)}.
+% the maxima for
+% $\hbar\omega=0.084$ eV and $\alpha=35^{\circ}$, with
 % $\mathcal{V}_{\sigma^{\mathrm{x}}}(\omega,\alpha)=219.6$ Km/s and
 % $\mathcal{V}_{\sigma^{\mathrm{y}}}(\omega,\alpha)=280.3$ Km/s,
-% $\gamma_{\mathrm{x}}(\omega,\alpha) = 79.3^{\circ}$, and
+% $\gamma_{\mathrm{x}}(\omega,\alpha) = 79.3^{\circ}$, and 
 % $\gamma_{\mathrm{y}}(\omega,\alpha) = 78.2^{\circ}$.
 
 \begin{figure}[tb]
 \centering
 \includegraphics[width=\tama]{figures/fig6}
-\caption{For the Alt structure, the top panel shows ${\cal
+\caption{Color online. For the Alt structure, the top panel shows ${\cal
 V}_{\sigma^\mathrm{z}} (\omega,\alpha)$ vs. $\hbar\omega$ and $\alpha$, and the
 bottom panel shows $\gamma_{\sigma^\mathrm{z}} (\omega,\alpha)$ (right scale,
-red line), and ${\cal V}_{\sigma^\mathrm{z}} (\omega,\alpha)$ (left scale, black
-line), vs. $\alpha$, for $\hbar\omega=0.720$\,eV, i.e. along the ridge shown in
-the 3D plot.}
+red line), and ${\cal V}_{\sigma^\mathrm{z}} (\omega,\alpha)$ (left scale,
+black line), vs. $\alpha$, for $\hbar\omega=0.720$\,eV, i.e. along the ridge
+shown in the 3D plot.}
 \label{fig:alt-vsz}
 \end{figure}
 
@@ -691,22 +730,24 @@ central panel of Fig.~\ref{fig:vab-str-comp}. In the top panel of Fig.
 \ref{fig:alt-vsz}, we plot $\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha)$
 vs. 0.715\,eV$\leq\hbar\omega\leq$0.725\,eV and $0^\circ\leq\alpha\leq
 180^\circ$. We see a broad peak that maximizes at $\alpha=150^{\circ}$ and
-$\hbar\omega= 0.720$\,eV, with a value of$\mathcal{V}_{\sigma^{\mathrm{z}}}
-(\omega,\alpha) = 644.9$\,Km/s. In the bottom panel, we  show
-$\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha)$ vs. $\alpha$ (left scale,
-black line), at $\hbar\omega= 0.720$\,eV, thus following the highest ridge shown
-in the 3D plot of the top panel. Also, we plot the corresponding velocity angle
-$\gamma_{\sigma^\mathrm{z}} (\omega,\alpha)$ (right scale, red line), where now
-we see that $\gamma_{\sigma^z}(\omega,\alpha)$ is centered at $109.2^{\circ}$
-having variations of $\pm 1.0^{\circ}$ for $0^{\circ} \leq \alpha \leq 180^
-{\circ}$. In this case, we find that $\gamma^\parallel_{\sigma^\mathrm{z}}
-(\omega,\alpha) = \alpha = 108.8^\circ$, with $\mathcal{V}_{\sigma^{\mathrm{z}}}
-(\omega,\alpha) = 450.05$\,Km/s (see green arrow), and that from Eq. 
-\eqref{eq:gamma-perp},$\gamma^\perp_{\sigma^\mathrm{z}}(\omega,\alpha) = 
-\alpha-90^\circ=110.0^\circ$, gives $\alpha=20.0^\circ$, with $\mathcal{V}_
-{\sigma^{\mathrm{z}}} (\omega,\alpha) = 60.84$\,Km/s (see blue arrow). Thus, as 
-for the Up structure, we could inject electrons with a fixed spin which move
-parallel or perpendicular to the incident electric field.
+$\hbar\omega= 0.720$\,eV, with a value of
+$\mathcal{V}_{\sigma^{\mathrm{z}}}(\omega,\alpha) = 644.9$\,Km/s. In the bottom
+panel, we  show $\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha)$ vs.
+$\alpha$ (left scale, black line), at $\hbar\omega= 0.720$\,eV, thus following
+the highest ridge shown in the 3D plot of the top panel. Also, we plot the
+corresponding velocity angle $\gamma_{\sigma^\mathrm{z}} (\omega,\alpha)$
+(right scale, red line), where now we see that
+$\gamma_{\sigma^z}(\omega,\alpha)$ is centered at $109.2^{\circ}$ having
+variations of $\pm 1.0^{\circ}$ for $0^{\circ} \leq
+\alpha \leq 180^{\circ}$. In this case, we find that
+$\gamma^\parallel_{\sigma^\mathrm{z}} (\omega,\alpha) =
+\alpha = 108.8^\circ$, with $\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha)
+= 450.05$\,Km/s (see green arrow), and that from Eq. \eqref{eq:gamma-perp},
+$\gamma^\perp_{\sigma^\mathrm{z}}(\omega,\alpha)=\alpha-90^\circ=110.0^\circ$,
+gives $\alpha=20.0^\circ$, with $\mathcal{V}_{\sigma^{\mathrm{z}}}
+(\omega,\alpha) = 60.84$\,Km/s (see blue arrow). Thus, as for the Up structure,
+we could inject electrons with a fixed spin, which moves parallel or
+perpendicular to the incident electric field.
 % Again, for the cases in which the spin polarization is parallel to the
 % surface the maximum values are
 % $\mathcal{V}_{\sigma^{\mathrm{x}}}(\omega,\alpha) = 297.8$ Km/s and
@@ -715,101 +756,109 @@ parallel or perpendicular to the incident electric field.
 % $\gamma_{\mathrm{y}}(\omega,\alpha) = 110.1^{\circ}$ and both for
 % $\alpha=150^{\circ}$, where the plots are not presented.
 
-\subsection{Fixing velocity} 
+\subsection{Fixing the electron velocity} 
 \label{sec:res-fixvel}
 
-We calculated $\mathcal{V}_{\mathrm{a}}(\omega,\alpha)$ (Eq. \eqref{eq:vv-mag})
-fixing the electron velocity direction, $\mathrm{a}$, to the $x$ or $y$
-direction along the surface of the Up and Alt structures. From Eqns.
-\eqref{eq:polar-ang} and \eqref{eq:azimuthal-ang}, we determined the polar,
-$\theta_{\mathrm{a}} (\omega,\alpha)$, and azimuthal, $\varphi_{\mathrm{a}}
-(\omega,\alpha)$, angles corresponding to the direction of the spin.
+Here we calculated $\mathcal{V}_{\mathrm{a}}(\omega,\alpha)$ (Eq. 
+\eqref{eq:vv-mag}) after fixing the electron velocity direction, $\mathrm{a}$,
+to the $x$ or $y$ direction along the surface of the Up and Alt structures.
+From Eqns. \eqref{eq:polar-ang} and \eqref{eq:azimuthal-ang}, {\color{blue}we
+determined the corresponding polar angle, $\theta_{\mathrm{a}}
+(\omega,\alpha)$, and azimuthal angle, $\varphi_{\mathrm{a}} (\omega,\alpha)$}.
 
 \subsubsection{Up structure}
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\tama]{figures/fig7}
-\caption{For the Up structure, we show
-$\mathcal{V}_{\mathrm{a}} (\omega,\alpha)$ (left scale, black line),
-$\theta_{\mathrm{a}} (\omega,\alpha)$ (right scale, red line), and
+\caption{The Up structure: the velocity $\mathcal{V}_{\mathrm{a}}
+(\omega,\alpha)$ (left scale, black line), the polar angle $\theta_{\mathrm{a}}
+(\omega,\alpha)$ (right scale, red line), and  the azimuthal angle
 $\varphi_{\mathrm{a}} (\omega,\alpha)$, (right scale, blue line), vs.
-$\hbar\omega$, for $\alpha=35^\circ$, and $\mathrm{a}=x,y$. }
+$\hbar\omega$, for $\alpha=35^\circ$, and $\mathrm{a}=x$ or $\mathrm{a}=y$ is
+shown. }
 \label{fig:up-vab-comp-rtp-1}
 \end{figure}
 
-For the Up structure, we find once again that  $\alpha=35^{\circ}$ maximizes the
-response. In Fig. \ref{fig:up-vab-comp-rtp-1}, we plot $\mathcal{V}_{\mathrm{a}}
-(\omega,\alpha)$ (left scale, black line), $\theta_{\mathrm{a}} (\omega,\alpha)$
-(right scale, red line), and $\varphi_{\mathrm{a}} (\omega,\alpha)$, (right
-scale, blue line), vs. $\hbar\omega$, for $\mathrm{a}=x,y$. We see that for
-$\hbar\omega=0.084$\,eV, the response has a maximum of $\mathcal{V}_{\mathrm{x}}
-(\omega,\alpha)=431.7$\,Km/s, with $\theta_{\mathrm{x}}(\omega,\alpha) =
+For the Up structure, we find once again that  $\alpha=35^{\circ}$ maximizes
+the response. In Fig. \ref{fig:up-vab-comp-rtp-1}, we plot
+$\mathcal{V}_{\mathrm{a}} (\omega,\alpha)$ (left scale, black line),
+$\theta_{\mathrm{a}} (\omega,\alpha)$ (right scale, red line), and
+$\varphi_{\mathrm{a}} (\omega,\alpha)$, (right scale, blue line), vs.
+$\hbar\omega$, for $\mathrm{a}=x,y$. We see that for $\hbar\omega=0.084$\,eV,
+the response has a maximum of $\mathcal{V}_{\mathrm{x}}
+(\omega,\alpha)=431.7$\,Km/s at $\theta_{\mathrm{x}}(\omega,\alpha) =
 42.5^{\circ}$, and $\varphi_{\mathrm{x}}(\omega,\alpha) = 208.3^{\circ}$, and
-$\mathcal{V}_{\mathrm{y}} (\omega,\alpha)=687.9$\,Km/s, with
+$\mathcal{V}_{\mathrm{y}} (\omega,\alpha)=687.9$\,Km/s at
 $\theta_{\mathrm{y}}(\omega,\alpha) = 13.9^{\circ}$, and $\varphi_{\mathrm{y}}
-(\omega,\alpha) = 82.1^{\circ}$. This means that the spin is directed upward the
-third Cartesian quadrant of the $xy$ plane when the electron moves along $x$,
-and is directed almost parallel to the $xy$ plane in the first quadrant when it
-moves along $y$. Also, from this figure we have that when the electron moves
-along $x$, the spin direction is almost constant for all the energies across the
-peak of the response, having $42.5^{\circ}<\theta_{\mathrm{x}} (\omega,\alpha) <
-53.7^{\circ}$ and $208.3^{\circ}<\varphi_{\mathrm{x}} (\omega,\alpha) <
-215.7^{\circ}$, and when the electron moves along $y$, the spin polar angle has
-again small variations, $11.3^{\circ} < \theta_{\mathrm{y}} (\omega,\alpha) <
-13.9^{\circ}$, but the azimuthal angle has significant variations, $82.1^{\circ}
-< \varphi_{\mathrm{y}} (\omega,\alpha)<182.4^{\circ}$.
+(\omega,\alpha) = 82.1^{\circ}$. This means that the spin is directed upward
+the third quadrant of the $xy$ plane when the electron moves along
+$x$, and is almost parallel to the $xy$ plane in the first quadrant
+when it moves along $y$. Also from this figure, we see that when the electron
+moves along $x$, the spin direction is almost constant for all the energies
+across the peak of the response, having $42.5^{\circ}<\theta_{\mathrm{x}}
+(\omega,\alpha)<53.7^{\circ}$ and $208.3^{\circ}<\varphi_{\mathrm{x}}
+(\omega,\alpha)<215.7^{\circ}$. When the electron moves along $y$, the spin
+polar angle has again small variations, $11.3^{\circ}<
+\theta_{\mathrm{y}}(\omega,\alpha)<13.9^{\circ}$, but the azimuthal angle
+varies significantly, $82.1^{\circ}< \varphi_{\mathrm{y}}
+(\omega,\alpha)<182.4^{\circ}$.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\tama]{figures/fig8}
-\caption{For the Up structure we show $\mathcal{V}_{\mathrm{a}}
-(\omega,\alpha)$ (left scale, black line), $\theta_{\mathrm{a}}
-(\omega,\alpha)$ (right scale, red line), and $\varphi_{\mathrm{a}}
-(\omega,\alpha)$, (right scale, blue line), vs. $\hbar\omega$, for
-$\alpha=35^\circ$, and $\mathrm{a}=x,y$. }
+\caption{The Up structure: the spin velocity $\mathcal{V}_{\mathrm{a}}
+(\omega,\alpha)$ (left scale, black line), the polar angle $\theta_{\mathrm{a}}
+(\omega,\alpha)$ (right scale, red line), and the azimuthal angle
+$\varphi_{\mathrm{a}} (\omega,\alpha)$, (right scale, blue line), vs.
+$\hbar\omega$, for $\alpha=35^\circ$, and $\mathrm{a}=x$ or $\mathrm{a}=y$ is
+shown. }
 \label{fig:up-vx-vy-w2}
 \end{figure}
 In Fig. \ref{fig:up-vx-vy-w2}, we plot $\mathcal{V}_{\mathrm{a}}
-(\omega,\alpha)$ vs. $\hbar\omega$, in the range where there are two local
-maxima at $\hbar\omega=1.954$\,eV and $\hbar\omega=1.957$\,eV. The former is the
-largest of the two, with $\mathcal{V}_{\mathrm{x}} (\omega,\alpha)=61.2$\,Km/s,
-$\theta_{\mathrm{x}} (\omega,\alpha)=48.3^{\circ}$, and $\varphi_{\mathrm{x}}
-(\omega,\alpha)=54.3^{\circ}$, for the electron moving along $x$, and
+(\omega,\alpha)$ vs. $\hbar\omega$, in the range where there two local maxima
+with opposite sign at $\hbar\omega=1.954$\,eV and $\hbar\omega=1.957$\,eV
+occur. The first is the largest of the two, with $\mathcal{V}_{\mathrm{x}}
+(\omega,\alpha)=61.2$\,Km/s, $\theta_{\mathrm{x}}
+(\omega,\alpha)=48.3^{\circ}$, and $\varphi_{\mathrm{x}}
+(\omega,\alpha)=54.3^{\circ}$, for the electron moving along $x$; and
 $\mathcal{V}_{\mathrm{y}} (\omega,\alpha)=293.2$\,Km/s, $\theta_{\mathrm{y}}
-(\omega,\alpha) = 49.8^{\circ}$, and $\varphi_{\mathrm{y}} (\omega,\alpha) =
-51.9^{\circ}$ for the electron moving along $y$. For the $\hbar\omega=1.957$\,eV
-peak, we obtain $\theta_{\mathrm{x}} (\omega,\alpha) = 129.8^{\circ}$ and
-$\varphi_{\mathrm{x}} (\omega,\alpha) = 231.7^{\circ}$, with
-$\mathcal{V}^{\mathrm{x}} (\omega,\alpha) = 54.6$\,Km/s and $\theta_{\mathrm{y}}
-(\omega,\alpha) = 129.3$, and $\varphi_{\mathrm{y}} (\omega,\alpha) = 230.7$,
-with $\mathcal{V}^{\mathrm{y}} (\omega,\alpha) = 263.7$\,Km/s. We remark that
-these angles are almost constant for all the energy values across the peak of
-these two local maxima, for which the spin is directed upward in the first
-Cartesian quadrant of the $xy$ plane when it moves along either $x$ or $y$
-directions.
+(\omega,\alpha)=49.8^{\circ}$, and $\varphi_{\mathrm{y}}
+(\omega,\alpha)=51.9^{\circ}$ for the electron moving along $y$. For the peak
+at $\hbar\omega=1.957$\,eV, we obtain $\theta_{\mathrm{x}} (\omega,\alpha) =
+129.8^{\circ}$ and $\varphi_{\mathrm{x}} (\omega,\alpha) = 231.7^{\circ}$, with
+$\mathcal{V}^{\mathrm{x}} (\omega,\alpha) = 54.6$\,Km/s and
+$\theta_{\mathrm{y}}(\omega,\alpha) =129.3$; and
+$\varphi_{\mathrm{y}}(\omega,\alpha) = 230.7$, with $\mathcal{V}^{\mathrm{y}}
+(\omega,\alpha) = 263.7$\,Km/s. We remark that these angles are almost constant
+for all the energy values across the peak of these two local maxima, for which
+the spin is directed upward in the first quadrant of the $xy$ plane when
+{\color{red} \st{it} (who?)} {\color{blue}the electron} moves along either $x$ or
+$y$ directions.
 
 \subsubsection{Alt structure}
 
 \begin{figure}[tb]
 \centering
 \includegraphics[width=\tama]{figures/fig9}
-\caption{For the Alt structure, we show $\mathcal{V}_{\mathrm{a}}
-(\omega,\alpha)$ (left scale, black line), $\theta_{\mathrm{a}} (\omega,\alpha)$
-(right scale, red line), and $\varphi_{\mathrm{a}} (\omega,\alpha)$, (right
-scale, blue line), vs. $\hbar\omega$, for $\alpha=150^\circ$, and $\mathrm{a} =
-x,y$. }
+\caption{The Alt structure: the velocity $\mathcal{V}_{\mathrm{a}}
+(\omega,\alpha)$ (left scale, black line), the polar angle $\theta_{\mathrm{a}}
+(\omega,\alpha)$ (right scale, red line), and the azimuthal angle
+$\varphi_{\mathrm{a}} (\omega,\alpha)$, (right scale, blue line), vs.
+$\hbar\omega$, for $\alpha=150^\circ$, and $\mathrm{a}=x$ or $\mathrm{a}=y$ are
+shown. }
 \label{fig:alt-vx-vy-w1}
 \end{figure}
 
 \begin{figure}[tb]
 \centering
 \includegraphics[width=\tama]{figures/fig10}
-\caption{For the Alt structure, we show $\mathcal{V}_{\mathrm{a}}
-(\omega,\alpha)$ (left scale, black line), $\theta_{\mathrm{a}} (\omega,\alpha)$
-(right scale, red line), and $\varphi_{\mathrm{a}} (\omega,\alpha)$, (right
-scale, blue line), vs. $\hbar\omega$, for $\alpha=150^\circ$, and $\mathrm{a} =
-x,y$. }
+\caption{The Alt structure: $\mathcal{V}_{\mathrm{a}}
+(\omega,\alpha)$ (left scale, black line), the polar angle $\theta_{\mathrm{a}}
+(\omega,\alpha)$ (right scale, red line), and the azimuthal angle
+$\varphi_{\mathrm{a}} (\omega,\alpha)$, (right scale, blue line), vs.
+$\hbar\omega$, for $\alpha=150^\circ$, and $\mathrm{a}=x$ or $\mathrm{a}=y$ are
+shown.}
 \label{fig:alt-vx-vy-w2}
 \end{figure}
 
@@ -817,57 +866,76 @@ In Figs. \ref{fig:alt-vx-vy-w1} and \ref{fig:alt-vx-vy-w2}, we plot
 $\mathcal{V}_{\mathrm{a}} (\omega,\alpha)$ (left scale, black line),
 $\theta_{\mathrm{a}} (\omega,\alpha)$ (right scale, red line), and
 $\varphi_{\mathrm{a}} (\omega,\alpha)$, (right scale, blue line), vs.
-$\hbar\omega$ in two different ranges, and  for $\mathrm{a} =x,y$. In this case,
+$\hbar\omega$ in two different ranges, and  for $\mathrm{a}=x,y$. In this case,
 $\alpha=150^\circ$  maximizes both $\mathcal{V}_{\mathrm{x}} (\omega,\alpha)$
 and $\mathcal{V}_{\mathrm{y}} (\omega,\alpha)$, as a function of $\alpha$. In
-Fig. \ref{fig:alt-vx-vy-w1}, the absolute maximum is at $\hbar\omega=0.720$\,eV,
-with $\mathcal{V}_{\mathrm{x}} (\omega,\alpha) = 301.7$\,Km/s,
+Fig. \ref{fig:alt-vx-vy-w1}, the absolute maximum $\mathcal{V}_{\mathrm{x}}
+(\omega,\alpha) = 301.7$\,Km/s is at $\hbar\omega=0.720$\,eV ,
 $\theta_{\mathrm{x}} (\omega,\alpha) = 44.5^{\circ}$ and
-$\varphi_{\mathrm{x}}(\omega,\alpha) = 51.2^{\circ}$, and
-$\mathcal{V}_{\mathrm{y}} (\omega,\alpha) = 905.6$\,Km/s, with
+$\varphi_{\mathrm{x}}(\omega,\alpha) = 51.2^{\circ}$; and
+$\mathcal{V}_{\mathrm{y}} (\omega,\alpha) = 905.6$\,Km/s at
 $\theta_{\mathrm{y}} (\omega,\alpha) = 119.7^{\circ}$ and
 $\varphi_{\mathrm{y}}(\omega,\alpha) = 163.4^{\circ}$. Thus, the spin is
-directed upward the fourth Cartesian quadrant of the $xy$ plane when the spin
-velocity is directed along $x$, and directed downward the second Cartesian
-quadrant when the spin velocity is directed along $y$. Finally, in  Fig.
-\ref{fig:alt-vx-vy-w1}, the absolute maximum is at $\hbar\omega=0.911$\,eV, with
-$\mathcal{V}_{\mathrm{x}} (\omega,\alpha) = 276.3$\,Km/s, $\theta_{\mathrm{x}}
-(\omega,\alpha) = 154.6^{\circ}$, and $\varphi_{\mathrm{x}}(\omega,\alpha) =
-292.3^{\circ}$, and $\mathcal{V}_{\mathrm{y}} (\omega,\alpha) = 468.6$\,Km/s,
-with $\theta_{\mathrm{y}} (\omega,\alpha) = 129.2^{\circ}$, and
-$\varphi_{\mathrm{y}}(\omega,\alpha) = 228.3^{\circ}$, implying that the spin is
-directed downward the fourth Cartesian quadrant of the $xy$ plane when the spin
-velocity is directed along $x$, and directed downward the third Cartesian
+directed upward the fourth quadrant of the $xy$ plane when the spin
+velocity is directed along $x$, while it is directed downward the second
+quadrant when the spin velocity is directed along $y$. Finally, in
+Fig. \ref{fig:alt-vx-vy-w1}, the absolute maximum is at $\hbar\omega=0.911$\,eV
+at $\mathcal{V}_{\mathrm{x}} (\omega,\alpha) = 276.3$\,Km/s,
+$\theta_{\mathrm{x}} (\omega,\alpha) = 154.6^{\circ}$, and
+$\varphi_{\mathrm{x}}(\omega,\alpha) = 292.3^{\circ}$, and
+$\mathcal{V}_{\mathrm{y}} (\omega,\alpha) = 468.6$\,Km/s at
+$\theta_{\mathrm{y}} (\omega,\alpha) = 129.2^{\circ}$, and
+$\varphi_{\mathrm{y}}(\omega,\alpha) = 228.3^{\circ}$, implying that the spin
+is directed downward the fourth quadrant of the $xy$ plane when the
+spin velocity is directed along $x$, while is directed downward the third
 quadrant when the spin velocity is directed along $y$.
 
-\section{Conclusions} % (fold)
+\section{Conclusions}
 \label{sec:conclusions}
 
-We performed an \emph{ab initio} calculation for the SVI by one-photon
-absorption of linearly polarized light in the Up and Alt 2D hydrogenated
-graphene structures, and we made the calculation for the case when the spin is
-polarized in the $z$ direction or when the velocity is directed along $x$ or
-$y$; this effect does not seem to have been previously reported in this kind of
-structures. This SVI is very sensitive to the symmetry characteristics of the
-structures, presenting an anisotropic behavior. We found that the Up structure
-has the most intense response for the spin directed along $z$, resulting in
-$\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha) = 668.0$\,Km/s, and for an
-energy of the incoming beam of 0.084\,eV. Also, the Alt structure has the most
-intense response when the spin moves along the $y$ direction, resulting in
-$\mathcal{V}^{\mathrm{y}} (\omega,\alpha) = 905.6$\,Km/s for an energy of the
-incoming beam of 0.720\,eV. The speed values obtained here are of the same order
-of magnitude as those of Ref.~\onlinecite{najmaiePRB03} in unbiased
-semiconductor quantum well structures. The spin relaxation time in pure and
+We reported the results of an \emph{ab initio} calculations for the spin
+velocity injection (SVI) due to the one-photon absorption of the linearly
+polarized light in the Up and Alt 2D 50\% hydrogenated graphene structures.
+Different possible arrangements of the of the spin injection have been
+considered: we made the calculations for the cases when the spin is polarized
+in $z$ direction or when the velocity is directed along $x$ or $y$. To the best
+of our knowledge, this effect  has been previously reported in this  2D
+partially hydrogenated structures. We have shown that the  SVI demonstrates an
+anisotropic behavior, which is very sensitive to the symmetry of the structures
+of interest. We have found that the Up structure shows the strongest response
+for the spin directed along $z$, resulting in the velocity
+$\mathcal{V}_{\sigma^{\mathrm{z}}} (\omega,\alpha) = 668.0$\,Km/s for the
+incoming photon energy of 0.084\,eV. Also, the Alt structure has the strongest
+response when the spin moves along $y$ direction, resulting in
+$\mathcal{V}^{\mathrm{y}} (\omega,\alpha) = 905.6$\,Km/s for the incoming
+photon energy of 0.720\,eV. The speed values obtained here are of the same
+order of magnitude as those of Ref.~\onlinecite{najmaiePRB03} in unbiased
+semiconductor quantum well structures, while they are of order of magnitude
+higher compared to 3D bulk materials. The spin relaxation time in pure and
 doped graphene is long enough in the order from nanoseconds to milliseconds.
-\cite{wojtaszekPRB13,ertlerPRB09} Then, according to our results, both are
-excellent candidates for the development of spintronics devices that require PSC
-due to the high spin velocity transport.
+\cite{wojtaszekPRB13,ertlerPRB09} Therefore, according to our results, due to
+the high spin velocity transport both structures considered are the excellent
+candidates for the development of spintronics devices that require pure spin
+current (PSC).
 
-\section{Acknowledgment} % (fold)
+\section{Acknowledgment}
 
 This work has been supported by \emph{Consejo Nacional de Ciencia y
-Tecnolog\'ia} (CONACyT), M\'exico, Grant No. 153930. R.Z.P. thanks CONACyT for
-scholarship support.
+Tecnolog\'ia} (CONACyT), M\'exico, Grant No. 153930.
+R.Z.P. thanks CONACyT for scholarship support.
 \bibliography{article.bib}
 
 \end{document}
+
+%@article{buonocorePE16,
+%  title={Effects of the substrate on graphone magnetism: A density functional
+%  theory study},
+%  author={Buonocore, F. and Conte, A. M. and Lisi, N.},
+%  journal={Phys. E: Low-dim. Sys.},
+%  volume={78},
+%  pages={65--72},
+%  year={2016},
+%  publisher={Elsevier}
+%}
+
+gmitraPRL13
