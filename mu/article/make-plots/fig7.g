@@ -42,17 +42,17 @@ set arrow 1 from 0.083, 225 to 0.081, 225 ls 1 lw 2
 set arrow 2 from second 0.0965, 70 to second 0.0990, 70 ls 2 lw 2
 set arrow 3 from second 0.0965, 215 to second 0.0990, 215 ls 3 lw 2
 
-set ylabel '{\Large $\cal{V}^{\mathrm{x}}(\omega,\alpha)$ (Km/s)}'
+set ylabel '{\Large ${\cal V}_x(\omega,\alpha)$ (Km/s)}'
 set yrange [0:450]
 set ytics  0, 50, 450
 
-set y2label '{\Large $\theta_{\mathrm{x}}(\omega,\alpha)$, \ $\varphi_{\mathrm{x}}(\omega,\alpha)$ (deg.)}'
+set y2label '{\Large $\theta_{x}(\omega,\alpha)$, \ $\varphi_{x}(\omega,\alpha)$ (deg.)}'
 set y2range [0:360]
 set y2tics 0, 45, 360
 
-p   'fig7.dataup1' u 1:($5*f) axis x1y1 w l lw 2 t '\Large $\mathcal{V}^{\mathrm{x}}$' ,\
-    'fig7.dataup1' u 1:($6)   axis x1y2 w l lw 2 t '\Large $\theta_{\mathrm{x}}$' ,\
-    'fig7.dataup1' u 1:($7)   axis x1y2 w l lw 2 t '\Large $\gamma_{\mathrm{x}}$'
+p   'fig7.dataup1' u 1:($5*f) axis x1y1 w l lw 2 t '\Large $\mathcal{V}_x$' ,\
+    'fig7.dataup1' u 1:($6)   axis x1y2 w l lw 2 t '\Large $\theta_{x}$' ,\
+    'fig7.dataup1' u 1:($7)   axis x1y2 w l lw 2 t '\Large $\gamma_{x}$'
 
 
 unset label 1
@@ -72,17 +72,17 @@ set arrow 1 from 0.083, 390 to 0.081, 390 ls 1 lw 2
 set arrow 2 from second 0.0965, 65 to second 0.0990, 65 ls 2 lw 2
 set arrow 3 from second 0.0965, 215 to second 0.0990, 215 ls 3 lw 2
 
-set ylabel '{\Large $\cal{V}^{\mathrm{y}}(\omega,\alpha)$ (Km/s)}'
+set ylabel '{\Large ${\cal V}_y(\omega,\alpha)$ (Km/s)}'
 set yrange [0:750]
 set ytics  0, 75, 750
 
-set y2label '{\Large $\theta_{\mathrm{y}}(\omega,\alpha)$, \ $\varphi_{\mathrm{y}}(\omega,\alpha)$ (deg.)}'
+set y2label '{\Large $\theta_{{y}}(\omega,\alpha)$, \ $\varphi_{{y}}(\omega,\alpha)$ (deg.)}'
 set y2range [0:375]
 set y2tics 0, 45, 360
 
-p   'fig7.dataup2' u 1:($5*f) axis x1y1 w l lw 2 t '\Large $\mathcal{V}^{\mathrm{y}}$' ,\
-    'fig7.dataup2' u 1:($6)   axis x1y2 w l lw 2 t '\Large $\theta_{\mathrm{y}}$' ,\
-    'fig7.dataup2' u 1:($7)   axis x1y2 w l lw 2 t '\Large $\gamma_{\mathrm{y}}$'
+p   'fig7.dataup2' u 1:($5*f) axis x1y1 w l lw 2 t '\Large $\mathcal{V}_y$' ,\
+    'fig7.dataup2' u 1:($6)   axis x1y2 w l lw 2 t '\Large $\theta_{{y}}$' ,\
+    'fig7.dataup2' u 1:($7)   axis x1y2 w l lw 2 t '\Large $\gamma_{{y}}$'
 
 
 unset multiplot

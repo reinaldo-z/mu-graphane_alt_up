@@ -39,16 +39,16 @@ set arrow 1 from 0.7180, 120 to 0.717, 120 ls 1 lw 2
 set arrow 2 from second 0.7205, 35 to second 0.7218, 35 ls 2 lw 2
 set arrow 3 from second 0.7197, 190 to second 0.7212, 190 ls 3 lw 2
 
-set ylabel '{\Large $\cal{V}^{\mathrm{x}}(\omega,\alpha)$ (Km/s)}'
+set ylabel '{\Large ${\cal V}_x(\omega,\alpha)$ (Km/s)}'
 set yrange [0:350]
 set ytics  0, 50, 350
 
-set y2label '{\Large $\theta_{\mathrm{x}}(\omega,\alpha)$, \ $\varphi_{\mathrm{x}}(\omega,\alpha)$ (deg.)}'
+set y2label '{\Large $\theta_{{x}}(\omega,\alpha)$, \ $\varphi_{{x}}(\omega,\alpha)$ (deg.)}'
 set y2range [0:360]
 set y2tics 0, 45, 360
-p   'fig9.dataalt1' u 1:($5*f) axis x1y1 w l lw 2 t '\Large $\mathcal{V}^{\mathrm{x}}$' ,\
-    'fig9.dataalt1' u 1:($6)   axis x1y2 w l lw 2 t '\Large $\theta_{\mathrm{x}}$' ,\
-    'fig9.dataalt1' u 1:($7)   axis x1y2 w l lw 2 t '\Large $\gamma_{\mathrm{x}}$'
+p   'fig9.dataalt1' u 1:($5*f) axis x1y1 w l lw 2 t '\Large $\mathcal{V}_x$' ,\
+    'fig9.dataalt1' u 1:($6)   axis x1y2 w l lw 2 t '\Large $\theta_{{x}}$' ,\
+    'fig9.dataalt1' u 1:($7)   axis x1y2 w l lw 2 t '\Large $\gamma_{{x}}$'
 
 
 unset label 1
@@ -68,16 +68,16 @@ set arrow 1 from 0.7180, 250 to 0.717, 250 ls 1 lw 2
 set arrow 2 from second 0.7205, 155 to second 0.7217, 155 ls 2 lw 2
 set arrow 3 from second 0.7205, 250 to second 0.7217, 250 ls 3 lw 2
 
-set ylabel '{\Large $\cal{V}^{\mathrm{y}}(\omega,\alpha)$ (Km/s)}'
+set ylabel '{\Large ${\cal V}_y(\omega,\alpha)$ (Km/s)}'
 set yrange [0:1000]
 set ytics  0, 200, 1000
 
-set y2label '{\Large $\theta_{\mathrm{y}}(\omega,\alpha)$, \ $\varphi_{\mathrm{y}}(\omega,\alpha)$ (deg.)}'
+set y2label '{\Large $\theta_{{y}}(\omega,\alpha)$, \ $\varphi_{{y}}(\omega,\alpha)$ (deg.)}'
 set y2range [0:360]
 set y2tics 0, 45, 360
-p   'fig9.dataalt2' u 1:($5*f) axis x1y1 w l lw 2 t '\Large $\mathcal{V}^{\mathrm{y}}$' ,\
-    'fig9.dataalt2' u 1:($6)   axis x1y2 smooth csplines lw 2 t '\Large $\theta_{\mathrm{y}}$' ,\
-    'fig9.dataalt2' u 1:($7)   axis x1y2 smooth csplines lw 2 t '\Large $\gamma_{\mathrm{y}}$'
+p   'fig9.dataalt2' u 1:($5*f) axis x1y1 w l lw 2 t '\Large $\mathcal{V}_y$' ,\
+    'fig9.dataalt2' u 1:($6)   axis x1y2 smooth csplines lw 2 t '\Large $\theta_{{y}}$' ,\
+    'fig9.dataalt2' u 1:($7)   axis x1y2 smooth csplines lw 2 t '\Large $\gamma_{{y}}$'
 
 
 unset multiplot

@@ -5,9 +5,7 @@
 \usetikzlibrary{arrows}
 \usepackage{amsmath}
 \usepackage{geometry}
-\usepackage{graphicx}
-
-\newcommand*{\Scale}[2][4]{\scalebox{#1}{\ensuremath{#2}}}%
+% \usepackage{showframe}
 
 \geometry{a2paper,margin=0.5in}
 \pagestyle{empty}
@@ -15,69 +13,47 @@
 \begin{document}
 \thispagestyle{empty}
 
-% \begin{figure}[h!]
-% \begin{tikzpicture}
-% \node[anchor=south west,inner sep=0] at (0.2,-5.0) 
-% {\includegraphics[width=0.30\textwidth]{arrows1}};
-% \node[anchor=south west,inner sep=0] at (0.2,0.0)  
-% {\includegraphics[width=\textwidth]{up1}};
-% \draw [line width=2.00mm, red ] (-0.30,05.00) -- (-0.30,10.60) node [right] {};
-% \draw [line width=2.00mm, red ] (-0.30,10.50) -- (10.50,10.50) node [right] {};
-% \draw [line width=2.00mm, red ] (10.45,10.55) -- (13.75,05.00) node [right] {};
-% \draw [line width=2.00mm, red ] (13.67,05.00) -- (21.00,05.00) node [right] {};
-% \draw [line width=2.00mm, red ] (21.05,05.10) -- (21.05,-0.60) node [right] {};
-% \draw [line width=2.00mm, red ] (10.30,-0.50) -- (21.00,-0.50) node [right] {};
-% \draw [line width=2.00mm, red ] (07.01,05.15) -- (10.38,-0.55) node [right] {};
-% \draw [line width=2.00mm, red ] (-0.30,05.10) -- (07.08,05.10) node [right] {};
-% \node[anchor=south west,inner sep=0] at (0.2,-20.0) 
-% {\includegraphics[width=\textwidth]{up2}};
-% \node[anchor=south west,inner sep=0] at (0.2,-34.0) 
-% {\includegraphics[width=0.30\textwidth]{arrows2}};
-% \draw [line width=2.00mm, red ](-0.30,-20.70) -- (-0.30,-08.85) node [right]{};
-% \draw [line width=2.00mm, red ](-0.30,-08.95) -- (21.00,-08.95) node [right]{};
-% \draw [line width=2.00mm, red ](21.00,-20.70) -- (21.00,-08.85) node [right]{};
-% \draw [line width=2.00mm, red ](-0.30,-20.60) -- (21.00,-20.60) node [right]{};
-% \end{tikzpicture}
-% \end{figure}
-
 \begin{figure}[h!]
 \begin{tikzpicture}
 \node[anchor=south west,inner sep=0] at (0.2,-5.0) 
 {\includegraphics[width=0.30\textwidth]{arrows1}};
 \node[anchor=south west,inner sep=0] at (0.2,0.0)  
 {\includegraphics[width=\textwidth]{up1}};
-\draw [line width=2.00mm, red, -> ] (8.50,8.00) -- (18.50,13.50) 
-node [right] {};
-\draw [line width=2.00mm, red, -> ] (8.50,8.00) -- (18.50,02.00) 
-node [right] {};
-\draw [line width=2.00mm, red, dash pattern={on 10pt}] 
-(18.50,13.50) -- (28.50,8.00) node [right] {};
-\draw [line width=2.00mm, red, dash pattern={on 10pt}] 
-(18.50,02.00) -- (28.50,8.00) node [right] {};
-% 
-\draw [] (-1.0,11.0) node [right] {\Scale[6]{\mathrm{C}_{1}}};
-\draw [] ( 5.0,11.0) node [right] {\Scale[6]{\mathrm{C}_{2}}};
-\draw [] (13.5,-1.0) node [right] {\Scale[6]{\mathrm{C}_{3}}};
-\draw [] (19.5,-1.0) node [right] {\Scale[6]{\mathrm{C}_{4}}};
-\draw [line width=2.00mm, <-] ( 9.0, 8.0) -- (13.0, 8.0) 
-node [right] {\Scale[6]{\mathrm{H}_{1}}};
-\draw [line width=2.00mm, <-] (19.0, 2.0) -- (23.0, 2.0) 
-node [right] {\Scale[6]{\mathrm{H}_{2}}};
-% 
+\draw [line width=2.00mm, red ] (-0.30,05.00) -- (-0.30,10.60) node [right] {};
+\draw [line width=2.00mm, red ] (-0.30,10.50) -- (10.50,10.50) node [right] {};
+\draw [line width=2.00mm, red ] (10.45,10.55) -- (13.75,05.00) node [right] {};
+\draw [line width=2.00mm, red ] (13.67,05.00) -- (21.00,05.00) node [right] {};
+\draw [line width=2.00mm, red ] (21.05,05.10) -- (21.05,-0.60) node [right] {};
+\draw [line width=2.00mm, red ] (10.30,-0.50) -- (21.00,-0.50) node [right] {};
+\draw [line width=2.00mm, red ] (07.01,05.15) -- (10.38,-0.55) node [right] {};
+\draw [line width=2.00mm, red ] (-0.30,05.10) -- (07.08,05.10) node [right] {};
 \node[anchor=south west,inner sep=0] at (0.2,-20.0) 
 {\includegraphics[width=\textwidth]{up2}};
-% 
-\draw [] ( 1.5,-21.5) node [right] {\Scale[6]{\mathrm{C}_{1}}};
-\draw [] ( 7.5,-20.5) node [right] {\Scale[6]{\mathrm{C}_{2}}};
-\draw [] (10.7,-21.5) node [right] {\Scale[6]{\mathrm{C}_{3}}};
-\draw [] (16.5,-20.5) node [right] {\Scale[6]{\mathrm{C}_{4}}};
-\draw [] ( 4.5,-12.0) node [right] {\Scale[6]{\mathrm{H}_{1}}};
-\draw [] (14.0,-12.0) node [right] {\Scale[6]{\mathrm{H}_{2}}};
-% 
 \node[anchor=south west,inner sep=0] at (0.2,-34.0) 
 {\includegraphics[width=0.30\textwidth]{arrows2}};
+\draw [line width=2.00mm, red ](-0.30,-20.70) -- (-0.30,-08.85) node [right]{};
+\draw [line width=2.00mm, red ](-0.30,-08.95) -- (21.00,-08.95) node [right]{};
+\draw [line width=2.00mm, red ](21.00,-20.70) -- (21.00,-08.85) node [right]{};
+\draw [line width=2.00mm, red ](-0.30,-20.60) -- (21.00,-20.60) node [right]{};
 \end{tikzpicture}
 \end{figure}
+
+% \begin{figure}[h!]
+% \begin{tikzpicture}
+% \node[anchor=south west,inner sep=0] at (0.2,-5.0) 
+% {\includegraphics[width=0.30\textwidth]{arrows1}};
+% \node[anchor=south west,inner sep=0] at (0.2,0.0)  
+% {\includegraphics[width=\textwidth]{up1}};
+% \draw [line width=2.00mm, red, -> ] (8.50,8.00) -- (18.50,13.50) node [right] {};
+% \draw [line width=2.00mm, red, -> ] (8.50,8.00) -- (18.50,02.00) node [right] {};
+% \draw [line width=2.00mm, red, dashed ] (18.50,13.50) -- (28.50,8.00) node [right] {};
+% \draw [line width=2.00mm, red, dashed ] (18.50,02.00) -- (28.50,8.00) node [right] {};
+% \node[anchor=south west,inner sep=0] at (0.2,-20.0) 
+% {\includegraphics[width=\textwidth]{up2}};
+% \node[anchor=south west,inner sep=0] at (0.2,-34.0) 
+% {\includegraphics[width=0.30\textwidth]{arrows2}};
+% \end{tikzpicture}
+% \end{figure}
 
 
 \end{document}
