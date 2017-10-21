@@ -27,18 +27,36 @@
 {\includegraphics[width=0.30\textwidth]{arrows1}};
 \node[anchor=south west,inner sep=0] at (0.2,0.0)  
 {\includegraphics[width=\textwidth]{up1}};
+
 \draw [line width=2.00mm, red, -> ] (8.50,8.00) -- (18.50,13.50) 
 node [right] {};
 \draw [line width=2.00mm, red, -> ] (8.50,8.00) -- (18.50,02.00) 
 node [right] {};
-\draw [line width=2.00mm, red, dashed ] (18.50,13.50) -- (28.50,8.00) 
-node [right] {};
-\draw [line width=2.00mm, red, dashed ] (18.50,02.00) -- (28.50,8.00) 
-node [right] {};
+\draw [line width=2.00mm, red, dash pattern=on 10pt off 5pt] (18.50,13.50) --
+(28.50,8.00) node [right] {};
+\draw [line width=2.00mm, red, dash pattern=on 10pt off 5pt] (18.50,02.00) --
+(28.50,8.00) node [right] {};
+
+\draw [] ( -1.00, 11.00) node [right] {\scalebox{6.0}{C$_{1}$}};
+\draw [] (  5.00, 11.00) node [right] {\scalebox{6.0}{C$_{2}$}};
+\draw [] ( 13.00, -1.00) node [right] {\scalebox{6.0}{C$_{3}$}};
+\draw [] ( 19.00, -1.00) node [right] {\scalebox{6.0}{C$_{4}$}};
+\draw [line width=2.00mm, black, <- ] ( 10.00,  8.00) -- (13,  8.00)
+node [right] {\scalebox{6.0}{H$_{1}$}};
+\draw [line width=2.00mm, black, <- ] ( 19.80, 2.30) -- (22.80, 2.30)
+node [right] {\scalebox{6.0}{H$_{2}$}};
+
 \node[anchor=south west,inner sep=0] at (0.2,-20.0) 
 {\includegraphics[width=\textwidth]{up2}};
 \node[anchor=south west,inner sep=0] at (0.2,-34.0) 
 {\includegraphics[width=0.30\textwidth]{arrows2}};
+
+\draw [] (  4.50, -12.50) node [right] {\scalebox{6.0}{H$_{1}$}};
+\draw [] ( 14.00, -12.50) node [right] {\scalebox{6.0}{H$_{2}$}};
+\draw [] (  1.50, -21.50) node [right] {\scalebox{6.0}{C$_{1}$}};
+\draw [] (  7.00, -20.50) node [right] {\scalebox{6.0}{C$_{2}$}};
+\draw [] ( 11.00, -21.50) node [right] {\scalebox{6.0}{C$_{3}$}};
+\draw [] ( 16.00, -20.50) node [right] {\scalebox{6.0}{C$_{4}$}};
 \end{tikzpicture}
 \end{figure}
 
